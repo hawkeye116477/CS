@@ -1,18 +1,18 @@
 {
-  "name": "TGS",
+  "name": "CS",
   "version": "1.0.0",
-  "description": "The Good 'ol Sidebar (TGS) - a sidebar extension for Pale Moon",
+  "description": "Classic Sidebar (CS) - a sidebar extension for Waterfox Classic",
   "dependencies": {
     "eslint": "~5.5.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FranklinDM/TGS.git"
+    "url": "git+https://github.com/hawkeye116477/CS.git"
   },
   "author": "FranklinDM",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/FranklinDM/TGS/issues"
+    "url": "https://github.com/hawkeye116477/CS/issues"
   },
-  "homepage": "https://github.com/FranklinDM/TGS#readme"
+  "homepage": "https://github.com/hawkeye116477/CS#readme"
 }

@@ -128,6 +128,10 @@
                                       class="link"
                                       onclick="aios_addTab('&contrib5.link;');" />
                             </row>
+                            <row>
+                                <text value="&contrib6.name;" />
+                                <text value="&contrib6.ext;" class="link" onclick="aios_addTab('&contrib6.link;');" />
+                            </row>
 
                             <separator class="groove" />
 

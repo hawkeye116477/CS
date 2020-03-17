@@ -126,10 +126,10 @@ var AiOS_Prefs = {
 
         var aiosExport = [];
         aiosExport[0] = "-----------------------------------------------------------------------\n";
-        aiosExport[0] += "                  The Good 'ol Sidebar - Settings\n";
+        aiosExport[0] += "                  Classic Sidebar - Settings\n";
         aiosExport[0] += "-----------------------------------------------------------------------\n";
         aiosExport[0] += "          " + sDate + ", " + sTtime + " (" + sGMT + ")\n";
-        aiosExport[0] += "          TGS " + AiOS_HELPER.prefBranchAiOS.getCharPref("changelog") + ", " + AiOS_HELPER.appInfo.name + " " + AiOS_HELPER.appInfo.version + ", " + AiOS_HELPER.os + ", " + AiOS_HELPER.prefBranch.getCharPref("general.skins.selectedSkin") + "\n";
+        aiosExport[0] += "          CS " + AiOS_HELPER.prefBranchAiOS.getCharPref("changelog") + ", " + AiOS_HELPER.appInfo.name + " " + AiOS_HELPER.appInfo.version + ", " + AiOS_HELPER.os + ", " + AiOS_HELPER.prefBranch.getCharPref("general.skins.selectedSkin") + "\n";
         aiosExport[0] += "-----------------------------------------------------------------------";
 
         var childList = AiOS_HELPER.prefBranchAiOS.getChildList("");
@@ -172,7 +172,7 @@ var AiOS_Prefs = {
 
             fp.init(window, strings.getString("prefs.save"), fp.modeSave);
             fp.defaultExtension = "txt";
-            fp.defaultString = "TGS-Settings";
+            fp.defaultString = "CS-Settings";
             fp.appendFilters(fp.filterText);
 
             if (fp.show() != fp.returnCancel) {
@@ -202,8 +202,8 @@ var AiOS_Prefs = {
         var appendFilters = null;
         let isMatch = false;
 
-        // Check if it matches TGS/AiOS pattern
-        if (pattern[1].indexOf("The Good 'ol Sidebar - Settings") >= 0)
+        // Check if it matches CS/AiOS pattern
+        if (pattern[1].indexOf("Classic Sidebar - Settings") >= 0)
             isMatch = true;
         if (pattern[1].indexOf("All-in-One Sidebar - Settings") >= 0 || pattern[1].indexOf("All-In-One Sidebar - Settings") >= 0)
             isMatch = true;
@@ -617,7 +617,7 @@ var AiOS_Prefs = {
             delay: ["gen.switch.delay", "gen.switch.delayshow", "gen.switch.delayhide"],
             invSwitch: ["gen.switch.invtrigger", "gen.switch.inv"]
         };
-        
+
         migratePrefsFromObject(mgPrefs, AiOS_HELPER.prefBranchAiOS);
 
         // List of old preferences

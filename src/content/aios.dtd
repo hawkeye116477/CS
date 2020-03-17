@@ -1,11 +1,11 @@
 
-<!ENTITY about1.link            "https://github.com/FranklinDM/TGS/wiki/">
+<!ENTITY about1.link            "https://github.com/hawkeye116477/CS/">
 <!ENTITY about2.link            "https://github.com/FranklinDM/TGS/wiki/Features">
 <!ENTITY about3.link            "https://github.com/FranklinDM/TGS/wiki/FAQ">
 <!ENTITY about4.link            "https://github.com/FranklinDM/TGS/wiki/Known-Issues">
-<!ENTITY about5.link            "https://forum.palemoon.org/viewtopic.php?f=46&amp;p=122332">
-<!ENTITY about6.link            "https://github.com/FranklinDM/TGS/wiki/Changelog">
-<!ENTITY about7.link            "https://github.com/FranklinDM/TGS/labels/Category: Feature">
+<!ENTITY about5.link            "https://www.reddit.com/r/ClassicSidebar">
+<!ENTITY about6.link            "https://github.com/hawkeye116477/CS/releases">
+<!ENTITY about7.link            "https://github.com/hawkeye116477/CS/labels/enhancement">
 
 <!ENTITY contrib1.name          "alta88">
 <!ENTITY contrib1.ext           "TotalToolbar">
@@ -26,3 +26,7 @@
 <!ENTITY contrib5.name          "Ronny Perinke">
 <!ENTITY contrib5.ext           "Autoclose Bookmark &amp; History Folders">
 <!ENTITY contrib5.link          "http://www.sephiroth-j.de/1/mozilla/">
+
+<!ENTITY contrib6.name          "FranklinDM">
+<!ENTITY contrib6.ext           "The Good 'ol Sidebar">
+<!ENTITY contrib6.link "https://github.com/FranklinDM/TGS">
