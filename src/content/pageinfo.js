@@ -127,7 +127,7 @@ var AiOS_PageInfo = {
 
         // Checks for sidebar/tab
         if (aios_inSidebar())
-            viewCertHelper(AiOS_HELPER.mostRecentWindow.content.window, cert);
+            viewCertHelper(AiOS_HELPER.mostRecentWindow.window, cert);
         else if (aios_inTab())
             viewCertHelper(AiOS_HELPER.mostRecentWindow.aiosLastSelTab.window, cert);
         else
@@ -175,7 +175,7 @@ var AiOS_Overrides = {
         // Look for pageInfoListener in content.js. Sends message to listener with arguments.
         mm.sendAsyncMessage("PageInfo:getData", {
             strings: gStrings,
-            frameOuterWindowID
+            frameOuterWindowID: null
         }, {
             imageElement
         });
