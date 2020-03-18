@@ -59,7 +59,7 @@ radio[pane=aiosSbSwitch] {
   margin-top: 10px;
 }
 .link {
-  color: #0000FF;
+  color: DodgerBlue;
   cursor: pointer;
 }
 .link:hover {
@@ -70,7 +70,7 @@ radio[pane=aiosSbSwitch] {
 }
 #aiosKeys .link:hover {
   margin: 1px 0 0 0;
-  border-bottom: 1px solid #0000FF;
+  border-bottom: 1px solid DodgerBlue;
   text-decoration: none;
 }
 .bold {
@@ -164,7 +164,7 @@ toolbarbutton.info label {
 }
 #aiosAbout vbox.websites toolbarbutton label {
   text-align: left;
-  color: #0000FF;
+  color: DodgerBlue;
   text-decoration: none;
 }
 #aiosAbout vbox.websites toolbarbutton:hover label {
