@@ -43,13 +43,13 @@
                                class="toolbarbutton-1"
                                label="&stopCmd.label;"
                                command="Browser:StopOrDuplicate"
-                               tooltiptext="&stopButton.tooltip;"/>
+                               tooltiptext=""/>
                 <toolbarbutton id="mp-reload-button"
                                class="toolbarbutton-1"
                                label="&reloadCmd.label;"
                                command="Browser:ReloadOrDuplicate"
                                onclick="checkForMiddleClick(this, event);"
-                               tooltiptext="&reloadButton.tooltip;"/>
+                               tooltiptext=""/>
                 <toolbarbutton id="mp-home-button"
                                class="toolbarbutton-1"
                                label="&homeButton.label;"
@@ -239,4 +239,8 @@
              persist="cachedurl linkedopt syncscroll"
              type="content"
              onclick="AiOS_MP.onContentAreaClick(event, true);"/>
+
+    <stringbundleset id="stringbundleset">
+        <stringbundle id="sBrowser" src="chrome://browser/locale/browser.properties"/>
+    </stringbundleset>
 </overlay>

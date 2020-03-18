@@ -45,6 +45,10 @@ var AiOS_MP = {
         }
 
         AiOS_MP.toggleSyncScroll();
+
+        var sBrowser = document.getElementById("sBrowser");
+        document.getElementById("mp-stop-button").setAttribute("tooltiptext", sBrowser.getString('stopButton.tooltip').replace(" (%S)", ""));
+        document.getElementById("mp-reload-button").setAttribute("tooltiptext", sBrowser.getString('reloadButton.tooltip').replace(" (%S)", ""));
     },
 
     toggleSyncScroll: function () {
@@ -68,7 +72,7 @@ var AiOS_MP = {
                 currLastScrollLeft = this.lastScrollLeft;
             this.lastScrollTop = scrollElem.scrollTop;
             this.lastScrollLeft = scrollElem.scrollLeft;
-            
+
             let deltaTop = 0,
                 deltaLeft = 0,
                 selTabLeft = selectedTabContent.scrollX,
@@ -88,7 +92,7 @@ var AiOS_MP = {
 
     lastScrollTopBrowser: 0,
     lastScrollLeftBrowser: 0,
-    synchronizeScrollBrowser: function () {        
+    synchronizeScrollBrowser: function () {
         var scrollElem = getPanelBrowser().contentDocument.scrollingElement,
             selectedTabContent = AiOS_HELPER.mostRecentWindow.getBrowser().selectedTab.linkedBrowser._contentWindow;
 
@@ -97,7 +101,7 @@ var AiOS_MP = {
                 currLastScrollLeft = this.lastScrollLeftBrowser;
             this.lastScrollTopBrowser = selectedTabContent.scrollY;
             this.lastScrollLeftBrowser = selectedTabContent.scrollX;
-            
+
             let deltaTop = 0,
                 deltaLeft = 0,
                 selTabLeft = scrollElem.scrollLeft,
@@ -114,7 +118,7 @@ var AiOS_MP = {
             scrollElem.scroll(combinedLeft, combinedTop);
         }
     },
-    
+
     /*
      * Opens the web page displayed in the browser in the MultiPanel
      * => Called by buttons
@@ -412,7 +416,7 @@ var panelProgressListener = {
 
         AiOS_MP.setSSR();
     },
-    
+
     setStopReloadState: function (aState) {
         let stp = document.getElementById("Browser:Stop");
         let rld = document.getElementById("Browser:Reload");
