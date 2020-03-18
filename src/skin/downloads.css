@@ -31,3 +31,15 @@ window[aios-downloadShade="true"] richlistitem:not([selected=true])[state="5"] {
   color: #006600;
   background-color: #ECFFEC;
 }
+
+#downloadsRichListBox {
+  background-color: -moz-Dialog;
+  color: -moz-dialogText;
+  border: none;
+}
+
+#contentAreaDownloadsView #searchbox {
+  background-color: -moz-Dialog;
+  color: -moz-dialogText;
+  -moz-appearance: textfield;
+}
