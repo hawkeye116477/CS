@@ -6,6 +6,7 @@
         <em:version>dev-build</em:version>
         <em:description>Sidebar control with award-winning user experience!</em:description>
         <em:creator>hawkeye116477</em:creator>
+        <em:updateURL>https://raw.githubusercontent.com/hawkeye116477/CS/master/update/update.xml</em:updateURL>
 
         <em:id>classicsidebar@hawkeye116477</em:id>
         <em:type>2</em:type>
