@@ -103,6 +103,9 @@ pref("extensions.aios.ks.sidebar", true);
 pref("extensions.aios.ks.layout", true);
 pref("extensions.aios.ks.layoutall", false);
 
+pref("extensions.aios.rt.sidebar", true);
+pref("extensions.aios.rt.layout", true);
+
 /*
  *  Menus
  **/

@@ -264,6 +264,12 @@ function aios_openDialog(which, args) {
         theFeatures = "";
         break;
 
+    case "remotetabs":
+        theUrl = "chrome://browser/content/syncedtabs/sidebar.xhtml";
+        theId = "View:Tabs";
+        theFeatures = "";
+        break;
+
     case "multipanel":
         theUrl = "chrome://browser/content/web-panels.xul";
         theId = "aiosGlobal:MultiPanel";
