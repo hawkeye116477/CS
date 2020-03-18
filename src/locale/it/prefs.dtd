@@ -10,7 +10,7 @@
 <!ENTITY tab.gen "Generali">
 <!ENTITY tab.gen.appearance "Aspetto">
 <!ENTITY tab.gen.behavior "Comportamento">
-<!ENTITY tab.gen.fullscreen "Modalità &apos;a tutto schermo&apos;">
+<!ENTITY tab.gen.fullscreen "Modalità 'a tutto schermo'">
 <!ENTITY tab.gen.special "Speciale">
 <!ENTITY tab.panels "Pannelli">
 <!ENTITY tab.panels.places "Segnalibri/Cronologia">
@@ -32,16 +32,16 @@
 <!ENTITY gen.width.min.hint "[Maiusc+doppio clic] sul titolo della barra laterale">
 <!ENTITY gen.width.def.hint "[Doppio clic] sul titolo della barra laterale">
 <!ENTITY gen.width.max.hint "[Ctrl+doppio clic] oppure [Alt+doppio clic] sul titolo della barra laterale">
-<!ENTITY gen.init.caption "All&apos;avvio del browser">
+<!ENTITY gen.init.caption "All'avvio del browser">
 <!ENTITY gen.init.label "Barra laterale">
 <!ENTITY gen.init.toolbar.label "Barra degli strumenti">
 <!ENTITY gen.init.toolbar.show.label "Mostra la barra degli strumenti">
 <!ENTITY gen.init.toolbar.hide.label "Nascondi la barra degli strumenti">
 <!ENTITY gen.init.switch.show.label "Mostra il cambiamento della barra laterale">
 <!ENTITY gen.init.switch.hide.label "Nascondi il cambiamento della barra laterale">
-<!ENTITY gen.init.mode1 "Ripristina l&apos;ultimo stato memorizzato">
+<!ENTITY gen.init.mode1 "Ripristina l'ultimo stato memorizzato">
 <!ENTITY gen.init.sidebar "Apertura della barra laterale (bordo cliccabile, pulsante di scambio barra, scorciatoia)">
-<!ENTITY gen.init.sidebar.restore "Ripristina l&apos;ultimo pannello memorizzato">
+<!ENTITY gen.init.sidebar.restore "Ripristina l'ultimo pannello memorizzato">
 <!ENTITY gen.switch.autoshow "Mostra/nascondi automaticamente la barra laterale (contatto del mouse invece del clic del mouse)">
 <!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "solo se il browser è ingrandito o in modalità a pieno schermo">
@@ -97,8 +97,8 @@
 <!ENTITY misc.count.label "Mostra il numero degli elementi">
 <!ENTITY misc.enablelink.tooltip "Fare clic qui per ulteriori informazioni (link alle FAQ)">
 <!ENTITY misc.paneltab.reverse "Scambia le azioni del clic con tasto sinistro con clic centrale">
-<!ENTITY misc.bm.paneltab.desc "Il pulsante &apos;Nuova scheda&apos; può aprire il gestore dei segnalibri al posto dell&apos;elenco dei segnalibri già visualizzato nella barra laterale">
-<!ENTITY misc.bm.paneltab "Apri il gestore dei segnalibri con il tasto &apos;Nuova scheda&apos;">
+<!ENTITY misc.bm.paneltab.desc "Il pulsante 'Nuova scheda' può aprire il gestore dei segnalibri al posto dell'elenco dei segnalibri già visualizzato nella barra laterale">
+<!ENTITY misc.bm.paneltab "Apri il gestore dei segnalibri con il tasto 'Nuova scheda'">
 <!ENTITY special.collapsing.caption "Contrazione della barra laterale">
 <!ENTITY special.collapsing.label "Attiva la contrazione della barra laterale">
-<!ENTITY special.collapsing.desc "La barra laterale può essere contratta invece di chiusa. Il vantaggio è che il contenuto della barra laterale non deve essere ricaricato dopo la riapertura permettendo così un&apos;apertura più rapida">
+<!ENTITY special.collapsing.desc "La barra laterale può essere contratta invece di chiusa. Il vantaggio è che il contenuto della barra laterale non deve essere ricaricato dopo la riapertura permettendo così un'apertura più rapida">
