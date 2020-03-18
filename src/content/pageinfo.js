@@ -155,14 +155,10 @@ var AiOS_PageInfo = {
 
 var AiOS_Overrides = {
     init: function () {
-        if (AiOS_HELPER.usingCUI) {
-            loadPageInfo = this.FF_loadPageInfo;
-        } else {
-            onLoadPageInfo = this.PM_onLoadPageInfo;
-        }
+        loadPageInfo = this.WF_loadPageInfo;
     },
 
-    FF_loadPageInfo: function (frameOuterWindowID, imageElement, browser) {
+    WF_loadPageInfo: function (frameOuterWindowID, imageElement, browser) {
         browser = browser || AiOS_HELPER.mostRecentWindow.gBrowser.selectedBrowser || window.opener.gBrowser.selectedBrowser;
         let mm = browser.messageManager;
 
@@ -238,53 +234,6 @@ var AiOS_Overrides = {
             func();
         });
     },
-
-    PM_onLoadPageInfo: function () {
-        gBundle = document.getElementById("pageinfobundle");
-        gStrings.unknown = gBundle.getString("unknown");
-        gStrings.notSet = gBundle.getString("notset");
-        gStrings.mediaImg = gBundle.getString("mediaImg");
-        gStrings.mediaBGImg = gBundle.getString("mediaBGImg");
-        gStrings.mediaBorderImg = gBundle.getString("mediaBorderImg");
-        gStrings.mediaListImg = gBundle.getString("mediaListImg");
-        gStrings.mediaCursor = gBundle.getString("mediaCursor");
-        gStrings.mediaObject = gBundle.getString("mediaObject");
-        gStrings.mediaEmbed = gBundle.getString("mediaEmbed");
-        gStrings.mediaLink = gBundle.getString("mediaLink");
-        gStrings.mediaInput = gBundle.getString("mediaInput");
-        gStrings.mediaVideo = gBundle.getString("mediaVideo");
-        gStrings.mediaAudio = gBundle.getString("mediaAudio");
-
-        var args = "arguments" in window &&
-            window.arguments.length >= 1 &&
-            window.arguments[0];
-
-        // Checks for sidebar/tab
-        if (aios_inSidebar()) {
-            gDocument = AiOS_HELPER.mostRecentWindow.content.document;
-            gWindow = AiOS_HELPER.mostRecentWindow.content.window;
-        } else if (aios_inTab()) {
-            gDocument = AiOS_HELPER.mostRecentWindow.aiosLastSelTab.document;
-            gWindow = AiOS_HELPER.mostRecentWindow.content.window;
-        }
-        // Original part
-        else {
-            if (!args || !args.doc) {
-                gWindow = window.opener.content;
-                gDocument = gWindow.document;
-            }
-        }
-
-        // init media view
-        var imageTree = document.getElementById("imagetree");
-        imageTree.view = gImageView;
-
-        /* Select the requested tab, if the name is specified */
-        loadTab(args);
-        Components.classes["@mozilla.org/observer-service;1"]
-            .getService(Components.interfaces.nsIObserverService)
-            .notifyObservers(window, "page-info-dialog-loaded", null);
-    }
 };
 
 AiOS_Overrides.init();

@@ -1,12 +1,20 @@
 /*
  * Icons
  */
-toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button):not(#remotetabs-button) {
-  list-style-image: url("toolbar.svg");
+toolbarbutton.toolbarbutton-1.aios-tbutton#bookmarks-button {
+  list-style-image: url(chrome://browser/skin/bookmark.svg);
 }
-toolbar:-moz-lwtheme-brighttext toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button),
-toolbar[brighttext] toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button):not(#remotetabs-button) {
-  list-style-image: url("toolbar-inverted.svg");
+
+toolbarbutton.toolbarbutton-1.aios-tbutton#history-button {
+  list-style-image: url(chrome://browser/skin/history.svg);
+}
+
+toolbarbutton.toolbarbutton-1.aios-tbutton#addons-button {
+  list-style-image: url(chrome://browser/skin/addons.svg);
+}
+
+toolbarbutton.toolbarbutton-1.aios-tbutton#remotetabs-button {
+  list-style-image: url(chrome://browser/skin/synced-tabs.svg);
 }
 
 /*
@@ -21,26 +29,10 @@ toolbar[brighttext] toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-bu
   padding: 0;
 }
 
-toolbarbutton.toolbarbutton-1.aios-tbutton#bookmarks-button {
-  list-style-image: url(chrome://browser/skin/bookmark.svg);
-}
-
-toolbarbutton.toolbarbutton-1.aios-tbutton#history-button {
-  list-style-image: url(chrome://browser/skin/history.svg);
-}
-
-toolbarbutton.toolbarbutton-1.aios-tbutton#addons-button {
-  list-style-image: url(chrome://browser/skin/addons.svg);
-}
-
 toolbarbutton#sidebar-close {
   -moz-box-ordinal-group: 1000;
 }
 
 #sidebar-switcher-target {
   display: none;
-}
-
-toolbarbutton.toolbarbutton-1.aios-tbutton#remotetabs-button {
-  list-style-image: url(chrome://browser/skin/synced-tabs.svg);
 }

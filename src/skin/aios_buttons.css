@@ -4,7 +4,7 @@
 toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button):not(#remotetabs-button) {
   list-style-image: url("toolbar.svg");
 }
-toolbar:-moz-lwtheme-brighttext toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button),
+toolbar:-moz-lwtheme-brighttext toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button),
 toolbar[brighttext] toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button):not(#remotetabs-button) {
   list-style-image: url("toolbar-inverted.svg");
 }
