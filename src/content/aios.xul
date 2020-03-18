@@ -884,6 +884,9 @@
                                   attribute="mode"
                                   onbroadcast="document.getElementById('aios-sbhtoolbar').setAttribute('mode', 'icons');" />
 
+                        <observes element="nav-bar"
+                                  attribute="brighttext" />
+
                     </toolbar>
 
                     <toolbarset />
