@@ -297,7 +297,7 @@ function aios_panelTab(event) {
                 alert("Opening the Page Info window inside a tab is no longer possible due to async changes.");
                 return;
             }
-                
+
             aiosNewTab = aios_addTab(newSrc);
 
             if (!enable_bmm) {
@@ -461,7 +461,8 @@ function aios_setTargets() {
         mp: ["Tools:MultiPanel", "viewWebPanelsSidebar", "multipanel", "aios_openDialog('multipanel');"],
         pi: ["View:PageInfo", "viewPageInfoSidebar", "pageinfo", "BrowserPageInfo();"],
         co: ["Tools:Console", "viewConsoleSidebar", "console", "toJavaScriptConsole();"],
-        ks: ["View:Cookies", "viewCookiesSidebar", "cookies", "aios_openDialog('cookies');"]
+        ks: ["View:Cookies", "viewCookiesSidebar", "cookies", "aios_openDialog('cookies');"],
+        rt: ["View:Tabs", "viewTabsSidebar", "remotetabs", "aios_openDialog('remotetabs');"]
     };
 
     // Overrides for other sidebar extensions

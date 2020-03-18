@@ -1,11 +1,11 @@
 /*
  * Icons
  */
-toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button) {
+toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button):not(#remotetabs-button) {
   list-style-image: url("toolbar.svg");
 }
 toolbar:-moz-lwtheme-brighttext toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button),
-toolbar[brighttext] toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button) {
+toolbar[brighttext] toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button):not(#remotetabs-button) {
   list-style-image: url("toolbar-inverted.svg");
 }
 
@@ -39,4 +39,8 @@ toolbarbutton#sidebar-close {
 
 #sidebar-switcher-target {
   display: none;
+}
+
+toolbarbutton.toolbarbutton-1.aios-tbutton#remotetabs-button {
+  list-style-image: url(chrome://browser/skin/synced-tabs.svg);
 }

@@ -103,6 +103,16 @@
                      oncommand="toggleSidebar('viewCookiesSidebar');"
                      label="&button.cookies.label;"
                      tooltiptext="&button.cookies.tooltip;" />
+        <broadcaster id="viewTabsSidebar"
+                     autoCheck="false"
+                     type="checkbox"
+                     group="sidebar"
+                     sidebartitle="&syncedTabs.sidebar.label;"
+                     sidebarurl="chrome://browser/content/syncedtabs/sidebar.xhtml"
+                     onclick="aios_contextEvent(event, this);"
+                     oncommand="toggleSidebar('viewTabsSidebar');"
+                     label="&syncedTabs.sidebar.label;"
+                     tooltiptext="&syncedTabs.sidebar.label;" />
         <broadcaster id="viewConsoleSidebar"
                      autoCheck="false"
                      type="checkbox"
@@ -349,6 +359,15 @@
             <observes element="viewConsoleSidebar"
                       attribute="onclick" />
         </toolbarbutton>
+        <toolbarbutton id="remotetabs-button"
+                       class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
+                       command="viewTabsSidebar"
+                       label="&syncedTabs.sidebar.label;"
+                       tooltip="remotetabs-tooltip"
+                       tooltiptext="&syncedTabs.sidebar.label;">
+            <observes element="viewTabsSidebar" attribute="checked" />
+            <observes element="viewTabsSidebar" attribute="onclick" />
+        </toolbarbutton>
         <toolbarbutton id="sidebars-button"
                        type="menu"
                        class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
@@ -584,6 +603,10 @@
 
             <tooltip id="console-tooltip">
                 <label value="&button.console.tooltip;" />
+            </tooltip>
+
+            <tooltip id="remotetabs-tooltip">
+                <label value="&syncedTabs.sidebar.label;" />
             </tooltip>
         </popupset>
     </window>
