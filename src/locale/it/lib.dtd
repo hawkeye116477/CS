@@ -7,8 +7,8 @@
 <!ENTITY key.shift "Maiusc">
 <!ENTITY menu.tools.label "Strumenti">
 <!ENTITY closeFolder.label "Chiudi tutte le cartelle">
-<!ENTITY show.closeFolder.label "Pulsante &apos;Chiudi tutte le cartelle&apos;">
+<!ENTITY show.closeFolder.label "Pulsante 'Chiudi tutte le cartelle'">
 <!ENTITY enable.autoClose.label "Chiudi automaticamente le altre cartelle">
 <!ENTITY enable.scrollToFolder.label "Scorri automaticamente fino alla cartella selezionata">
-<!ENTITY enable.rememberFolder.label "Ricorda e porta in primo piano l&apos;ultima cartella selezionata">
+<!ENTITY enable.rememberFolder.label "Ricorda e porta in primo piano l'ultima cartella selezionata">
 <!ENTITY enable.duplicateTree.label "Show second tree pane">
