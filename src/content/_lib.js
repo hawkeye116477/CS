@@ -226,7 +226,7 @@ function aios_panelTab(event) {
      * Open in Sidebar
      */
     if (mode == "sidebar") {
-        var tabHref = top.window.content.location.href;
+        var tabHref = gBrowser.currentURI.spec;
 
         // Internal sources (chrome:/)
         if (tabHref.indexOf("chrome:/") >= 0) {

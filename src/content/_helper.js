@@ -79,16 +79,16 @@ function aios_addTab(aUrl) {
 
     // Go through all open tabs
     for (var i = 0; i < browser.tabContainer.childNodes.length; i++) {
-        browserDoc = browser.getBrowserAtIndex(i).contentWindow.document;
+        browserDoc = browser.getBrowserAtIndex(i);
 
         var isPermaTab = (browser.tabContainer.childNodes[i].getAttribute("isPermaTab")) ? true : false;
 
         // If the tab is empty
-        if (browserDoc.location.href == "about:blank" && browser.selectedTab.getAttribute("openBy") != "aios" && !isPermaTab && emptyTab == null)
+        if (browserDoc.currentURI.spec == "about:blank" && browser.selectedTab.getAttribute("openBy") != "aios" && !isPermaTab && emptyTab == null)
             emptyTab = i;
 
         // If the tab already exists
-        if (browserDoc.location.href == aUrl && !isPermaTab && existTab == null)
+        if (browserDoc.currentURI.spec == aUrl && !isPermaTab && existTab == null)
             existTab = i;
     }
 
