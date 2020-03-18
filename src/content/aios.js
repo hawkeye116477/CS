@@ -177,14 +177,13 @@ var AiOS = {
         var oldVersion = AiOS_HELPER.prefBranchAiOS.getCharPref("changelog");
         if (parseFloat(oldVersion) != 0) {
             Components.utils.import("resource://gre/modules/AddonManager.jsm");
-            AddonManager.getAddonByID("tgsidebar@franklindm", function (addon) {
+            AddonManager.getAddonByID("classicsidebar@hawkeye116477", function (addon) {
                 var version = addon.version;
                 if (version != oldVersion) {
                     AiOS_HELPER.prefBranchAiOS.setCharPref("changelog", version);
 
                     if (gBrowser) {
-                        let plainVersion = version.split(".").join("");
-                        var changelogLink = "https://github.com/FranklinDM/TGS/wiki/Changelog#" + plainVersion;
+                        var changelogLink = "https://github.com/hawkeye116477/CS/releases/v" + version;
 
                         window.setTimeout(function () {
                             gBrowser.loadTabs([changelogLink], false);

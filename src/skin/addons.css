@@ -135,6 +135,7 @@ page[aios-inSidebar] .addon .name-container .name {
 }
 page[aios-inSidebar] .addon .name-container .version {
   margin-left: 10px;
+  display: unset;
 }
 page[aios-inSidebar] .addon .name-container spacer,
 page[aios-inSidebar] .addon .creator,
