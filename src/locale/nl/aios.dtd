@@ -36,8 +36,6 @@
 <!ENTITY button.multipanel.label "Multipaneel">
 <!ENTITY button.multipanel.tooltip "Bijv. een website, broncode en browserinformatie weergeven">
 <!ENTITY button.pageinfo.tooltip "Informatie weergeven over formulieren, links, media and veiligheid">
-<!ENTITY button.console.label "Foutconsole">
-<!ENTITY button.console.tooltip "Opent de foutconsole, die problemen met de broncode bijhoudt">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

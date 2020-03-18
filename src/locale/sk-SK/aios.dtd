@@ -33,8 +33,6 @@
 <!ENTITY button.multipanel.label "Rozšírené možnosti">
 <!ENTITY button.multipanel.tooltip "Zobraziť stránku, zdrojový kód a informácie prehliadača">
 <!ENTITY button.pageinfo.tooltip "Zobraziť informácie, formuláre, odkazy, médiá a informácie o zabezpečení">
-<!ENTITY button.console.label "Chybová konzola">
-<!ENTITY button.console.tooltip "Otvoriť chybovú konzolu, ktorá hľadá problémy so zdrojovým kódom">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

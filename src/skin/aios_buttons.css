@@ -14,9 +14,6 @@ toolbar[brighttext] toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-bu
 #pageinfo-button {
   -moz-image-region: rect(0px, 108px, 18px, 90px);
 }
-#console-button {
-  -moz-image-region: rect(0px, 126px, 18px, 108px);
-}
 #paneltab-button {
   -moz-image-region: rect(0px, 144px, 18px, 126px);
 }

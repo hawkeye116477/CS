@@ -34,8 +34,6 @@
 <!ENTITY button.multipanel.label "MultiPanel">
 <!ENTITY button.multipanel.tooltip "Paraqit p.sh. faqen, burimin e kodit dhe informata mbi shfletuesin">
 <!ENTITY button.pageinfo.tooltip "Paraqit informata të zgjeruara mbi faqen">
-<!ENTITY button.console.label "Konzola e Gabimeve">
-<!ENTITY button.console.tooltip "Hape Konsolën e Gabimeve me problemet e shiritit me burimin e kodit">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

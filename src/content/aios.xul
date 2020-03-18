@@ -113,16 +113,6 @@
                      oncommand="toggleSidebar('viewTabsSidebar');"
                      label="&syncedTabs.sidebar.label;"
                      tooltiptext="&syncedTabs.sidebar.label;" />
-        <broadcaster id="viewConsoleSidebar"
-                     autoCheck="false"
-                     type="checkbox"
-                     group="sidebar"
-                     sidebartitle="&button.console.label;"
-                     sidebarurl="chrome://global/content/console.xul"
-                     onclick="aios_contextEvent(event, this);"
-                     oncommand="toggleSidebar('viewConsoleSidebar');"
-                     label="&button.console.label;"
-                     tooltiptext="&button.console.tooltip;" />
 
         <!-- broadcaster with saved toolbar state saved by onpopupshowing handler in menuitem of toolbar menu -->
         <broadcaster id="aios-viewToolbar"
@@ -160,8 +150,6 @@
                  oncommand="aios_openDialog('cookies');" />
         <command id="Tools:MultiPanel"
                  oncommand="aios_openDialog('multipanel');" />
-        <command id="Tools:Console"
-                 oncommand="toJavaScriptConsole();" />
 
         <command id="View:Bookmarks-tb"
                  oncommand="aios_openDialog('bookmarks');" />
@@ -173,8 +161,6 @@
 		         oncommand="BrowserPageInfo();"/>
         <command id="Tools:MultiPanel-tb"
                  oncommand="aios_openDialog('multipanel');" />
-        <command id="Tools:Console-tb"
-                 oncommand="toJavaScriptConsole();" />
 	    <command id="Tools:Downloads-tb"
 	             oncommand="BrowserDownloadsUI();"/>
 		<command id="Tools:Addons-tb"
@@ -346,17 +332,6 @@
             <observes element="viewCookiesSidebar"
                       attribute="checked" />
             <observes element="viewCookiesSidebar"
-                      attribute="onclick" />
-        </toolbarbutton>
-        <toolbarbutton id="console-button"
-                       class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
-                       command="Tools:Console-tb"
-                       label="&button.console.label;"
-                       tooltip="console-tooltip"
-                       tooltiptext="&button.console.tooltip;">
-            <observes element="viewConsoleSidebar"
-                      attribute="checked" />
-            <observes element="viewConsoleSidebar"
                       attribute="onclick" />
         </toolbarbutton>
         <toolbarbutton id="remotetabs-button"
@@ -601,10 +576,6 @@
                 <label value="&button.cookies.tooltip;" />
             </tooltip>
 
-            <tooltip id="console-tooltip">
-                <label value="&button.console.tooltip;" />
-            </tooltip>
-
             <tooltip id="remotetabs-tooltip">
                 <label value="&syncedTabs.sidebar.label;" />
             </tooltip>
@@ -658,11 +629,6 @@
 
         <menuseparator id="addons_sep"
                        position="9" />
-
-        <menuitem id="console-mitem"
-                  observes="viewConsoleSidebar"
-                  position="10"
-                  key="key_errorConsole" />
 
 		<menuseparator id="aios-sidebar-mitem-sep1"
 		               position="11" />

@@ -33,8 +33,6 @@
 <!ENTITY button.multipanel.label "Multipanel">
 <!ENTITY button.multipanel.tooltip "Vis for eksempel en webside, kildekode eller annen nettleserinformasjon">
 <!ENTITY button.pageinfo.tooltip "Viser utvidet informasjon om en webside">
-<!ENTITY button.console.label "Feilkonsoll">
-<!ENTITY button.console.tooltip "Åpne feilkonsoll som sporer problemer med kildekoden">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

@@ -36,8 +36,6 @@
 <!ENTITY button.multipanel.label "MultiPanel">
 <!ENTITY button.multipanel.tooltip "Ipakita ang mga website at impormasyon ng browser">
 <!ENTITY button.pageinfo.tooltip "Ipakita ang masaklaw na impormasyon tungkol sa isang pahina">
-<!ENTITY button.console.label "Error Console">
-<!ENTITY button.console.tooltip "Buksan ang Error Console, na sumusubaybay sa mga problema ng source code">
 <!ENTITY button.cookies.label "Mga Cookie">
 <!ENTITY button.cookies.tooltip "Pangasiwaan ang mga naka-imbak na cookie">
 <!ENTITY keys.modifiers "accel shift">

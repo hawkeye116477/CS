@@ -38,8 +38,6 @@
 <!ENTITY button.pageinfo.tooltip "Wyświetla informacje o aktywnej stronie">
 <!ENTITY button.cookies.label "Ciasteczka">
 <!ENTITY button.cookies.tooltip "Wyświetla ciasteczka">
-<!ENTITY button.console.label "Konsola błędów">
-<!ENTITY button.console.tooltip "Otwiera konsolę, która śledzi problemy i porównuje z kodem źródłowym">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

@@ -36,8 +36,6 @@
 <!ENTITY button.multipanel.label "Multi-panou">
 <!ENTITY button.multipanel.tooltip "Afișează informații despre paginile web sau navigator">
 <!ENTITY button.pageinfo.tooltip "Afișează informații suplimentare pentru o pagină web">
-<!ENTITY button.console.label "Consolă erori">
-<!ENTITY button.console.tooltip "Deschide consola de erori care urmărește problemele cu sursa paginii">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">

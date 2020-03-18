@@ -60,32 +60,6 @@ var AiOS_Compatibility = {};
         }
     };
 
-    // Adjustments for Console2
-    this.console2 = function () {
-        var broadcaster,
-            button = document.getElementById("console2-button");
-
-        // Assign sidebar menu entry to Console2
-        if (document.getElementById("console-mitem")) {
-            document.getElementById("console-mitem").setAttribute("observes", "viewConsole2Sidebar");
-        }
-
-        // Delete broadcaster > no choice in the prefs
-        if (document.getElementById("viewConsoleSidebar")) {
-            broadcaster = document.getElementById("viewConsoleSidebar");
-            broadcaster.parentNode.removeChild(broadcaster);
-        }
-
-        // Console2 button
-        if (button) {
-            if (button.parentNode.tagName === "toolbarpaletteitem") {
-                button.parentNode.parentNode.removeChild(button.parentNode);
-            } else {
-                button.parentNode.removeChild(button);
-            }
-        }
-    };
-
     // Clean up
     this.shutdown = function () {
         window.removeEventListener("load", AiOS_Compatibility.initialize);

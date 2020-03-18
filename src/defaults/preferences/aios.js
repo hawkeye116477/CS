@@ -95,10 +95,6 @@ pref("extensions.aios.pi.sidebar", true);
 pref("extensions.aios.pi.layout", true);
 pref("extensions.aios.pi.layoutall", false);
 
-pref("extensions.aios.co.sidebar", true);
-pref("extensions.aios.co.layout", true);
-pref("extensions.aios.co.layoutall", false);
-
 pref("extensions.aios.ks.sidebar", true);
 pref("extensions.aios.ks.layout", true);
 pref("extensions.aios.ks.layoutall", false);

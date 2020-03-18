@@ -757,7 +757,7 @@
                         <checkbox preference="SSInvMouse"
                                   label="&gen.switch.invmouse;" />
                         <checkbox preference="SSInvNoClick"
-                                  label="&gen.switch.invnoclick;" />          
+                                  label="&gen.switch.invnoclick;" />
                     </vbox>
 
                     <vbox style="margin-top: 5px;">
@@ -887,12 +887,6 @@
             <preference id="MPOpen"
                         type="bool"
                         name="extensions.aios.mp.sidebar" />
-            <preference id="COOpen"
-                        type="bool"
-                        name="extensions.aios.co.sidebar" />
-            <preference id="COLayout"
-                        type="bool"
-                        name="extensions.aios.co.layout" />
 
             <preference id="KSOpen"
                         type="bool"
@@ -1045,19 +1039,6 @@
                             <vbox class="indent">
                                 <checkbox id="obj-PILayout"
                                           preference="PILayout"
-                                          label="&misc.layout.label;" />
-                            </vbox>
-                        </groupbox>
-
-                        <groupbox>
-                            <caption label="&button.console.label;" />
-                            <checkbox preference="COOpen"
-                                      label="&misc.enablesidebar.label;"
-                                      aiosChilds="COLayout"
-                                      oncommand="AiOS_Prefs.checkboxObserver(this);" />
-
-                            <vbox class="indent">
-                                <checkbox preference="COLayout"
                                           label="&misc.layout.label;" />
                             </vbox>
                         </groupbox>

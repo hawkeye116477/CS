@@ -36,8 +36,6 @@
 <!ENTITY button.multipanel.label "МультиПанель">
 <!ENTITY button.multipanel.tooltip "Показать веб-сайт, исходный код страницы или информацию о браузере">
 <!ENTITY button.pageinfo.tooltip "Показать всю информацию о данной странице">
-<!ENTITY button.console.label "Консоль ошибок">
-<!ENTITY button.console.tooltip "Открыть консоль, отображающую проблемы исходного кода">
 <!ENTITY button.cookies.label "Куки">
 <!ENTITY button.cookies.tooltip "Управление отдельными файлами куки">
 <!ENTITY keys.modifiers "accel shift">

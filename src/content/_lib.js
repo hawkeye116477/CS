@@ -439,17 +439,6 @@ function aios_setTargets() {
     var objects,
         i;
 
-    // assign the respective commands to the menu elements of the error console, the page source text, and the page information
-    if (document.getElementById("javascriptConsole")) {
-        document.getElementById("javascriptConsole").removeAttribute("oncommand");
-        document.getElementById("javascriptConsole").setAttribute("command", "Tools:Console");
-
-        if (document.getElementById("key_errorConsole")) {
-            document.getElementById("key_errorConsole").removeAttribute("oncommand");
-            document.getElementById("key_errorConsole").setAttribute("command", "Tools:Console");
-        }
-    }
-
     document.getElementById("context-viewinfo").removeAttribute("oncommand");
     document.getElementById("context-viewinfo").setAttribute("command", "View:PageInfo");
 
@@ -460,7 +449,6 @@ function aios_setTargets() {
         ad: ["Tools:Addons", "viewAddonsSidebar", "addons", "BrowserOpenAddonsMgr();"],
         mp: ["Tools:MultiPanel", "viewWebPanelsSidebar", "multipanel", "aios_openDialog('multipanel');"],
         pi: ["View:PageInfo", "viewPageInfoSidebar", "pageinfo", "BrowserPageInfo();"],
-        co: ["Tools:Console", "viewConsoleSidebar", "console", "toJavaScriptConsole();"],
         ks: ["View:Cookies", "viewCookiesSidebar", "cookies", "aios_openDialog('cookies');"],
         rt: ["View:Tabs", "viewTabsSidebar", "remotetabs", "aios_openDialog('remotetabs');"]
     };

@@ -358,7 +358,7 @@ function aios_setAttributes(elem, attrs) {
 
 /*
  * Remove keyboard shortcuts to avoid blocking the main browser
- * => Called in downloads.js, pageinfo.js, console.js
+ * => Called in downloads.js, pageinfo.js
  */
 function aios_removeAccesskeys() {
     var keys = document.getElementsByAttribute("accesskey", "*");

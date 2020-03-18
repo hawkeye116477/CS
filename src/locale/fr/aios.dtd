@@ -36,8 +36,6 @@
 <!ENTITY button.multipanel.label "MultiPanneau">
 <!ENTITY button.multipanel.tooltip "Affiche des infos sur les sites Web et le navigateur">
 <!ENTITY button.pageinfo.tooltip "Affiche des informations étendues sur la page Web">
-<!ENTITY button.console.label "Console d'erreur">
-<!ENTITY button.console.tooltip "Ouvre la console d'erreur, montrant les problèmes et le code source">
 <!ENTITY button.cookies.label "Cookies">
 <!ENTITY button.cookies.tooltip "Gérer les cookies individuels">
 <!ENTITY keys.modifiers "accel shift">

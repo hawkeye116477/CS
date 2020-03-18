@@ -622,7 +622,7 @@ var AiOS_Prefs = {
 
         // List of old preferences
         let oldPrefs = ["em.layout", "em.layoutall", "em.slim", "em.colors", "dm.slim",
-            "dm.colors", "co.slim", "co.colors", "bm.layout", "bm.layoutall",
+            "dm.colors", "co.slim", "co.colors", "co.sidebar", "co.layout", "bm.layout", "bm.layoutall",
             "hi.layout", "hi.layoutall", "dm.observer", "gen.switch.delay",
             "gen.switch.invwidth", "gen.switch.invtrigger"];
 
