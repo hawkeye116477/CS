@@ -7,7 +7,7 @@
 <!ENTITY key.shift "Maj">
 <!ENTITY menu.tools.label "Outils">
 <!ENTITY closeFolder.label "Fermer tous les dossiers">
-<!ENTITY show.closeFolder.label "Bouton &apos;Fermer tous les dossiers&apos;">
+<!ENTITY show.closeFolder.label "Bouton 'Fermer tous les dossiers'">
 <!ENTITY enable.autoClose.label "Fermer automatiquement les autres dossiers">
 <!ENTITY enable.scrollToFolder.label "Se positionner automatiquement sur le dossier sélectionné">
 <!ENTITY enable.rememberFolder.label "Se souvenir du dernier dossier sélectionné et le proposer en position prioritaire">
