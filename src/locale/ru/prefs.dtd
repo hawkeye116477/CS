@@ -58,11 +58,11 @@
 <!ENTITY gen.switch.hideBar "возвращается на веб-страницу">
 <!ENTITY gen.switch.hidePage "удерживается на переключателе боковой панели">
 <!ENTITY gen.switch.hideNone "не скрывать автоматически">
-<!ENTITY gen.switch.thin "Использовать сжатый переключатель боковой панели">
 <!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
 <!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
 <!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
 <!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
+<!ENTITY gen.switch.thin "Использовать сжатый переключатель боковой панели">
 <!ENTITY gen.switch.width "Ширина переключателя боковой панели">
 <!ENTITY gen.switch.twidth "Ширина сжатого переключателя боковой панели">
 <!ENTITY gen.mbSeparate "Не открывать в панели боковой панели при открытии из меню / клавишных клавиш">
