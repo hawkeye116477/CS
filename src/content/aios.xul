@@ -258,12 +258,6 @@
 
     <!-- TGS Toolbar Buttons -->
     <toolbarpalette id="BrowserToolbarPalette">
-        <toolbarbutton id="sidebarclose-button"
-                       class="tabs-closebutton close-icon"
-                       oncommand="AiOS.toggleSidebar(this);"
-                       ondblclick="event.stopPropagation();"
-                       tooltiptext="&sidebarCloseButton.tooltip;"
-                       label="&sidebarCloseButton.tooltip;" />
         <toolbarbutton id="bookmarks-button"
                        class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
                        label="&bookmarksButton.label;"
@@ -857,7 +851,7 @@
                              mode="icons"
                              iconsize="small"
                              persist="mode iconsize"
-                             defaultset="autohide-button,paneltab-button,sidebarclose-button"
+                             defaultset="autohide-button,paneltab-button"
                              toolbarlabel="&sbhtoolbar.label;:"
                              fullscreentoolbar="true"
                              flexbuttons="false">

@@ -32,3 +32,11 @@ toolbarbutton.toolbarbutton-1.aios-tbutton#history-button {
 toolbarbutton.toolbarbutton-1.aios-tbutton#addons-button {
   list-style-image: url(chrome://browser/skin/addons.svg);
 }
+
+toolbarbutton#sidebar-close {
+  -moz-box-ordinal-group: 1000;
+}
+
+#sidebar-switcher-target {
+  display: none;
+}
