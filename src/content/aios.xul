@@ -169,7 +169,7 @@
 	             oncommand="BrowserDownloadsUI();"/>
 		<command id="Tools:Addons-tb"
 		         oncommand="BrowserOpenAddonsMgr();"/>
-		
+
         <command id="aiosCmd_panelTab1"
                  oncommand="aios_panelTab('sidebar');" />
         <command id="aiosCmd_panelTab2"
@@ -586,8 +586,8 @@
 
             <tooltip id="cookies-tooltip">
                 <label value="&button.cookies.tooltip;" />
-            </tooltip>			
-			
+            </tooltip>
+
             <tooltip id="console-tooltip">
                 <label value="&button.console.tooltip;" />
             </tooltip>
@@ -646,7 +646,7 @@
                   observes="viewConsoleSidebar"
                   position="10"
                   key="key_errorConsole" />
-				  
+
 		<menuseparator id="aios-sidebar-mitem-sep1"
 		               position="11" />
         <!-- Menu items for non-default panels go here -->
@@ -827,6 +827,7 @@
                         <observes element="sidebar-title"
                                   attribute="value" />
                     </label>
+                    <image id="sidebar-switcher-arrow"/>
 
                     <menupopup onpopupshowing="AiOS.getSidebarMenu(this);" />
                 </toolbarbutton>

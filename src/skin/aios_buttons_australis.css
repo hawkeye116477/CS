@@ -1,20 +1,13 @@
 /*
  * Icons
  */
-toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button) {
+toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button) {
   list-style-image: url("toolbar.svg");
 }
-toolbar:-moz-lwtheme-brighttext toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button),
-toolbar[brighttext] toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button) {
+toolbar:-moz-lwtheme-brighttext toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button),
+toolbar[brighttext] toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button) {
   list-style-image: url("toolbar-inverted.svg");
 }
-#bookmarks-button {
-  -moz-image-region: rect(0px, 18px, 18px, 0px);
-}
-#history-button {
-  -moz-image-region: rect(0px, 36px, 18px, 18px);
-}
-
 
 /*
  * Others
@@ -26,4 +19,16 @@ toolbar[brighttext] toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-bu
 #aios-toolbar toolbarbutton.bookmark-item:not(.subviewbutton),
 #aios-toolbar #personal-bookmarks[cui-areatype="toolbar"]:not([overflowedItem=true]) > #bookmarks-toolbar-placeholder {
   padding: 0;
+}
+
+toolbarbutton.toolbarbutton-1.aios-tbutton#bookmarks-button {
+  list-style-image: url(chrome://browser/skin/bookmark.svg);
+}
+
+toolbarbutton.toolbarbutton-1.aios-tbutton#history-button {
+  list-style-image: url(chrome://browser/skin/history.svg);
+}
+
+toolbarbutton.toolbarbutton-1.aios-tbutton#addons-button {
+  list-style-image: url(chrome://browser/skin/addons.svg);
 }
