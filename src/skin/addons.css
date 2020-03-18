@@ -351,3 +351,7 @@ page[aios-inSidebar][aios-appDefTheme="true"] #header {
   border-top: 1px solid ThreedHighlight;
   border-bottom: 1px solid ThreedShadow;
 }
+
+page[aios-inSidebar] #getthemes-container {
+  display: none;
+}
