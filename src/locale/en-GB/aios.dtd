@@ -1,13 +1,13 @@
 <!ENTITY loading.label "loading panel…">
-<!ENTITY menu.prefs.label "The Good 'ol Sidebar Options…">
+<!ENTITY menu.prefs.label "Classic Sidebar Options…">
 <!ENTITY menu.togglebar.label "Sidebar Switch">
 <!ENTITY menu.grippy.label "Sidebar Grippy">
-<!ENTITY toolbar.name "The Good 'ol Sidebar Toolbar">
-<!ENTITY toolbar.label "The Good 'ol Sidebar">
+<!ENTITY toolbar.name "Classic Sidebar Toolbar">
+<!ENTITY toolbar.label "Classic Sidebar">
 <!ENTITY sbhtoolbar.name "Sidebar Header Toolbar">
 <!ENTITY sbhtoolbar.label "Sidebar Header">
-<!ENTITY button.toggle.label "TGS">
-<!ENTITY button.toggle.tooltip "Toggle elements controlled by The Good 'ol Sidebar">
+<!ENTITY button.toggle.label "CS">
+<!ENTITY button.toggle.tooltip "Toggle elements controlled by Classic Sidebar">
 <!ENTITY button.switch.tooltip1 "Toggle Sidebar and Toolbar">
 <!ENTITY button.switch.tooltip2 "Toggle Toolbar">
 <!ENTITY button.switch.tooltip3 "Toggle Sidebar">
@@ -18,8 +18,8 @@
 <!ENTITY sidebar.width.max "Maximum width">
 <!ENTITY button.menu.label "Sidebar Panels">
 <!ENTITY button.menu.tooltip "All available Sidebar Panels">
-<!ENTITY button.toolbar.label "TGS Toolbar">
-<!ENTITY button.toolbar.tooltip "Toggle TGS Toolbar">
+<!ENTITY button.toolbar.label "CS Toolbar">
+<!ENTITY button.toolbar.tooltip "Toggle CS Toolbar">
 <!ENTITY button.paneltab.label "PanelTab">
 <!ENTITY button.paneltab.tooltip1 "Open Content of Tab in Sidebar">
 <!ENTITY button.paneltab.tooltip2 "Open Content of Sidebar in a New Tab">

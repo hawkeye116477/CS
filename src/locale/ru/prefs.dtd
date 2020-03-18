@@ -1,4 +1,4 @@
-<!ENTITY title "Настройки The Good 'ol Sidebar">
+<!ENTITY title "Настройки Classic Sidebar">
 <!ENTITY restart "Изменения требуют перезапуска браузера">
 <!ENTITY settings "Настройки">
 <!ENTITY settings.default "Восстановить настройки по умолчанию…">
@@ -69,7 +69,7 @@
 <!ENTITY cmode.caption "Переключение боковой панели">
 <!ENTITY cmode.desc "Настройка элементов, с помощью которых может быть открыта/закрыта боковая панель.">
 <!ENTITY cmode.key.label "Горячая клавиша (F4)">
-<!ENTITY cmode.tbb.label "Кнопка TGS">
+<!ENTITY cmode.tbb.label "Кнопка CS">
 <!ENTITY cmode.close.label "Кнопка “Закрыть”">
 <!ENTITY cmode.mode1.label "Открывать/Закрывать только боковую панель">
 <!ENTITY cmode.mode2.label "Открывать/Закрывать боковую панель и боковую панель инструментов">

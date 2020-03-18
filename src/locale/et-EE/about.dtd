@@ -1,0 +1,21 @@
+<!ENTITY title "Teave Classic Sidebar\'i kohta">
+<!ENTITY settings "Seaded…">
+<!ENTITY close "Sule">
+<!ENTITY tab.about "Teave">
+<!ENTITY tab.help "Abi">
+<!ENTITY tab.contrib "Panustanud isikud">
+<!ENTITY tab.trans "Tõlkijad">
+<!ENTITY about.desc "Classic Sidebar võimaldab avada erinevaid aknaid külgpaanis ning nende vahel kiiresti vahetada. See tegi lõpu akende kaosele! Lisaks järjehoidjatele ja ajaloole saab külgpaanis avada näiteks allalaadimise dialooge, programmi lisasid ja muud.">
+<!ENTITY create.desc "Created by hawkeye116477, forked from The Good 'ol Sidebar, which was forked from the now discontinued All-in-One Sidebar created by Ingo Wennemaring.">
+<!ENTITY help.desc "Selle lisa kohta leiate palju infot järgneval veebilehel:">
+<!ENTITY about1.name "Koduleht - hulka infot ühes kohas">
+<!ENTITY about2.name "Võimalused - kõik Classic Sidebar\'i võimalused">
+<!ENTITY about3.name "KKK - korduma kippuvad küsimused ja vastused">
+<!ENTITY about4.name "Teadaolevad probleemid - kirjeldused ja lahendused">
+<!ENTITY about5.name "Foorum - arutelud, veateated ja teemade parandused lisaks muudele asjadele">
+<!ENTITY about6.name "Muudatuste logi - ajalugu ja muudatused">
+<!ENTITY about7.name "Plaanid - plaanitavad parandused ja täiendused">
+<!ENTITY contrib.desc "Ma tänan järgnevaid arendajaid inspiratsiooni ja koodikatkete eest [tähestikulises järjekorras]:">
+<!ENTITY contrib.thanks "Tänan ka kõiki kasutajaid, kes testisid arendusversiooni, teavitasid vigadest, jagasid oma ideid ja soovitusi või kes lihtsalt kirjutasid kenasid kommentaare. :-) Suur tänu kõigile!">
+<!ENTITY trans.desc "Classic Sidebar\'i tõlked valmistasid [keelekoodi tähestikulises järjekorras]:">
+<!ENTITY trans.thanks "Samuti tänan BabelZilla.org meeskonda nende suurepärase töö eest!">

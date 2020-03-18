@@ -1,9 +1,9 @@
 <!ENTITY loading.label "cargando panel…">
-<!ENTITY menu.prefs.label "The Good 'ol Sidebar - Opciones">
+<!ENTITY menu.prefs.label "Classic Sidebar - Opciones">
 <!ENTITY menu.togglebar.label "Botón panel lateral">
 <!ENTITY menu.grippy.label "Grippy del panel lateral">
-<!ENTITY toolbar.name "Barra de herramientas de The Good 'ol Sidebar">
-<!ENTITY toolbar.label "The Good 'ol Sidebar">
+<!ENTITY toolbar.name "Barra de herramientas de Classic Sidebar">
+<!ENTITY toolbar.label "Classic Sidebar">
 <!ENTITY sbhtoolbar.name "Barra de herramientas del panel lateral">
 <!ENTITY sbhtoolbar.label "Panel lateral">
 <!ENTITY button.toggle.label "Activar panel lateral">
@@ -18,8 +18,8 @@
 <!ENTITY sidebar.width.max "Ancho máximo">
 <!ENTITY button.menu.label "Panel lateral">
 <!ENTITY button.menu.tooltip "Paneles laterales">
-<!ENTITY button.toolbar.label "Barra de herramientas de TGS">
-<!ENTITY button.toolbar.tooltip "Activar barra de herramientas de TGS">
+<!ENTITY button.toolbar.label "Barra de herramientas de CS">
+<!ENTITY button.toolbar.tooltip "Activar barra de herramientas de CS">
 <!ENTITY button.paneltab.label "PanelTab">
 <!ENTITY button.paneltab.tooltip1 "Abre el contenido de la pestaña en el panel lateral">
 <!ENTITY button.paneltab.tooltip2 "Abre el contenido del panel lateral en una pestaña">

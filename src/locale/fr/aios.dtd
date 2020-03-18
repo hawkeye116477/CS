@@ -1,13 +1,13 @@
 <!ENTITY loading.label "chargement du panneau…">
-<!ENTITY menu.prefs.label "Options de The Good 'ol Sidebar…">
+<!ENTITY menu.prefs.label "Options de Classic Sidebar…">
 <!ENTITY menu.togglebar.label "Activer/désactiver le panneau latéral">
 <!ENTITY menu.grippy.label "'Poignées' pour le panneau latéral">
-<!ENTITY toolbar.name "Barre d'outils d'The Good 'ol Sidebar">
-<!ENTITY toolbar.label "The Good 'ol Sidebar">
+<!ENTITY toolbar.name "Barre d'outils d'Classic Sidebar">
+<!ENTITY toolbar.label "Classic Sidebar">
 <!ENTITY sbhtoolbar.name "Barre d'outils de l'en-tête de barre latérale">
 <!ENTITY sbhtoolbar.label "En-tête de barre latérale">
-<!ENTITY button.toggle.label "TGS">
-<!ENTITY button.toggle.tooltip "Activer/désactiver les éléments contrôlés par The Good 'ol Sidebar">
+<!ENTITY button.toggle.label "CS">
+<!ENTITY button.toggle.tooltip "Activer/désactiver les éléments contrôlés par Classic Sidebar">
 <!ENTITY button.switch.tooltip1 "Permuter panneau latéral et barre d'outils">
 <!ENTITY button.switch.tooltip2 "Afficher/cacher la barre d'outils">
 <!ENTITY button.switch.tooltip3 "Afficher/cacher le panneau latéral">
@@ -18,8 +18,8 @@
 <!ENTITY sidebar.width.max "Largeur maximum">
 <!ENTITY button.menu.label "Panneaux latéraux">
 <!ENTITY button.menu.tooltip "Tous les panneaux latéraux disponibles">
-<!ENTITY button.toolbar.label "Barre d'TGS">
-<!ENTITY button.toolbar.tooltip "Afficher/cacher la barre d'TGS">
+<!ENTITY button.toolbar.label "Barre d'CS">
+<!ENTITY button.toolbar.tooltip "Afficher/cacher la barre d'CS">
 <!ENTITY button.paneltab.label "Onglet du panneau">
 <!ENTITY button.paneltab.tooltip1 "Ouvre le contenu de l'onglet dans le panneau latéral">
 <!ENTITY button.paneltab.tooltip2 "Ouvre le contenu du panneau latéral dans un nouvel onglet">

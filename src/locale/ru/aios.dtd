@@ -1,13 +1,13 @@
 <!ENTITY loading.label "загрузка панели…">
-<!ENTITY menu.prefs.label "Настройки The Good 'ol Sidebar…">
+<!ENTITY menu.prefs.label "Настройки Classic Sidebar…">
 <!ENTITY menu.togglebar.label "Переключатель боковой панели">
 <!ENTITY menu.grippy.label "Кнопка “Свернуть/Развернуть”">
 <!ENTITY toolbar.name "Боковая панель инструментов">
-<!ENTITY toolbar.label "The Good 'ol Sidebar">
+<!ENTITY toolbar.label "Classic Sidebar">
 <!ENTITY sbhtoolbar.name "Панель инструментов заголовка окна боковой панели">
 <!ENTITY sbhtoolbar.label "Заголовок боковой панели">
-<!ENTITY button.toggle.label "TGS">
-<!ENTITY button.toggle.tooltip "Переключить боковые панели с помощью The Good 'ol Sidebar">
+<!ENTITY button.toggle.label "CS">
+<!ENTITY button.toggle.tooltip "Переключить боковые панели с помощью Classic Sidebar">
 <!ENTITY button.switch.tooltip1 "Переключить панель инструментов и боковую панель">
 <!ENTITY button.switch.tooltip2 "Переключить панель инструментов">
 <!ENTITY button.switch.tooltip3 "Переключить боковую панель">
@@ -18,8 +18,8 @@
 <!ENTITY sidebar.width.max "Максимальная ширина">
 <!ENTITY button.menu.label "Боковые панели">
 <!ENTITY button.menu.tooltip "Все доступные боковые панели">
-<!ENTITY button.toolbar.label "Панель TGS">
-<!ENTITY button.toolbar.tooltip "Показать/Скрыть панель инструментов TGS">
+<!ENTITY button.toolbar.label "Панель CS">
+<!ENTITY button.toolbar.tooltip "Показать/Скрыть панель инструментов CS">
 <!ENTITY button.paneltab.label "Открыть во вкладке">
 <!ENTITY button.paneltab.tooltip1 "Открыть содержимое вкладки в боковой панели">
 <!ENTITY button.paneltab.tooltip2 "Открыть содержимое боковой панели в новой вкладке">

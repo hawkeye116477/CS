@@ -1,4 +1,4 @@
-<!ENTITY title "The Good 'ol Sidebar – Options">
+<!ENTITY title "Classic Sidebar – Options">
 <!ENTITY restart "Changes require a browser restart">
 <!ENTITY settings "Settings">
 <!ENTITY settings.default "Restore Defaults…">
@@ -69,7 +69,7 @@
 <!ENTITY cmode.caption "Toggle Sidebar">
 <!ENTITY cmode.desc "Customize which elements should be affected if opening or closing the sidebar with different methods.">
 <!ENTITY cmode.key.label "Shortcut (F4)">
-<!ENTITY cmode.tbb.label "TGS Button">
+<!ENTITY cmode.tbb.label "CS Button">
 <!ENTITY cmode.close.label "Close Button">
 <!ENTITY cmode.mode1.label "Only the Sidebar">
 <!ENTITY cmode.mode2.label "The Sidebar and the Toolbar">

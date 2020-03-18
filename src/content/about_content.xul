@@ -132,6 +132,14 @@
                                 <text value="&contrib6.name;" />
                                 <text value="&contrib6.ext;" class="link" onclick="aios_addTab('&contrib6.link;');" />
                             </row>
+                            <row>
+                                <text value="&contrib7.name;" />
+                                <text value="&contrib7.ext;" class="link" onclick="aios_addTab('&contrib7.link;');" />
+                            </row>
+                            <row>
+                                <text value="&contrib8.name;" />
+                                <text value="&contrib8.ext;" class="link" onclick="aios_addTab('&contrib8.link;');" />
+                            </row>
 
                             <separator class="groove" />
 

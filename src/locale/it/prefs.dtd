@@ -1,4 +1,4 @@
-<!ENTITY title "Impostazioni di The Good 'ol Sidebar">
+<!ENTITY title "Impostazioni di Classic Sidebar">
 <!ENTITY restart "Riavviare il tuo browser per rendere effettive le modifiche">
 <!ENTITY settings "Impostazioni">
 <!ENTITY settings.default "Ripristina predefinite">
@@ -69,7 +69,7 @@
 <!ENTITY cmode.caption "Attivazione/Disattivazione della barra laterale">
 <!ENTITY cmode.desc "Selezionare quali elementi dovrebbero essere influenzati aprendo o chiudendo la barra laterale con differenti metodi">
 <!ENTITY cmode.key.label "Tasto (F4)">
-<!ENTITY cmode.tbb.label "Pulsante TGS">
+<!ENTITY cmode.tbb.label "Pulsante CS">
 <!ENTITY cmode.close.label "Pulsante per chiudere">
 <!ENTITY cmode.mode1.label "Solo la barra laterale">
 <!ENTITY cmode.mode2.label "Barra laterale e barra degli strumenti">

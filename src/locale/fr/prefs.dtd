@@ -1,4 +1,4 @@
-<!ENTITY title "Options de The Good 'ol Sidebar">
+<!ENTITY title "Options de Classic Sidebar">
 <!ENTITY restart "Les modifications ne seront validées qu&apos;au redémarrage du navigateur">
 <!ENTITY settings "Préférences">
 <!ENTITY settings.default "Rétablir les préférences par défaut…">
@@ -69,7 +69,7 @@
 <!ENTITY cmode.caption "Activer/désactiver le panneau latéral">
 <!ENTITY cmode.desc "Personnaliser les éléments concernés à l&apos;ouverture/fermeture du panneau latéral suivant les différentes méthodes">
 <!ENTITY cmode.key.label "Raccourci (F4)">
-<!ENTITY cmode.tbb.label "Bouton TGS">
+<!ENTITY cmode.tbb.label "Bouton CS">
 <!ENTITY cmode.close.label "Bouton de fermeture">
 <!ENTITY cmode.mode1.label "Seulement le panneau latéral">
 <!ENTITY cmode.mode2.label "Le panneau latéral et la barre d&apos;outils">

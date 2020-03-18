@@ -20,7 +20,6 @@
         <em:homepageURL>https://github.com/hawkeye116477/CS</em:homepageURL>
         <em:optionsURL>chrome://aios/content/prefs/prefs.xul</em:optionsURL>
 
-        </em:targetApplication>
         <!-- Waterfox Classic -->
         <em:targetApplication>
 			<Description>

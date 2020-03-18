@@ -12,4 +12,4 @@ if [ -f "$XPI_FILE.xpi" ]; then
 fi
 
 echo "- Creating xpi file"
-zip -r $XPI_FILE.xpi
+zip -r $XPI_FILE.xpi *

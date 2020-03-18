@@ -1,4 +1,4 @@
-<!ENTITY title "The Good 'ol Sidebar - Mga Opsiyon">
+<!ENTITY title "Classic Sidebar - Mga Opsiyon">
 <!ENTITY restart "Ang mga pagbabago rito ay nangangailangan ng browser restart">
 <!ENTITY settings "Mga Setting">
 <!ENTITY settings.default "Ibalik ang mga Default…">
@@ -69,7 +69,7 @@
 <!ENTITY cmode.caption "Toggle Sidebar">
 <!ENTITY cmode.desc "I-customize kung aling mga elemento ang maaapektuhan kapag binuksan o isinara ang sidebar gamit ang iba-ibang mga paraan.">
 <!ENTITY cmode.key.label "Shortcut (F4)">
-<!ENTITY cmode.tbb.label "TGS Button">
+<!ENTITY cmode.tbb.label "CS Button">
 <!ENTITY cmode.close.label "Pansarang Button">
 <!ENTITY cmode.mode1.label "Sidebar lamang">
 <!ENTITY cmode.mode2.label "Ang Sidebar at ang Toolbar">
