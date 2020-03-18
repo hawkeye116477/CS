@@ -101,8 +101,8 @@ function aios_addTab(aUrl) {
     // If the tab is empty
     if (emptyTab != null) {
         // Open URL and select tab
-        browser.getBrowserAtIndex(emptyTab).contentWindow.document.location.href = aUrl;
         browser.selectedTab = browser.tabContainer.childNodes[emptyTab];
+        openUILinkIn(aUrl, 'current')
         browser.selectedTab.setAttribute("openBy", "aios");
         return browser.selectedTab;
     }
