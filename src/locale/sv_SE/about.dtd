@@ -1,0 +1,21 @@
+<!ENTITY title "Om Classic Sidebar">
+<!ENTITY settings "Inställningar…">
+<!ENTITY close "Stäng">
+<!ENTITY tab.about "Om">
+<!ENTITY tab.help "Hjälp">
+<!ENTITY tab.contrib "Medverkande">
+<!ENTITY tab.trans "Översättare">
+<!ENTITY about.desc "Classic Sidebar låter dig öppna olika fönster som sidopaneler och snabbt byta mellan dem. Det sätter punkt för fönsterkaoset! Förutom bokmärken och historik öppnas filhämtaren, tillägg med mera i sidofältet.">
+<!ENTITY create.desc "Created by hawkeye116477, forked from The Good 'ol Sidebar, which was forked from the now discontinued All-in-One Sidebar created by Ingo Wennemaring.">
+<!ENTITY help.desc "Du hittar mycket information om detta tillägg på webbplatsen:">
+<!ENTITY about1.name "Webbsida - massvis med information på ett ställe">
+<!ENTITY about2.name "Funktioner - alla finesser i  Classic Sidebar">
+<!ENTITY about3.name "FAQ - vanliga frågor och svar">
+<!ENTITY about4.name "Kända fel - beskrivningar och felsökning">
+<!ENTITY about5.name "Forum - diskussioner, felrapporter, kompatibilitetsproblem etc">
+<!ENTITY about6.name "Ändringslogg - historik och förändringar">
+<!ENTITY about7.name "Att göra - planerade funktioner och förbättringar">
+<!ENTITY contrib.desc "Jag tackar följande utvecklare för inspiration och kodsnuttar (i alfabetisk ordning):">
+<!ENTITY contrib.thanks "Till sist tackar jag alla användare som testat utvecklingsversioner, rapporterat problem i forumet samt meddelat idéer och förslag eller som bara skrivit uppmuntrande kommentarer. :) Tack så mycket!">
+<!ENTITY trans.desc "Översättare av Classic Sidebar (i alfabetisk ordning):">
+<!ENTITY trans.thanks "Jag vill förstås även tacka alla på BabelZilla.org för deras fantastiska arbete!">
