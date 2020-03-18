@@ -25,7 +25,7 @@ radio[pane=aiosSbSwitch] {
 #obj-minWidthVal,
 #obj-defWidthVal,
 #obj-maxWidthVal {
-  width: 45px;
+  width: 48px;
 }
 #obj-minWidthUnit,
 #obj-defWidthUnit,
@@ -33,19 +33,27 @@ radio[pane=aiosSbSwitch] {
   min-width: 80px;
 }
 .arrow-lft {
-  list-style-image: url("img/arrow.gif");
+  list-style-image: url(chrome://browser/skin/arrow-dropdown.svg);
 }
 .arrow-lft image {
   transform: rotate(90deg);
   margin-left: 2px;
+  width: 8px;
+  height: 8px;
+  -moz-context-properties: fill;
+  fill: currentColor;
 }
 .arrow-lft label {
   padding-bottom: 2px;
 }
 #aios-settings-button image {
-  list-style-image: url("img/arrow.gif");
+  list-style-image: url(chrome://browser/skin/arrow-dropdown.svg);
   transform: rotate(180deg);
   margin-left: 5px;
+  -moz-context-properties: fill;
+  fill: currentColor;
+  width: 8px;
+  height: 8px;
 }
 
 
@@ -172,4 +180,10 @@ toolbarbutton.info label {
 }
 #aiosAbout separator.groove {
   margin: 10px 0 !important;
+}
+
+.tree-columnpicker-icon {
+  list-style-image: url("columnpicker.svg");
+  -moz-context-properties: fill;
+  fill: currentColor;
 }
