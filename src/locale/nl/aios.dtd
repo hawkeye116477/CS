@@ -36,6 +36,8 @@
 <!ENTITY button.multipanel.label "Multipaneel">
 <!ENTITY button.multipanel.tooltip "Bijv. een website, broncode en browserinformatie weergeven">
 <!ENTITY button.pageinfo.tooltip "Informatie weergeven over formulieren, links, media and veiligheid">
+<!ENTITY button.cookies.label "Cookies">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -44,6 +46,7 @@
 <!ENTITY keys.addons "U">
 <!ENTITY keys.multipanel "M">
 <!ENTITY keys.pageinfo "P">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "Links naast zijbalk">
 <!ENTITY toolbar.pos.sidebarright.label "Rechts naast zijbalk">
 <!ENTITY toolbar.pos.sidebartop.label "Boven zijbalk">
