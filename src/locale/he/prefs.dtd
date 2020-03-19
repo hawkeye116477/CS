@@ -2,7 +2,6 @@
 <!ENTITY restart "השינוי דורש אתחול הדפדפן">
 <!ENTITY settings "הגדרות">
 <!ENTITY settings.default "שחזור ברירת המחדל…">
-<!ENTITY settings.advanced "תצורה מתקדמת">
 <!ENTITY settings.import "ייבוא הגדרות…">
 <!ENTITY settings.export "ייצוא הגדרות…">
 <!ENTITY settings.copy "העתקת ההגדרות אל לוח הכתיבה">
@@ -16,7 +15,6 @@
 <!ENTITY tab.panels "לוחות">
 <!ENTITY tab.panels.places "סימניות/היסטוריה">
 <!ENTITY tab.panels.other1 "אחר I">
-<!ENTITY tab.panels.other2 "אחר II">
 <!ENTITY tab.panels.paneltab "לוח לשונית">
 <!ENTITY tab.menus "תפריטים">
 <!ENTITY tab.menus.sidebar "סרגל-הצד">
@@ -45,15 +43,29 @@
 <!ENTITY gen.init.sidebar "פתיחת סרגל-הצד (מפסק סרגל-הצד, כפתור הצגה/הסתרה, קיצור דרך)">
 <!ENTITY gen.init.sidebar.restore "שחזור הלוח האחרון">
 <!ENTITY gen.switch.autoshow "הצגת/הסתרת סרגל-הצד אוטומטית (מגע עכבר במקום לחיצת עכבר)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "רק אם הדפדפן במצב מקסימלי או במצב מסך מלא">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "השהייה">
 <!ENTITY gen.switch.delayUnit "אלפיות שנייה">
 <!ENTITY gen.switch.hide "הסתרת סרגל-הצד אם סמן העכבר…">
 <!ENTITY gen.switch.hideBar "מוזז בחזרה אל דף האינטרנט">
 <!ENTITY gen.switch.hidePage "מוחזק על מפסק סרגל הצד">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "אפשור מפסק דק לסרגל-הצד">
 <!ENTITY gen.switch.width "רוחב מפסק סרגל-הצד">
 <!ENTITY gen.switch.twidth "רוחב המפסק הדק של סרגל-הצד">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "הצגת/הסתרת סרגל-הצד">
 <!ENTITY cmode.desc "התאמה אישית של איזה אלמנט יושפע אם יפתח/ייסגר סרגל-הצד בשיטות שונות">
 <!ENTITY cmode.key.label "קיצור דרך (F4)">
@@ -70,18 +82,17 @@
 <!ENTITY keyconfig.disable "נטרול">
 <!ENTITY keyconfig.reset "איפוס">
 <!ENTITY keyconfig.warn "השינויים משפיעים רק על חלונות חדשים">
-<!ENTITY keyconfig.onreset "דורש אתחול הדפדפן">
-<!ENTITY keyconfig.unrecognized "לא מזוהה ($1)">
-<!ENTITY keyconfig.used "מפתח זה כבר בשימוש על ידי \\n\\n\\t$1\\n\\n  אולי יעבוד">
 <!ENTITY menus.sidebar.desc "התאמה אישית של הערכים בתפריט “תצוגה &gt; סרגל-הצד” ובתפריט הגלילה של סרגל-הצד">
 <!ENTITY menus.icons.label "הצגת אייקונים">
 <!ENTITY menus.entries.label "הצגת ערכים">
 <!ENTITY menus.sidebar.entrydeac "נטרול הערך של סרגל הצד הפעיל">
 <!ENTITY misc.enablesidebar.label "פתיחה בסרגל-הצד">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "שיפור מערך סרגל-הצד">
-<!ENTITY misc.dm.overlay "שינוי האפשרויות להתנהגות סרגל-הצד">
 <!ENTITY misc.dm.autoopen.label "הצגת סרגל-הצד של ההורדות כאשר מורד קובץ">
 <!ENTITY misc.dm.autoclose.label "סגירת (סרגל-הצד) כאשר כל ההורדות מסתיימות">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.colors.label "אפשור צבעי רקע המבוססים על המצב הנוכחי">
 <!ENTITY misc.count.label "הצגת מספר הפריטים">
 <!ENTITY misc.enablelink.tooltip "לחיצה כאן למידע נוסף (קישור לשאלות נפוצות)">
