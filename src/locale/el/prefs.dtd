@@ -2,7 +2,6 @@
 <!ENTITY restart "Οι αλλαγές απαιτούν επανεκκίνηση του περιηγητή">
 <!ENTITY settings "Ρυθμίσεις">
 <!ENTITY settings.default "Επαναφορά αρχικών…">
-<!ENTITY settings.advanced "Για προχωρημένους">
 <!ENTITY settings.import "Εισαγωγή ρυθμίσεων…">
 <!ENTITY settings.export "Εξαγωγή ρυθμίσεων…">
 <!ENTITY settings.copy "Αντιγραφή ρυθμίσεων στο πρόχειρο">
@@ -16,7 +15,6 @@
 <!ENTITY tab.panels "Πλαίσια">
 <!ENTITY tab.panels.places "Σελιδοδείκτες/Ιστορικό">
 <!ENTITY tab.panels.other1 "Άλλο I">
-<!ENTITY tab.panels.other2 "Άλλο II">
 <!ENTITY tab.panels.paneltab "Καρτέλα πλαισίου">
 <!ENTITY tab.menus "Μενού">
 <!ENTITY tab.menus.sidebar "Μενού πλευρικής στήλης">
@@ -28,7 +26,7 @@
 <!ENTITY gen.orient.right "Δεξιά πλευρά">
 <!ENTITY gen.width.caption "Μέγεθος">
 <!ENTITY gen.width.px "Πίξελ">
-<!ENTITY gen.width.perc "ποσοστό&amp;#37;">
+<!ENTITY gen.width.perc "ποσοστό&#37;">
 <!ENTITY gen.width.current "σε σχέση με το τρέχον πλάτος">
 <!ENTITY gen.width.current.tip "Εφαρμόζει το τρέχον πλάτος της πλευρικής στήλης">
 <!ENTITY gen.width.min.hint "Shift + διπλό κλικ στον τίτλο της πλευρικής στήλης">
@@ -45,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Άνοιγμα πλευρικής στήλης (διακόπτης πλευρικής στήλης, κουμπί εναλλαγής, συντόμευση)">
 <!ENTITY gen.init.sidebar.restore "Επαναφορά διατηρημένου πλαισίου">
 <!ENTITY gen.switch.autoshow "αυτόματη προβολή/απόκρυψη πλευρικής στήλης (σε επαφή με τον κέρσορα αντί για κλικ)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Μόνο όταν ο περιηγητής είναι μεγιστοποιημένος ή σε πλήρη οθόνη">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Καθυστέρηση">
 <!ENTITY gen.switch.delayUnit "χιλιοστά δευτερολέπτου">
 <!ENTITY gen.switch.hide "Απόκρυψη πλευρικής στήλης όταν ο κέρσορας…">
 <!ENTITY gen.switch.hideBar "μεταφερθεί στην ιστοσελίδα">
 <!ENTITY gen.switch.hidePage "σταματήσει πάνω στο διακόπτη πλευρικής στήλης">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Ενεργοποίηση λεπτού διακόπτη πλευρικής στήλης">
 <!ENTITY gen.switch.width "Πλάτος διακόπτη πλευρικής στήλης">
 <!ENTITY gen.switch.twidth "Πλάτος λεπτού διακόπτη πλευρικής στήλης">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Εναλλαγή πλευρικής στήλης">
 <!ENTITY cmode.desc "Επιλέξτε ποια στοιχεία θα επηρεάζονται από το άνοιγμα ή το κλείσιμο της πλευρικής στήλης με διαφορετικές μεθόδους.">
 <!ENTITY cmode.key.label "Συντόμευση (F4)">
@@ -70,18 +82,17 @@
 <!ENTITY keyconfig.disable "Απενεργοποίηση">
 <!ENTITY keyconfig.reset "Επαναφορά">
 <!ENTITY keyconfig.warn "Οι αλλαγές αφορούν μόνο  νέα παράθυρα">
-<!ENTITY keyconfig.onreset "Απαιτείται επανεκκίνηση του περιηγητή">
-<!ENTITY keyconfig.unrecognized "Δεν αναγνωρίζεται">
-<!ENTITY keyconfig.used "Αυτό το πλήκτρο χρησιμοποιείται ήδη από το: \\n\\n\\t$1\\n\\n ίσως όμως να λειτουργήσει.">
 <!ENTITY menus.sidebar.desc "Προσαρμόστε το μενού «Προβολή&gt;Πλευρική στήλη» και τα αναδυόμενα μενού των κουμπιών πλευρικών στηλών.">
 <!ENTITY menus.icons.label "Προβολή εικόνων">
 <!ENTITY menus.entries.label "Προβολή εγγραφών">
 <!ENTITY menus.sidebar.entrydeac "Απενεργοποίηση καταχωρίσεων στην ενεργή πλευρική στήλη">
 <!ENTITY misc.enablesidebar.label "Άνοιγμα σε πλευρική στήλη">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Βελτιστοποίηση διάταξης για την πλευρική στήλη">
-<!ENTITY misc.dm.overlay "Αλλαγή επιλογών συμπεριφοράς πλευρικής στήλης">
 <!ENTITY misc.dm.autoopen.label "Προβολή της πλευρικής στήλης λήψεων κατά τη λήψη αρχείων">
 <!ENTITY misc.dm.autoclose.label "Κλείσιμο όταν ολοκληρωθούν οι λήψεις">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.colors.label "Ενεργοποίηση έγχρωμου φόντου με βάση την τρέχουσα κατάσταση">
 <!ENTITY misc.count.label "Προβολή αριθμού στοιχείων">
 <!ENTITY misc.enablelink.tooltip "κάντε κλικ εδώ για περισσότερες πληροφορίες (δεσμός προς τις «Συχνές Ερωτήσεις»)">
