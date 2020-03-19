@@ -2,7 +2,6 @@
 <!ENTITY restart "Änderung erfordert einen Browser-Neustart">
 <!ENTITY settings "Einstellungen">
 <!ENTITY settings.default "Standardeinstellungen…">
-<!ENTITY settings.advanced "Erweiterter Modus">
 <!ENTITY settings.import "Einstellungen importieren…">
 <!ENTITY settings.export "Einstellungen exportieren…">
 <!ENTITY settings.copy "Einstellungen in die Zwischenablage kopieren">
@@ -16,7 +15,6 @@
 <!ENTITY tab.panels "Paneele">
 <!ENTITY tab.panels.places "Lesezeichen/Chronik">
 <!ENTITY tab.panels.other1 "Andere I">
-<!ENTITY tab.panels.other2 "Andere II">
 <!ENTITY tab.panels.paneltab "PanelTab">
 <!ENTITY tab.menus "Menüs">
 <!ENTITY tab.menus.sidebar "Sidebarmenüs">
@@ -45,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Sidebar öffnen (Sidebar-Umschalter, Sidebar-Button, Tastaturkürzel)">
 <!ENTITY gen.init.sidebar.restore "Letzte Paneele wiederherstellen">
 <!ENTITY gen.switch.autoshow "Sidebar automatisch ein- bzw. ausblenden (Mausberührung statt Mausklick)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Nur bei maximiertem Fenster und im Vollbild-Modus">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Verzögerung">
 <!ENTITY gen.switch.delayUnit "Millisekunden">
 <!ENTITY gen.switch.hide "Die Sidebar ausblenden, wenn der Mauszeiger…">
 <!ENTITY gen.switch.hideBar "zurück auf die Webseite bewegt wird">
 <!ENTITY gen.switch.hidePage "auf dem Sidebar-Umschalter belassen wird">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Schmalen Sidebar-Umschalter verwenden">
 <!ENTITY gen.switch.width "Breite des Umschalters">
 <!ENTITY gen.switch.twidth "Breite des schmalen Umschalters">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Sidebar öffnen/schließen">
 <!ENTITY cmode.desc "Legen Sie fest, welche Elemente beim Öffnen/Schließen der Sidebar beeinflusst werden sollen. Sie können diese Einstellung für verschiedene Methoden vornehmen.">
 <!ENTITY cmode.key.label "Tastaturkürzel (F4)">
@@ -70,17 +82,17 @@
 <!ENTITY keyconfig.disable "Deaktivieren">
 <!ENTITY keyconfig.reset "Zurücksetzen">
 <!ENTITY keyconfig.warn "Änderungen werden erst in neuen Fenstern wirksam">
-<!ENTITY keyconfig.onreset "Erfordert einen Browser-Neustart">
-<!ENTITY keyconfig.unrecognized "Unerkannt ($1)">
-<!ENTITY keyconfig.used "Dieses Tastaturkürzel wird bereits verwendet: \n\n\t$1\n\nEs könnte dennoch funktionieren.">
 <!ENTITY menus.sidebar.desc "Passen Sie das Menü „Ansicht &gt; Sidebar” und die Klappmenüs der Sidebar-Schaltflächen an.">
 <!ENTITY menus.icons.label "Symbole anzeigen">
 <!ENTITY menus.entries.label "Menüeinträge anzeigen">
 <!ENTITY menus.sidebar.entrydeac "Menüeintrag der aktiven Sidebar deaktivieren">
 <!ENTITY misc.enablesidebar.label "In der Sidebar öffnen">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Layout-Optimierung für die Sidebar">
 <!ENTITY misc.dm.autoopen.label "Die Download-Sidebar anzeigen, wenn ein Download startet">
 <!ENTITY misc.dm.autoclose.label "Die Download-Sidebar schließen, wenn alle Downloads abgeschlossen sind">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.colors.label "Einträge gemäß Status farblich markieren">
 <!ENTITY misc.count.label "Anzahl der Elemente anzeigen">
 <!ENTITY misc.enablelink.tooltip "Klicken Sie hier um mehr Informationen zu erhalten (Link zu den FAQs)">
