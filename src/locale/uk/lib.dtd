@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "Автоматично закривати інші папки">
 <!ENTITY enable.scrollToFolder.label "Автоматично прокручувати до обраної папки">
 <!ENTITY enable.rememberFolder.label "Фокусуватися на останній відкритій папці">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">
