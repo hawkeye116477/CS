@@ -36,6 +36,8 @@
 <!ENTITY button.multipanel.label "Multi-panou">
 <!ENTITY button.multipanel.tooltip "Afișează informații despre paginile web sau navigator">
 <!ENTITY button.pageinfo.tooltip "Afișează informații suplimentare pentru o pagină web">
+<!ENTITY button.cookies.label "Cookies">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -44,6 +46,7 @@
 <!ENTITY keys.addons "E">
 <!ENTITY keys.multipanel "M">
 <!ENTITY keys.pageinfo "P">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "În stânga panoului lateral">
 <!ENTITY toolbar.pos.sidebarright.label "În dreapta panoului lateral">
 <!ENTITY toolbar.pos.sidebartop.label "Deasupra panoului lateral">
