@@ -2,6 +2,7 @@
 <!ENTITY page.tooltip "Åbn websiden i dette panel">
 <!ENTITY page.ssr.label "Lille skærm-rendering">
 <!ENTITY page.ssr100.label "Tilpas til sidebjælke-bredde">
+<!ENTITY page.viewsource.label "View Page Source of Current Tab">
 <!ENTITY about.label "om:">
 <!ENTITY about.tooltip "Viser diverse information om browseren">
 <!ENTITY about.config.tooltip "Viser en brugerflade for gennemsyn og indstilling af en bred vifte af konfigurationsvariabler">
@@ -11,7 +12,6 @@
 <!ENTITY about.cache.disk.tooltip "Viser individuelle emner på disk">
 <!ENTITY about.cache.memory.tooltip "Viser individuelle emner i hukommelsen">
 <!ENTITY about.cache.offline.tooltip "Viser offline cache-elementer">
-<!ENTITY about.crashes.tooltip "Viser indsendte crash-rapporter">
 <!ENTITY about.buildconfig.tooltip "Viser argumenter og indstillinger brugt til at kompilere den aktive build">
 <!ENTITY about.about.tooltip "Viser versioninformation og copyrightinformation">
 <!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
@@ -20,3 +20,5 @@
 <!ENTITY about.mozilla.tooltip "Viser en side fra den fiktive Mozilla Bog">
 <!ENTITY about.palemoon.tooltip "Shows an excerpt from the Chronicles of the Pale Moon">
 <!ENTITY tools.remlast.label "Husk senest viste indhold">
+<!ENTITY tools.linked.label "Open links in current tab">
+<!ENTITY tools.syncscroll.label "Synchronize Scrolling">
