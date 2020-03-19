@@ -1,10 +1,10 @@
-<!ENTITY title "Alt-I-En Sidebjælke &amp;#8211; Indstillinger">
+<!ENTITY title "Alt-I-En Sidebjælke &#8211; Indstillinger">
 <!ENTITY restart "Ændringer kræver en genstart af browseren">
 <!ENTITY settings "Indstillinger">
 <!ENTITY settings.default "Genetabler standarder…">
-<!ENTITY settings.advanced "Avanceret tilstand">
 <!ENTITY settings.import "Importer indstillinger…">
 <!ENTITY settings.export "Eksporter indstillinger…">
+<!ENTITY settings.copy "Copy Settings to Clipboard">
 <!ENTITY apply "Anvend">
 <!ENTITY gen.column1 "110">
 <!ENTITY tab.gen "Generel">
@@ -15,11 +15,11 @@
 <!ENTITY tab.panels "Paneler">
 <!ENTITY tab.panels.places "Bogmærker/Historik">
 <!ENTITY tab.panels.other1 "Andet I">
-<!ENTITY tab.panels.other2 "Andet II">
 <!ENTITY tab.panels.paneltab "PanelFane">
 <!ENTITY tab.menus "Menuer">
 <!ENTITY tab.menus.sidebar "Sidebjælke">
 <!ENTITY tab.keys "Genveje">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Orientering">
 <!ENTITY gen.orient.label "Vis sidebjælke på">
 <!ENTITY gen.orient.left "venstre side">
@@ -43,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Åbn sidebjælke (sidebjælke-kontakt, skift-knap, genvej)">
 <!ENTITY gen.init.sidebar.restore "Genetablér det huskede panel">
 <!ENTITY gen.switch.autoshow "Vis/skjul automatisk sidebjælken (musekontakt i stedet for museklik)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Kun hvis browseren er maksimeret eller i Fuldskærmstilstand">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Forsinkelse">
 <!ENTITY gen.switch.delayUnit "millisekunder">
 <!ENTITY gen.switch.hide "Skjul sidebjælke når musemarkøren…">
 <!ENTITY gen.switch.hideBar "flyttes tilbage til websiden">
 <!ENTITY gen.switch.hidePage "holdes over sidebjælke-kontakten">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Slå tynd sidebjælke-kontakt til">
 <!ENTITY gen.switch.width "Bredde på sidebjælke-kontakten">
 <!ENTITY gen.switch.twidth "Bredde på den tynde sidebjælke-kontakt">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Slå sidebjælke til/fra">
 <!ENTITY cmode.desc "Definer hvilke elementer der skal påvirkes ved åbning eller lukning af sidebjælken med forskellige metoder.">
 <!ENTITY cmode.key.label "Genvej (F4)">
@@ -68,20 +82,22 @@
 <!ENTITY keyconfig.disable "Slå fra">
 <!ENTITY keyconfig.reset "Nulstil">
 <!ENTITY keyconfig.warn "Ændringer påvirker kun nye vinduer">
-<!ENTITY keyconfig.onreset "Browsergenstart påkrævet">
-<!ENTITY keyconfig.unrecognized "Ikke genkendt ($1)">
-<!ENTITY keyconfig.used "Denne tast bruges allerede af: \\n\\n\\t$1\\n\\nDet kan dog godt være den virker alligevel.">
-<!ENTITY menus.sidebar.desc "Tilpas elementerne i menuen &amp;#8220;Vis &gt; Sidebjælke&amp;#8221; og i rullegardin-menuer for sidebjælke-knapperne.">
+<!ENTITY menus.sidebar.desc "Tilpas elementerne i menuen &#8220;Vis &gt; Sidebjælke&#8221; og i rullegardin-menuer for sidebjælke-knapperne.">
 <!ENTITY menus.icons.label "Vis ikoner">
 <!ENTITY menus.entries.label "Vis elementer">
 <!ENTITY menus.sidebar.entrydeac "Slå elementet fra i den aktive sidebjælke">
 <!ENTITY misc.enablesidebar.label "Åbn i sidebjælke">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Optimer layout til sidebjælken">
+<!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
+<!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.colors.label "Slå farvede baggrunde til baseret på nuværende tilstand">
 <!ENTITY misc.count.label "Vis antal emner">
 <!ENTITY misc.enablelink.tooltip "Klik her for mere information (link til FAQ&apos;s)">
 <!ENTITY misc.paneltab.reverse "Ombyt venstreklik- og midterklik-handlinger">
-<!ENTITY misc.bm.paneltab.desc "Knappen &amp;#8220;PanelFane&amp;#8221; kan åbne i Bogmærke-Manageren i et nyt faneblad i stedet for i Bogmærke-panelet">
+<!ENTITY misc.bm.paneltab.desc "Knappen &#8220;PanelFane&#8221; kan åbne i Bogmærke-Manageren i et nyt faneblad i stedet for i Bogmærke-panelet">
 <!ENTITY misc.bm.paneltab "Slå Bogmærke-Manager til i nyt faneblad">
 <!ENTITY special.collapsing.caption "Sidebjælke sammenfoldning">
 <!ENTITY special.collapsing.label "Slå sidebjælke sammenfoldning til">
