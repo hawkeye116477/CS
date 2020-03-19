@@ -2,10 +2,12 @@
 <!ENTITY settings "Thiết lập…">
 <!ENTITY close "Đóng">
 <!ENTITY tab.about "Giới thiệu">
+<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "Những người đóng góp">
 <!ENTITY tab.trans "Người dịch">
 <!ENTITY about.desc "CS cho phép bạn mở nhiều cửa sổ dưới dạng thanh lề, và nhanh chóng chuyển đổi qua lại. Nó đã đặt dấu chấm hết cho thời kì cửa sổ lộn xộn! Ngoài đánh dấu và lược sử, nó còn mở các hộp thoại tải xuống, tiện ích và nhiều thứ khác trong thanh lề.">
 <!ENTITY create.desc "Created by hawkeye116477, forked from The Good 'ol Sidebar, which was forked from the now discontinued All-in-One Sidebar created by Ingo Wennemaring.">
+<!ENTITY help.desc "You will find many information about this add-on on the website:">
 <!ENTITY about1.name "Trang chủ - nhiều thông tin được liệt kê ở một nơi">
 <!ENTITY about2.name "Tính năng - tất cả tính năng của Classic Sidebar">
 <!ENTITY about3.name "FAQ - các câu hỏi và trả lời thường gặp">
