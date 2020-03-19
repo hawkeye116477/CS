@@ -36,6 +36,8 @@
 <!ENTITY button.multipanel.label "Више панела">
 <!ENTITY button.multipanel.tooltip "Прикажи нпр. страницу, изворни код и информације о претраживачу">
 <!ENTITY button.pageinfo.tooltip "Опсежни приказ информација о страници">
+<!ENTITY button.cookies.label "Cookies">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -44,6 +46,7 @@
 <!ENTITY keys.addons "A">
 <!ENTITY keys.multipanel "M">
 <!ENTITY keys.pageinfo "P">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "Лево од бочне траке">
 <!ENTITY toolbar.pos.sidebarright.label "Десно од бочне траке">
 <!ENTITY toolbar.pos.sidebartop.label "Изнад бочне траке">
