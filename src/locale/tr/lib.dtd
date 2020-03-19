@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "Diğer dizinkeri otomatik olarak kapat">
 <!ENTITY enable.scrollToFolder.label "Seçili dizini otomatik olarak kaydır">
 <!ENTITY enable.rememberFolder.label "Son seçili dizini hatırla">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">
