@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "Automatisch andere mappen sluiten">
 <!ENTITY enable.scrollToFolder.label "Automatisch naar geselecteerde map scrollen">
 <!ENTITY enable.rememberFolder.label "Laatst geselecteerde map onthouden en focus geven">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">
