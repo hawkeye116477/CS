@@ -2,6 +2,7 @@
 <!ENTITY page.tooltip "Web sayfasını bu panelde aç">
 <!ENTITY page.ssr.label "Küçük ekrana getiriyor">
 <!ENTITY page.ssr100.label "Kenar çubuğu genişliğini uyarla">
+<!ENTITY page.viewsource.label "View Page Source of Current Tab">
 <!ENTITY about.label "Hakkında">
 <!ENTITY about.tooltip "Tarayıcı hakkında farklı bilgileri göster">
 <!ENTITY about.config.tooltip "Bir arayüz göster izlerken ve ayarlaken geniş bir biçimin çeşitliliğin değişkenlerinde">
@@ -11,7 +12,6 @@
 <!ENTITY about.cache.disk.tooltip "Diskteki kişisel girişleri göster">
 <!ENTITY about.cache.memory.tooltip "Hafızadaki kişisel girişleri göster">
 <!ENTITY about.cache.offline.tooltip "Çevrimdışı önbellek girdilerini listeler">
-<!ENTITY about.crashes.tooltip "Gönderilen hata raporlarını gösterir">
 <!ENTITY about.buildconfig.tooltip "Shows the arguments and options used to compile the build in use">
 <!ENTITY about.about.tooltip "Versiyon ve telif hakkı bilgilerini göster">
 <!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
@@ -20,3 +20,5 @@
 <!ENTITY about.mozilla.tooltip "Shows the Mozilla: In Memoriam page">
 <!ENTITY about.palemoon.tooltip "Shows an excerpt from the Chronicles of the Pale Moon">
 <!ENTITY tools.remlast.label "Son gösterilmiş içeriği hatırla">
+<!ENTITY tools.linked.label "Open links in current tab">
+<!ENTITY tools.syncscroll.label "Synchronize Scrolling">
