@@ -2,6 +2,7 @@
 <!ENTITY page.tooltip "De webpagina in dit paneel openen">
 <!ENTITY page.ssr.label "Kleinschermrendering">
 <!ENTITY page.ssr100.label "Aanpassen aan zijbalkbreedte">
+<!ENTITY page.viewsource.label "View Page Source of Current Tab">
 <!ENTITY about.label "over:">
 <!ENTITY about.tooltip "Toont verschillende informatie over de browser">
 <!ENTITY about.config.tooltip "Toont een omgeving voor het bekijken en instellen van veel verschillende configuratievariabelen">
@@ -11,7 +12,6 @@
 <!ENTITY about.cache.disk.tooltip "Individuele items op de schijf tonen">
 <!ENTITY about.cache.memory.tooltip "Individuele items in het geheugen tonen">
 <!ENTITY about.cache.offline.tooltip "Offline bufferitems tonen">
-<!ENTITY about.crashes.tooltip "Toont Verzonden crashrapporten">
 <!ENTITY about.buildconfig.tooltip "Toont de argumenten en opties gebruikt om de gebruikte versie te compileren">
 <!ENTITY about.about.tooltip "Toont versie- en auteursrechtsinformatie">
 <!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
@@ -20,3 +20,5 @@
 <!ENTITY about.mozilla.tooltip "Shows the Mozilla: In Memoriam page">
 <!ENTITY about.palemoon.tooltip "Shows an excerpt from the Chronicles of the Pale Moon">
 <!ENTITY tools.remlast.label "De laatst getoonde inhoud onthouden">
+<!ENTITY tools.linked.label "Open links in current tab">
+<!ENTITY tools.syncscroll.label "Synchronize Scrolling">
