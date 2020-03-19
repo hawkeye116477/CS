@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "Аутоматски затвори остале омотнице">
 <!ENTITY enable.scrollToFolder.label "Аутоматски помери на изабрану омотницу">
 <!ENTITY enable.rememberFolder.label "Запамти и усредсреди последњу изабрану омотницу">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">
