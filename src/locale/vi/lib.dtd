@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "Tự động Đóng các Thư mục Khác">
 <!ENTITY enable.scrollToFolder.label "Tự động Cuộn đến Thư mục Đã chọn">
 <!ENTITY enable.rememberFolder.label "Ghi nhớ và Chú ý vào Thư mục Đã chọn Cuối cùng">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">
