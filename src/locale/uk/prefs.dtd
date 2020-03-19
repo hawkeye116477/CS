@@ -2,7 +2,6 @@
 <!ENTITY restart "Зміни потребують перезавантаження браузера">
 <!ENTITY settings "Налаштування">
 <!ENTITY settings.default "Відновити типові налаштування…">
-<!ENTITY settings.advanced "Розширений режим">
 <!ENTITY settings.import "Імпортувати налаштування…">
 <!ENTITY settings.export "Експортувати налаштування…">
 <!ENTITY settings.copy "Скопіювати налаштування до буфера обміну">
@@ -16,7 +15,6 @@
 <!ENTITY tab.panels "Панелі">
 <!ENTITY tab.panels.places "Закладки/Журнал">
 <!ENTITY tab.panels.other1 "Додатково I">
-<!ENTITY tab.panels.other2 "Додатково II">
 <!ENTITY tab.panels.paneltab "Вкладка панелей">
 <!ENTITY tab.menus "Меню">
 <!ENTITY tab.menus.sidebar "Бічна панель">
@@ -45,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Відкривати бічну панель (Вимикач бічної панелі, Кнопка перемикання, Гаряча клавіша)">
 <!ENTITY gen.init.sidebar.restore "Відновлювати останній стан">
 <!ENTITY gen.switch.autoshow "Показувати/ховати бічну панель автоматично (наведення миші замість клацання)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Тільки якщо браузер розгорнутий на весь екран або перебуває у повноекранному режимі">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Затримка">
 <!ENTITY gen.switch.delayUnit "мілісекунди">
 <!ENTITY gen.switch.hide "Ховати бічну панель, якщо курсор миші…">
 <!ENTITY gen.switch.hideBar "повертається до веб-сторінки">
 <!ENTITY gen.switch.hidePage "зупиняється на вимикачі бічної панелі">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Встановити вузький вимикач бічної панелі">
 <!ENTITY gen.switch.width "Ширина вимикача бічної панелі">
 <!ENTITY gen.switch.twidth "Ширина вузького вимикача бічної панелі">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Переключення бічної панелі">
 <!ENTITY cmode.desc "Налаштувати, на які елементи поширюється закриття або відкриття бічної панелі різними способами.">
 <!ENTITY cmode.key.label "Поєднання клавіш (F4)">
@@ -70,18 +82,17 @@
 <!ENTITY keyconfig.disable "Вимкнути">
 <!ENTITY keyconfig.reset "Скинути">
 <!ENTITY keyconfig.warn "Зміни стосуються тільки нових вікон">
-<!ENTITY keyconfig.onreset "Потрібне перезавантаження браузера">
-<!ENTITY keyconfig.unrecognized "Нерозпізнано ($1)">
-<!ENTITY keyconfig.used "Ці поєднання клавіш вже використовуються: \\n\\n\\t$1\\n\\nОднак це може все ж працювати.">
 <!ENTITY menus.sidebar.desc "Налаштувати пункти меню “Вигляд &gt; Бічна панель” та пункти меню-згорток кнопок бічної панелі.">
 <!ENTITY menus.icons.label "Показувати піктограми">
 <!ENTITY menus.entries.label "Показувати пункти">
 <!ENTITY menus.sidebar.entrydeac "Відключити вміст активної бічної панелі">
 <!ENTITY misc.enablesidebar.label "Відкривати у бічній панелі">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Оптимізовувати простір">
-<!ENTITY misc.dm.overlay "Зміна поведінки бічної панелі">
 <!ENTITY misc.dm.autoopen.label "Показувати бічну панель завантажень під час завантаження файлу">
 <!ENTITY misc.dm.autoclose.label "Закривати її після завершення всіх завантажень">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.colors.label "Застосовувати кольоровий фон відповідно до поточного стану">
 <!ENTITY misc.count.label "Показувати кількість елементів">
 <!ENTITY misc.enablelink.tooltip "Натисніть тут для детальної інформації (посилання на FAQ)">
