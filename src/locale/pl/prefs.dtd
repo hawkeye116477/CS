@@ -43,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Otwieranie panelu bocznego (przełącznik, przycisk, skrót klawiaturowy)">
 <!ENTITY gen.init.sidebar.restore "Odtwarzaj zapamiętany stan panelu">
 <!ENTITY gen.switch.autoshow "Wyświetlaj/ukrywaj panel boczny po wskazaniu/cofnięciu kursora myszy">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Tylko, gdy przeglądarka jest zmaksymalizowana lub jest w trybie pełnoekranowym">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Opóźnienie">
 <!ENTITY gen.switch.delayUnit "ms">
 <!ENTITY gen.switch.hide "Ukrywaj panel boczny, gdy kursor myszy">
 <!ENTITY gen.switch.hideBar "został przesunięty poza panel">
 <!ENTITY gen.switch.hidePage "został zatrzymany na przełączniku panelu">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Włącz wąski przełącznik panelu">
 <!ENTITY gen.switch.width "Szerokość przełącznika panelu">
 <!ENTITY gen.switch.twidth "Szerokość wąskiego przełącznika panelu">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Przełączanie panelu bocznego">
 <!ENTITY cmode.desc "Wybierz, które elementy będą otwierane/zamykane w zależności od zastosowanego sposobu.">
 <!ENTITY cmode.key.label "Skrót (F4)">
@@ -73,11 +87,12 @@
 <!ENTITY menus.entries.label "Wyświetlaj elementy">
 <!ENTITY menus.sidebar.entrydeac "Wyłącz elementy aktywnego paska bocznego">
 <!ENTITY misc.enablesidebar.label "Otwórz w panelu bocznym">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Optymalizuj wygląd dla panelu bocznego">
-<!ENTITY misc.dm.overlay "Zmień opcje zachowania się panelu bocznego">
 <!ENTITY misc.dm.autoopen.label "Wyświetlaj panel pobierania podczas pobierania pliku">
 <!ENTITY misc.dm.autoclose.label "Zamknij po zakończeniu pobierania">
 <!ENTITY misc.dm.shading.label "Cieniuj pozycje na liście pobrań w zależności od ich stanu">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.colors.label "Włącz kolorowe tła w oparciu o aktualny stan">
 <!ENTITY misc.count.label "Wyświetlaj ilość elementów">
 <!ENTITY misc.enablelink.tooltip "Kliknij tutaj, aby uzyskać więcej informacji (odnośnik do FAQ-ów)">
