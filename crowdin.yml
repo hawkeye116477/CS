@@ -1,49 +1,12 @@
-#
-# Choose file structure in crowdin
-# e.g. true or false
-#
-"preserve_hierarchy": false
-
-#
-# Files configuration
-#
-files: [
- {
-  #
-  # Source files filter
-  # e.g. "/resources/en/*.json"
-  #
-  "source" : "/src/locale/en-US/*",
-
-  #
-  # where translations live
-  # e.g. "/resources/%two_letters_code%/%original_file_name%"
-  #
-  "translation" : "/src/locale/%two_letters_code%/%original_file_name%",
-
-  "escape_quotes" : 0,
-  "escape_special_characters" : 0
-
-  #
-  # The parameter "update_option" is optional. If it is not set, translations for changed strings will be lost. Useful for typo fixes and minor changes in source strings.
-  # e.g. "update_as_unapproved" or "update_without_changes"
-  #
-  "update_option" : "update_as_unapproved",
-
-  #
-  # files or directories for ignore
-  # e.g. ["/**/?.txt", "/**/[0-9].txt", "/**/*\?*.txt"]
-  #
-  #"ignore" : [],
-
-  #
-  # Often software projects have custom names for locale directories. crowdin-cli allows you to map your own languages to be understandable by Crowdin.
-  #
-  #"languages_mapping" : {
-  #  "two_letters_code" : {
-  #    "crowdin_language_code" : "local_name"
-  #   }
-  #},
-
- }
-]
+preserve_hierarchy: false
+files:
+  - source: /src/locale/en-US/*
+    translation: /src/locale/%two_letters_code%/%original_file_name%
+    escape_quotes: 0
+    escape_special_characters: 0
+    update_option: update_as_unapproved
+  - source: /src/locale/en-US/*
+    translation: /src/locale/%locale%/%original_file_name%
+    escape_quotes: 0
+    escape_special_characters: 0
+    update_option: update_as_unapproved
