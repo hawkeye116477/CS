@@ -80,6 +80,8 @@
                                        onclick="aios_addTab('&about7.link;');" />
                         <toolbarbutton label="&about5.name;"
                                        onclick="aios_addTab('&about5.link;');" />
+                       <toolbarbutton label="&about8.name;"
+                                       onclick="aios_addTab('&about8.link;');" />
                     </vbox>
 
                 </tabpanel>
