@@ -26,7 +26,6 @@
 <!ENTITY button.tooltip.sidebar "Адкрыць у бакавой панэлі">
 <!ENTITY button.tooltip.window "Адкрыць у асобным акне">
 <!ENTITY button.tooltip.tab "Адкрыць у новай укладцы">
-<!ENTITY button.addons.label "Дадаткі">
 <!ENTITY button.addons.tooltip "Паказаць усталяваныя пашырэнні і тэмы">
 <!ENTITY button.multipanel.label "Мультипанель">
 <!ENTITY button.multipanel.tooltip "Паказаць вэб-сайт, зыходны код старонкі або інфармацыю аб браўзэры">

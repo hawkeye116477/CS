@@ -31,7 +31,6 @@
 <!ENTITY button.tooltip.sidebar "Deschide în panoul lateral">
 <!ENTITY button.tooltip.window "Deschide într-o fereastră">
 <!ENTITY button.tooltip.tab "Deschide într-o filă nouă">
-<!ENTITY button.addons.label "Suplimente">
 <!ENTITY button.addons.tooltip "Afișează suplimentele și temele instalate">
 <!ENTITY button.multipanel.label "Multi-panou">
 <!ENTITY button.multipanel.tooltip "Afișează informații despre paginile web sau navigator">

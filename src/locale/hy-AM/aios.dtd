@@ -29,7 +29,6 @@
 <!ENTITY button.tooltip.sidebar "Բացել Կողավահանակում">
 <!ENTITY button.tooltip.window "Բացել Պատուհանում">
 <!ENTITY button.tooltip.tab "Բացել նոր Էջում">
-<!ENTITY button.addons.label "Ավելացումներ">
 <!ENTITY button.addons.tooltip "Ցույց տալ ավելացումները և թեմաները">
 <!ENTITY button.multipanel.label "ԲազմաՎահանակ">
 <!ENTITY button.multipanel.tooltip "Ցույց տալ էջը, նրա կոդը և հատկությունները">

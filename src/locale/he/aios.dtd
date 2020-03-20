@@ -31,7 +31,6 @@
 <!ENTITY button.tooltip.sidebar "פתיחה בסרגל-הצד">
 <!ENTITY button.tooltip.window "פתיחה בתוך חלון">
 <!ENTITY button.tooltip.tab "פתיחה בלשונית חדשה">
-<!ENTITY button.addons.label "תוספים">
 <!ENTITY button.addons.tooltip "הצגת הרחבות וערכות נושא מותקנות">
 <!ENTITY button.multipanel.label "רב-לוח">
 <!ENTITY button.multipanel.tooltip "הצגת אתרים, קוד מקור ומידע על הדפדפן">

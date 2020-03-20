@@ -29,7 +29,6 @@
 <!ENTITY button.tooltip.sidebar "Avaa sivupaneelissa">
 <!ENTITY button.tooltip.window "Avaa ikkunassa">
 <!ENTITY button.tooltip.tab "Avaa uudessa välilehdessä">
-<!ENTITY button.addons.label "Lisäosat">
 <!ENTITY button.addons.tooltip "Näytä asennetut laajennukset ja teemat">
 <!ENTITY button.multipanel.label "Multipaneeli">
 <!ENTITY button.multipanel.tooltip "Näytä esim. sivu, lähdekoodi ja selaintietoa">

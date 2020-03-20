@@ -32,7 +32,7 @@ window[aios-downloadShade="true"] richlistitem:not([selected=true])[state="5"] {
   background-color: #ECFFEC;
 }
 
-#downloadsRichListBox {
+#downloadsRichListBox, #downloadsRichListBox:empty {
   background-color: -moz-Dialog;
   color: -moz-dialogText;
   border: none;

@@ -31,7 +31,6 @@
 <!ENTITY button.tooltip.sidebar "Відкрити у бічній панелі">
 <!ENTITY button.tooltip.window "Відкрити у новому вікні">
 <!ENTITY button.tooltip.tab "Відкрити у новій вкладці">
-<!ENTITY button.addons.label "Додатки">
 <!ENTITY button.addons.tooltip "Показати встановлені розширення та теми">
 <!ENTITY button.multipanel.label "МультиПанель">
 <!ENTITY button.multipanel.tooltip "Показати сайт, код сторінки та інформацію браузера">

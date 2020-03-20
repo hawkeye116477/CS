@@ -29,7 +29,6 @@
 <!ENTITY button.tooltip.sidebar "Άνοιγμα στην πλευρική στήλη">
 <!ENTITY button.tooltip.window "Άνοιγμα σε παράθυρο">
 <!ENTITY button.tooltip.tab "Άνοιγμα σε νέα καρτέλα">
-<!ENTITY button.addons.label "Πρόσθετα">
 <!ENTITY button.addons.tooltip "Εμφάνιση ήδη εγκατεστημένων επεκτάσεων και θεμάτων">
 <!ENTITY button.multipanel.label "Πολύπλευρο πλαίσιο">
 <!ENTITY button.multipanel.tooltip "Εμφάνιση ιστοσελίδων και πληροφοριών περιηγητή">

@@ -29,7 +29,6 @@
 <!ENTITY button.tooltip.sidebar "Åbn i sidebjælke">
 <!ENTITY button.tooltip.window "Åbn i vindue">
 <!ENTITY button.tooltip.tab "Åbn i nyt faneblad">
-<!ENTITY button.addons.label "Tilføjelser">
 <!ENTITY button.addons.tooltip "Vis installerede udvidelser og temaer">
 <!ENTITY button.multipanel.label "MultiPanel">
 <!ENTITY button.multipanel.tooltip "Viser f.eks. et website, kildekode og browserinformation">

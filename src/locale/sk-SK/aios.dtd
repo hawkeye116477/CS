@@ -28,7 +28,6 @@
 <!ENTITY button.tooltip.sidebar "Otvoriť v bočnom paneli">
 <!ENTITY button.tooltip.window "Otvoriť v okne">
 <!ENTITY button.tooltip.tab "Otvoriť v novej karte">
-<!ENTITY button.addons.label "Rozšírenia">
 <!ENTITY button.addons.tooltip "Zobraziť nainštalované témy a rozšírenia">
 <!ENTITY button.multipanel.label "Rozšírené možnosti">
 <!ENTITY button.multipanel.tooltip "Zobraziť stránku, zdrojový kód a informácie prehliadača">

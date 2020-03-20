@@ -107,17 +107,13 @@ var AiOS_Places = {
     },
 
     setSidebarLayout: function () {
-        var self = AiOS_Places,
-            strings = document.getElementById("propSetStrings"),
-            blurText = strings.getString("bm_hi.search.blur");
+        var self = AiOS_Places;
 
         // For CSS purposes
         AiOS_HELPER.rememberAppInfo(self.managerWindow);
 
         // Enable CSS
         self.managerWindow.setAttribute("aios-inSidebar", "true");
-
-        self.searchObj.placeholder = blurText;
 
         // Replace Close Folder <button> with a <toolbar button>
         if (document.getElementById("closeFolder")) {

@@ -31,7 +31,6 @@
 <!ENTITY button.tooltip.sidebar "Ava külgpaanis">
 <!ENTITY button.tooltip.window "Ava uues aknas">
 <!ENTITY button.tooltip.tab "Ava uuel vahelehel">
-<!ENTITY button.addons.label "Lisandused">
 <!ENTITY button.addons.tooltip "Näita installitud laiendusi ja teemasid">
 <!ENTITY button.multipanel.label "MultiPaneel">
 <!ENTITY button.multipanel.tooltip "Näita, näiteks veebilehte, lähtekoodi või brauseri infot">

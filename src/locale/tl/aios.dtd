@@ -31,12 +31,10 @@
 <!ENTITY button.tooltip.sidebar "Buksan sa Sidebar">
 <!ENTITY button.tooltip.window "Buksan sa Window">
 <!ENTITY button.tooltip.tab "Buksan sa Bagong Tab">
-<!ENTITY button.addons.label "Mga Add-on">
 <!ENTITY button.addons.tooltip "Ipakita ang mga naka-install na add-on">
 <!ENTITY button.multipanel.label "MultiPanel">
 <!ENTITY button.multipanel.tooltip "Ipakita ang mga website at impormasyon ng browser">
 <!ENTITY button.pageinfo.tooltip "Ipakita ang masaklaw na impormasyon tungkol sa isang pahina">
-<!ENTITY button.cookies.label "Mga Cookie">
 <!ENTITY button.cookies.tooltip "Pangasiwaan ang mga naka-imbak na cookie">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">

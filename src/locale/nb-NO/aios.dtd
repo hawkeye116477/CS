@@ -28,7 +28,6 @@
 <!ENTITY button.tooltip.sidebar "Åpne i sidestolpe">
 <!ENTITY button.tooltip.window "Åpne i vindu">
 <!ENTITY button.tooltip.tab "Åpne i ny fane">
-<!ENTITY button.addons.label "Innstikk">
 <!ENTITY button.addons.tooltip "Vi installerte utvidelser og temaer">
 <!ENTITY button.multipanel.label "Multipanel">
 <!ENTITY button.multipanel.tooltip "Vis for eksempel en webside, kildekode eller annen nettleserinformasjon">

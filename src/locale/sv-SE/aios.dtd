@@ -29,7 +29,6 @@
 <!ENTITY button.tooltip.sidebar "Öppna i sidopanelen">
 <!ENTITY button.tooltip.window "Öppna i ett fönster">
 <!ENTITY button.tooltip.tab "Öppna i ny flik">
-<!ENTITY button.addons.label "Tillägg">
 <!ENTITY button.addons.tooltip "Visa installerade tillägg och teman">
 <!ENTITY button.multipanel.label "Multipanel">
 <!ENTITY button.multipanel.tooltip "Visa webbplatser och webbläsarinformation">

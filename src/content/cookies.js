@@ -30,8 +30,6 @@ var AiOS_Cookies = {
         aios_addCSS("cookies.css", cookieWindow);
 
         var searchObj = document.getElementById("filter"),
-            strings = document.getElementById("propSetStrings"),
-            blurText = strings.getString("bm_hi.search.blur"),
             searchParent = searchObj.parentElement.children;
 
         for (let i = 0; i < searchParent.length; i++) {
@@ -39,8 +37,6 @@ var AiOS_Cookies = {
             if (elem.tagName == "label")
                 elem.hidden = true;
         }
-
-        searchObj.placeholder = blurText;
     }
 };
 

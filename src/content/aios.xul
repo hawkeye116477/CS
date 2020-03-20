@@ -4,6 +4,7 @@
 <!DOCTYPE overlay [
     <!ENTITY % browserDTD SYSTEM "chrome://browser/locale/browser.dtd"> %browserDTD;
     <!ENTITY % customizeToolbarDTD SYSTEM "chrome://global/locale/customizeToolbar.dtd"> %customizeToolbarDTD;
+    <!ENTITY % sanitizeDTD SYSTEM "chrome://browser/locale/sanitize.dtd"> %sanitizeDTD;
 
     <!ENTITY % aiosExtrasDTD SYSTEM "chrome://aios/content/aios.dtd"> %aiosExtrasDTD;
     <!ENTITY % aiosDTD SYSTEM "chrome://aios/locale/aios.dtd"> %aiosDTD;
@@ -67,11 +68,11 @@
                      autoCheck="false"
                      type="checkbox"
                      group="sidebar"
-                     sidebartitle="&button.addons.label;"
+                     sidebartitle="&addons.label;"
                      sidebarurl="about:addons"
                      onclick="aios_contextEvent(event, this);"
                      oncommand="toggleSidebar('viewAddonsSidebar');"
-                     label="&button.addons.label;"
+                     label="&addons.label;"
                      tooltiptext="&button.addons.tooltip;" />
         <broadcaster id="viewWebPanelsSidebar"
                      autoCheck="false"
@@ -97,11 +98,11 @@
                      autoCheck="false"
                      type="checkbox"
                      group="sidebar"
-                     sidebartitle="&button.cookies.label;"
+                     sidebartitle="&itemCookies.label;"
                      sidebarurl="chrome://browser/content/preferences/cookies.xul"
                      onclick="aios_contextEvent(event, this);"
                      oncommand="toggleSidebar('viewCookiesSidebar');"
-                     label="&button.cookies.label;"
+                     label="&itemCookies.label;"
                      tooltiptext="&button.cookies.tooltip;" />
         <broadcaster id="viewTabsSidebar"
                      autoCheck="false"
@@ -293,7 +294,7 @@
                        class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
                        command="Tools:Addons-tb"
                        ondragenter="toggleSidebar('viewAddonsSidebar', true);"
-                       label="&button.addons.label;"
+                       label="&addons.label;"
                        tooltip="addons-tooltip"
                        tooltiptext="&button.addons.tooltip;">
             <observes element="viewAddonsSidebar"
@@ -326,7 +327,7 @@
         <toolbarbutton id="cookies-button"
                        class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
                        command="View:Cookies-tb"
-                       label="&button.cookies.label;"
+                       label="&itemCookies.label;"
                        tooltip="cookies-tooltip"
                        tooltiptext="&button.cookies.tooltip;">
             <observes element="viewCookiesSidebar"

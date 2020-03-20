@@ -31,7 +31,6 @@
 <!ENTITY button.tooltip.sidebar "Отвори у бочној траци">
 <!ENTITY button.tooltip.window "Отвори у прозору">
 <!ENTITY button.tooltip.tab "Отвори у новом језичку">
-<!ENTITY button.addons.label "Додаци">
 <!ENTITY button.addons.tooltip "Прикажи постављене додатке и теме">
 <!ENTITY button.multipanel.label "Више панела">
 <!ENTITY button.multipanel.tooltip "Прикажи нпр. страницу, изворни код и информације о претраживачу">

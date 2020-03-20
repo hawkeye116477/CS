@@ -28,7 +28,6 @@
 <!ENTITY button.tooltip.sidebar "فتح في الشريط الجانبي">
 <!ENTITY button.tooltip.window "فتح في نافذة">
 <!ENTITY button.tooltip.tab "فتح في تبويب جديد">
-<!ENTITY button.addons.label "إضافات">
 <!ENTITY button.addons.tooltip "عرض السمات والإضافات المثبتة">
 <!ENTITY button.multipanel.label "لوحة ثنائية">
 <!ENTITY button.multipanel.tooltip "عرض مثال صفحة, المصدر, ومعلومات المتصفح">

@@ -31,7 +31,6 @@
 <!ENTITY button.tooltip.sidebar "Abrir na barra lateral">
 <!ENTITY button.tooltip.window "Abrir na janela">
 <!ENTITY button.tooltip.tab "Abrir em Novo Separador">
-<!ENTITY button.addons.label "Extras">
 <!ENTITY button.addons.tooltip "Mostra extensões e temas instalados">
 <!ENTITY button.multipanel.label "Multi-Painel">
 <!ENTITY button.multipanel.tooltip "Mostra, por exemplo, um sítio web, o código fonte e informações do navegador">

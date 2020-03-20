@@ -28,7 +28,6 @@
 <!ENTITY button.tooltip.sidebar "在側邊欄開啟">
 <!ENTITY button.tooltip.window "在新視窗開啟">
 <!ENTITY button.tooltip.tab "在新分頁開啟">
-<!ENTITY button.addons.label "Add-ons">
 <!ENTITY button.addons.tooltip "顯示已安裝的擴充套件和佈景主題">
 <!ENTITY button.multipanel.label "多功能面板">
 <!ENTITY button.multipanel.tooltip "顯示「網頁內容、原始碼及瀏覽器資訊」">

@@ -29,7 +29,6 @@
 <!ENTITY button.tooltip.sidebar "Mở trong Thanh lề">
 <!ENTITY button.tooltip.window "Mở trong một Cửa Sổ">
 <!ENTITY button.tooltip.tab "Mở trong một Thẻ Mới">
-<!ENTITY button.addons.label "Tiện ích">
 <!ENTITY button.addons.tooltip "Hiển thị các phần mở rộng và giao diện đã cài">
 <!ENTITY button.multipanel.label "ĐaBảng">
 <!ENTITY button.multipanel.tooltip "Hiển thị một trang web, mã nguồn, và thông tin trình duyệt">

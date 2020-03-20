@@ -29,7 +29,6 @@
 <!ENTITY button.tooltip.sidebar "サイドバーで開く">
 <!ENTITY button.tooltip.window "ウィンドウで開く">
 <!ENTITY button.tooltip.tab "新規タブで開く">
-<!ENTITY button.addons.label "アドオン">
 <!ENTITY button.addons.tooltip "拡張機能、テーマ、言語パック一覧を表示します">
 <!ENTITY button.multipanel.label "マルチパネル">
 <!ENTITY button.multipanel.tooltip "マルチパネルを表示します">

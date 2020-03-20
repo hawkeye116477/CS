@@ -8,6 +8,7 @@
 <!-- locale -->
 <!DOCTYPE prefwindow [
     <!ENTITY % browserDTD SYSTEM "chrome://browser/locale/browser.dtd"> %browserDTD;
+    <!ENTITY % sanitizeDTD SYSTEM "chrome://browser/locale/sanitize.dtd"> %sanitizeDTD;
 
     <!ENTITY % commonDTD SYSTEM "chrome://aios/content/aios.dtd"> %commonDTD;
     <!ENTITY % prefsDTD SYSTEM "chrome://aios/locale/prefs.dtd"> %prefsDTD;
@@ -909,7 +910,7 @@
             <tabs onclick="AiOS_Prefs.rememberSelectedTab(this);">
                 <tab label="&tab.panels.places;" />
                 <tab label="&downloads.label;" />
-                <tab label="&button.addons.label;" />
+                <tab label="&addons.label;" />
                 <tab label="&tab.panels.other1;" />
                 <tab label="&tab.panels.paneltab;"/>
             </tabs>
@@ -1044,7 +1045,7 @@
                         </groupbox>
 
                         <groupbox>
-                            <caption label="&button.cookies.label;" />
+                            <caption label="&itemCookies.label;" />
                             <checkbox preference="KSOpen"
                                       label="&misc.enablesidebar.label;"
                                       aiosChilds="KSLayout"

@@ -31,7 +31,6 @@
 <!ENTITY button.tooltip.sidebar "Megnyitás Oldalsávon">
 <!ENTITY button.tooltip.window "Megnyitás ablakban">
 <!ENTITY button.tooltip.tab "Megnyitás új lapon">
-<!ENTITY button.addons.label "Bővítmények">
 <!ENTITY button.addons.tooltip "Telepített Kiterjesztések és Témák megjelenítése">
 <!ENTITY button.multipanel.label "Panelhalmozás">
 <!ENTITY button.multipanel.tooltip "Webhely, oldalforrás és böngészőinformációkat jelenít meg">

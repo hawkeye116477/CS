@@ -31,12 +31,10 @@
 <!ENTITY button.tooltip.sidebar "在侧栏中打开">
 <!ENTITY button.tooltip.window "在新建窗口中打开">
 <!ENTITY button.tooltip.tab "在新标签页打开">
-<!ENTITY button.addons.label "附加软件">
 <!ENTITY button.addons.tooltip "显示已安装的扩展和主题">
 <!ENTITY button.multipanel.label "多用面板">
 <!ENTITY button.multipanel.tooltip "显示多种信息，例如访问网站，查看源代码或浏览器信息等等">
 <!ENTITY button.pageinfo.tooltip "查看页面信息">
-<!ENTITY button.cookies.label "Cookies">
 <!ENTITY button.cookies.tooltip "管理个人 cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">

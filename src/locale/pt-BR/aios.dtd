@@ -31,7 +31,6 @@
 <!ENTITY button.tooltip.sidebar "Abre no painel lateral">
 <!ENTITY button.tooltip.window "Abrir em uma janela">
 <!ENTITY button.tooltip.tab "Abrir em uma nova aba">
-<!ENTITY button.addons.label "Complementos">
 <!ENTITY button.addons.tooltip "Exibir extensões e temas instalados">
 <!ENTITY button.multipanel.label "Multipainel">
 <!ENTITY button.multipanel.tooltip "Exibe, por exemplo, um site, o código fonte e as informações do navegador">

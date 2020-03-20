@@ -27,7 +27,6 @@
 <!ENTITY button.tooltip.sidebar "Otevřít v postranní liště">
 <!ENTITY button.tooltip.window "Otevřít v novém okně">
 <!ENTITY button.tooltip.tab "Otevřít v novém panelu">
-<!ENTITY button.addons.label "Zásuvné moduly">
 <!ENTITY button.addons.tooltip "Zobrazí seznam nainstalovaných rozšíření a motivů vzhledu">
 <!ENTITY button.multipanel.label "MultiPanel">
 <!ENTITY button.multipanel.tooltip "Zobrazí např. stránku, zdrojový kód a informace o prohlížeči">

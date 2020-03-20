@@ -29,7 +29,6 @@
 <!ENTITY button.tooltip.sidebar "탐색 창으로 열기">
 <!ENTITY button.tooltip.window "창으로 열기">
 <!ENTITY button.tooltip.tab "새 탭으로 열기">
-<!ENTITY button.addons.label "부가 기능">
 <!ENTITY button.addons.tooltip "설치한 확장 기능과 테마를 보여줍니다.">
 <!ENTITY button.multipanel.label "멀티패널">
 <!ENTITY button.multipanel.tooltip "예를 들면 웹사이트, 소스 코드, 브라우저 정보 등을 보여줍니다.">

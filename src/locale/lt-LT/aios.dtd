@@ -28,7 +28,6 @@
 <!ENTITY button.tooltip.sidebar "Atverti parankinėje">
 <!ENTITY button.tooltip.window "Atverti naujame lange">
 <!ENTITY button.tooltip.tab "Atverti naujoje kortelėje">
-<!ENTITY button.addons.label "Priedai">
 <!ENTITY button.addons.tooltip "Rodyti įdiegtus priedus ir grafinius apvalkalus">
 <!ENTITY button.multipanel.label "MultiSkydelis">
 <!ENTITY button.multipanel.tooltip "Rodyti, pvz., tinklalapi, jo pirminį tekstą ar naršyklės informaciją">

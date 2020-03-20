@@ -31,12 +31,10 @@
 <!ENTITY button.tooltip.sidebar "Otwórz w panelu bocznym">
 <!ENTITY button.tooltip.window "Otwórz w oknie">
 <!ENTITY button.tooltip.tab "Otwórz w nowej karcie">
-<!ENTITY button.addons.label "Dodatki">
 <!ENTITY button.addons.tooltip "Wyświetla zainstalowane motywy i rozszerzenia">
 <!ENTITY button.multipanel.label "MultiPanel">
 <!ENTITY button.multipanel.tooltip "Wyświetla w panelu bocznym np. stronę, kod źródłowy, info o przeglądarce">
 <!ENTITY button.pageinfo.tooltip "Wyświetla informacje o aktywnej stronie">
-<!ENTITY button.cookies.label "Ciasteczka">
 <!ENTITY button.cookies.tooltip "Wyświetla ciasteczka">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">

@@ -29,7 +29,6 @@
 <!ENTITY button.tooltip.sidebar "Hape në Shiritin Anësor">
 <!ENTITY button.tooltip.window "Hape në Dritare të Re">
 <!ENTITY button.tooltip.tab "Hape në Fletë të Re">
-<!ENTITY button.addons.label "Shtesat">
 <!ENTITY button.addons.tooltip "Paraqit shtesat dhe motivet e instaluara">
 <!ENTITY button.multipanel.label "MultiPanel">
 <!ENTITY button.multipanel.tooltip "Paraqit p.sh. faqen, burimin e kodit dhe informata mbi shfletuesin">

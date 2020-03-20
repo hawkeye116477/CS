@@ -31,7 +31,6 @@
 <!ENTITY button.tooltip.sidebar "In de zijbalk openen">
 <!ENTITY button.tooltip.window "In een venster openen">
 <!ENTITY button.tooltip.tab "In een nieuw tabblad openen">
-<!ENTITY button.addons.label "Add-ons">
 <!ENTITY button.addons.tooltip "Geïnstalleerde extensies en thema&apos;s weergeven">
 <!ENTITY button.multipanel.label "Multipaneel">
 <!ENTITY button.multipanel.tooltip "Bijv. een website, broncode en browserinformatie weergeven">

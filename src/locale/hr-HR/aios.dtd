@@ -28,7 +28,6 @@
 <!ENTITY button.tooltip.sidebar "Otvori u rubnom stupcu">
 <!ENTITY button.tooltip.window "Otvori u prozoru">
 <!ENTITY button.tooltip.tab "Otvori u novoj kartici">
-<!ENTITY button.addons.label "Dodaci">
 <!ENTITY button.addons.tooltip "Prikaži instalirane teme i dodatke">
 <!ENTITY button.multipanel.label "Više panoa">
 <!ENTITY button.multipanel.tooltip "Prikaži npr. web stranicu, izvorni kod i informacije o pregledniku">

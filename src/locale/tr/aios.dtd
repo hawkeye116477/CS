@@ -31,7 +31,6 @@
 <!ENTITY button.tooltip.sidebar "Kenar çubugunda aç">
 <!ENTITY button.tooltip.window "Pencerede aç">
 <!ENTITY button.tooltip.tab "Yeni tab da aç">
-<!ENTITY button.addons.label "Add-ons">
 <!ENTITY button.addons.tooltip "Yüklenmiş eklentiler ve temaları gösterir">
 <!ENTITY button.multipanel.label "Çoklu Panel">
 <!ENTITY button.multipanel.tooltip "Display e.g. a website, source code and browser information">

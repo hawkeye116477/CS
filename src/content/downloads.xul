@@ -5,6 +5,8 @@
   %browserDTD;
   <!ENTITY % downloadsDTD SYSTEM "chrome://browser/locale/downloads/downloads.dtd">
   %downloadsDTD;
+  <!ENTITY % placesDTD SYSTEM "chrome://browser/locale/places/places.dtd">
+  %placesDTD;
 ]>
 
 <overlay id="aios_DownloadsOverlay"
@@ -15,7 +17,7 @@
     <script type="application/javascript"
             src="chrome://aios/content/downloads.js" />
 
-    <window id="contentAreaDownloadsView">
+    <window id="contentAreaDownloadsView" data-title="&downloads.label;">
           <toolbox id="commandBar"
                    position="1">
             <toolbar id="main-bar">
@@ -23,6 +25,7 @@
                        flex="1"
                        clickSelectsAll="true"
                        type="search"
+                       placeholder="&search.placeholder;"
                        aria-controls="placeContent"
                        oncommand="AiOS_Downloads.search(this.value);"
                        collection="downloads"/>
