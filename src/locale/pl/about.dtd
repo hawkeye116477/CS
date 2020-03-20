@@ -15,6 +15,7 @@
 <!ENTITY about5.name "Forum - dyskusja, raportowanie o błędach, zmiany motywów i inne sprawy">
 <!ENTITY about6.name "Lista zmian - historia i wykonane zmiany">
 <!ENTITY about7.name "Do zrobienia - planowane nowe opcje i udoskonalenia">
+<!ENTITY about8.name "Pomóż w tłumaczeniu">
 <!ENTITY contrib.desc "Dziękuję następującym twórcom za inspirację i części kodu (w porządku alfabetycznym):">
 <!ENTITY contrib.thanks "Chciałbym podziękować wszystkim użytkownikom, którzy pomagali w testowaniu i rozwoju tego wydania informując o błędach, dzieląc się swoimi uwagami i sugestiami lub pisząc piękne komentarze na forum. :-) Dziękuję bardzo!">
 <!ENTITY trans.desc "Tłumacze AiOS, CS i TGS (w porządku alfabetycznym kodów języków):">

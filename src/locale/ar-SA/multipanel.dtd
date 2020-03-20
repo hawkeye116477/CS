@@ -2,6 +2,7 @@
 <!ENTITY page.tooltip "افتح الصفحة في هذه اللوحة">
 <!ENTITY page.ssr.label "تحويل الشاشة الصغيرة">
 <!ENTITY page.ssr100.label "تعيين كعرض الشريط الجانبي">
+<!ENTITY page.viewsource.label "View Page Source of Current Tab">
 <!ENTITY about.label "حول:">
 <!ENTITY about.tooltip "عرض معلومات مختلفة حول المتصفح">
 <!ENTITY about.config.tooltip "إظهار واجهة للعرض ، ووضع تشكيلة واسعة من المتغيرات">
@@ -11,12 +12,11 @@
 <!ENTITY about.cache.disk.tooltip "قائمة إدخالات ذاكرة التخزين المؤقت على القرص">
 <!ENTITY about.cache.memory.tooltip "قائمة المدخلات في الذاكرة">
 <!ENTITY about.cache.offline.tooltip "List offline cache entries">
-<!ENTITY about.crashes.tooltip "عرض تقارير الأخطاء التي رفعت">
 <!ENTITY about.buildconfig.tooltip "Shows the arguments and options used to compile the build in use">
 <!ENTITY about.about.tooltip "عرض معلومات الإصدار ومعلومات حقوق النشر">
-<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
-<!ENTITY about.credits.tooltip "Shows a list of all those who contributed to Pale Moon">
+<!ENTITY about.credits.tooltip "Shows a list of all those who contributed to Mozilla">
 <!ENTITY about.license.tooltip "يظهر رخصة موزيلا العامة">
 <!ENTITY about.mozilla.tooltip "Shows the Mozilla: In Memoriam page">
-<!ENTITY about.palemoon.tooltip "Shows an excerpt from the Chronicles of the Pale Moon">
 <!ENTITY tools.remlast.label "تذكر آخر محتوى ظهر">
+<!ENTITY tools.linked.label "Open links in current tab">
+<!ENTITY tools.syncscroll.label "Synchronize Scrolling">

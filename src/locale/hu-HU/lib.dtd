@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "Minden egyéb mappát automatikusan bezár">
 <!ENTITY enable.scrollToFolder.label "Görgetés a kiválasztott mappához">
 <!ENTITY enable.rememberFolder.label "Emlékezés az utoljára kijelölt mappára">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">

@@ -2,6 +2,7 @@
 <!ENTITY page.tooltip "Otvara web stranicu u ovom panou">
 <!ENTITY page.ssr.label "Prikazivanje malog ekrana">
 <!ENTITY page.ssr100.label "Prilagodi širini rubnog stupca">
+<!ENTITY page.viewsource.label "View Page Source of Current Tab">
 <!ENTITY about.label "o:">
 <!ENTITY about.tooltip "Prikazuje različite informacije o pregledniku">
 <!ENTITY about.config.tooltip "Prikazuje sučelje za pregledavanje i postavljanje velikog niza konfiguracijskih varijabli">
@@ -11,12 +12,11 @@
 <!ENTITY about.cache.disk.tooltip "Prikazuje pojedinačne unose na disku">
 <!ENTITY about.cache.memory.tooltip "Prikazuje pojedinačne unose u memoriji">
 <!ENTITY about.cache.offline.tooltip "List offline cache entries">
-<!ENTITY about.crashes.tooltip "Shows submitted crash reports">
 <!ENTITY about.buildconfig.tooltip "Prikazuje parametre i opcije koje su se koristile prilikom sastavljanja izdanja koje se koristi">
 <!ENTITY about.about.tooltip "Prikazuje informacije o inačici i autorskim pravima">
-<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
 <!ENTITY about.credits.tooltip "Prikazuje popis svih onih koji su pridonijeli Pale Moon">
 <!ENTITY about.license.tooltip "Prikazuje Mozilla Public License">
 <!ENTITY about.mozilla.tooltip "Shows the Mozilla: In Memoriam page">
-<!ENTITY about.palemoon.tooltip "Shows an excerpt from the Chronicles of the Pale Moon">
 <!ENTITY tools.remlast.label "Zapamti zadnje prikazani sadržaj">
+<!ENTITY tools.linked.label "Open links in current tab">
+<!ENTITY tools.syncscroll.label "Synchronize Scrolling">

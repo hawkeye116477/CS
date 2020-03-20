@@ -3,6 +3,9 @@
 <!ENTITY menu.togglebar.label "Перамыкач бакавой панэлі">
 <!ENTITY menu.grippy.label "Кнопка “Згарнуць/Разгарнуць”">
 <!ENTITY toolbar.name "Бакавая панэль прылад">
+<!ENTITY toolbar.label "Classic Sidebar">
+<!ENTITY sbhtoolbar.name "Sidebar Header Toolbar">
+<!ENTITY sbhtoolbar.label "Sidebar Header">
 <!ENTITY button.toggle.label "Выклік бакавой панэлі">
 <!ENTITY button.toggle.tooltip "Адкрыць/Зачыніць бакавую панэль">
 <!ENTITY button.switch.tooltip1 "Адчыніць Sidebar і Toolbar">
@@ -15,6 +18,8 @@
 <!ENTITY sidebar.width.max "Максімальная шырыня">
 <!ENTITY button.menu.label "Бакавая панэль">
 <!ENTITY button.menu.tooltip "Спіс бакавых панэляў">
+<!ENTITY button.toolbar.label "CS Toolbar">
+<!ENTITY button.toolbar.tooltip "Toggle CS Toolbar">
 <!ENTITY button.paneltab.label "Адкрыць ва ўкладцы">
 <!ENTITY button.paneltab.tooltip1 "Адкрыць змесціва ўкладкі ў бакавой панэлі">
 <!ENTITY button.paneltab.tooltip2 "Адкрыць змесціва бакавой панэлі ў новай укладцы">
@@ -30,6 +35,7 @@
 <!ENTITY button.multipanel.label "Мультипанель">
 <!ENTITY button.multipanel.tooltip "Паказаць вэб-сайт, зыходны код старонкі або інфармацыю аб браўзэры">
 <!ENTITY button.pageinfo.tooltip "Паказаць усю інфармацыю аб дадзенай старонцы">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -38,6 +44,7 @@
 <!ENTITY keys.addons "A">
 <!ENTITY keys.multipanel "M">
 <!ENTITY keys.pageinfo "P">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "Размясціць злева ад бакавой панэлі">
 <!ENTITY toolbar.pos.sidebarright.label "Размясціць справа ад бакавой панэлі">
 <!ENTITY toolbar.pos.sidebartop.label "Размясціць над бакавой панэллю">

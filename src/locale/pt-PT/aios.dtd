@@ -35,6 +35,7 @@
 <!ENTITY button.multipanel.label "Multi-Painel">
 <!ENTITY button.multipanel.tooltip "Mostra, por exemplo, um sítio web, o código fonte e informações do navegador">
 <!ENTITY button.pageinfo.tooltip "Mostra informações, formulários, ligações, média e segurança">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -43,6 +44,7 @@
 <!ENTITY keys.addons "A">
 <!ENTITY keys.multipanel "M">
 <!ENTITY keys.pageinfo "P">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "À esquerda da barra lateral">
 <!ENTITY toolbar.pos.sidebarright.label "À direita da barra lateral">
 <!ENTITY toolbar.pos.sidebartop.label "Acima da barra lateral">

@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "Ավտոմատ փակել մյուս պանակները">
 <!ENTITY enable.scrollToFolder.label "Ավտոմատ անցնել ընտրված պանակին">
 <!ENTITY enable.rememberFolder.label "Հիշել և անցնել վերջին ընտրված պանակը">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">

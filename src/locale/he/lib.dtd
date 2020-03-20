@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "סגירה אוטומטית של תיקיות אחרות">
 <!ENTITY enable.scrollToFolder.label "גלילה אוטומטית לתיקייה הנבחרת">
 <!ENTITY enable.rememberFolder.label "זכור והתמקד בתיקייה שנבחרה אחרונה">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">

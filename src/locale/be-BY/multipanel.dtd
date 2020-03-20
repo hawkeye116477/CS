@@ -2,6 +2,7 @@
 <!ENTITY page.tooltip "Адкрыць вэб-старонку ў гэтай панэлі">
 <!ENTITY page.ssr.label "Рэжым рэндэрынгу для маленькіх экранаў">
 <!ENTITY page.ssr100.label "Адаптаваць да шырыні бакавой панэлі">
+<!ENTITY page.viewsource.label "View Page Source of Current Tab">
 <!ENTITY about.label "about:">
 <!ENTITY about.tooltip "Паказвае розную інфармацыю аб браўзэры">
 <!ENTITY about.config.tooltip "Адкрыць інтэрфейс для прагляду і налады мноства параметраў">
@@ -11,12 +12,11 @@
 <!ENTITY about.cache.disk.tooltip "Паказаць элементы кэша на дыску">
 <!ENTITY about.cache.memory.tooltip "Паказаць элементы кэша ў памяці">
 <!ENTITY about.cache.offline.tooltip "List offline cache entries">
-<!ENTITY about.crashes.tooltip "Shows submitted crash reports">
 <!ENTITY about.buildconfig.tooltip "Паказаць аргументы і параметры, скарыстаныя пры кампіляцыі зборкі">
 <!ENTITY about.about.tooltip "Паказаць інфармацыю аб версіі праграмы і аўтарскіх правах">
-<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
 <!ENTITY about.credits.tooltip "Паказаць спіс тых людзей, якія садзейнічалі праектам Pale Moon">
 <!ENTITY about.license.tooltip "Адкрыць Mozilla Public License">
 <!ENTITY about.mozilla.tooltip "Паказаць урывак з Кнігі Mozilla">
-<!ENTITY about.palemoon.tooltip "Shows an excerpt from the Chronicles of the Pale Moon">
 <!ENTITY tools.remlast.label "Запамінаць змесціва бакавой панэлі, адлюстраванае ў апошні раз">
+<!ENTITY tools.linked.label "Open links in current tab">
+<!ENTITY tools.syncscroll.label "Synchronize Scrolling">

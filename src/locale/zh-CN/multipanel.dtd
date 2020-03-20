@@ -14,11 +14,9 @@
 <!ENTITY about.cache.offline.tooltip "列出离线缓存记录">
 <!ENTITY about.buildconfig.tooltip "显示使用的编译参数和选项">
 <!ENTITY about.about.tooltip "显示版本与版权信息">
-<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
 <!ENTITY about.credits.tooltip "显示所有 Pale Moon 贡献者的名单">
 <!ENTITY about.license.tooltip "显示 Mozilla 公共许可证">
 <!ENTITY about.mozilla.tooltip "显示《Mozilla：作为纪念》页面">
-<!ENTITY about.palemoon.tooltip "显示一份《Pale Moon 编年史》摘录">
 <!ENTITY tools.remlast.label "记住上一次显示的内容">
 <!ENTITY tools.linked.label "使用当前标签页打开链接">
 <!ENTITY tools.syncscroll.label "同步滚动">

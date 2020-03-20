@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "Închide automat celelalte dosare">
 <!ENTITY enable.scrollToFolder.label "Defilează automat prin dosarul selectat">
 <!ENTITY enable.rememberFolder.label "Memorează și reselectează ultimul dosar selectat">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">

@@ -15,6 +15,7 @@
 <!ENTITY about5.name "Forum - Hata raporları, düzeltmeler diğer konular">
 <!ENTITY about6.name "Değişiklikler - Sürümlerde yapılan değişiklikler">
 <!ENTITY about7.name "Yapılacaklar - Yapılması düşünülen yenilikler">
+<!ENTITY about8.name "Help with translation">
 <!ENTITY contrib.desc "Kod desteği ve yaptıkları öneriler ile aşağıdaki ismi geçen herkese teşekkür ederim:">
 <!ENTITY contrib.thanks "Tüm kullanıcılara,gelitirmede yardım etmiş ve test etmiş herkese teşekkürler.Hataları forumda bildirin,fikirlerinizi ve görmek istediklerinizi paylaşın.Kimler güzel yorumlar yazdıysa :-) Çok çok teşekkürler!">
 <!ENTITY trans.desc "Classic Sidebar çeviricileri (Dil kodlarıyla alfabedik sırada)">

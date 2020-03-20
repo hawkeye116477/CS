@@ -2,7 +2,6 @@
 <!ENTITY restart "Muudatuste rakendamiseks vajalik brauseri taaskäivitamine">
 <!ENTITY settings "Seaded">
 <!ENTITY settings.default "Taasta vaikesätted …">
-<!ENTITY settings.advanced "Edasijõudnutele">
 <!ENTITY settings.import "Impordi seaded …">
 <!ENTITY settings.export "Ekspordi seaded …">
 <!ENTITY settings.copy "Kopeeri seaded lõikelauale">
@@ -16,7 +15,6 @@
 <!ENTITY tab.panels "Paneelid">
 <!ENTITY tab.panels.places "Järjehoidjad/Ajalugu">
 <!ENTITY tab.panels.other1 "Muud I">
-<!ENTITY tab.panels.other2 "Muud II">
 <!ENTITY tab.panels.paneltab "Paneeli tab">
 <!ENTITY tab.menus "Menüüd">
 <!ENTITY tab.menus.sidebar "Külgpaan">
@@ -45,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Ava külgpaan (Külgpaani vahetaja, Näita/Peida nupp, Otsetee)">
 <!ENTITY gen.init.sidebar.restore "Taasta salvestatud paneel">
 <!ENTITY gen.switch.autoshow "Näita/Peida külgpaan automaatselt (hiire kontakt klõpsu asemel)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Ainult kui brauser täissuuruses või täisekraanil">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Viivitus">
 <!ENTITY gen.switch.delayUnit "millisekundit">
 <!ENTITY gen.switch.hide "Peida külgpaan kui hiire kursor …">
 <!ENTITY gen.switch.hideBar "liigub tagasi veebilehele">
 <!ENTITY gen.switch.hidePage "peatub külgpaani vahetajal">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Võimalda õhuke külgpaani vahetaja">
 <!ENTITY gen.switch.width "Külgpaani vahetaja laius">
 <!ENTITY gen.switch.twidth "Õhukese külgpaani vahetaja laius">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Näita/Peida külgpaan">
 <!ENTITY cmode.desc "Kohanda erinevate külgpaani avamise-sulgemise viiside mõju külgpaani osadele">
 <!ENTITY cmode.key.label "Otsetee (F4)">
@@ -70,19 +82,17 @@
 <!ENTITY keyconfig.disable "Keela">
 <!ENTITY keyconfig.reset "Lähtesta">
 <!ENTITY keyconfig.warn "Muudatused puudutavad ainult uusi aknaid">
-<!ENTITY keyconfig.onreset "Vajalik brauseri taaskäivitamine">
-<!ENTITY keyconfig.unrecognized "Tundamutu ($1)">
-<!ENTITY keyconfig.used "Seda klahvi kasutab juba: \\n\\n\\t$1\\n\\nIt aga võib siiski töötada">
 <!ENTITY menus.sidebar.desc "Kohanda “Vaata &gt; Külgpaan” menüü kirjeid ja külgpaani nuppude kontekstmenüüsid.">
 <!ENTITY menus.icons.label "Näita ikoone">
 <!ENTITY menus.entries.label "Näita kirjeid">
 <!ENTITY menus.sidebar.entrydeac "Keela aktiivse külgpaani kirje">
 <!ENTITY misc.enablesidebar.label "Ava külgpaanis">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Optimeeri kujutamist külgpaani jaoks">
-<!ENTITY misc.dm.overlay "Muuda külgpaani käitumist">
 <!ENTITY misc.dm.autoopen.label "Näita tõmbamiste külgpaani kui faili tõmmatakse">
 <!ENTITY misc.dm.autoclose.label "Sulge see, kui kõik tõmbamised on lõpetatud">
-<!ENTITY misc.colors.label "Luba hetkeseisundil põhinevad värvilised taustad">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.count.label "Näita kirjete arvu">
 <!ENTITY misc.enablelink.tooltip "Lisateabeks klõpsa siia (link KKK juurde)">
 <!ENTITY misc.paneltab.reverse "Vaheta vasak- ja keskklõpsu tegevused">

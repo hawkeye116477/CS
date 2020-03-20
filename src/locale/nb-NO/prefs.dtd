@@ -2,9 +2,9 @@
 <!ENTITY restart "Endringer krever omstart av nettleseren">
 <!ENTITY settings "Innstillinger">
 <!ENTITY settings.default "Gjenopprett standardvalg">
-<!ENTITY settings.advanced "Avansert modus">
 <!ENTITY settings.import "Imorter innstillinger…">
 <!ENTITY settings.export "Eksporter innstillinger…">
+<!ENTITY settings.copy "Copy Settings to Clipboard">
 <!ENTITY apply "Bruk">
 <!ENTITY gen.column1 "110">
 <!ENTITY tab.gen "Generelt">
@@ -15,11 +15,11 @@
 <!ENTITY tab.panels "Paneler">
 <!ENTITY tab.panels.places "Bokmerker/Historikk">
 <!ENTITY tab.panels.other1 "Andre I">
-<!ENTITY tab.panels.other2 "Andre II">
 <!ENTITY tab.panels.paneltab "Panelfane">
 <!ENTITY tab.menus "Menyer">
 <!ENTITY tab.menus.sidebar "Sidestolpe">
 <!ENTITY tab.keys "Snarveier">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Orientering">
 <!ENTITY gen.orient.label "Vis sidestolpe på">
 <!ENTITY gen.orient.left "venstre side">
@@ -43,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Åpne sidestolpen (Sidestolpebryter, Valgknapp, Snarvei)">
 <!ENTITY gen.init.sidebar.restore "Gjenopprett lagret panel">
 <!ENTITY gen.switch.autoshow "Vis/skjul sidestolpen automatisk (musekontakt istedenfor museklikk)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Kun hvis nettleseren er maksimert eller i fullskjermmodus">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Forsinkelse">
 <!ENTITY gen.switch.delayUnit "millisekunder">
 <!ENTITY gen.switch.hide "Skjul sidestolpen hvis musepekeren…">
 <!ENTITY gen.switch.hideBar "blir flyttet tilbake til websiden">
 <!ENTITY gen.switch.hidePage "blir holdt på sidestolpebryteren">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Aktiver tynn sidestolpebryter">
 <!ENTITY gen.switch.width "Bredden til sidestolpebryteren">
 <!ENTITY gen.switch.twidth "Bredden til den tynne sidestolpebryteren">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Håndter sidestolpe">
 <!ENTITY cmode.desc "Tilpass elementene som skal berøres hvis sidestolpen blir åpnet eller lukket med forskjellig metoder.">
 <!ENTITY cmode.key.label "Snarvei (F4)">
@@ -68,16 +82,17 @@
 <!ENTITY keyconfig.disable "Deaktiver">
 <!ENTITY keyconfig.reset "Nullstill">
 <!ENTITY keyconfig.warn "Endringer vil kun ha virkning på nye vinduer">
-<!ENTITY keyconfig.onreset "Nettleseren må omstartes">
-<!ENTITY keyconfig.unrecognized "Ukjent (&amp;1)">
-<!ENTITY keyconfig.used "Denne nøkkelen brukes allerede av: \\n\\n\\t$1\\n\\nVil kanskje virke…">
 <!ENTITY menus.sidebar.desc "Tilpass elementene i menyen “Vis &gt; Sidestolpe” og i rullegardinmenyene i sidestolpevalgene.">
 <!ENTITY menus.icons.label "Vis ikoner">
 <!ENTITY menus.entries.label "Vis elementer">
 <!ENTITY menus.sidebar.entrydeac "Deaktiver elementer på den aktive sidestolpen">
 <!ENTITY misc.enablesidebar.label "Åpne i sidestolpen">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Forbedre sidestolpens utseende">
-<!ENTITY misc.colors.label "Aktiver farget bakgrunn basert på nåværende tilstand">
+<!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
+<!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.count.label "Vis nummer på elementene">
 <!ENTITY misc.enablelink.tooltip "Klikk her for mer informasjon (lenke til FAQ&apos;s)">
 <!ENTITY misc.paneltab.reverse "Bytt venstreklikk og midtklikk handling">

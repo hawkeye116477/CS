@@ -2,9 +2,12 @@
 <!ENTITY settings "Indstillinger…">
 <!ENTITY close "Luk">
 <!ENTITY tab.about "Om">
+<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "Bidragydere">
 <!ENTITY tab.trans "Oversættere">
+<!ENTITY about.desc "Classic Sidebar lets you open various windows as sidebar panels, and quickly switch between them. So it put an end to the window chaos! In addition to bookmarks and history it opens dialogs such as downloads, add-ons and more in the sidebar.">
 <!ENTITY create.desc "Created by hawkeye116477, forked from The Good 'ol Sidebar, which was forked from the now discontinued All-in-One Sidebar created by Ingo Wennemaring.">
+<!ENTITY help.desc "You will find many information about this add-on on the website:">
 <!ENTITY about1.name "Hjemmeside - mange informationer i en side">
 <!ENTITY about2.name "Faciliteter - alle Alt-I-En Sidebjælkens faciliteter">
 <!ENTITY about3.name "OSS - Ofte stillede spørgsmål og svar">
@@ -12,6 +15,7 @@
 <!ENTITY about5.name "Forum - diskussioner, fejlrapporter og tema-rettelser blandt andre ting">
 <!ENTITY about6.name "Ændringslog - historik og ændringer">
 <!ENTITY about7.name "Skal-gøres - planlagte features og forbedringer">
+<!ENTITY about8.name "Help with translation">
 <!ENTITY contrib.desc "Tak til følgende udviklere for inspiration og kodestumper (alfabetisk orden):">
 <!ENTITY contrib.thanks "Sidst men ikke mindst, en stor tak til alle brugere der har hjulpet med test af udviklingsversioner, fejlrapporteret i forummet, delt deres idéer og forslag eller blot skrevet en venlig hilsen. :-) Mange tak!">
 <!ENTITY trans.desc "Oversætterne af Alt-I-En Sidebjælke (alfabetisk orden efter sprogakronym):">

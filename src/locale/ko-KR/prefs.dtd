@@ -2,7 +2,6 @@
 <!ENTITY restart "브라우저를 다시 시작해야 적용됩니다.">
 <!ENTITY settings "설정">
 <!ENTITY settings.default "기본값으로 되돌리기…">
-<!ENTITY settings.advanced "고급 기능 쓰기">
 <!ENTITY settings.import "설정 가져오기…">
 <!ENTITY settings.export "설정 내보내기…">
 <!ENTITY settings.copy "설정을 클립보드에 복사하기">
@@ -16,11 +15,11 @@
 <!ENTITY tab.panels "패널">
 <!ENTITY tab.panels.places "북마크/방문 기록">
 <!ENTITY tab.panels.other1 "기타 1">
-<!ENTITY tab.panels.other2 "기타 2">
 <!ENTITY tab.panels.paneltab "패널탭">
 <!ENTITY tab.menus "메뉴">
 <!ENTITY tab.menus.sidebar "탐색 창">
 <!ENTITY tab.keys "단축키">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "위치">
 <!ENTITY gen.orient.label "탐색 창을">
 <!ENTITY gen.orient.left "왼쪽에 표시">
@@ -44,15 +43,29 @@
 <!ENTITY gen.init.sidebar "탐색 창 열기 (탐색 창 스위치, 토글 버튼, 단축키)">
 <!ENTITY gen.init.sidebar.restore "이전 패널로 되돌리기">
 <!ENTITY gen.switch.autoshow "탐색 창을 자동으로 보이기/숨기기 (마우스 클릭 대신 마우스 접촉으로)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "브라우저 창이 최대화 상태이거나 전체화면 상태일 때만">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "지연 시간">
 <!ENTITY gen.switch.delayUnit "밀리초">
 <!ENTITY gen.switch.hide "탐색 창을 숨길 때 마우스 커서를…">
 <!ENTITY gen.switch.hideBar "웹페이지로 옮기기">
 <!ENTITY gen.switch.hidePage "탐색 창 스위치 위에 두기">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "얇은 탐색 창 스위치 쓰기">
 <!ENTITY gen.switch.width "탐색 창 스위치의 너비">
 <!ENTITY gen.switch.twidth "얇은 탐색 창 스위치의 너비">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "탐색창 토글">
 <!ENTITY cmode.desc "다양한 방법으로 탐색 창을 열거나 닫을 때 함께 열리거나 닫힐 것들을 설정하십시오.">
 <!ENTITY cmode.key.label "단축키(F4)">
@@ -69,19 +82,17 @@
 <!ENTITY keyconfig.disable "안 쓰기">
 <!ENTITY keyconfig.reset "초기화">
 <!ENTITY keyconfig.warn "바뀐 사항은 새 창에서부터 적용됩니다.">
-<!ENTITY keyconfig.onreset "브라우저를 다시 시작해야 합니다.">
-<!ENTITY keyconfig.unrecognized "인식되지 않음 ($1)">
-<!ENTITY keyconfig.used "이 키는 \\n\\n\\t$1이\\n\\n쓰고 있으므로 동작하지 않을듯합니다.">
 <!ENTITY menus.sidebar.desc "\'보기 &gt; 탐색 창\' 메뉴의 항목들과 탐색 창 버튼의 내리펼침 메뉴의 항목들을 설정하세요.">
 <!ENTITY menus.icons.label "아이콘 보이기">
 <!ENTITY menus.entries.label "목록 보이기">
 <!ENTITY menus.sidebar.entrydeac "역동적인 탐색 창 목록을 안 쓰기">
 <!ENTITY misc.enablesidebar.label "탐색 창 안에 열기">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "탐색 창에 알맞은 모양으로 바꾸기">
-<!ENTITY misc.dm.overlay "탐색 창의 동작에 관한 설정을 변경">
 <!ENTITY misc.dm.autoopen.label "파일을 다운로드할 때 다운로드 탐색 창 보이기">
 <!ENTITY misc.dm.autoclose.label "다운로드가 모두 끝나면 탐색 창을 닫기">
-<!ENTITY misc.colors.label "현재 상태를 기초로 한 색깔있는 배경 쓰기">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.count.label "항목의 수 보이기">
 <!ENTITY misc.enablelink.tooltip "더 많은 정보를 보려면 여기를 클릭하십시오 (FAQ로 가는 링크)">
 <!ENTITY misc.paneltab.reverse "왼쪽 클릭과 가운데 클릭의 동작을 서로 바꾸기">

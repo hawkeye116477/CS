@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "Fechar automaticamente outras pastas">
 <!ENTITY enable.scrollToFolder.label "Rolar automaticamente para pasta seleccionada">
 <!ENTITY enable.rememberFolder.label "Lembrar e focar última pasta seleccionada">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">

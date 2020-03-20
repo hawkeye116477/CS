@@ -14,11 +14,9 @@
 <!ENTITY about.cache.offline.tooltip "Список хранящихся элементов кэша">
 <!ENTITY about.buildconfig.tooltip "Показать аргументы и параметры, использованные при компиляции сборки">
 <!ENTITY about.about.tooltip "Показать информацию о версии программы и авторских правах">
-<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
 <!ENTITY about.credits.tooltip "Показать список тех людей, которые содействовали проектам Pale Moon">
 <!ENTITY about.license.tooltip "Открыть Mozilla Public License">
 <!ENTITY about.mozilla.tooltip "Показывает страницу Mozilla: In Memoriam">
-<!ENTITY about.palemoon.tooltip "Показывает отрывок из хроники Pale Moon">
 <!ENTITY tools.remlast.label "Запоминать содержимое боковой панели, отображённое в последний раз">
 <!ENTITY tools.linked.label "Открыть ссылки на текущей вкладке">
 <!ENTITY tools.syncscroll.label "Synchronize Scrolling">

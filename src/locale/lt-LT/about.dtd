@@ -2,9 +2,12 @@
 <!ENTITY settings "Nustatymai…">
 <!ENTITY close "Užverti">
 <!ENTITY tab.about "Apie">
+<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "Pagalbininkai">
 <!ENTITY tab.trans "Vertėjai">
+<!ENTITY about.desc "Classic Sidebar lets you open various windows as sidebar panels, and quickly switch between them. So it put an end to the window chaos! In addition to bookmarks and history it opens dialogs such as downloads, add-ons and more in the sidebar.">
 <!ENTITY create.desc "Created by hawkeye116477, forked from The Good 'ol Sidebar, which was forked from the now discontinued All-in-One Sidebar created by Ingo Wennemaring.">
+<!ENTITY help.desc "You will find many information about this add-on on the website:">
 <!ENTITY about1.name "Pradžios tinklalapis - daug informacijos">
 <!ENTITY about2.name "Savybės - visos „Classic Sidebar“ savybės">
 <!ENTITY about3.name "DUK - dažnai užduodami klausimai ir atsakymai">
@@ -12,6 +15,7 @@
 <!ENTITY about5.name "Forumas - diskusijos, pranešimai apie klaidas, grafinių apvalkalų pataisymai ir t.t.">
 <!ENTITY about6.name "Pakeitimų sąrašas - istorija ir pakeitimai">
 <!ENTITY about7.name "To-do - planuojamos savybės bei patobulinimai">
+<!ENTITY about8.name "Help with translation">
 <!ENTITY contrib.desc "Dėkoju šiems žmonėms už įkvėpimą ir kodo fragmentus (abėcėlės tvarka):">
 <!ENTITY contrib.thanks "Taip pat dėkoju visiems, padėjusiems testuoti priedą, pranešusiems apie klaidas forume, besidalijusiems savo idėjomis ir pasiūlymais ar tiesiog rašiusiems gražius komentarus. :-) Labai ačiū Jums!">
 <!ENTITY trans.desc "„Classic Sidebar“ vertėjai (abėcėlės tvarka pagal kalbos trumpinį):">

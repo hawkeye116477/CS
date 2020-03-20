@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "Αυτόματη σύμπτυξη των άλλων καταλόγων">
 <!ENTITY enable.scrollToFolder.label "Αυτόματη κύλιση στον επιλεγμένο κατάλογο">
 <!ENTITY enable.rememberFolder.label "Διατήρηση και εστίαση στον πιο πρόσφατα επιλεγμένο κατάλογο">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">

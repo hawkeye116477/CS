@@ -2,7 +2,6 @@
 <!ENTITY restart "Requer reinicialização do navegador">
 <!ENTITY settings "Definições">
 <!ENTITY settings.default "Restaurar Pré-definições">
-<!ENTITY settings.advanced "Modo Avançado">
 <!ENTITY settings.import "Importar Definições">
 <!ENTITY settings.export "Exportar Definições">
 <!ENTITY settings.copy "A copiar definições para o clipboard">
@@ -16,7 +15,6 @@
 <!ENTITY tab.panels "Painéis">
 <!ENTITY tab.panels.places "Marcadores/Histórico">
 <!ENTITY tab.panels.other1 "Outro I">
-<!ENTITY tab.panels.other2 "Outro II">
 <!ENTITY tab.panels.paneltab "Painel do Separador">
 <!ENTITY tab.menus "Menus">
 <!ENTITY tab.menus.sidebar "Barra Lateral">
@@ -45,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Abrir Barra lateral">
 <!ENTITY gen.init.sidebar.restore "Recuperar o Painel Memorizado">
 <!ENTITY gen.switch.autoshow "Mostrar/Esconder a barra lateral automaticamente (contacto do rato em vez de clique com o rato)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Apenas se o navegador estiver Maximizado ou em modo de Ecrã Completo">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Atraso">
 <!ENTITY gen.switch.delayUnit "milissegundos">
 <!ENTITY gen.switch.hide "Esconder a barra lateral se o cursor do rato…">
 <!ENTITY gen.switch.hideBar "é movido de novo para a página web">
 <!ENTITY gen.switch.hidePage "está no Switch da Barra lateral">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Activar o Switch fino da Barra lateral">
 <!ENTITY gen.switch.width "Largura do Switch da Barra lateral">
 <!ENTITY gen.switch.twidth "Largura do Switch fino da barra lateral">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Trocar da barra lateral">
 <!ENTITY cmode.desc "Informe quais elementos devem ser afectados ao se abrir ou fechar a barra lateral de formas diferentes.">
 <!ENTITY cmode.key.label "Atalho (F4)">
@@ -70,19 +82,17 @@
 <!ENTITY keyconfig.disable "Desactivar">
 <!ENTITY keyconfig.reset "Repor">
 <!ENTITY keyconfig.warn "As mudanças afectam somente novas janelas,">
-<!ENTITY keyconfig.onreset "Reinicie o navegador">
-<!ENTITY keyconfig.unrecognized "Não reconhecido ($1)">
-<!ENTITY keyconfig.used "Esta tecla já está sendo usada por:\\n\\n\\t$1. No entanto pode funcionar.">
 <!ENTITY menus.sidebar.desc "Personalize as opções no menu &quot;Mostrar &gt; Barra Lateral&quot;; e no menu suspenso dos botões da barra lateral.">
 <!ENTITY menus.icons.label "Mostrar ícones">
 <!ENTITY menus.entries.label "Mostrar opções">
 <!ENTITY menus.sidebar.entrydeac "Desactivar a opção da barra lateral activa no menu">
 <!ENTITY misc.enablesidebar.label "Abrir na barra lateral">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Optimizar o esquema para a barra lateral">
-<!ENTITY misc.dm.overlay "Mudar opções para o comportamento da barra lateral">
 <!ENTITY misc.dm.autoopen.label "Mostra a barra lateral de transferências ao transferir um ficheiro">
 <!ENTITY misc.dm.autoclose.label "Fechar quando todas as transferências trminarem">
-<!ENTITY misc.colors.label "Activar cores de fundo baseado no estado actual">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.count.label "Mostrar o número de itens">
 <!ENTITY misc.enablelink.tooltip "Clique aqui para mais informação (ligação para a FAQ)">
 <!ENTITY misc.paneltab.reverse "Swap das Acções clique-esquerdo e meio-clique">

@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "Mbylli Automatikisht Dosjet Tjera">
 <!ENTITY enable.scrollToFolder.label "Rrotullo automatikisht për tek Dosja e parazgjedhur">
 <!ENTITY enable.rememberFolder.label "Mbaje mend dhe fokusohu tek dosja e fundit">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">

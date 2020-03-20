@@ -15,6 +15,7 @@
 <!ENTITY about5.name "Forum - discussions, rapports de bogue, comment installer un thème, entre autres.">
 <!ENTITY about6.name "Journal des changements - historique et modifications">
 <!ENTITY about7.name "Tâches - fonctionnalités à venir et améliorations.">
+<!ENTITY about8.name "Help with translation">
 <!ENTITY contrib.desc "Je remercie les développeurs qui suivent de m'avoir inspiré et prêté leur code :">
 <!ENTITY contrib.thanks "Et enfin, je remercie tous les utilisateurs qui ont aidé à tester les versions en développement, rapporté des bogues, partagé idées et suggestions, ou qui ont un écrit un commentaire sympa :-). Merci beaucoup !">
 <!ENTITY trans.desc "Les traducteurs d'Classic Sidebar (par ordre alphabétique d'abréviation de langue) :">

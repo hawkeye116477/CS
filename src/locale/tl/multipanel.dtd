@@ -14,11 +14,9 @@
 <!ENTITY about.cache.offline.tooltip "Inililista ang mga tala ng offline cache">
 <!ENTITY about.buildconfig.tooltip "Ipinapakita ang mga argumento at mga opsiyon na ginamit sa pag-compile nitong browser">
 <!ENTITY about.about.tooltip "Ipinapakita ang impormasyon tungkol sa bersiyon at karapatang-sipi">
-<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
 <!ENTITY about.credits.tooltip "Ipinapakita ang listahan ng mga nag-ambag sa Pale Moon">
 <!ENTITY about.license.tooltip "Ipinapakita ang Mozilla Public License">
 <!ENTITY about.mozilla.tooltip "Ipinapakita ang Mozilla: In Memoriam na pahina">
-<!ENTITY about.palemoon.tooltip "Ipinapakita ng sipi mula sa Chronicles of the Pale Moon">
 <!ENTITY tools.remlast.label "Tandaan ang huling ipinakitang nilalaman">
 <!ENTITY tools.linked.label "Buksan ang mga kawing sa kasalukuyang tab">
 <!ENTITY tools.syncscroll.label "Synchronize Scrolling">

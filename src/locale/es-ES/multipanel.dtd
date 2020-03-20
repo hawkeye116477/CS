@@ -14,11 +14,9 @@
 <!ENTITY about.cache.offline.tooltip "Listar las entradas de la caché sin conexión">
 <!ENTITY about.buildconfig.tooltip "Mostrar los parámetros y opciones que se usaron para compilar la versión que se está usando">
 <!ENTITY about.about.tooltip "Mostrar información de la versión e información de copyright">
-<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
 <!ENTITY about.credits.tooltip "Mostrar una lista de todos los colaboradores de Pale Moon">
 <!ENTITY about.license.tooltip "Mostrar la licencia pública de Mozilla">
 <!ENTITY about.mozilla.tooltip "Mostrar la página de Mozilla: In Memoriam">
-<!ENTITY about.palemoon.tooltip "Mostrar un extracto de las Crónicas de la Pale Moon">
 <!ENTITY tools.remlast.label "Recordar el último contenido mostrado">
 <!ENTITY tools.linked.label "Open links in current tab">
 <!ENTITY tools.syncscroll.label "Synchronize Scrolling">

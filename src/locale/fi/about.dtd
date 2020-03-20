@@ -2,10 +2,12 @@
 <!ENTITY settings "Asetukset…">
 <!ENTITY close "Sulje">
 <!ENTITY tab.about "Tietoa">
+<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "Kehittäjät">
 <!ENTITY tab.trans "Kääntäjät">
 <!ENTITY about.desc "CS -sivupalkki mahdollistaa erinäisten ikkunoitten avaamisen paneeleina sivupalkissa ja nopean siirtymisen niiden välillä. Se on siis piste ikkunakaaokselle! Kirjanmerkkien ja sivuhistorian lisäksi voidaan avata esimerkiksi lataukset ja laajennukset ikkuna.">
 <!ENTITY create.desc "Created by hawkeye116477, forked from The Good 'ol Sidebar, which was forked from the now discontinued All-in-One Sidebar created by Ingo Wennemaring.">
+<!ENTITY help.desc "You will find many information about this add-on on the website:">
 <!ENTITY about1.name "Kotisivu - paljon tietoa yhdessä paikassa">
 <!ENTITY about2.name "Ominaisuudet - kaikki Classic Sidebarin ominaisuudet">
 <!ENTITY about3.name "UKK - usein kysyttyjä kysymyksiä ja vastauksia">
@@ -13,6 +15,7 @@
 <!ENTITY about5.name "Foorumi - keskusteluja, vika raportteja, ja teema korjauksia muitten asioiden lisäksi">
 <!ENTITY about6.name "Muutosloki - historia ja muutokset">
 <!ENTITY about7.name "Tehtävänä - suunnitellut ominaisuudet ja parannukset">
+<!ENTITY about8.name "Help with translation">
 <!ENTITY contrib.desc "Kiitän seuraavia ohjemoijia innoituksesta ja tilkuista [aakkos järjestys]:">
 <!ENTITY contrib.thanks "Viimeisenä muttei vähäisimpinä kiitän kaikkia käyttäjiä jotka auttoivat testaamalla kehitysversioita, vikojen raportoinnista foorumilla, ideoittensa jakamisesta tai mukavien kommenttien kirjoittamisesta :-) Kiitos paljon teille!">
 <!ENTITY trans.desc "Classic Sidebarin kääntäjät [aakkosjärjestyksessä kieli koodin mukaan]">

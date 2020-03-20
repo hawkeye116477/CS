@@ -2,7 +2,6 @@
 <!ENTITY restart "Veranderingen hebben een herstart van de browser nodig">
 <!ENTITY settings "Instellingen">
 <!ENTITY settings.default "Standaardinstellingen herstellen…">
-<!ENTITY settings.advanced "Geavanceerde modus">
 <!ENTITY settings.import "Instellingen importeren…">
 <!ENTITY settings.export "Instellingen exporteren…">
 <!ENTITY settings.copy "Instellingen naar klembord kopiëren">
@@ -16,7 +15,6 @@
 <!ENTITY tab.panels "Panelen">
 <!ENTITY tab.panels.places "Bladwijzers/Geschiedenis">
 <!ENTITY tab.panels.other1 "Overige I">
-<!ENTITY tab.panels.other2 "Overige II">
 <!ENTITY tab.panels.paneltab "Paneeltabblad">
 <!ENTITY tab.menus "Menu’s">
 <!ENTITY tab.menus.sidebar "Zijbalk">
@@ -45,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Zijbalk openen (Zijbalkwisselaar, wisselknop, sneltoets)">
 <!ENTITY gen.init.sidebar.restore "Het onthouden paneel herstellen">
 <!ENTITY gen.switch.autoshow "De zijbalk automatisch tonen/verbergen (muiscontact in plaats van muisklik)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Alleen als de browser gemaximaliseerd of in volledig-schermmodus is">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Vertraging">
 <!ENTITY gen.switch.delayUnit "milliseconden">
 <!ENTITY gen.switch.hide "De zijbalk verbergen als de muiscursor…">
 <!ENTITY gen.switch.hideBar "terugbewogen wordt naar de webpagina">
 <!ENTITY gen.switch.hidePage "op de zijbalkwisselaar wordt gehouden">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Dunne zijbalkwisselaar inschakelen">
 <!ENTITY gen.switch.width "Breedte van de zijbalkwisselaar">
 <!ENTITY gen.switch.twidth "Breedte van de dunne zijbalkwisselaar">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Zijbalk openen/sluiten">
 <!ENTITY cmode.desc "Aanpassen welke elementen beïnvloed moeten worden als de zijbalk geopend of gesloten wordt via verschillende methodes.">
 <!ENTITY cmode.key.label "Sneltoets (F4)">
@@ -70,19 +82,17 @@
 <!ENTITY keyconfig.disable "Uitschakelen">
 <!ENTITY keyconfig.reset "Herinitialiseren">
 <!ENTITY keyconfig.warn "Veranderingen alleen bij nieuwe vensters">
-<!ENTITY keyconfig.onreset "Herstart van de browser is noodzakelijk">
-<!ENTITY keyconfig.unrecognized "Niet herkend ($1)">
-<!ENTITY keyconfig.used "Deze toets wordt al gebruikt door: \\n\\n\\t$1\\n\\nZou eventueel wel kunnen werken.">
 <!ENTITY menus.sidebar.desc "De items in het menu “Beeld &gt; Zijbalk” aanpassen en de keuzemenu&apos;s van de zijbalkknoppen.">
 <!ENTITY menus.icons.label "Pictogrammen tonen">
 <!ENTITY menus.entries.label "Items tonen">
 <!ENTITY menus.sidebar.entrydeac "Alle items van de actieve zijbalk uitschakelen">
 <!ENTITY misc.enablesidebar.label "In de zijbalk openen">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Layout voor de zijbalk optimaliseren">
-<!ENTITY misc.dm.overlay "Opties veranderen voor zijbalkgedrag">
 <!ENTITY misc.dm.autoopen.label "Downloadzijbalk tonen tijdens het downloaden van een bestand">
 <!ENTITY misc.dm.autoclose.label "Sluiten wanneer alle downloads klaar zijn">
-<!ENTITY misc.colors.label "Gekleurde achtergronden gebaseerd op de huidige toestand inschakelen">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.count.label "Aantal items tonen">
 <!ENTITY misc.enablelink.tooltip "Klik hier voor meer informatie (koppeling naar de FAQ&apos;s)">
 <!ENTITY misc.paneltab.reverse "Linker- en middelklikacties omwisselen">

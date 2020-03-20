@@ -3,6 +3,9 @@
 <!ENTITY menu.togglebar.label "Prepínač zobrazenia bočného panela">
 <!ENTITY menu.grippy.label "Zobraziť tlačidlá na skrývanie bočného panela">
 <!ENTITY toolbar.name "Lišta Classic Sidebar">
+<!ENTITY toolbar.label "Classic Sidebar">
+<!ENTITY sbhtoolbar.name "Sidebar Header Toolbar">
+<!ENTITY sbhtoolbar.label "Sidebar Header">
 <!ENTITY button.toggle.label "CS">
 <!ENTITY button.toggle.tooltip "Zobraziť/Skryť elementy kontrolované Classic Sidebar">
 <!ENTITY button.switch.tooltip1 "Skryť bočný panel a panel s nástrojmi">
@@ -32,6 +35,7 @@
 <!ENTITY button.multipanel.label "Rozšírené možnosti">
 <!ENTITY button.multipanel.tooltip "Zobraziť stránku, zdrojový kód a informácie prehliadača">
 <!ENTITY button.pageinfo.tooltip "Zobraziť informácie, formuláre, odkazy, médiá a informácie o zabezpečení">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -40,6 +44,7 @@
 <!ENTITY keys.addons "A">
 <!ENTITY keys.multipanel "M">
 <!ENTITY keys.pageinfo "P">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "Vľavo pri bočnom paneli">
 <!ENTITY toolbar.pos.sidebarright.label "Vpravo pri bočnom paneli">
 <!ENTITY toolbar.pos.sidebartop.label "Nad bočným panelom">

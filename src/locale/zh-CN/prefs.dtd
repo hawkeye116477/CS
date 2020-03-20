@@ -93,7 +93,6 @@
 <!ENTITY misc.dm.autoclose.label "下载完成时关闭下载侧栏">
 <!ENTITY misc.dm.shading.label "根据状态对下载列表中的项目进行着色">
 <!ENTITY misc.em.oninstall.label "安装扩展时显示扩展侧栏">
-<!ENTITY misc.colors.label "基于当前状态启用彩色背景">
 <!ENTITY misc.count.label "显示项目数量">
 <!ENTITY misc.enablelink.tooltip "点击这里获得更多信息">
 <!ENTITY misc.paneltab.reverse "交换左键与右键的功能">

@@ -2,9 +2,9 @@
 <!ENTITY restart "Pakeitimams reikia perleisti naršyklę">
 <!ENTITY settings "Nustatymai">
 <!ENTITY settings.default "Atstatyti numatytąsias reikšmes…">
-<!ENTITY settings.advanced "Sudėtingesnis režimas">
 <!ENTITY settings.import "Importuoti nustatymus…">
 <!ENTITY settings.export "Eksportuoti nustatymus…">
+<!ENTITY settings.copy "Copy Settings to Clipboard">
 <!ENTITY apply "Pritaikyti">
 <!ENTITY gen.column1 "110">
 <!ENTITY tab.gen "Bendra">
@@ -15,11 +15,11 @@
 <!ENTITY tab.panels "Skydeliai">
 <!ENTITY tab.panels.places "Žymelės/Istorija">
 <!ENTITY tab.panels.other1 "Kita 1">
-<!ENTITY tab.panels.other2 "Kita 2">
 <!ENTITY tab.panels.paneltab "Skydelio kortelė">
 <!ENTITY tab.menus "Meniu">
 <!ENTITY tab.menus.sidebar "Parankinė">
 <!ENTITY tab.keys "Trumpiniai">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Orientacija">
 <!ENTITY gen.orient.label "Rodyti parankinę">
 <!ENTITY gen.orient.left "kairėje pusėje">
@@ -43,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Atverti parankinę (Parankinės perjungiklis, perjungimo mygtukas, nuoroda)">
 <!ENTITY gen.init.sidebar.restore "Atkurti įsimintą skydelį">
 <!ENTITY gen.switch.autoshow "Automatiškai rodyti/slėpti parankinę (pelės užvedimas vietoj spragtelėjimo)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Tik jei naršyklė išdidintu ar viso ekrano režimu">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Delsa">
 <!ENTITY gen.switch.delayUnit "milisekundžių">
 <!ENTITY gen.switch.hide "Paslėpti parankinę, kai pelės žymeklis…">
 <!ENTITY gen.switch.hideBar "perkeltas atgal į tinklalapį">
 <!ENTITY gen.switch.hidePage "yra laikomas virš parankinės perjungiklio">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Įjungti ploną parankinės perjungiklį">
 <!ENTITY gen.switch.width "Parankinės perjungiklio plotis">
 <!ENTITY gen.switch.twidth "Plono parankinės perjungiklio plotis">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Rodyti/slėpti parankinę">
 <!ENTITY cmode.desc "Prisitaikykite, kurie elementai bus paliesti skirtingais būdais atveriant ar užveriant parankinę.">
 <!ENTITY cmode.key.label "Trumpinys (F4)">
@@ -68,16 +82,17 @@
 <!ENTITY keyconfig.disable "Išjungti">
 <!ENTITY keyconfig.reset "Atstatyti">
 <!ENTITY keyconfig.warn "Pakeitimai įsigalios tik naujiems langams">
-<!ENTITY keyconfig.onreset "Reikia iš naujo paleisti naršyklę">
-<!ENTITY keyconfig.unrecognized "Neatpažinta ($1)">
-<!ENTITY keyconfig.used "Spartieji klavišai jau naudojami šiam veiksmui: \\n\\n\\t$1\\n\\nTačiau tai vistiek gali veikti.">
 <!ENTITY menus.sidebar.desc "Prisitaikykite „Rodinys &gt; Parankinė“ ir kontekstinius parankinės mygtukų meniu įrašus.">
 <!ENTITY menus.icons.label "Rodyti piktogramas">
 <!ENTITY menus.entries.label "Rodyti įrašus">
 <!ENTITY menus.sidebar.entrydeac "Išjungti aktyvios parankinės įrašą">
 <!ENTITY misc.enablesidebar.label "Atverti parankinėje">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Optimizuoti parankinės išdėstymą">
-<!ENTITY misc.colors.label "Įjungti spalvotus fonus pagal dabartinę būseną">
+<!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
+<!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.count.label "Rodyti elementų skaičių">
 <!ENTITY misc.enablelink.tooltip "Spragtelkite čia norėdami gauti daugiau informacijos (nuoroda į DUK)">
 <!ENTITY misc.paneltab.reverse "Swap Left-click and Middle-click Actions">

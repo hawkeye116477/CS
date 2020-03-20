@@ -2,6 +2,7 @@
 <!ENTITY page.tooltip "Отвара страницу у овом панелу">
 <!ENTITY page.ssr.label "Приказивање малог екрана">
 <!ENTITY page.ssr100.label "Прилагоди ширини бочне траке">
+<!ENTITY page.viewsource.label "View Page Source of Current Tab">
 <!ENTITY about.label "about:">
 <!ENTITY about.tooltip "Приказује различите информације о претраживачу">
 <!ENTITY about.config.tooltip "Приказује изглед за прегледање и подешавање великог броја променљивих">
@@ -11,12 +12,11 @@
 <!ENTITY about.cache.disk.tooltip "Приказује појединачне уносе на диску">
 <!ENTITY about.cache.memory.tooltip "Приказује појединачне уносе у меморији">
 <!ENTITY about.cache.offline.tooltip "Листање уноса о кешу ван мреже">
-<!ENTITY about.crashes.tooltip "Приказивање послатих извештаја о проблемима">
 <!ENTITY about.buildconfig.tooltip "Приказује параметре и поставке коришћене приликом састављања издања које се користи">
 <!ENTITY about.about.tooltip "Приказује информације о издању и ауторским правима">
-<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
-<!ENTITY about.credits.tooltip "Shows a list of all those who contributed to Pale Moon">
+<!ENTITY about.credits.tooltip "Shows a list of all those who contributed to Mozilla">
 <!ENTITY about.license.tooltip "Приказује Мозилин уговор о лиценци">
 <!ENTITY about.mozilla.tooltip "Shows the Mozilla: In Memoriam page">
-<!ENTITY about.palemoon.tooltip "Shows an excerpt from the Chronicles of the Pale Moon">
 <!ENTITY tools.remlast.label "Запамти последњи приказани садржај">
+<!ENTITY tools.linked.label "Open links in current tab">
+<!ENTITY tools.syncscroll.label "Synchronize Scrolling">

@@ -3,7 +3,11 @@
 <!ENTITY menu.togglebar.label "Přepínač zobrazení postranních lišt">
 <!ENTITY menu.grippy.label "Táhlo postranních lišt">
 <!ENTITY toolbar.name "Lišta rozšíření „Classic Sidebar“">
+<!ENTITY toolbar.label "Classic Sidebar">
+<!ENTITY sbhtoolbar.name "Sidebar Header Toolbar">
+<!ENTITY sbhtoolbar.label "Sidebar Header">
 <!ENTITY button.toggle.label "CS">
+<!ENTITY button.toggle.tooltip "Toggle elements controlled by Classic Sidebar">
 <!ENTITY button.switch.tooltip1 "Přepínač zobrazení postranního panelu a nástrojové lišty">
 <!ENTITY button.switch.tooltip2 "Přepínač zobrazení nástrojové lišty">
 <!ENTITY button.switch.tooltip3 "Přepínač zobrazení postranního panelu">
@@ -31,6 +35,7 @@
 <!ENTITY button.multipanel.label "MultiPanel">
 <!ENTITY button.multipanel.tooltip "Zobrazí např. stránku, zdrojový kód a informace o prohlížeči">
 <!ENTITY button.pageinfo.tooltip "Zobrazí obecné informace o stránce, formuláře, odkazy, média a informace o zabezpečení">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -39,6 +44,7 @@
 <!ENTITY keys.addons "A">
 <!ENTITY keys.multipanel "M">
 <!ENTITY keys.pageinfo "P">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "Vlevo při postranní liště">
 <!ENTITY toolbar.pos.sidebarright.label "Vpravo při postranní liště">
 <!ENTITY toolbar.pos.sidebartop.label "Nad postranní lištou">

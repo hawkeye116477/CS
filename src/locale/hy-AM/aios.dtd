@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Կողավահանակի Փոխանջատիչ">
 <!ENTITY menu.grippy.label "Կողավահանակի բռնակ">
 <!ENTITY toolbar.name "Classic Sidebar Գործիքաշար">
+<!ENTITY toolbar.label "Classic Sidebar">
 <!ENTITY sbhtoolbar.name "Կողավահանակի վերնագրի Գործիքաշար">
+<!ENTITY sbhtoolbar.label "Sidebar Header">
 <!ENTITY button.toggle.label "CS">
 <!ENTITY button.toggle.tooltip "Փոխանջատել">
 <!ENTITY button.switch.tooltip1 "Կողավահանակը և Գործիքաշարը">
@@ -33,6 +35,7 @@
 <!ENTITY button.multipanel.label "ԲազմաՎահանակ">
 <!ENTITY button.multipanel.tooltip "Ցույց տալ էջը, նրա կոդը և հատկությունները">
 <!ENTITY button.pageinfo.tooltip "Ցույց մանրամասն տեղեկություն էջի մասին">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -41,6 +44,7 @@
 <!ENTITY keys.addons "A">
 <!ENTITY keys.multipanel "M">
 <!ENTITY keys.pageinfo "P">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "Ձախից">
 <!ENTITY toolbar.pos.sidebarright.label "Աջից">
 <!ENTITY toolbar.pos.sidebartop.label "Վերևում">

@@ -2,9 +2,9 @@
 <!ENTITY restart "Vyžaduje restart prohlížeče">
 <!ENTITY settings "Nastavení">
 <!ENTITY settings.default "Obnovit výchozí nastavení…">
-<!ENTITY settings.advanced "Zpřístupnit více možností nastavení">
 <!ENTITY settings.import "Importovat nastavení…">
 <!ENTITY settings.export "Exportovat nastavení…">
+<!ENTITY settings.copy "Copy Settings to Clipboard">
 <!ENTITY apply "Použít">
 <!ENTITY gen.column1 "140">
 <!ENTITY tab.gen "Obecné">
@@ -13,12 +13,13 @@
 <!ENTITY tab.gen.fullscreen "Celoobrazovkový režim">
 <!ENTITY tab.gen.special "Speciality">
 <!ENTITY tab.panels "Panely">
+<!ENTITY tab.panels.places "Bookmarks/History">
 <!ENTITY tab.panels.other1 "Další I.">
-<!ENTITY tab.panels.other2 "Další II.">
 <!ENTITY tab.panels.paneltab "Otevřít postranní lištu v panelu">
 <!ENTITY tab.menus "Nabídky">
 <!ENTITY tab.menus.sidebar "Nabídky nástrojových lišt">
 <!ENTITY tab.keys "Klávesové zkratky">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Umístění">
 <!ENTITY gen.orient.label "Zobrazovat postranní lišty">
 <!ENTITY gen.orient.left "vlevo">
@@ -42,15 +43,30 @@
 <!ENTITY gen.init.sidebar "Otevřít postranní lištu">
 <!ENTITY gen.init.sidebar.restore "Obnovit zapamatovaný panel">
 <!ENTITY gen.switch.autoshow "Zobrazovat/skrývat postranní lištu automaticky">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Pouze je-li prohlížeč maximalizován nebo v celoobrazovkovém režimu">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Zpoždění">
 <!ENTITY gen.switch.delayUnit "milisekund">
 <!ENTITY gen.switch.hide "Skrýt postranní lištu pokud kurzor myši…">
 <!ENTITY gen.switch.hideBar "přesune zpět nad stránku">
 <!ENTITY gen.switch.hidePage "zastaví nad přepínačem postranní lišty">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Zúžit přepínač postranní lišty">
 <!ENTITY gen.switch.width "Šířka přepínaše postranní lišty">
 <!ENTITY gen.switch.twidth "Šířka zúženého přepínače postranní lišty">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
+<!ENTITY cmode.caption "Toggle Sidebar">
 <!ENTITY cmode.desc "Zvolte prvky, které budou spolu s postranními lištami skrývány či zobrazovány v závislosti na způsobu jakým byla daná operace vyvolána.">
 <!ENTITY cmode.key.label "Klávesová zkratka (F4)">
 <!ENTITY cmode.tbb.label "CS tlačítko">
@@ -66,16 +82,17 @@
 <!ENTITY keyconfig.disable "Deaktivovat">
 <!ENTITY keyconfig.reset "Výchozí">
 <!ENTITY keyconfig.warn "Změny se projeví až v nově otevřených oknech">
-<!ENTITY keyconfig.onreset "Vyžaduje restart prohlížeče">
-<!ENTITY keyconfig.unrecognized "Nerozpoznáno ($1)">
-<!ENTITY keyconfig.used "Tato klávesová zkratka je už použita pro: \\n\\n\\t$1">
 <!ENTITY menus.sidebar.desc "Nastavení položek v nabídce „Zobrazit &gt; Nástrojové lišty“ a v místních nabídkách nástrojových lišt.">
 <!ENTITY menus.icons.label "Zobrazit ikony">
 <!ENTITY menus.entries.label "Zobrazit položky">
 <!ENTITY menus.sidebar.entrydeac "Potlačit položku právě zobrazené postranní lišty">
 <!ENTITY misc.enablesidebar.label "Otevřít v postranní liště">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Přizpůsobit rozvržení postranní liště">
-<!ENTITY misc.colors.label "Povolit barevné pozadí odpovídající současnému stavu">
+<!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
+<!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.count.label "Zobrazit počet položek">
 <!ENTITY misc.enablelink.tooltip "Pro zobrazení dalších informací klepněte zde (odkaz na FAQ)">
 <!ENTITY misc.paneltab.reverse "Zaměnit akce pro levé a pravé tlačítko myši">

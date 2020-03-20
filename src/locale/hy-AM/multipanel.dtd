@@ -2,6 +2,7 @@
 <!ENTITY page.tooltip "Բացել էջը այս վահանակում">
 <!ENTITY page.ssr.label "Փոքր էջ">
 <!ENTITY page.ssr100.label "Հարմարեցնել վահանակի լայնությանը">
+<!ENTITY page.viewsource.label "View Page Source of Current Tab">
 <!ENTITY about.label "about:">
 <!ENTITY about.tooltip "Ցույց է տալիս ծրագրի մասին տարբեր տեղեկություն">
 <!ENTITY about.config.tooltip "Ցույց տալ բոլոր նախընտրանքների ուղղակի փոփոխման ինտերֆեյսը">
@@ -11,12 +12,11 @@
 <!ENTITY about.cache.disk.tooltip "Ցույց տալ միայն դիսկի քեշը">
 <!ENTITY about.cache.memory.tooltip "Ցույց տալ միայն հիշողության քեշը">
 <!ENTITY about.cache.offline.tooltip "Ցույց տալ քեշում եղածը">
-<!ENTITY about.crashes.tooltip "Ցույց տալ սխալների ընդունված զեկույցները">
 <!ENTITY about.buildconfig.tooltip "Ցույց տալ ծրագրի կառուցման արգումենտները և նախընտրանքները">
 <!ENTITY about.about.tooltip "Ցույց տալ տարբերակը և հեղինակային իրավունքները">
-<!ENTITY about.robots.tooltip "Գխկ!Կլաատու բարադա գիկու!">
-<!ENTITY about.credits.tooltip "Shows a list of all those who contributed to Pale Moon">
+<!ENTITY about.credits.tooltip "Shows a list of all those who contributed to Mozilla">
 <!ENTITY about.license.tooltip "Ցույց տալ Mozilla Public License-ը">
 <!ENTITY about.mozilla.tooltip "Shows the Mozilla: In Memoriam page">
-<!ENTITY about.palemoon.tooltip "Shows an excerpt from the Chronicles of the Pale Moon">
 <!ENTITY tools.remlast.label "Հիշել վերջին ցուցադրված պարունակությունը">
+<!ENTITY tools.linked.label "Open links in current tab">
+<!ENTITY tools.syncscroll.label "Synchronize Scrolling">

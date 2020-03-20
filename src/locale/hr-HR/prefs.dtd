@@ -2,9 +2,9 @@
 <!ENTITY restart "Promjene zahtijevaju ponovno pokretanje preglednika">
 <!ENTITY settings "Postavke">
 <!ENTITY settings.default "Vrati zadano…">
-<!ENTITY settings.advanced "Napredni mod">
 <!ENTITY settings.import "Uvezi postavke…">
 <!ENTITY settings.export "Izvezi postavke…">
+<!ENTITY settings.copy "Copy Settings to Clipboard">
 <!ENTITY apply "Primijeni">
 <!ENTITY gen.column1 "110">
 <!ENTITY tab.gen "Općenito">
@@ -13,12 +13,13 @@
 <!ENTITY tab.gen.fullscreen "Mod cijelog ekrana">
 <!ENTITY tab.gen.special "Posebno">
 <!ENTITY tab.panels "Panoi">
+<!ENTITY tab.panels.places "Bookmarks/History">
 <!ENTITY tab.panels.other1 "Ostalo I">
-<!ENTITY tab.panels.other2 "Ostalo II">
 <!ENTITY tab.panels.paneltab "Kartica panoa">
 <!ENTITY tab.menus "Izbornici">
 <!ENTITY tab.menus.sidebar "Rubni stupac">
 <!ENTITY tab.keys "Kratice">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Orijentacija">
 <!ENTITY gen.orient.label "Prikaži rubni stupac na">
 <!ENTITY gen.orient.left "lijevoj strani">
@@ -42,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Otvori rubni stupac (Preklopnik rubnog stupca, Gumb promjene, Kratica)">
 <!ENTITY gen.init.sidebar.restore "Vrati zapamćeni pano">
 <!ENTITY gen.switch.autoshow "Automatski prikaži/sakrij rubni stupac (dodirivanje mišem umjesto klika)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Samo ako je preglednik maksimiziran ili u modu cijelog ekrana">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Odgoda">
 <!ENTITY gen.switch.delayUnit "milisekundi">
 <!ENTITY gen.switch.hide "Sakrij rubni stupac ako pokazivač miša…">
 <!ENTITY gen.switch.hideBar "je pomaknut natrag na web stranicu">
 <!ENTITY gen.switch.hidePage "se drži na preklopniku rubnog stupca">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Omogući tanak preklopnik rubnog stupca">
 <!ENTITY gen.switch.width "Širina preklopnika rubnog stupca">
 <!ENTITY gen.switch.twidth "Širina tankog preklopnika rubnog stupca">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Promijeni rubni stupac">
 <!ENTITY cmode.desc "Prilagodi koji su elementi obuhvaćeni otvaranjem ili zatvaranjem rubnog stupca s drugačijim metodama.">
 <!ENTITY cmode.key.label "Kratica (F4)">
@@ -67,16 +82,17 @@
 <!ENTITY keyconfig.disable "Onemogući">
 <!ENTITY keyconfig.reset "Vrati izvorno">
 <!ENTITY keyconfig.warn "Promjene obuhvaćaju samo nove prozore">
-<!ENTITY keyconfig.onreset "Potrebno je ponovno pokretanje preglednika">
-<!ENTITY keyconfig.unrecognized "Neprepoznatljivo ($1)">
-<!ENTITY keyconfig.used "Ova tipka se već koristi od strane: \\n\\n\\t$1\\n\\nMoguće je da će raditi, iako…">
 <!ENTITY menus.sidebar.desc "Prilagodi unose u izborniku “Pogled &gt; Rubni stupac” i padajućim izbornicima gumba rubnog stupca">
 <!ENTITY menus.icons.label "Prikaži ikone">
 <!ENTITY menus.entries.label "Prikaži unose">
 <!ENTITY menus.sidebar.entrydeac "Onemogući unos aktivnog rubnog stupca">
 <!ENTITY misc.enablesidebar.label "Otvori u rubnom stupcu">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Optimiziraj izgled rubnog stupca">
-<!ENTITY misc.colors.label "Omogući pozadine u boji zasnovane na trenutnom stanju">
+<!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
+<!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.count.label "Prikaži brojeve stavki">
 <!ENTITY misc.enablelink.tooltip "Kliknite ovdje za više informacija (poveznica na FAQ)">
 <!ENTITY misc.paneltab.reverse "Promijeni akcije lijevog i desnog klika">

@@ -3,6 +3,9 @@
 <!ENTITY menu.togglebar.label "Prebacivanje rubnog stupca">
 <!ENTITY menu.grippy.label "Sidebar Grippy">
 <!ENTITY toolbar.name "Classic Sidebar alatna traka">
+<!ENTITY toolbar.label "Classic Sidebar">
+<!ENTITY sbhtoolbar.name "Sidebar Header Toolbar">
+<!ENTITY sbhtoolbar.label "Sidebar Header">
 <!ENTITY button.toggle.label "CS">
 <!ENTITY button.toggle.tooltip "Promijeni elemente koje kontrolira Classic Sidebar">
 <!ENTITY button.switch.tooltip1 "Promjena rubnog stupca i alatne trake">
@@ -32,6 +35,7 @@
 <!ENTITY button.multipanel.label "Više panoa">
 <!ENTITY button.multipanel.tooltip "Prikaži npr. web stranicu, izvorni kod i informacije o pregledniku">
 <!ENTITY button.pageinfo.tooltip "Prikaz opsežnih informacija o web stranici">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -40,6 +44,7 @@
 <!ENTITY keys.addons "D">
 <!ENTITY keys.multipanel "V">
 <!ENTITY keys.pageinfo "I">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "Lijevo pored rubnog stupca">
 <!ENTITY toolbar.pos.sidebarright.label "Desno pored rubnog stupca">
 <!ENTITY toolbar.pos.sidebartop.label "Iznad rubnog stupca">

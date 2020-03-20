@@ -15,6 +15,7 @@
 <!ENTITY about5.name "Foorum - arutelud, veateated ja teemade parandused lisaks muudele asjadele">
 <!ENTITY about6.name "Muudatuste logi - ajalugu ja muudatused">
 <!ENTITY about7.name "Plaanid - plaanitavad parandused ja täiendused">
+<!ENTITY about8.name "Help with translation">
 <!ENTITY contrib.desc "Ma tänan järgnevaid arendajaid inspiratsiooni ja koodikatkete eest [tähestikulises järjekorras]:">
 <!ENTITY contrib.thanks "Tänan ka kõiki kasutajaid, kes testisid arendusversiooni, teavitasid vigadest, jagasid oma ideid ja soovitusi või kes lihtsalt kirjutasid kenasid kommentaare. :-) Suur tänu kõigile!">
 <!ENTITY trans.desc "Classic Sidebar\'i tõlked valmistasid [keelekoodi tähestikulises järjekorras]:">

@@ -35,6 +35,7 @@
 <!ENTITY button.multipanel.label "רב-לוח">
 <!ENTITY button.multipanel.tooltip "הצגת אתרים, קוד מקור ומידע על הדפדפן">
 <!ENTITY button.pageinfo.tooltip "הצגת מידע נרחב אודות אתר אינטרנט">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -43,6 +44,7 @@
 <!ENTITY keys.addons "ת">
 <!ENTITY keys.multipanel "ר">
 <!ENTITY keys.pageinfo "מ">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "שמאל לצד סרגל הצד">
 <!ENTITY toolbar.pos.sidebarright.label "ימין לצד סרגל הצד">
 <!ENTITY toolbar.pos.sidebartop.label "מעל סרגל-הצד">

@@ -15,6 +15,7 @@
 <!ENTITY about5.name "Forum - discussioni, rapporti sui bug e soluzioni per i conflitti dei temi">
 <!ENTITY about6.name "Storico - cronologia e modifiche">
 <!ENTITY about7.name "Da fare - aggiunte pianificate e miglioramenti">
+<!ENTITY about8.name "Help with translation">
 <!ENTITY contrib.desc "Si ringraziano i seguenti sviluppatori per l'ispirazione e le parti di codice (in ordine alfabetico):">
 <!ENTITY contrib.thanks "Si ringraziano infine tutti gli utilizzatori che hanno aiutato testando le versioni in via di sviluppo, riportando i bug nel forum, condividendo le loro idee ed i loro suggerimenti o scrivendo giusto un commento carino :-). Molte grazie!">
 <!ENTITY trans.desc "I traduttori di AiOS e CS (in ordine alfabetico per sigla della lingua):">

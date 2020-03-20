@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "Stäng övriga mappar automatiskt">
 <!ENTITY enable.scrollToFolder.label "Rulla automatiskt till vald mapp">
 <!ENTITY enable.rememberFolder.label "Kom ihåg samt fokusera på senast vald mapp">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">

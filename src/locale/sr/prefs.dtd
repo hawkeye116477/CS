@@ -2,7 +2,6 @@
 <!ENTITY restart "Потребно је да поново покрене прегледач">
 <!ENTITY settings "Подешавања">
 <!ENTITY settings.default "Врати почетна подешавања…">
-<!ENTITY settings.advanced "Напредни начин рада">
 <!ENTITY settings.import "Увези подешавања…">
 <!ENTITY settings.export "Извези подешавања…">
 <!ENTITY settings.copy "Копирај подешавања у оставу">
@@ -16,7 +15,6 @@
 <!ENTITY tab.panels "Панели">
 <!ENTITY tab.panels.places "Забелешке/Историјат">
 <!ENTITY tab.panels.other1 "Остало I">
-<!ENTITY tab.panels.other2 "Остало II">
 <!ENTITY tab.panels.paneltab "Језичак панела">
 <!ENTITY tab.menus "Менији">
 <!ENTITY tab.menus.sidebar "Бочна трака">
@@ -45,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Отвори бочну траку (укључивање/искључивање бочне траке, измена дугмади, пречице)">
 <!ENTITY gen.init.sidebar.restore "Врати запамћени панел">
 <!ENTITY gen.switch.autoshow "Аутоматски прикажи/сакриј бочну траку (прелаз мишем уместо клика)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Само ако је прегледач увећан или је преко целог екрана">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Одложи">
 <!ENTITY gen.switch.delayUnit "милисекунди">
 <!ENTITY gen.switch.hide "Сакриј бочну траку ако показивач миша…">
 <!ENTITY gen.switch.hideBar "је померен назад на страницу">
 <!ENTITY gen.switch.hidePage "се држи на прекидачу бочне траке">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Омогући мали прекидач бочне траке">
 <!ENTITY gen.switch.width "Ширина прекидача бочне траке">
 <!ENTITY gen.switch.twidth "Ширина малог прекидача бочне траке">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Промени бочну траку">
 <!ENTITY cmode.desc "Прилагоди које елементе треба обухватити приликом отварања или затварања бочне траке са различитим поступцима.">
 <!ENTITY cmode.key.label "Пречица (F4)">
@@ -70,19 +82,17 @@
 <!ENTITY keyconfig.disable "Онемогући">
 <!ENTITY keyconfig.reset "Поништи">
 <!ENTITY keyconfig.warn "Промене утичу само на нове прозоре">
-<!ENTITY keyconfig.onreset "Потребно је поново покренути претраживач">
-<!ENTITY keyconfig.unrecognized "Непрепознатљиво ($1)">
-<!ENTITY keyconfig.used "Овај кључ се користи од стране: \\n\\n\\t$1\\n\\nМогуће да ће радити, иако…">
 <!ENTITY menus.sidebar.desc "Прилагоди уносе у менију „Преглед &gt; Бочна трака” и падајућим менијима на дугмадима бочне траке.">
 <!ENTITY menus.icons.label "Прикажи иконе">
 <!ENTITY menus.entries.label "Прикажи уносе">
 <!ENTITY menus.sidebar.entrydeac "Онемогући унос активне бочне траке">
 <!ENTITY misc.enablesidebar.label "Отвори у бочној траци">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Побољшај изглед бочне траке">
-<!ENTITY misc.dm.overlay "Измените опције за понашање бочне траке">
 <!ENTITY misc.dm.autoopen.label "Прикажи бочну траку са преузимањима приликом преузимања датотека">
 <!ENTITY misc.dm.autoclose.label "Затвори је је када се сва преузимања заврше">
-<!ENTITY misc.colors.label "Омогући позадине у боји засноване на тренутном стању">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.count.label "Прикажи бројеве ставки">
 <!ENTITY misc.enablelink.tooltip "Кликните овде за више информација (веза према НПП)">
 <!ENTITY misc.paneltab.reverse "Замени улоге левог и средњег клика">

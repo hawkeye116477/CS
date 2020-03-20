@@ -15,6 +15,7 @@
 <!ENTITY about5.name "Foros - discusiones, reporte de fallas, ajustes entre otras cosas">
 <!ENTITY about6.name "Registro de Cambios - Historial de modificaciones">
 <!ENTITY about7.name "To-do - Características y mejoras planeadas">
+<!ENTITY about8.name "Help with translation">
 <!ENTITY contrib.desc "Quiero agradecer a los siguientes desarrolladores por su inspiración y contribución de porciones de código (en orden alfabético):">
 <!ENTITY contrib.thanks "Por último, pero no menos, doy las gracias a todos aquellos usuarios que ayudaron probando las versiones de desarrollo, informando de fallas en el foro, compartiendo sus ideas y sugerencias o a quienes escribieron al menos un comentario agradable. :-) Muchísimas Gracias!">
 <!ENTITY trans.desc "Los traductores de AiOS y CS (en orden alfabético de los acronismos de idioma):">

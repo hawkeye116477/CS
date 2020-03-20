@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Διακόπτης πλευρικής στήλης">
 <!ENTITY menu.grippy.label "Λαβή πλευρικής στήλης">
 <!ENTITY toolbar.name "Εργαλειοθήκη Classic Sidebar">
+<!ENTITY toolbar.label "Classic Sidebar">
 <!ENTITY sbhtoolbar.name "Εργαλειοθήκη κεφαλίδας πλευρικής στήλης">
+<!ENTITY sbhtoolbar.label "Sidebar Header">
 <!ENTITY button.toggle.label "CS">
 <!ENTITY button.toggle.tooltip "Εναλλαγή κατάστασης των στοιχείων που διαμορφώνει το Classic Sidebar">
 <!ENTITY button.switch.tooltip1 "Εναλλαγή πλευρικής στήλης και εργαλειοθήκης">
@@ -33,6 +35,7 @@
 <!ENTITY button.multipanel.label "Πολύπλευρο πλαίσιο">
 <!ENTITY button.multipanel.tooltip "Εμφάνιση ιστοσελίδων και πληροφοριών περιηγητή">
 <!ENTITY button.pageinfo.tooltip "Εμφάνιση περισσότερων πληροφοριών για ιστοσελίδες">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -41,6 +44,7 @@
 <!ENTITY keys.addons "Π">
 <!ENTITY keys.multipanel "M">
 <!ENTITY keys.pageinfo "P">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "Αριστερά από την πλευρική στήλη">
 <!ENTITY toolbar.pos.sidebarright.label "Δεξιά από την πλευρική στήλη">
 <!ENTITY toolbar.pos.sidebartop.label "Πάνω από την πλευρική στήλη">

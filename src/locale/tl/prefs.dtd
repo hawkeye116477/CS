@@ -93,7 +93,6 @@
 <!ENTITY misc.dm.autoclose.label "Isara ito kapag natapos na ang lahat ng idino-download">
 <!ENTITY misc.dm.shading.label "Markahan ang mga bagay sa listahan ng mga download ayon sa kanilang estado">
 <!ENTITY misc.em.oninstall.label "Ipakita ang sidebar ng Add-on kapag nag-iinstall ng add-on">
-<!ENTITY misc.colors.label "Markahan ang background ng mga bagay ayon sa kanilang estado">
 <!ENTITY misc.count.label "Ipakita ang Bilang ng mga Item">
 <!ENTITY misc.enablelink.tooltip "Mag-click dito para sa karagdagang impormasyon (link sa mga FAQ)">
 <!ENTITY misc.paneltab.reverse "Pagpalitin ang mga Aksiyon ng Kaliwang-click at Gitnang-click">

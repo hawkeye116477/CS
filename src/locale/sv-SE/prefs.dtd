@@ -2,7 +2,6 @@
 <!ENTITY restart "Ändringarna kräver en omstart av webbläsaren">
 <!ENTITY settings "Inställningar">
 <!ENTITY settings.default "Återställ förinställda val…">
-<!ENTITY settings.advanced "Avancerat läge">
 <!ENTITY settings.import "Importera inställningar…">
 <!ENTITY settings.export "Exportera inställningar…">
 <!ENTITY settings.copy "Kopiera inställningar till urklipp">
@@ -16,7 +15,6 @@
 <!ENTITY tab.panels "Paneler">
 <!ENTITY tab.panels.places "Bokmärken/Historik">
 <!ENTITY tab.panels.other1 "Övrigt 1">
-<!ENTITY tab.panels.other2 "Övrigt 2">
 <!ENTITY tab.panels.paneltab "Panel-Flik">
 <!ENTITY tab.menus "Menyer">
 <!ENTITY tab.menus.sidebar "Sidopanel">
@@ -45,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Öppna sidopanel (sidopanelsomkopplare, omkopplare, genväg)">
 <!ENTITY gen.init.sidebar.restore "Återställ senaste panel">
 <!ENTITY gen.switch.autoshow "Visa/dölj sidopanel automatiskt (muskontakt istället för klick)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Endast om webbläsarfönstret är maximerat eller i fullskärmsläge">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Fördröjning">
 <!ENTITY gen.switch.delayUnit "millisekunder">
 <!ENTITY gen.switch.hide "Dölj sidopanelen om musen…">
 <!ENTITY gen.switch.hideBar "flyttas tillbaka till webbsidan">
 <!ENTITY gen.switch.hidePage "hålls ovanpå sidopanelsomkopplaren">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Aktivera tunn sidopanelsomkopplare">
 <!ENTITY gen.switch.width "Sidopanelsomkopplarens bredd">
 <!ENTITY gen.switch.twidth "Sidopanelsomkopplarens bredd (tunn vald)">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Aktivering av sidopanelen">
 <!ENTITY cmode.desc "Välj vilka objekt som ska påverkas av de olika sätten att öppna och stänga sidopanelen.">
 <!ENTITY cmode.key.label "Genväg (F4)">
@@ -70,19 +82,17 @@
 <!ENTITY keyconfig.disable "Inaktivera">
 <!ENTITY keyconfig.reset "Återställ">
 <!ENTITY keyconfig.warn "Ändringarna påverkar endast nya fönster">
-<!ENTITY keyconfig.onreset "Webbläsaren måste startas om">
-<!ENTITY keyconfig.unrecognized "Okänd ($1)">
-<!ENTITY keyconfig.used "Denna tangent används redan av: \\n\\n\\t$1\\n\\nDet kan kanske fungera ändå.">
 <!ENTITY menus.sidebar.desc "Anpassa menyvalen i “Visa &gt; Sidopanel” och i sidopanelknapparnas menyer.">
 <!ENTITY menus.icons.label "Visa ikoner">
 <!ENTITY menus.entries.label "Visa menyval">
 <!ENTITY menus.sidebar.entrydeac "Ta bort menyvalet för den aktiva panelen">
 <!ENTITY misc.enablesidebar.label "Öppna i sidopanelen">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Optimering av sidopanelen">
-<!ENTITY misc.dm.overlay "Ändra inställningar för sidopanelens beteende">
 <!ENTITY misc.dm.autoopen.label "Visa filhämtningssidopanelen när en fil hämtas">
 <!ENTITY misc.dm.autoclose.label "Stäng den när alla hämtningar är slutförda">
-<!ENTITY misc.colors.label "Aktivera färgbakgrund beroende på läge">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.count.label "Visa antal objekt">
 <!ENTITY misc.enablelink.tooltip "Klicka här för mera information (FAQ)">
 <!ENTITY misc.paneltab.reverse "Växla vänsterklicks- och mellanklicksfunktion">

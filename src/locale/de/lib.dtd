@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "Andere Ordner automatisch schließen">
 <!ENTITY enable.scrollToFolder.label "Automatisch zum geöffneten Ordner springen">
 <!ENTITY enable.rememberFolder.label "Zuletzt geöffneten Ordner markieren">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">

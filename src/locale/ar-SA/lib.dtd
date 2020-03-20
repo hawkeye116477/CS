@@ -1,3 +1,7 @@
+<!ENTITY leftclick "Left-click">
+<!ENTITY rightclick "Right-click">
+<!ENTITY doubleclick "Double-click">
+<!ENTITY middleclick "Middle-click">
 <!ENTITY key.ctrl "Ctrl">
 <!ENTITY key.alt "Alt">
 <!ENTITY key.shift "Shift">
@@ -7,3 +11,4 @@
 <!ENTITY enable.autoClose.label "أغلق المجلدات الأخرى آلياً">
 <!ENTITY enable.scrollToFolder.label "إنتقل إلى المجلد المختار بشكل آلي">
 <!ENTITY enable.rememberFolder.label "تذكر وركز على آخر مجلد مختار">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">

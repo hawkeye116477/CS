@@ -2,6 +2,7 @@
 <!ENTITY page.tooltip "Hape faqen në këtë panel">
 <!ENTITY page.ssr.label "Small Screen Rendering">
 <!ENTITY page.ssr100.label "Adapto në gjerësinë e shiritit anësor">
+<!ENTITY page.viewsource.label "View Page Source of Current Tab">
 <!ENTITY about.label "rreth">
 <!ENTITY about.tooltip "Shows different information about the browser">
 <!ENTITY about.config.tooltip "Shows an interface for viewing and setting a wide variety of configuration variables">
@@ -11,12 +12,11 @@
 <!ENTITY about.cache.disk.tooltip "List cache entries on disk">
 <!ENTITY about.cache.memory.tooltip "List cache entries in memory">
 <!ENTITY about.cache.offline.tooltip "List offline cache entries">
-<!ENTITY about.crashes.tooltip "Shows submitted crash reports">
 <!ENTITY about.buildconfig.tooltip "Shows the arguments and options used to compile the build in use">
 <!ENTITY about.about.tooltip "Shfaq informata mbi versionin dhe të drejtat e autorit">
-<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
 <!ENTITY about.credits.tooltip "Shfaq listën e të gjithë atyre që kontribuuan tek Pale Moon">
 <!ENTITY about.license.tooltip "Paraqit Licencën Publike të Mozilla-s">
 <!ENTITY about.mozilla.tooltip "Shows the Mozilla: In Memoriam page">
-<!ENTITY about.palemoon.tooltip "Shows an excerpt from the Chronicles of the Pale Moon">
 <!ENTITY tools.remlast.label "Mbaj mend përmbajtjen e herës së kaluar">
+<!ENTITY tools.linked.label "Open links in current tab">
+<!ENTITY tools.syncscroll.label "Synchronize Scrolling">

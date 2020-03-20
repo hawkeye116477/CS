@@ -2,6 +2,7 @@
 <!ENTITY page.tooltip "Ava veebileht selles paanis">
 <!ENTITY page.ssr.label "Renderdus väiksele ekraanile">
 <!ENTITY page.ssr100.label "Kohanda külgpaani laiusele">
+<!ENTITY page.viewsource.label "View Page Source of Current Tab">
 <!ENTITY about.label "teave:">
 <!ENTITY about.tooltip "Näitab infot brauseri kohta">
 <!ENTITY about.config.tooltip "Näitab seadete vaatamise ja muutmise keskkonda">
@@ -11,13 +12,11 @@
 <!ENTITY about.cache.disk.tooltip "Näitab kettal olevaid üksikkirjeid">
 <!ENTITY about.cache.memory.tooltip "Näitab vahemälus olevaid üksikkirjeid">
 <!ENTITY about.cache.offline.tooltip "Loetle lokaalse vahemälu kirjed">
-<!ENTITY about.crashes.tooltip "Näita salvestatud kirjeid kokkujooksmiste kohta">
 <!ENTITY about.buildconfig.tooltip "Näitab kasutusel oleva versiooni kompileerimisel kasutatud väärtusi ja seadeid">
 <!ENTITY about.about.tooltip "Näitab infot versiooni ja autorikaitse kohta">
-<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
 <!ENTITY about.credits.tooltip "Näitab Pale Moon arendamisse panustanute nimekirja">
 <!ENTITY about.license.tooltip "Näitab Mozilla Avalikku Litsentsi">
 <!ENTITY about.mozilla.tooltip "Shows the Mozilla: In Memoriam page">
-<!ENTITY about.palemoon.tooltip "Shows an excerpt from the Chronicles of the Pale Moon">
 <!ENTITY tools.remlast.label "Jäta viimati näidatud sisu meelde">
 <!ENTITY tools.linked.label "Open links in current tab">
+<!ENTITY tools.syncscroll.label "Synchronize Scrolling">

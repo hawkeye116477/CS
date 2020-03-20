@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Kthimi i Shiritit Anësor">
 <!ENTITY menu.grippy.label "Kapja e Shiritit Anësor">
 <!ENTITY toolbar.name "Shiriti i Mjeteve të &quot;All-in-One Shiritit Anësorë&quot;">
+<!ENTITY toolbar.label "Classic Sidebar">
 <!ENTITY sbhtoolbar.name "Shiriti i Mjeteve të shiritit anësorë në kokë">
+<!ENTITY sbhtoolbar.label "Sidebar Header">
 <!ENTITY button.toggle.label "CS">
 <!ENTITY button.toggle.tooltip "Elementet në bërryl të kontrolluara nga &quot;All-in-One Shiritit Anësor&quot;">
 <!ENTITY button.switch.tooltip1 "Shirit Mjetesh dhe Shirit Anësor në Bërryl">
@@ -33,6 +35,7 @@
 <!ENTITY button.multipanel.label "MultiPanel">
 <!ENTITY button.multipanel.tooltip "Paraqit p.sh. faqen, burimin e kodit dhe informata mbi shfletuesin">
 <!ENTITY button.pageinfo.tooltip "Paraqit informata të zgjeruara mbi faqen">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -41,6 +44,7 @@
 <!ENTITY keys.addons "A">
 <!ENTITY keys.multipanel "M">
 <!ENTITY keys.pageinfo "P">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "Majtas Shiritit Anësor">
 <!ENTITY toolbar.pos.sidebarright.label "Djathtas Shiritit Anësor">
 <!ENTITY toolbar.pos.sidebartop.label "Mbi Shiritin Anësor">

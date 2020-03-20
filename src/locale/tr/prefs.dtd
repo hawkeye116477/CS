@@ -2,7 +2,6 @@
 <!ENTITY restart "Tarayıcınızı yeniden başlatmanız gerekmektedir">
 <!ENTITY settings "Tercihler">
 <!ENTITY settings.default "Öntanımlı ayarla dön…">
-<!ENTITY settings.advanced "Gelişmiş modus">
 <!ENTITY settings.import "Tercihleri içe aktar…">
 <!ENTITY settings.export "Tercihleri dışa aktar…">
 <!ENTITY settings.copy "Ayarları Panoya Kopyala">
@@ -16,7 +15,6 @@
 <!ENTITY tab.panels "Paneller">
 <!ENTITY tab.panels.places "Yer İmleri/Geçmiş">
 <!ENTITY tab.panels.other1 "Diğer 1">
-<!ENTITY tab.panels.other2 "Diğer 2">
 <!ENTITY tab.panels.paneltab "Panel tab">
 <!ENTITY tab.menus "Menüler">
 <!ENTITY tab.menus.sidebar "Kenar çubuğu">
@@ -45,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Kenar çubuğunu aç (Kenar çubupu seçici ,buton, Kısa yollar)">
 <!ENTITY gen.init.sidebar.restore "Hatırlanan panelleri tekrar oluştur">
 <!ENTITY gen.switch.autoshow "Kenar çubugunu otomatik gizle/göster">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Sadece firefox en yüksek seviyede yada tam ekran modundayken">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Geciktirmek">
 <!ENTITY gen.switch.delayUnit "milisaniye">
 <!ENTITY gen.switch.hide "Kenar Çubuğunu gizle fare imlecinde">
 <!ENTITY gen.switch.hideBar "web sayfası geriye hareket ettiğinde">
 <!ENTITY gen.switch.hidePage "is held on the Sidebar Switch">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "İnce kenar çubuğu aktif">
 <!ENTITY gen.switch.width "kenar çubuğu genişliği">
 <!ENTITY gen.switch.twidth "İnce kenar çubuğu genişliği">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Kenar Çubuğu Düğmesi">
 <!ENTITY cmode.desc "Kenar çubuğunun farklı yöntemler ile açılıp kapanmasında hangi elementlerin etkileneceğini belirle.">
 <!ENTITY cmode.key.label "Kısayol (F4)">
@@ -70,19 +82,17 @@
 <!ENTITY keyconfig.disable "Etkisizleştir">
 <!ENTITY keyconfig.reset "Sıfırla">
 <!ENTITY keyconfig.warn "Değişiklikler tarayıcınızı tekrar başlattığınızda etkinleşir.">
-<!ENTITY keyconfig.onreset "Tarayıcının tekrar başlatılması gerekli">
-<!ENTITY keyconfig.unrecognized "Bilinmiyor ($1)">
-<!ENTITY keyconfig.used "Bu klavye kısayolları şuanda kullanılıyor: \\n\\n\\t$1\\n\\nBuna rağmen çalışabilir.">
 <!ENTITY menus.sidebar.desc "Customize the entries in the menu “View &gt; Sidebar” and in the dropdown menus of the sidebar buttons.">
 <!ENTITY menus.icons.label "Simgeleri göster">
 <!ENTITY menus.entries.label "Menü verilerini göster">
 <!ENTITY menus.sidebar.entrydeac "Kenar çubuğunun menü verilerini etkisizleştir">
 <!ENTITY misc.enablesidebar.label "Kenar çubuğunda göster">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Kenar çubuğu iyileştirmesi">
-<!ENTITY misc.dm.overlay "Kenar çubuğu davranışı için seçenekleri değiştir">
 <!ENTITY misc.dm.autoopen.label "Bir dosya indirirken İndirilenler kenar çubuğunu göster">
 <!ENTITY misc.dm.autoclose.label "Tüm indirilenler bitince kapat">
-<!ENTITY misc.colors.label "Renkli alanlar güncel durumda aktif">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.count.label "Parça numaralarını göster">
 <!ENTITY misc.enablelink.tooltip "Daha fazla bilgi için tıkla">
 <!ENTITY misc.paneltab.reverse "Sol tıklama ve orta tıklama hareketlerini değiştir">

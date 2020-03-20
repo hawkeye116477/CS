@@ -2,7 +2,6 @@
 <!ENTITY restart "A változtatások a böngésző újraindítását igénylik">
 <!ENTITY settings "Beállítások">
 <!ENTITY settings.default "Alaphelyzetbe állítás…">
-<!ENTITY settings.advanced "Haladó mód">
 <!ENTITY settings.import "Beállítások importálása…">
 <!ENTITY settings.export "Beállítások exportálása…">
 <!ENTITY settings.copy "Beállítások másolása a vágólapra">
@@ -16,7 +15,6 @@
 <!ENTITY tab.panels "Panelek">
 <!ENTITY tab.panels.places "Könyvjelzők/Előzmények">
 <!ENTITY tab.panels.other1 "Egyéb I">
-<!ENTITY tab.panels.other2 "Egyéb II">
 <!ENTITY tab.panels.paneltab "Panellap">
 <!ENTITY tab.menus "Menük">
 <!ENTITY tab.menus.sidebar "Oldalsáv">
@@ -45,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Oldalsáv megnyitása (Oldalsáv kapcsoló, Váltógomb, Parancsikon)">
 <!ENTITY gen.init.sidebar.restore "Elmentett Panel visszaállítása">
 <!ENTITY gen.switch.autoshow "Automatikusan megjeleníti/elrejti az Oldalsávot (egér kattintás helyett egér érintéssel)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Csak ha a böngésző teljes méretben fut vagy teljes képernyős üzemmódban van">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Késleltetés">
 <!ENTITY gen.switch.delayUnit "ezredmásodperc">
 <!ENTITY gen.switch.hide "Oldalsáv elrejtése ha az egérkurzor…">
 <!ENTITY gen.switch.hideBar "ismét a weboldal-terület felett van">
 <!ENTITY gen.switch.hidePage "az Oldalsáv Eszköztár felett áll">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Vékony Oldalsáv kapcsoló">
 <!ENTITY gen.switch.width "Oldalsáv Eszköztár szélessége">
 <!ENTITY gen.switch.twidth "Vékony Oldalsáv Eszköztár szélessége">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Oldalsáv váltás">
 <!ENTITY cmode.desc "Testreszabható, hogy melyik elem legyen érintett a különféle módú Oldalsáv megnyitáskor és bezáráskor.">
 <!ENTITY cmode.key.label "Gyorsbillentyű (F4)">
@@ -70,19 +82,17 @@
 <!ENTITY keyconfig.disable "Letiltás">
 <!ENTITY keyconfig.reset "Visszaállítás">
 <!ENTITY keyconfig.warn "A változtatások csak az új ablakokat érintik">
-<!ENTITY keyconfig.onreset "A böngésző újraindítását igényli">
-<!ENTITY keyconfig.unrecognized "Ismeretlen ($1)">
-<!ENTITY keyconfig.used "Ezt a billentyűkombinációt már használja a következő: \\n\\n\\t$1\\n\\nBár ettől még működhet.">
 <!ENTITY menus.sidebar.desc "Testreszabhatja az elemeket a böngésző “Nézet &gt; Oldalsáv” menüjében és az Oldalsáv gombok legördülő menüiben is.">
 <!ENTITY menus.icons.label "Ikonok megjelenítése">
 <!ENTITY menus.entries.label "Menüelemek megjelenítése">
 <!ENTITY menus.sidebar.entrydeac "A nyitott oldalsáv menüelemének kikapcsolása">
 <!ENTITY misc.enablesidebar.label "Megnyitás Oldalsávon">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Oldalsáv optimalizálása">
-<!ENTITY misc.dm.overlay "Oldalsáv viselkedésének megváltoztatása">
 <!ENTITY misc.dm.autoopen.label "Fájl letöltésekor a Letöltések oldalsáv megjelenítése">
 <!ENTITY misc.dm.autoclose.label "Letöltések befejezése után zárja be az ablakot">
-<!ENTITY misc.colors.label "Színezett hátterek engedélyezése a jelenlegi állapot alapján">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.count.label "Elemek számának megjelenítése">
 <!ENTITY misc.enablelink.tooltip "További információkért kattintson ide (Gyakran Ismételt Kérdések)">
 <!ENTITY misc.paneltab.reverse "Bal- és jobbkattintás műveleteinek felcserélése">

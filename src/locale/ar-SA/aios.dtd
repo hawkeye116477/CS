@@ -1,8 +1,11 @@
 <!ENTITY loading.label "تحميل اللوحة…">
 <!ENTITY menu.prefs.label "Classic Sidebar خيارات…">
 <!ENTITY menu.togglebar.label "تحويل الشريط الجانبي">
+<!ENTITY menu.grippy.label "Sidebar Grippy">
 <!ENTITY toolbar.name "Classic Sidebar شريط أدوات">
+<!ENTITY toolbar.label "Classic Sidebar">
 <!ENTITY sbhtoolbar.name "Sidebarheader شريط أدوات">
+<!ENTITY sbhtoolbar.label "Sidebar Header">
 <!ENTITY button.toggle.label "CS">
 <!ENTITY button.toggle.tooltip "تفعيل العناصر التي يتحكم بها Classic Sidebar">
 <!ENTITY button.switch.tooltip1 "تفعيل الشريط الجانبي وشريط الأدوات">
@@ -32,6 +35,7 @@
 <!ENTITY button.multipanel.label "لوحة ثنائية">
 <!ENTITY button.multipanel.tooltip "عرض مثال صفحة, المصدر, ومعلومات المتصفح">
 <!ENTITY button.pageinfo.tooltip "عرض معلومات واسعة عن صفحة ويب">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -40,6 +44,7 @@
 <!ENTITY keys.addons "A">
 <!ENTITY keys.multipanel "M">
 <!ENTITY keys.pageinfo "P">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "يساراً بمحاذاة شريط الأدوات">
 <!ENTITY toolbar.pos.sidebarright.label "يميناً بمحازاة الشريط الجانبي">
 <!ENTITY toolbar.pos.sidebartop.label "أعلى الشريط الجانبي">

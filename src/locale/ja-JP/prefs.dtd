@@ -2,7 +2,6 @@
 <!ENTITY restart "ブラウザ再起動後に変更されます">
 <!ENTITY settings "詳細設定">
 <!ENTITY settings.default "デフォルトに戻す">
-<!ENTITY settings.advanced "上級モード">
 <!ENTITY settings.import "設定をインポート">
 <!ENTITY settings.export "設定をエクスポート">
 <!ENTITY settings.copy "クリップボードに設定をコピー">
@@ -16,11 +15,11 @@
 <!ENTITY tab.panels "パネル">
 <!ENTITY tab.panels.places "ブックマーク/履歴">
 <!ENTITY tab.panels.other1 "その他 I">
-<!ENTITY tab.panels.other2 "その他 II">
 <!ENTITY tab.panels.paneltab "パネルタブ">
 <!ENTITY tab.menus "メニュー">
 <!ENTITY tab.menus.sidebar "サイドバー">
 <!ENTITY tab.keys "ショートカット">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "外観設定">
 <!ENTITY gen.orient.label "表示位置方向">
 <!ENTITY gen.orient.left "左側に置く">
@@ -44,15 +43,29 @@
 <!ENTITY gen.init.sidebar "サイドバーを開く (サイドバースイッチ, トグルボタン, ショートカット)">
 <!ENTITY gen.init.sidebar.restore "記憶したパネル状態に戻す">
 <!ENTITY gen.switch.autoshow "サイドバーの自動開閉を有効にする (マウスクリックの代わりにマウスフォーカスによるもの)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "ブラウザが最大表示時かフルスクリーンモード時のみ">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "遅延時間">
 <!ENTITY gen.switch.delayUnit "ミリ秒">
 <!ENTITY gen.switch.hide "以下の操作でサイドバーを非表示にする">
 <!ENTITY gen.switch.hideBar "マウスフォーカスをウェブページに戻した時">
 <!ENTITY gen.switch.hidePage "マウスフォーカスをサイドバースイッチに置いた時">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "細いサイドバースイッチを有効にする">
 <!ENTITY gen.switch.width "通常のサイドバースイッチ幅">
 <!ENTITY gen.switch.twidth "細いサイドバースイッチ幅">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "トグルサイドバー">
 <!ENTITY cmode.desc "異なる方法でサイドバーを開くか閉じた場合、選択登録した項目は影響を受けます">
 <!ENTITY cmode.key.label "ショートカット (F4)">
@@ -69,19 +82,17 @@
 <!ENTITY keyconfig.disable "無 効">
 <!ENTITY keyconfig.reset "リセット">
 <!ENTITY keyconfig.warn "新規ウィンドウで変更が反映されます">
-<!ENTITY keyconfig.onreset "ブラウザを再起動してください">
-<!ENTITY keyconfig.unrecognized "認識できません ($1)">
-<!ENTITY keyconfig.used "そのキーはすでに使われています:   \\t$1  It そのキーはまだ有効だと思われます">
 <!ENTITY menus.sidebar.desc "“ 表示 ＞ サイドバー ” メニューとサイドバーボタンのドロップダウンメニューの登録選択">
 <!ENTITY menus.icons.label "アイコンの表示">
 <!ENTITY menus.entries.label "エントリーの表示">
 <!ENTITY menus.sidebar.entrydeac "アクティブなサイドバーのエントリーを無効にする">
 <!ENTITY misc.enablesidebar.label "サイドバーで開く">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "サイドバーの最適化">
-<!ENTITY misc.dm.overlay "サイドバー機能の設定変更">
 <!ENTITY misc.dm.autoopen.label "ファイルのダウンロード時にダウンロードマネージャをサイドバーに開く">
 <!ENTITY misc.dm.autoclose.label "ダウンロード完了時にダウンロードマネージャを閉じる">
-<!ENTITY misc.colors.label "現状の背景色を有効にする">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.count.label "アイテム数の表示">
 <!ENTITY misc.enablelink.tooltip "より詳しい情報を得るにはここをクリックしてください (FAQ&apos;s にリンク)">
 <!ENTITY misc.paneltab.reverse "左クリックと中クリックの動作を入れ替える">

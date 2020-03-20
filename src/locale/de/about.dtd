@@ -15,6 +15,7 @@
 <!ENTITY about5.name "Forum - Diskussionen, Meldung von Fehlern, Theme-Kompatibilität u.a. (engl.)">
 <!ENTITY about6.name "Vergangenheit - Historie und Veränderungen (engl.)">
 <!ENTITY about7.name "Zukunft - geplante Funktionen und Verbesserungen (engl.)">
+<!ENTITY about8.name "Help with translation">
 <!ENTITY contrib.desc "Für Inspirationen und Codeschnipsel bedanke ich mich bei folgenden Entwicklern (alphabetische Reihenfolge):">
 <!ENTITY contrib.thanks "Ich möchte mich nicht zuletzt bei allen Benutzern bedanken, die die Beta-Versionen testen, die Fehler im Forum melden, mir ihre Ideen und Vorschläge mitteilen oder einfach einen netten Kommentar schreiben. :-) Vielen Dank!">
 <!ENTITY trans.desc "Die Übersetzer der Classic Sidebar (alphabetische Reihenfolge der Sprachkennung):">

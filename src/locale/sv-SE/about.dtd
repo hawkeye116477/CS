@@ -15,6 +15,7 @@
 <!ENTITY about5.name "Forum - diskussioner, felrapporter, kompatibilitetsproblem etc">
 <!ENTITY about6.name "Ändringslogg - historik och förändringar">
 <!ENTITY about7.name "Att göra - planerade funktioner och förbättringar">
+<!ENTITY about8.name "Help with translation">
 <!ENTITY contrib.desc "Jag tackar följande utvecklare för inspiration och kodsnuttar (i alfabetisk ordning):">
 <!ENTITY contrib.thanks "Till sist tackar jag alla användare som testat utvecklingsversioner, rapporterat problem i forumet samt meddelat idéer och förslag eller som bara skrivit uppmuntrande kommentarer. :) Tack så mycket!">
 <!ENTITY trans.desc "Översättare av Classic Sidebar (i alfabetisk ordning):">

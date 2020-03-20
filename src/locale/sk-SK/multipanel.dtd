@@ -2,6 +2,7 @@
 <!ENTITY page.tooltip "Otvoriť stránku v bočnom paneli">
 <!ENTITY page.ssr.label "Zobraziť zmenšenú verziu stránky">
 <!ENTITY page.ssr100.label "Prispôsobiť šírke bočného panela">
+<!ENTITY page.viewsource.label "View Page Source of Current Tab">
 <!ENTITY about.label "about:">
 <!ENTITY about.tooltip "Zobraziť rozdielne informácie o prehliadači">
 <!ENTITY about.config.tooltip "Zobraziť rozhranie pre širšie možnosti nastavenia prehliadača">
@@ -11,12 +12,11 @@
 <!ENTITY about.cache.disk.tooltip "Zobraziť informaćie o vyrovnávacej pamäti na disku">
 <!ENTITY about.cache.memory.tooltip "Zobraziť informácie o operačnej pamäti">
 <!ENTITY about.cache.offline.tooltip "List offline cache entries">
-<!ENTITY about.crashes.tooltip "Shows submitted crash reports">
 <!ENTITY about.buildconfig.tooltip "Zobraziť informácie o používanom zostavení">
 <!ENTITY about.about.tooltip "Zobraziť informácie o verzii a licencii">
-<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
 <!ENTITY about.credits.tooltip "Zobraziť zoznam všetkých, ktorí sa podieľali na vývoji Pale Moon">
 <!ENTITY about.license.tooltip "Zobraziť Mozilla Public License">
 <!ENTITY about.mozilla.tooltip "Shows the Mozilla: In Memoriam page">
-<!ENTITY about.palemoon.tooltip "Shows an excerpt from the Chronicles of the Pale Moon">
 <!ENTITY tools.remlast.label "Zapamätať posledný zobrazený obsah">
+<!ENTITY tools.linked.label "Open links in current tab">
+<!ENTITY tools.syncscroll.label "Synchronize Scrolling">

@@ -35,6 +35,7 @@
 <!ENTITY button.multipanel.label "Panelhalmozás">
 <!ENTITY button.multipanel.tooltip "Webhely, oldalforrás és böngészőinformációkat jelenít meg">
 <!ENTITY button.pageinfo.tooltip "Információk, Űrlapok, Hivatkozások, Média és Biztonság">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -43,6 +44,7 @@
 <!ENTITY keys.addons "B">
 <!ENTITY keys.multipanel "M">
 <!ENTITY keys.pageinfo "P">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "Balra az Oldalsáv mellett">
 <!ENTITY toolbar.pos.sidebarright.label "Jobbra az Oldalsáv mellett">
 <!ENTITY toolbar.pos.sidebartop.label "Oldalsáv fölé">

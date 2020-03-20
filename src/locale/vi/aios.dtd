@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Công tắc Thanh lề">
 <!ENTITY menu.grippy.label "Thanh lề Grippy">
 <!ENTITY toolbar.name "Thanh Classic Sidebar">
+<!ENTITY toolbar.label "Classic Sidebar">
 <!ENTITY sbhtoolbar.name "Thanh công cụ Đầu đề Thanh lề">
+<!ENTITY sbhtoolbar.label "Sidebar Header">
 <!ENTITY button.toggle.label "CS">
 <!ENTITY button.toggle.tooltip "Bật tắt các phần tử được Classic Sidebar điều khiển">
 <!ENTITY button.switch.tooltip1 "Bật tắt Thanh lề và Thanh công cụ">
@@ -33,6 +35,7 @@
 <!ENTITY button.multipanel.label "ĐaBảng">
 <!ENTITY button.multipanel.tooltip "Hiển thị một trang web, mã nguồn, và thông tin trình duyệt">
 <!ENTITY button.pageinfo.tooltip "Hiển thị thông tin mở rộng của một trang web">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -41,6 +44,7 @@
 <!ENTITY keys.addons "T">
 <!ENTITY keys.multipanel "B">
 <!ENTITY keys.pageinfo "M">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "Bên trái Thanh lề">
 <!ENTITY toolbar.pos.sidebarright.label "Bên phải Thanh lề">
 <!ENTITY toolbar.pos.sidebartop.label "Ở trên Thanh lề">

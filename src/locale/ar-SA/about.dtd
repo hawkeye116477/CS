@@ -2,9 +2,12 @@
 <!ENTITY settings "إعدادات…">
 <!ENTITY close "إغلاق">
 <!ENTITY tab.about "حول">
+<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "المساهمين">
 <!ENTITY tab.trans "المترجمين">
 <!ENTITY about.desc "The Classic Sidebar يمكنك من فتح نوافذ عدة كلوحة شريط جانبي, والتبديل بينهم بسرعة. بالإضافة إلى العلامات والتاريخ يمكنك من فتح نوافذ مثل التنزيلات الإضافات وأكثر في شريط جانبي.">
+<!ENTITY create.desc "Created by hawkeye116477, forked from The Good 'ol Sidebar, which was forked from the now discontinued All-in-One Sidebar created by Ingo Wennemaring.">
+<!ENTITY help.desc "You will find many information about this add-on on the website:">
 <!ENTITY about1.name "الصفحة الرئيسية - كثير من المعلومات في مكان واحد">
 <!ENTITY about2.name "المميزات - جميع مميزات Classic Sidebar">
 <!ENTITY about3.name "FAQ - الأسئلة والأجوبة الشائعة">
@@ -12,7 +15,8 @@
 <!ENTITY about5.name "المنتدى - مناقشة, إبلاغ عن أخطاء, وتعديل السمات للتطبيق">
 <!ENTITY about6.name "Changelog - التعديلات على التطبيق">
 <!ENTITY about7.name "To-do - تطويرات للبرنامج">
+<!ENTITY about8.name "Help with translation">
 <!ENTITY contrib.desc "أشكر المطورين التالين على مساعدتهم وإلهامهم [بالترتيب الأبجدي]:">
+<!ENTITY contrib.thanks "Last but not least I thank all users who helped by testing the development builds, reporting bugs in the forum, sharing their ideas and suggestions or who writes just a nice comment. :-) Thank you very much!">
 <!ENTITY trans.desc "المترجمين لـ Classic Sidebar [ترتيب أبجدي]:">
-<!ENTITY trans.ar-SA.lang "العربية">
 <!ENTITY trans.thanks "أشكر أيضا فريق BabelZilla.org لعملهم العظيم!">

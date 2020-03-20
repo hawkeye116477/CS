@@ -2,7 +2,6 @@
 <!ENTITY restart "Muutokset tulevat voimaan vasta kun selain on uudelleenkäynnistetty">
 <!ENTITY settings "Asetukset">
 <!ENTITY settings.default "Palauta oletukset…">
-<!ENTITY settings.advanced "Asiantuntija tila">
 <!ENTITY settings.import "Tuo asetukset">
 <!ENTITY settings.export "Vie asetukset">
 <!ENTITY settings.copy "Kopioi asetukset leikepöydälle">
@@ -16,11 +15,11 @@
 <!ENTITY tab.panels "Paneelit">
 <!ENTITY tab.panels.places "Kirjanmerkit/Historia">
 <!ENTITY tab.panels.other1 "Muut 1">
-<!ENTITY tab.panels.other2 "Muut 2">
 <!ENTITY tab.panels.paneltab "Paneelivälilehti">
 <!ENTITY tab.menus "Valikot">
 <!ENTITY tab.menus.sidebar "Sivupaneeli">
 <!ENTITY tab.keys "Oikotiet">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Paikoitus">
 <!ENTITY gen.orient.label "Näytä sivupaneeli">
 <!ENTITY gen.orient.left "vasemmalla puolella">
@@ -44,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Avaa sivupaneeli (sivupaneelin kytkin, tilan vaihto painike, oikotie)">
 <!ENTITY gen.init.sidebar.restore "Palauta muistettu paneeli">
 <!ENTITY gen.switch.autoshow "Näytä/piilota sivupalkki automaattisesti (hiiren kosketus hiiren napsautuksen sijaan)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Vain jos selain on suurennettu tai kokoruutu tilassa">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Viive">
 <!ENTITY gen.switch.delayUnit "millisekuntia">
 <!ENTITY gen.switch.hide "Piilota sivupaneeli jos hiiren osoitin…">
 <!ENTITY gen.switch.hideBar "siirretään takaisin sivulle">
 <!ENTITY gen.switch.hidePage "pidetään sivupaneelin kytkimen päällä">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Ota käyttöön ohut sivupaneelin kytkin">
 <!ENTITY gen.switch.width "Sivupaneelin kytkimen leveys">
 <!ENTITY gen.switch.twidth "Ohuen sivupaneelin kytkimen leveys">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Kytke sivupaneeli">
 <!ENTITY cmode.desc "Määrää mihin elementteihin pitäisi olla vaikutusta sivupaneelin avaamisella ja sulkemisella eri tavoilla.">
 <!ENTITY cmode.key.label "Oikotie (F4)">
@@ -69,19 +82,17 @@
 <!ENTITY keyconfig.disable "Poista käytöstä">
 <!ENTITY keyconfig.reset "Palauta">
 <!ENTITY keyconfig.warn "Muutokset vaikuttavat ainoastaan uusiin ikkunoihin">
-<!ENTITY keyconfig.onreset "Tarvitaan selaimen uudelleenkäynnistys">
-<!ENTITY keyconfig.unrecognized "ei tunnisteta ($1)">
-<!ENTITY keyconfig.used "Tätä näppäintä käyttää jo: \\n\\n\\t$1\\n\\nIt saattaa silti tomia, ehkä.">
 <!ENTITY menus.sidebar.desc "Muokkaa valikon kohteita “Näytä &gt; Sivupaneeli” ja sivupaneelin painikkeiden pudotusvalikoissa.">
 <!ENTITY menus.icons.label "Näytä kuvakkeet">
 <!ENTITY menus.entries.label "Näytä valinnat">
 <!ENTITY menus.sidebar.entrydeac "Poista käytöstä aktiivisen sivupaneelin valinta">
 <!ENTITY misc.enablesidebar.label "Avaa sivupaneelissa">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Optimoi taitto sivupaneelille">
-<!ENTITY misc.dm.overlay "Muuta sivupalkin käyttäytymistä">
 <!ENTITY misc.dm.autoopen.label "Näytä lataussivupaneeli kun ladataan tiedostoa">
 <!ENTITY misc.dm.autoclose.label "Sulje kun lataukset ovat valmistuneet">
-<!ENTITY misc.colors.label "Ota käyttöön värilliset taustat perustuen nykyiseen tilaan">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.count.label "Näytä merkintöjen määrä">
 <!ENTITY misc.enablelink.tooltip "Napsauta täältä saadaksesi lisätietoja (linkki UKK:hon&apos;s)">
 <!ENTITY misc.paneltab.reverse "Vaihda napsautuksen ja keskinapsautuksen toiminnot keskenään">

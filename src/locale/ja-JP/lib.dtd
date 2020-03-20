@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "自動的に他のフォルダを閉じる">
 <!ENTITY enable.scrollToFolder.label "自動的に選択したフォルダにスクロール">
 <!ENTITY enable.rememberFolder.label "最後に選択したフォルダを記憶して移動">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">

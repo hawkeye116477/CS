@@ -2,7 +2,6 @@
 <!ENTITY restart "Modificările vor avea efect după repornirea navigatorului">
 <!ENTITY settings "Configurații">
 <!ENTITY settings.default "Reinițializează…">
-<!ENTITY settings.advanced "Mod complex">
 <!ENTITY settings.import "Importă configurația…">
 <!ENTITY settings.export "Exportă configurația…">
 <!ENTITY settings.copy "Copiază configurația în memoria tampon">
@@ -16,7 +15,6 @@
 <!ENTITY tab.panels "Elemente panou">
 <!ENTITY tab.panels.places "Semne de carte/Istoric">
 <!ENTITY tab.panels.other1 "Diverse I">
-<!ENTITY tab.panels.other2 "Diverse II">
 <!ENTITY tab.panels.paneltab "File în panoul lateral">
 <!ENTITY tab.menus "Meniuri">
 <!ENTITY tab.menus.sidebar "Panou lateral">
@@ -28,7 +26,7 @@
 <!ENTITY gen.orient.right "partea dreaptă">
 <!ENTITY gen.width.caption "Dimensiune">
 <!ENTITY gen.width.px "pixeli">
-<!ENTITY gen.width.perc "&#37;">
+<!ENTITY gen.width.perc "%">
 <!ENTITY gen.width.current "lățimea curentă">
 <!ENTITY gen.width.current.tip "Înregistrează lățimea curentă a panoului">
 <!ENTITY gen.width.min.hint "[Shift+dublu-clic] pe denumirea panoului">
@@ -45,15 +43,29 @@
 <!ENTITY gen.init.sidebar "Deschidere panou lateral (comutator panou, buton de comutare, taste directe)">
 <!ENTITY gen.init.sidebar.restore "Se restaurează ultimul panou afișat">
 <!ENTITY gen.switch.autoshow "Se afișează/ascunde automat panoul lateral (la trecerea cu mausul peste comutator)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Numai dacă navigatorul este maximizat sau în modul „Pe tot ecranul“">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Întârziere">
 <!ENTITY gen.switch.delayUnit "milisecunde">
 <!ENTITY gen.switch.hide "Se ascunde panoul lateral dacă cursorul mausului">
 <!ENTITY gen.switch.hideBar "este readus în pagină">
 <!ENTITY gen.switch.hidePage "este menținut peste comutator">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Se activează comutatorul subțire">
 <!ENTITY gen.switch.width "Grosime comutator standard">
 <!ENTITY gen.switch.twidth "Grosime comutator subțire">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
 <!ENTITY cmode.caption "Comutator panou lateral">
 <!ENTITY cmode.desc "Configurează modul în care în sunt afectate elementele când panoul lateral este deschis sau închis prin diferite metode.">
 <!ENTITY cmode.key.label "Tastă directă (F4)">
@@ -70,19 +82,17 @@
 <!ENTITY keyconfig.disable "Dezactivează">
 <!ENTITY keyconfig.reset "Reinițializează">
 <!ENTITY keyconfig.warn "Modificările sunt efective numai în noile ferestre.">
-<!ENTITY keyconfig.onreset "Este necesară repornirea navigatorului.">
-<!ENTITY keyconfig.unrecognized "Necunoscut ($1)">
-<!ENTITY keyconfig.used "Această tastă este deja utilizată de: \\n\\n\\t$1\\n\\nTotuși, este posibil să funcționeze.">
 <!ENTITY menus.sidebar.desc "Particularizează opțiunile meniului „Vizualizare | Bară laterală (panou lateral!)“ și ale listelor derulante aferente butoanelor panoului lateral.">
 <!ENTITY menus.icons.label "Se afișează pictogramele">
 <!ENTITY menus.entries.label "Se afișează opțiunile">
 <!ENTITY menus.sidebar.entrydeac "Se dezactivează opțiunea dacă panoul lateral este vizibil">
 <!ENTITY misc.enablesidebar.label "Se deschide în panoul lateral">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Se optimizează aspectul pentru panoul lateral">
-<!ENTITY misc.dm.overlay "Se modifică opțiunile privind comportamentul panoului lateral">
 <!ENTITY misc.dm.autoopen.label "Se afișează panoul când se descarcă un fișier">
 <!ENTITY misc.dm.autoclose.label "Se închide panoul la terminarea descărcărilor">
-<!ENTITY misc.colors.label "Se colorează fundalul pe baza stărilor curente">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.count.label "Se afișează numărul de elemente">
 <!ENTITY misc.enablelink.tooltip "Faceți clic aici pentru mai multe informații (legătură la „Întrebări și răspunsuri“)">
 <!ENTITY misc.paneltab.reverse "Se inversează acțiunile pentru clic-stânga și clic-mijloc">

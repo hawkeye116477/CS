@@ -2,9 +2,12 @@
 <!ENTITY settings "選項…">
 <!ENTITY close "關閉">
 <!ENTITY tab.about "關於">
+<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "貢獻者">
 <!ENTITY tab.trans "翻譯人員">
+<!ENTITY about.desc "Classic Sidebar lets you open various windows as sidebar panels, and quickly switch between them. So it put an end to the window chaos! In addition to bookmarks and history it opens dialogs such as downloads, add-ons and more in the sidebar.">
 <!ENTITY create.desc "Created by hawkeye116477, forked from The Good 'ol Sidebar, which was forked from the now discontinued All-in-One Sidebar created by Ingo Wennemaring.">
+<!ENTITY help.desc "You will find many information about this add-on on the website:">
 <!ENTITY about1.name "產品首頁 - 您可以在這裡找到 AIO-Sidebar 所有的相關資訊">
 <!ENTITY about2.name "軟體介紹 - Classic Sidebar 產品特色、功能的說明">
 <!ENTITY about3.name "常見問題 - 經常被詢問到的問題及其解答">
@@ -12,6 +15,7 @@
 <!ENTITY about5.name "用戶論壇 - 軟體使用相關討論、錯誤回報、佈景主題修正…">
 <!ENTITY about6.name "更新紀錄 - 各個版本間的變動、改進項目以及版本歷史">
 <!ENTITY about7.name "未來展望 - 計畫加入的新功能與改善項目">
+<!ENTITY about8.name "Help with translation">
 <!ENTITY contrib.desc "感謝下列人士的啟發與貢獻程式碼（依姓名字順序排列）：">
 <!ENTITY contrib.thanks "最後（但並非最不重要），我感謝所有協助測試開發版本的使用者，除了在論壇回報 bugs 之外，也分享他們的意見與建議（或是只寫了一些不錯的評語），總之非常感謝你們！">
 <!ENTITY trans.desc "感謝以下人士的翻譯（依語系英文字順序排列）：">

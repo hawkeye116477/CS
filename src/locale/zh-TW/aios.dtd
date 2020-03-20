@@ -3,6 +3,9 @@
 <!ENTITY menu.togglebar.label "側邊欄彈出鈕">
 <!ENTITY menu.grippy.label "側邊欄伸縮鈕">
 <!ENTITY toolbar.name "Classic Sidebar 工具列">
+<!ENTITY toolbar.label "Classic Sidebar">
+<!ENTITY sbhtoolbar.name "Sidebar Header Toolbar">
+<!ENTITY sbhtoolbar.label "Sidebar Header">
 <!ENTITY button.toggle.label "CS">
 <!ENTITY button.toggle.tooltip "由 Classic Sidebar 來控制開關">
 <!ENTITY button.switch.tooltip1 "開關側邊欄與工具列">
@@ -32,6 +35,7 @@
 <!ENTITY button.multipanel.label "多功能面板">
 <!ENTITY button.multipanel.tooltip "顯示「網頁內容、原始碼及瀏覽器資訊」">
 <!ENTITY button.pageinfo.tooltip "檢視網頁的表單、鏈結、多媒體或是安全相關資訊">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -40,6 +44,7 @@
 <!ENTITY keys.addons "A">
 <!ENTITY keys.multipanel "M">
 <!ENTITY keys.pageinfo "P">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "側邊欄左側">
 <!ENTITY toolbar.pos.sidebarright.label "側邊欄右側">
 <!ENTITY toolbar.pos.sidebartop.label "側邊欄標題上方">

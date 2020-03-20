@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "Sulje muut kansiot automaattisesti">
 <!ENTITY enable.scrollToFolder.label "Selaa automaattisesti valittuun kansioon">
 <!ENTITY enable.rememberFolder.label "Muista ja merkitse viimeinen valittu kansio">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">

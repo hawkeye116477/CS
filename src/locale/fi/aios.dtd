@@ -3,7 +3,9 @@
 <!ENTITY menu.togglebar.label "Sivupaneelin vaihto">
 <!ENTITY menu.grippy.label "Sivupaneelin kahva">
 <!ENTITY toolbar.name "Classic Sidebar työkalupalkki">
+<!ENTITY toolbar.label "Classic Sidebar">
 <!ENTITY sbhtoolbar.name "Sivupaneelin otsikkopalkki">
+<!ENTITY sbhtoolbar.label "Sidebar Header">
 <!ENTITY button.toggle.label "CS">
 <!ENTITY button.toggle.tooltip "Kytke Classic Sidebarin hallitsemat elementit">
 <!ENTITY button.switch.tooltip1 "Kytke sivupaneeli ja työkalupalkki">
@@ -33,6 +35,7 @@
 <!ENTITY button.multipanel.label "Multipaneeli">
 <!ENTITY button.multipanel.tooltip "Näytä esim. sivu, lähdekoodi ja selaintietoa">
 <!ENTITY button.pageinfo.tooltip "Näytä syventävää tietoa sivusta">
+<!ENTITY button.cookies.tooltip "Manage individual cookies">
 <!ENTITY keys.modifiers "pika Vaihto">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -41,6 +44,7 @@
 <!ENTITY keys.addons "I">
 <!ENTITY keys.multipanel "M">
 <!ENTITY keys.pageinfo "S">
+<!ENTITY keys.cookies "L">
 <!ENTITY toolbar.pos.sidebarleft.label "Vasemman puoleinen sivupaneeli">
 <!ENTITY toolbar.pos.sidebarright.label "Oikean puoleinen sivupaneeli">
 <!ENTITY toolbar.pos.sidebartop.label "Sivupaneelin yläpuolella">

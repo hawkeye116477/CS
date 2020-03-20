@@ -2,6 +2,7 @@
 <!ENTITY page.tooltip "Otevřít stránku v postranní liště">
 <!ENTITY page.ssr.label "Zobrazit zmenšenou verzi stránky">
 <!ENTITY page.ssr100.label "Přizpůsobit šířce postranní lišty">
+<!ENTITY page.viewsource.label "View Page Source of Current Tab">
 <!ENTITY about.label "about:">
 <!ENTITY about.tooltip "Zobrazí obecné informace o prohlížeči">
 <!ENTITY about.config.tooltip "Zobrazí rozhranní umožňující prohlížení a úpravu siroké škály konfiguračních proměnných">
@@ -11,12 +12,11 @@
 <!ENTITY about.cache.disk.tooltip "Zobrazí jednotlivé položky uchované ve vyrovnávací paměti na disku">
 <!ENTITY about.cache.memory.tooltip "Zobrazí jednotlivé položky uchované ve vyrovnávací paměti v operační paměti">
 <!ENTITY about.cache.offline.tooltip "List offline cache entries">
-<!ENTITY about.crashes.tooltip "Shows submitted crash reports">
 <!ENTITY about.buildconfig.tooltip "Zobrazí informace o používaném sestavení">
 <!ENTITY about.about.tooltip "Zobrazí informace o verzi a licenci">
-<!ENTITY about.robots.tooltip "Gort! Klaatu barada nikto!">
-<!ENTITY about.credits.tooltip "Shows a list of all those who contributed to Pale Moon">
+<!ENTITY about.credits.tooltip "Shows a list of all those who contributed to Mozilla">
 <!ENTITY about.license.tooltip "Zobrazí znění licence MPL (Mozilla Public License)">
 <!ENTITY about.mozilla.tooltip "Otevře stránku z fiktivní Knihy Mozilly">
-<!ENTITY about.palemoon.tooltip "Shows an excerpt from the Chronicles of the Pale Moon">
 <!ENTITY tools.remlast.label "Zapamatovat si poslední zobrazený obsah">
+<!ENTITY tools.linked.label "Open links in current tab">
+<!ENTITY tools.syncscroll.label "Synchronize Scrolling">

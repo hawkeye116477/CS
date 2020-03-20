@@ -2,9 +2,9 @@
 <!ENTITY restart "Змены патрабуюць перазагрузкі браўзэра">
 <!ENTITY settings "Налады">
 <!ENTITY settings.default "Аднавіць налады па змаўчанні…">
-<!ENTITY settings.advanced "Пашыраны рэжым">
 <!ENTITY settings.import "Імпарт налад…">
 <!ENTITY settings.export "Экспарт налад…">
+<!ENTITY settings.copy "Copy Settings to Clipboard">
 <!ENTITY apply "Ужыць">
 <!ENTITY gen.column1 "160">
 <!ENTITY tab.gen "Агульныя">
@@ -13,12 +13,13 @@
 <!ENTITY tab.gen.fullscreen "Поўнаэкранны рэжым">
 <!ENTITY tab.gen.special "Адмысловыя магчымасці">
 <!ENTITY tab.panels "Панэлі">
+<!ENTITY tab.panels.places "Bookmarks/History">
 <!ENTITY tab.panels.other1 "Дадаткова I">
-<!ENTITY tab.panels.other2 "Дадаткова II">
 <!ENTITY tab.panels.paneltab "Панэль укладак">
 <!ENTITY tab.menus "Меню">
 <!ENTITY tab.menus.sidebar "Бакавая панэль">
 <!ENTITY tab.keys "Гарачыя клавішы">
+<!ENTITY tab.about "About/Help">
 <!ENTITY gen.orient.caption "Размяшчэнне бакавой панэлі">
 <!ENTITY gen.orient.label "Адчыняць бакавую панэль">
 <!ENTITY gen.orient.left "злева">
@@ -42,18 +43,34 @@
 <!ENTITY gen.init.sidebar "Адкрыццё бакавой панэлі (Перамыкач бакавой панэлі, кнопка, гарачая клавіша)">
 <!ENTITY gen.init.sidebar.restore "Аднаўляць апошнюю скарыстаную панэль">
 <!ENTITY gen.switch.autoshow "Аўтаматычна адчыняць/зачыняць бакавую панэль (кантакт курсорам мышы замест кліку па перамыкачы)">
+<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
 <!ENTITY gen.switch.onlymax "Толькі калі браўзэр працуе ў поўнаэкранным рэжыме або акно максимизированно">
+<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
+<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
+<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
+<!ENTITY gen.switch.invmouse "Show a hand cursor">
+<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.delayshow "Show Delay">
+<!ENTITY gen.switch.delayhide "Hide Delay">
 <!ENTITY gen.switch.delay "Затрымка">
 <!ENTITY gen.switch.delayUnit "мілісекунды">
 <!ENTITY gen.switch.hide "Зачыняць бакавую панэль, калі курсор мышы…">
 <!ENTITY gen.switch.hideBar "вяртаецца на вэб-старонку">
 <!ENTITY gen.switch.hidePage "утрымліваецца на перамыкачы бакавой панэлі">
+<!ENTITY gen.switch.hideNone "don't hide automatically">
+<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
 <!ENTITY gen.switch.thin "Выкарыстаць сціснуты перамыкач бакавой панэлі">
 <!ENTITY gen.switch.width "Шырыня перамыкача бакавой панэлі">
 <!ENTITY gen.switch.twidth "Шырыня сціснутага перамыкача бакавой панэлі">
+<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
+<!ENTITY cmode.caption "Toggle Sidebar">
 <!ENTITY cmode.desc "Налада элементаў, з дапамогай якіх можа быць адчыненая/зачыненая бакавая панэль.">
-<!ENTITY cmode.tbb.label "Кнопка &amp;#8220;Бакавая панэль&amp;#8221;">
-<!ENTITY cmode.close.label "Кнопка &amp;#8220;Зачыніць&amp;#8221;">
+<!ENTITY cmode.key.label "Shortcut (F4)">
+<!ENTITY cmode.tbb.label "Кнопка &#8220;Бакавая панэль&#8221;">
+<!ENTITY cmode.close.label "Кнопка &#8220;Зачыніць&#8221;">
 <!ENTITY cmode.mode1.label "Адчыняць/Зачыняць толькі бакавую панэль">
 <!ENTITY cmode.mode2.label "Адчыняць/Зачыняць бакавую панэль і бакавую панэль прылад">
 <!ENTITY cmode.mode3.label "Адчыняць/Зачыняць бакавую панэль, панэль прылад і перамыкач панэлі">
@@ -65,20 +82,21 @@
 <!ENTITY keyconfig.disable "Адключыць">
 <!ENTITY keyconfig.reset "Скінуць">
 <!ENTITY keyconfig.warn "Змены закранаюць толькі новыя вокны">
-<!ENTITY keyconfig.onreset "Патрабуецца перазагрузка браўзэра">
-<!ENTITY keyconfig.unrecognized "Неапазнаны ($1)">
-<!ENTITY keyconfig.used "Гэты ключ ужо выкарыстоўваецца: \\n\\n\\t$1\\n\\nХотя, гэта можа ўсё жа працаваць.">
-<!ENTITY menus.sidebar.desc "Налада складу меню &amp;#8220;Выгляд &gt; Бакавая панэль&amp;#8221; і выпадальнага меню кнопак бакавой панэлі.">
+<!ENTITY menus.sidebar.desc "Налада складу меню &#8220;Выгляд &gt; Бакавая панэль&#8221; і выпадальнага меню кнопак бакавой панэлі.">
 <!ENTITY menus.icons.label "Паказваць значкі">
 <!ENTITY menus.entries.label "Паказваць радкі">
 <!ENTITY menus.sidebar.entrydeac "Адключыць вылучэнне актыўнай бакавой панэлі">
 <!ENTITY misc.enablesidebar.label "Адчыняць у бакавой панэлі">
+<!ENTITY misc.enablepopup.label "Open in Popup">
 <!ENTITY misc.layout.label "Аптымізацыя для бакавой панэлі">
-<!ENTITY misc.colors.label "Выкарыстаць каляровыя фоны, заснаваныя на бягучым стане">
+<!ENTITY misc.dm.autoopen.label "Show the Downloads sidebar when downloading a file">
+<!ENTITY misc.dm.autoclose.label "Close it when all downloads are finished">
+<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
+<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
 <!ENTITY misc.count.label "Паказваць лік элементаў">
 <!ENTITY misc.enablelink.tooltip "Націсніце тут, каб атрымаць больш інфармацыі (спасылка на FAQ)">
 <!ENTITY misc.paneltab.reverse "Змяняць месцамі дзеянне левай і сярэдняй кнопак мышы">
-<!ENTITY misc.bm.paneltab.desc "Кнопка &amp;#8220;Адкрыць ва ўкладцы&amp;#8221; можа адчыняць у новай укладцы Мэнэджэр закладак замест спісу закладак.">
+<!ENTITY misc.bm.paneltab.desc "Кнопка &#8220;Адкрыць ва ўкладцы&#8221; можа адчыняць у новай укладцы Мэнэджэр закладак замест спісу закладак.">
 <!ENTITY misc.bm.paneltab "Адчыняць у новай укладцы Мэнэджэр закладак">
 <!ENTITY special.collapsing.caption "Згортванне бакавой панэлі">
 <!ENTITY special.collapsing.label "Выкарыстаць згортванне бакавой панэлі">

@@ -2,9 +2,12 @@
 <!ENTITY settings "Налады…">
 <!ENTITY close "Зачыніць">
 <!ENTITY tab.about "Інфармацыя аб пашырэнні">
+<!ENTITY tab.help "Help">
 <!ENTITY tab.contrib "Удзельнікі праекту">
 <!ENTITY tab.trans "Перакладнікі">
+<!ENTITY about.desc "Classic Sidebar lets you open various windows as sidebar panels, and quickly switch between them. So it put an end to the window chaos! In addition to bookmarks and history it opens dialogs such as downloads, add-ons and more in the sidebar.">
 <!ENTITY create.desc "Created by hawkeye116477, forked from The Good 'ol Sidebar, which was forked from the now discontinued All-in-One Sidebar created by Ingo Wennemaring.">
+<!ENTITY help.desc "You will find many information about this add-on on the website:">
 <!ENTITY about1.name "Хатняя старонка, якая змяшчае вялікая колькасць інфармацыі аб пашырэнні">
 <!ENTITY about2.name "Спіс усіх магчымасцяў пашырэння Classic Sidebar">
 <!ENTITY about3.name "Часта зададзеныя пытанні (FAQ) і адказы">
@@ -12,6 +15,7 @@
 <!ENTITY about5.name "Форум — абмеркаванні, паведамленні аб памылках, іншая інфармацыя">
 <!ENTITY about6.name "Спіс змен і гісторыя старых версій пашырэння">
 <!ENTITY about7.name "Планы на будучыню — спіс планаваных новых магчымасцяў і ўдасканаленняў">
+<!ENTITY about8.name "Help with translation">
 <!ENTITY contrib.desc "Я дзякую наступных распрацоўнікаў за натхняльныя ідэі і фрагменты зыходнага кода (у алфавітным парадку):">
 <!ENTITY contrib.thanks "Апошнімі, але не ў апошнюю чаргу я дзякую ўсіх карыстачоў, якія дапамагалі ў тэставанні якія распрацоўваюцца зборак, паведамлялі аб памылках на форуме, дзяліліся сваімі ідэямі і прапановамі або проста пісалі добрыя каментары. :-) Вялікае дзякуй!">
 <!ENTITY trans.desc "Перакладнікі Classic Sidebar:">

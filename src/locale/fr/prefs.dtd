@@ -93,7 +93,6 @@
 <!ENTITY misc.dm.autoclose.label "Le fermer quand tous les téléchargements sont terminés">
 <!ENTITY misc.dm.shading.label "Ombrer les éléments de la liste des téléchargements en fonction de leur état">
 <!ENTITY misc.em.oninstall.label "Afficher la barre latérale des modules complémentaires lors de l'installation d'un module complémentaire">
-<!ENTITY misc.colors.label "Autorise les fonds en couleur selon l&apos;état courant">
 <!ENTITY misc.count.label "Afficher le nombre d&apos;éléments">
 <!ENTITY misc.enablelink.tooltip "Cliquer ici pour en savoir plus (lien vers la FAQ)">
 <!ENTITY misc.paneltab.reverse "Intervertir les comportements du clic gauche et du clic-milieu (molette)">

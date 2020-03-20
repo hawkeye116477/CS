@@ -11,3 +11,4 @@
 <!ENTITY enable.autoClose.label "Sule teised kaustad automaatselt">
 <!ENTITY enable.scrollToFolder.label "Keri automaatselt valitud kaustani">
 <!ENTITY enable.rememberFolder.label "Pea meeles ja anna fookus viimati valitud kaustale">
+<!ENTITY enable.duplicateTree.label "Show second tree pane">
