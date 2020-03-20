@@ -183,7 +183,7 @@ var AiOS = {
                     AiOS_HELPER.prefBranchAiOS.setCharPref("changelog", version);
 
                     if (gBrowser) {
-                        var changelogLink = "https://github.com/hawkeye116477/CS/releases/v" + version;
+                        var changelogLink = "https://github.com/hawkeye116477/CS/releases/" + version;
 
                         window.setTimeout(function () {
                             gBrowser.loadTabs([changelogLink], false);
