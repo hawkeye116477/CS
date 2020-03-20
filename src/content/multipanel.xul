@@ -6,6 +6,7 @@
 <!ENTITY % multipanelDTD SYSTEM "chrome://aios/locale/multipanel.dtd"> %multipanelDTD;
 <!ENTITY % libDTD SYSTEM "chrome://aios/locale/lib.dtd"> %libDTD;
 <!ENTITY % browserDTD SYSTEM "chrome://browser/locale/browser.dtd"> %browserDTD;
+<!ENTITY % robotsDTD SYSTEM "chrome://browser/locale/aboutRobots.dtd"> %robotsDTD;
 ]>
 
 <overlay id="aios_MultiPanelOverlay"
@@ -171,7 +172,7 @@
                                           oncommand="AiOS_MP.setMultiPanel('about:'); event.stopPropagation();" />
                                 <menuitem type="radio"
                                           label="about:robots"
-                                          tooltiptext="&about.robots.tooltip;"
+                                          tooltiptext="&robots.pagetitle;"
                                           checked="false"
                                           oncommand="AiOS_MP.setMultiPanel('about:robots'); event.stopPropagation();" />
                                 <menuitem type="radio"
@@ -189,11 +190,6 @@
                                           tooltiptext="&about.mozilla.tooltip;"
                                           checked="false"
                                           oncommand="AiOS_MP.setMultiPanel('about:mozilla'); event.stopPropagation();" />
-                                <menuitem type="radio"
-                                          label="about:palemoon"
-                                          tooltiptext="&about.palemoon.tooltip;"
-                                          checked="false"
-                                          oncommand="AiOS_MP.setMultiPanel('about:palemoon'); event.stopPropagation();" />
                             </menupopup>
                         </menu>
                     </menupopup>
