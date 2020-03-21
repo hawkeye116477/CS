@@ -1,3 +1,7 @@
+[![GitHub Releases](https://img.shields.io/github/downloads/hawkeye116477/CS/latest/total?color=green)](https://github.com/hawkeye116477/CS/releases/latest)
+[![Crowdin](https://badges.crowdin.net/classic-sidebar/localized.svg)](https://github.com/hawkeye116477/CS/wiki/Help-with-translation)
+[![License](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://raw.githubusercontent.com/hawkeye116477/CS/master/license.txt)
+===================================================================
 Classic Sidebar (CS) - a sidebar extension for Waterfox Classic
 ===================================================================
 
