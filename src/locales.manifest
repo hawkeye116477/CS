@@ -1,5 +1,6 @@
 # This file contains a list of locales present in the package
 
+locale      aios            de              locale/de/
 locale      aios            en-US           locale/en-US/
 locale      aios            en-GB           locale/en-GB/
 locale      aios            es-AR           locale/es-AR/
@@ -16,7 +17,6 @@ locale      aios            zh-CN           locale/zh-CN/
 #locale      aios            be-BY           locale/be-BY/
 #locale      aios            cs-CZ           locale/cs-CZ/
 #locale      aios            da              locale/da/
-#locale      aios            de              locale/de/
 #locale      aios            el              locale/el/
 #locale      aios            et-EE           locale/et-EE/
 #locale      aios            fi              locale/fi/

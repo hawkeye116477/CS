@@ -15,7 +15,7 @@
 <!ENTITY tab.panels "Paneele">
 <!ENTITY tab.panels.places "Lesezeichen/Chronik">
 <!ENTITY tab.panels.other1 "Andere I">
-<!ENTITY tab.panels.paneltab "PanelTab">
+<!ENTITY tab.panels.paneltab "LeistenTab">
 <!ENTITY tab.menus "Menüs">
 <!ENTITY tab.menus.sidebar "Sidebarmenüs">
 <!ENTITY tab.keys "Tastaturkürzel">
@@ -33,8 +33,8 @@
 <!ENTITY gen.width.def.hint "[Doppelklick] auf die Titelleiste der Sidebar">
 <!ENTITY gen.width.max.hint "[Strg+Doppelklick] oder [Alt+Doppelklick] auf die Titelleiste der Sidebar">
 <!ENTITY gen.init.caption "Browserstart">
-<!ENTITY gen.init.label "Sidebar">
-<!ENTITY gen.init.toolbar.label "Toolbar">
+<!ENTITY gen.init.label "Seitenleiste">
+<!ENTITY gen.init.toolbar.label "Werkzeugleiste">
 <!ENTITY gen.init.toolbar.show.label "Toolbar anzeigen">
 <!ENTITY gen.init.toolbar.hide.label "Toolbar verbergen">
 <!ENTITY gen.init.switch.show.label "Sidebar-Umschalter anzeigen">
@@ -43,29 +43,29 @@
 <!ENTITY gen.init.sidebar "Sidebar öffnen (Sidebar-Umschalter, Sidebar-Button, Tastaturkürzel)">
 <!ENTITY gen.init.sidebar.restore "Letzte Paneele wiederherstellen">
 <!ENTITY gen.switch.autoshow "Sidebar automatisch ein- bzw. ausblenden (Mausberührung statt Mausklick)">
-<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
+<!ENTITY gen.switch.drag "Die Sidebar automatisch anzeigen wenn etwas über den Sidebarschalter gezogen wird.">
 <!ENTITY gen.switch.onlymax "Nur bei maximiertem Fenster und im Vollbild-Modus">
-<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
-<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
-<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
-<!ENTITY gen.switch.invmouse "Show a hand cursor">
-<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
-<!ENTITY gen.switch.delayshow "Show Delay">
-<!ENTITY gen.switch.delayhide "Hide Delay">
+<!ENTITY gen.switch.invtrigger "Aktiviere unsichtbaren Sidebar Schalter">
+<!ENTITY gen.switch.onhover "Wenn sich der Mauspfeil über dem unsichtbaren Sidebarschalter befindet:">
+<!ENTITY gen.switch.invhover "Zeige visuelles Feedback oder Hervorhebung">
+<!ENTITY gen.switch.invmouse "Zeige Hand Cursor">
+<!ENTITY gen.switch.invnoclick "Blockiere Mausklickaktionen mit dem Sidebarschalter">
+<!ENTITY gen.switch.delayshow "Zeige Verzögerung">
+<!ENTITY gen.switch.delayhide "Verstecke Verzögerung">
 <!ENTITY gen.switch.delay "Verzögerung">
 <!ENTITY gen.switch.delayUnit "Millisekunden">
 <!ENTITY gen.switch.hide "Die Sidebar ausblenden, wenn der Mauszeiger…">
 <!ENTITY gen.switch.hideBar "zurück auf die Webseite bewegt wird">
 <!ENTITY gen.switch.hidePage "auf dem Sidebar-Umschalter belassen wird">
-<!ENTITY gen.switch.hideNone "don't hide automatically">
-<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
-<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
-<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
-<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
+<!ENTITY gen.switch.hideNone "nicht automatisch verstecken">
+<!ENTITY gen.switch.ssvisibility "Verstecke Sidebarschalter wenn:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatisch (Versteckt wenn nutzlos)">
+<!ENTITY gen.switch.ssvisibility.open "Sidebar ist sichtbar">
+<!ENTITY gen.switch.ssvisibility.closed "Sidebar ist geschlossen">
 <!ENTITY gen.switch.thin "Schmalen Sidebar-Umschalter verwenden">
 <!ENTITY gen.switch.width "Breite des Umschalters">
 <!ENTITY gen.switch.twidth "Breite des schmalen Umschalters">
-<!ENTITY gen.mbSeparate "Don't open in sidebar panel when opened from menu/key shortcuts">
+<!ENTITY gen.mbSeparate "Nicht zu öffnen im Sidebarpanel wenn geöffnet aus Menü/Tastenkürzel">
 <!ENTITY cmode.caption "Sidebar öffnen/schließen">
 <!ENTITY cmode.desc "Legen Sie fest, welche Elemente beim Öffnen/Schließen der Sidebar beeinflusst werden sollen. Sie können diese Einstellung für verschiedene Methoden vornehmen.">
 <!ENTITY cmode.key.label "Tastaturkürzel (F4)">
@@ -87,12 +87,12 @@
 <!ENTITY menus.entries.label "Menüeinträge anzeigen">
 <!ENTITY menus.sidebar.entrydeac "Menüeintrag der aktiven Sidebar deaktivieren">
 <!ENTITY misc.enablesidebar.label "In der Sidebar öffnen">
-<!ENTITY misc.enablepopup.label "Open in Popup">
+<!ENTITY misc.enablepopup.label "In Popup geöffnet">
 <!ENTITY misc.layout.label "Layout-Optimierung für die Sidebar">
 <!ENTITY misc.dm.autoopen.label "Die Download-Sidebar anzeigen, wenn ein Download startet">
 <!ENTITY misc.dm.autoclose.label "Die Download-Sidebar schließen, wenn alle Downloads abgeschlossen sind">
-<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
-<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
+<!ENTITY misc.dm.shading.label "Schattiere die Einträge in der Downloadliste abhängig von ihrem Status">
+<!ENTITY misc.em.oninstall.label "Zeige die Add-ons sidebar wenn ein Addon installiert wird">
 <!ENTITY misc.count.label "Anzahl der Elemente anzeigen">
 <!ENTITY misc.enablelink.tooltip "Klicken Sie hier um mehr Informationen zu erhalten (Link zu den FAQs)">
 <!ENTITY misc.paneltab.reverse "Funktionen für Links- und Mittelklick vertauschen">

@@ -3,7 +3,7 @@
 <!ENTITY menu.togglebar.label "Sidebar-Umschalter">
 <!ENTITY menu.grippy.label "Sidebar-Griff">
 <!ENTITY toolbar.name "Classic Sidebar-Symbolleiste">
-<!ENTITY toolbar.label "Classic Sidebar">
+<!ENTITY toolbar.label "Klassische Seitenleiste">
 <!ENTITY sbhtoolbar.name "Sidebartitel-Symbolleiste">
 <!ENTITY sbhtoolbar.label "Sidebartitel">
 <!ENTITY button.toggle.label "CS">
@@ -20,7 +20,7 @@
 <!ENTITY button.menu.tooltip "Alle verfügbaren Sidebar-Paneele">
 <!ENTITY button.toolbar.label "CS-Symbolleiste">
 <!ENTITY button.toolbar.tooltip "CS-Symbolleiste anzeigen/verbergen">
-<!ENTITY button.paneltab.label "PanelTab">
+<!ENTITY button.paneltab.label "LeistenTab">
 <!ENTITY button.paneltab.tooltip1 "Inhalt des Tabs in der Sidebar öffnen">
 <!ENTITY button.paneltab.tooltip2 "Inhalt der Sidebar in einem neuen Tab öffnen">
 <!ENTITY button.paneltab.tooltip3 "Inhalt der Sidebar in einem Fenster öffnen">
@@ -32,10 +32,10 @@
 <!ENTITY button.tooltip.window "In neuem Fenster öffnen">
 <!ENTITY button.tooltip.tab "In neuem Tab öffnen">
 <!ENTITY button.addons.tooltip "Zeigt die installierten Erweiterungen und Themes an">
-<!ENTITY button.multipanel.label "MultiPanel">
+<!ENTITY button.multipanel.label "Mehrfachleiste">
 <!ENTITY button.multipanel.tooltip "Zeigt Webseiten und Browser-Informationen an">
 <!ENTITY button.pageinfo.tooltip "Zeigt verschiedene Seiteninformationen an">
-<!ENTITY button.cookies.tooltip "Manage individual cookies">
+<!ENTITY button.cookies.tooltip "Handhabe individuelle Cookies">
 <!ENTITY keys.modifiers "accel alt">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
