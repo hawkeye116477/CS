@@ -10,6 +10,7 @@
     "description": "Sidebar control with award-winning user experience!",
     "version": "1.0.0",
     "icons": {
+      "32": "icon.png",
       "64": "skin/icon64.png"
     },
     "legacy": {
