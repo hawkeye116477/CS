@@ -8,10 +8,6 @@
 
 <overlay id="aios_AddonsOverlay"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-	<script type="application/javascript"
-	        src="chrome://aios/content/_helper.js" />
-	<script type="application/javascript"
-	        src="chrome://aios/content/addons.js" />
 
 	<richlistbox id="categories">
 		<observes element="categories"
@@ -23,17 +19,19 @@
 	</richlistbox>
 
 	<hbox id="header">
-		<toolbarbutton id="back-btn">
-			<observes element="back-btn"
-			          attribute="hidden"
-			          onbroadcast="document.getElementById('back-btn').setAttribute('hidden', false)" />
-		</toolbarbutton>
+		<hbox id="header-inner" align="center">
+			<toolbarbutton id="back-btn">
+				<observes element="back-btn"
+				          attribute="hidden"
+				          onbroadcast="document.getElementById('back-btn').setAttribute('hidden', false)" />
+			</toolbarbutton>
 
-		<toolbarbutton id="forward-btn">
-			<observes element="forward-btn"
-			          attribute="hidden"
-			          onbroadcast="document.getElementById('forward-btn').setAttribute('hidden', false)" />
-		</toolbarbutton>
+			<toolbarbutton id="forward-btn">
+				<observes element="forward-btn"
+				          attribute="hidden"
+				          onbroadcast="document.getElementById('forward-btn').setAttribute('hidden', false)" />
+			</toolbarbutton>
+		</hbox>
 	</hbox>
 
 	<hbox id="updates-container">
@@ -65,7 +63,7 @@
 			          onbroadcast="AiOS_Addons.checkNotification();" />
 		</label>
 		<button id="updates-restart-btn"
-		        label="&addon.restartNow.label;">
+		        data-l10n-id="extensions-updates-restart">
 			<observes element="updates-restart-btn"
 			          attribute="hidden"
 			          onbroadcast="AiOS_Addons.checkNotification();" />
@@ -76,6 +74,10 @@
 		<toolbarbutton id="close-btn"
 		               class="close-icon"
 		               oncommand="AiOS_Addons.hideNotification();"
-		               style="display:none;" />
+		               style="display:none !important;" />
 	</hbox>
+	<script type="application/javascript"
+	        src="chrome://aios/content/helper.js" />
+	<script type="application/javascript"
+	        src="chrome://aios/content/addons.js" />
 </overlay>

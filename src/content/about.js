@@ -1,6 +1,6 @@
 var AiOS_About = {
 
-    initialize: function () {
+    initialize: async function () {
         Components.utils.import("resource://gre/modules/AddonManager.jsm");
 
         AddonManager.getAddonByID("tgsidebar@franklindm", function (addon) {
@@ -20,7 +20,7 @@ var AiOS_About = {
         let languages = ["de", "en-GB", "en-US", "es-AR", "es-ES", "fr-FR", "it-IT", "pl", "ru-RU", "tl", "zh-CN"];
 
         // Populate translator table contents
-        let bundleTranslators = document.getElementById("bundleTranslators");
+        let bundleTranslators = Services.strings.createBundle("chrome://aios/content/translators.properties");
         let rowsElement = document.getElementById("trans.grid").children[1];
         for (let lang in languages) {
             // Create objects to be inserted
@@ -29,18 +29,18 @@ var AiOS_About = {
             let content2 = document.createElement("text");
             let content3 = document.createElement("text");
             // Language name
-            content1.setAttribute("value", AiOS_About.getLangName(languages[lang]));
+            content1.setAttribute("value", await AiOS_About.getLangName(languages[lang]));
             // Language tag
             content2.setAttribute("value", languages[lang]);
             // Language translator(s)
             let tranName;
             try {
-                tranName = bundleTranslators.getString("trans." + languages[lang] + ".name");
+                tranName = bundleTranslators.GetStringFromName("trans." + languages[lang] + ".name");
             } catch (e) {
                 if (languages[lang].includes("-")) {
-                    tranName = bundleTranslators.getString("trans." + languages[lang].slice(0, -3) + ".name");
+                    tranName = bundleTranslators.GetStringFromName("trans." + languages[lang].slice(0, -3) + ".name");
                 } else {
-                    AiOS_HELPER.log("Please check if the translator(s) of '" + AiOS_About.getLangName(languages[lang]) + "' is listed in translators.properties\nAdditional info: " + e);
+                    AiOS_HELPER.log("Please check if the translator(s) of '" + await AiOS_About.getLangName(languages[lang]) + "' is listed in translators.properties\nAdditional info: " + e);
                 }
             }
             content3.setAttribute("value", tranName);
@@ -53,39 +53,36 @@ var AiOS_About = {
         }
     },
 
-    getLangName: function (abCD) {
+    getLangName: async function (abCD) {
         // Function to get language name and region from browser strings
-        let bundleRegions = document.getElementById("bundleRegions");
-        let bundleLanguages = document.getElementById("bundleLanguages");
-
         var abCDPairs = abCD.toLowerCase().split("-"); // ab[-cd]
         var useABCDFormat = abCDPairs.length > 1;
         var ab = useABCDFormat ? abCDPairs[0] : abCD;
         var cd = useABCDFormat ? abCDPairs[1] : "";
         if (ab) {
-            var language = "";
+            let language = "";
             try {
-                language = bundleLanguages.getString(ab);
+                language = await document.l10n.formatValue("language-name-" + ab);
             } catch (e) {
                 // continue
             }
 
-            var region = "";
+            let region = "";
             if (useABCDFormat) {
                 try {
-                    region = bundleRegions.getString(cd);
+                    region = await document.l10n.formatValue("region-name-" + cd);
                 } catch (e) {
                     // continue
                 }
             }
 
-            var name = "";
+            let name = "";
             if (useABCDFormat) {
                 name = language + "/" + region;
             } else {
                 name = language;
             }
+            return name;
         }
-        return name;
     }
 };

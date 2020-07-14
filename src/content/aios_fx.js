@@ -24,7 +24,7 @@
  */
 
 // Store a copy of the original toggleSidebar function
-var aios_oldCollapseToggleSidebar = toggleSidebar;
+var aios_oldCollapseToggleSidebar = SidebarUI.toggle;
 
 // Define the toggleSidebar function with collapsing enabled
 function aios_collapseToggleSidebar(commandID, forceOpen) {
@@ -60,7 +60,7 @@ function aios_collapseToggleSidebar(commandID, forceOpen) {
             sidebarSplitter.hidden = true;
             gBrowser.selectedBrowser.focus();
         } else {
-            fireSidebarFocusedEvent();
+            SidebarUI._fireFocusedEvent();
         }
         return;
     }
@@ -100,10 +100,8 @@ function aios_collapseToggleSidebar(commandID, forceOpen) {
     // window opens. See delayedStartup().
     sidebarBox.setAttribute("src", url);
 
-    if (sidebar.contentDocument.location.href != url)
-        sidebar.addEventListener("load", sidebarOnLoad, true);
-    else // older code handled this case, so we do it too
-        fireSidebarFocusedEvent();
+    if (sidebar.contentDocument.location.href == url)
+        SidebarUI._fireFocusedEvent();
 }
 
 // If sidebar collapsing is enabled, use modified function

@@ -7,7 +7,7 @@ function aios_genSidebarList() {
     if (!document.getElementById("sidebarInitPopup") || !document.getElementById("panelInitPopup"))
         return false;
 
-    var strings = document.getElementById("aiosStrings");
+    let strings = Services.strings.createBundle("chrome://aios/locale/lib.properties");
 
     var sidebarInit = document.getElementById("sidebarInitPopup");
     var panelInit = document.getElementById("panelInitPopup");
@@ -32,7 +32,7 @@ function aios_genSidebarList() {
 
             if (allSidebars[i].id != "extensionsEMbSidebar" && allSidebars[i].id != "themesEMbSidebar") {
                 xulElem = document.createElement("menuitem");
-                xulElem.setAttribute("label", strings.getString("prefs.openpanel") + " " + allSidebars[i].getAttribute("label"));
+                xulElem.setAttribute("label", strings.GetStringFromName("prefs.openpanel") + " " + allSidebars[i].getAttribute("label"));
                 xulElem.setAttribute("value", allSidebars[i].id);
 
                 if (allSidebars[i].getAttribute("tooltiptext"))
@@ -66,10 +66,10 @@ function aios_setWidthVal(mode) {
 
     if (theUnit == "px") {
         document.getElementById("obj-" + mode + "WidthVal").value = widthSidebar;
-        document.getElementById(mode + "WidthVal").value = widthSidebar;
+        Preferences.get("extensions.aios.gen.width."+mode + "Val").value = widthSidebar;
     } else if (theUnit == "%") {
         document.getElementById("obj-" + mode + "WidthVal").value = percent;
-        document.getElementById(mode + "WidthVal").value = percent;
+        Preferences.get("extensions.aios.gen.width."+mode + "Val").value = percent;
     }
 }
 
@@ -167,7 +167,7 @@ function aios_setConfSidebarWidth() {
     var enumerator = AiOS_HELPER.windowMediator.getEnumerator("navigator:browser");
     while (enumerator.hasMoreElements()) {
         var win = enumerator.getNext();
-        win.document.getElementById("sidebar").setAttribute("style", widthStyle);
-        win.document.persist("sidebar", "style");
+        win.document.getElementById("sidebar-box").setAttribute("style", widthStyle);
+        Services.xulStore.persist(AiOS_HELPER.mostRecentWindow.document.getElementById("sidebar"), "style");
     }
 }

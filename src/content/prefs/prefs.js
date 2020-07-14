@@ -82,8 +82,23 @@ var AiOS_Prefs = {
             tabbox.childNodes[1].selectedIndex = seltab;
 
         // Create a list of available sidebars
-        if (mode == "general")
+        if (mode == "general") {
             aios_genSidebarList();
+        }
+
+        document.addEventListener("dialogaccept", function() {
+            AiOS_Prefs.savePrefs();
+        });
+
+        document.addEventListener("dialogextra1", function(event) {
+            AiOS_Prefs.applyPrefs();
+            event.preventDefault();
+        });
+
+        document.addEventListener("dialogdisclosure", function(event) {
+            event.preventDefault();
+            aios_addTab('https://github.com/FranklinDM/TGS/wiki/FAQ');
+        });
     },
 
     /*
@@ -91,8 +106,8 @@ var AiOS_Prefs = {
      * => Called by <menuitem> in prefs.xul
      */
     defaultSettings: function () {
-        var strings = document.getElementById("aiosStrings");
-        if (!confirm(strings.getString("prefs.confirm")))
+        let strings = Services.strings.createBundle("chrome://aios/locale/lib.properties");
+        if (!confirm(strings.GetStringFromName("prefs.confirm")))
             return false;
 
         var childList = AiOS_HELPER.prefBranchAiOS.getChildList("");
@@ -117,7 +132,7 @@ var AiOS_Prefs = {
      * => Called by <menuitem> in prefs.xul
      */
     exportSettings: function (aMode) {
-        var strings = document.getElementById("aiosStrings");
+        let strings = Services.strings.createBundle("chrome://aios/locale/lib.properties");
 
         var now = new Date();
         var sDate = AiOS_Prefs.extendInt(now.getMonth() + 1) + "/" + AiOS_Prefs.extendInt(now.getDate()) + "/" + now.getFullYear();
@@ -129,7 +144,7 @@ var AiOS_Prefs = {
         aiosExport[0] += "                  Classic Sidebar - Settings\n";
         aiosExport[0] += "-----------------------------------------------------------------------\n";
         aiosExport[0] += "          " + sDate + ", " + sTtime + " (" + sGMT + ")\n";
-        aiosExport[0] += "          CS " + AiOS_HELPER.prefBranchAiOS.getCharPref("changelog") + ", " + AiOS_HELPER.appInfo.name + " " + AiOS_HELPER.appInfo.version + ", " + AiOS_HELPER.os + ", " + AiOS_HELPER.prefBranch.getCharPref("general.skins.selectedSkin") + "\n";
+        aiosExport[0] += "          CS " + AiOS_HELPER.prefBranchAiOS.getCharPref("changelog") + ", " + AiOS_HELPER.appInfo.name + " " + AiOS_HELPER.appInfo.version + ", " + AiOS_HELPER.os + ", " + AiOS_HELPER.prefBranch.getCharPref("extensions.activeThemeID") + "\n";
         aiosExport[0] += "-----------------------------------------------------------------------";
 
         var childList = AiOS_HELPER.prefBranchAiOS.getChildList("");
@@ -162,28 +177,32 @@ var AiOS_Prefs = {
             var gClipboardHelper = Components.classes["@mozilla.org/widget/clipboardhelper;1"].getService(Components.interfaces.nsIClipboardHelper);
             gClipboardHelper.copyString(aiosExportString);
 
-            alert(strings.getString("prefs.copy"));
+            alert(strings.GetStringFromName("prefs.copy"));
         }
 
         // Save the string to a text file (Thanks to AdBlock & Tab Mix Plus :-))
         else if (aMode == "save") {
+            var nsIFilePicker = Components.interfaces.nsIFilePicker;
             var fp = Components.classes["@mozilla.org/filepicker;1"].createInstance(Components.interfaces.nsIFilePicker);
             var stream = Components.classes["@mozilla.org/network/file-output-stream;1"].createInstance(Components.interfaces.nsIFileOutputStream);
 
-            fp.init(window, strings.getString("prefs.save"), fp.modeSave);
+            fp.init(window, strings.GetStringFromName("prefs.save"), fp.modeSave);
             fp.defaultExtension = "txt";
             fp.defaultString = "CS-Settings";
             fp.appendFilters(fp.filterText);
 
-            if (fp.show() != fp.returnCancel) {
-                if (fp.file.exists())
-                    fp.file.remove(true);
-                fp.file.create(fp.file.NORMAL_FILE_TYPE, 0o666);
-                stream.init(fp.file, 0x02, 0x200, null);
+            fp.open(rv => {
+                if (rv != nsIFilePicker.returnCancel) {
+                    if (fp.file.exists())
+                        fp.file.remove(true);
+                    fp.file.create(fp.file.NORMAL_FILE_TYPE, 0o666);
+                    stream.init(fp.file, 0x02, 0x200, null);
 
-                stream.write(aiosExportString, aiosExportString.length);
-                stream.close();
-            }
+                    stream.write(aiosExportString, aiosExportString.length);
+                    stream.close();
+                    return;
+                }
+            });
         }
     },
 
@@ -191,9 +210,9 @@ var AiOS_Prefs = {
      * Import settings from text file
      * => Called by <menuitem> in prefs.xul
      */
-    importSettings: function () {
-        var strings = document.getElementById("aiosStrings");
-        var pattern = AiOS_Prefs.loadFromFile();
+    importSettings: async function () {
+        let strings = Services.strings.createBundle("chrome://aios/locale/lib.properties");
+        var pattern = await AiOS_Prefs.loadFromFile();
 
         if (!pattern)
             return false;
@@ -209,11 +228,11 @@ var AiOS_Prefs = {
             isMatch = true;
 
         if (!isMatch) {
-            alert(strings.getString("prefs.invalid"));
+            alert(strings.GetStringFromName("prefs.invalid"));
             return false;
         }
 
-        if (!confirm(strings.getString("prefs.import")))
+        if (!confirm(strings.GetStringFromName("prefs.import")))
             return false;
 
         for (let i = 6; i < pattern.length; i++) {
@@ -253,7 +272,7 @@ var AiOS_Prefs = {
             return true;
         }
 
-        alert(strings.getString("prefs.failed"));
+        alert(strings.GetStringFromName("prefs.failed"));
         return false;
     },
 
@@ -262,29 +281,35 @@ var AiOS_Prefs = {
      * => Called by aios_importSettings()
      */
     loadFromFile: function () {
+        var nsIFilePicker = Components.interfaces.nsIFilePicker;
         var fp = Components.classes["@mozilla.org/filepicker;1"].createInstance(Components.interfaces.nsIFilePicker);
         var stream = Components.classes["@mozilla.org/network/file-input-stream;1"].createInstance(Components.interfaces.nsIFileInputStream);
         var streamIO = Components.classes["@mozilla.org/scriptableinputstream;1"].createInstance(Components.interfaces.nsIScriptableInputStream);
 
-        var strings = document.getElementById("aiosStrings");
+        let strings = Services.strings.createBundle("chrome://aios/locale/lib.properties");
 
-        fp.init(window, strings.getString("prefs.open"), fp.modeOpen);
+        fp.init(window, strings.GetStringFromName("prefs.open"), fp.modeOpen);
         fp.defaultExtension = "txt";
         fp.appendFilters(fp.filterText);
 
-        if (fp.show() != fp.returnCancel) {
-            stream.init(fp.file, 0x01, 0o444, null);
-            streamIO.init(stream);
+        return new Promise(resolve => {
+            fp.open(rv => {
+                if (rv != nsIFilePicker.returnCancel) {
+                    stream.init(fp.file, 0x01, 0o444, null);
+                    streamIO.init(stream);
 
-            var input = streamIO.read(stream.available());
-            streamIO.close();
-            stream.close();
+                    var input = streamIO.read(stream.available());
+                    streamIO.close();
+                    stream.close();
 
-            var linebreak = input.match(/(((\n+)|(\r+))+)/m)[1]; // first: whole match -- second: backref-1 -- etc..
-            return input.split(linebreak);
-        }
-
-        return null;
+                    var linebreak = input.match(/(((\n+)|(\r+))+)/m)[1]; // first: whole match -- second: backref-1     --  etc..
+                    resolve(input.split(linebreak));
+                }
+                else {
+                    resolve(null);
+                }
+            });
+       });
     },
 
     /*
@@ -447,10 +472,10 @@ var AiOS_Prefs = {
             pValue;
 
         // Save prefs directly
-        var allPrefs = document.getElementsByTagName("preference");
+        var allPrefs = Preferences.getAll();
         for (let i = 0; i < allPrefs.length; i++) {
-            pType = allPrefs[i].getAttribute("type");
-            pName = allPrefs[i].getAttribute("name");
+            pType = allPrefs[i].type;
+            pName = allPrefs[i].name;
             pValue = allPrefs[i].value;
 
             switch (pType) {
@@ -497,18 +522,28 @@ var AiOS_Prefs = {
      * => Called by aios_initPrefs() and aios_applyPrefs()
      */
     rememberOldPrefs: function () {
-        var allPrefs = document.getElementsByTagName("preference");
+        var allPrefs = document.querySelectorAll("[preference]");
+        var oldValue;
         for (let i = 0; i < allPrefs.length; i++) {
-            allPrefs[i].setAttribute("oldValue", allPrefs[i].value);
-
-            // Add change listener
-            if (!allPrefs[i].getAttribute("data-changed")) {
-                allPrefs[i].addEventListener("change", function () {
-                    AiOS_Prefs.checkApply(this);
-                });
-
-                allPrefs[i].setAttribute("data-changed", true);
+            switch (allPrefs[i].tagName) {
+                case "checkbox":
+                    oldValue = allPrefs[i].checked;
+                    allPrefs[i].addEventListener("click", function () {
+                        AiOS_Prefs.checkApply(this);
+                    });
+                    break;
+                case "menulist":
+                    oldValue = allPrefs[i].value;
+                    allPrefs[i].setAttribute("oncommand", "AiOS_Prefs.checkApply(this)");
+                    break;
+                case "html:input":
+                    oldValue = allPrefs[i].value;
+                    allPrefs[i].addEventListener("input", function () {
+                        AiOS_Prefs.checkApply(this);
+                    });
+                    break;
             }
+            allPrefs[i].setAttribute("oldValue", oldValue);
         }
     },
 
@@ -520,24 +555,23 @@ var AiOS_Prefs = {
         if (typeof aPref == "object") {
             var oldPref,
                 newPref;
-            var pID = aPref.id;
+            var pID = aPref.getAttribute("preference");
 
             // Convert remembered and new settings to the correct format
-            switch (aPref.getAttribute("type")) {
-            case "string":
-                oldPref = aPref.getAttribute("oldValue");
-                newPref = aPref.value;
-                break;
-            case "bool":
-                oldPref = aios_getBoolean(aPref, "oldValue");
-                newPref = aPref.value;
-                break;
-            case "int":
-                oldPref = aPref.getAttribute("oldValue") * 1;
-                newPref = aPref.value * 1;
-                break;
+            switch (aPref.tagName) {
+                case "checkbox":
+                    oldPref = aios_getBoolean(aPref, "oldValue");
+                    newPref = aPref.checked;
+                    break;
+                case "menulist":
+                    oldPref = aPref.getAttribute("oldValue") * 1;
+                    newPref = aPref.value * 1;
+                    break;
+                default:
+                    oldPref = aPref.getAttribute("oldValue")
+                    newPref = aPref.value;
+                    break;
             }
-
             // If the change corresponds to the old setting
             if (oldPref === newPref) {
                 // Delete string accordingly
@@ -558,7 +592,7 @@ var AiOS_Prefs = {
                         t1 += ","; // Connect with comma
                     AiOS_Prefs._couldApply = t1 + t2;
                 }
-                //alert("No change: " + AiOS_Prefs._couldApply);
+                // alert("No change: " + AiOS_Prefs._couldApply);
             }
             // If the change does _not_ correspond to the old setting
             else {
@@ -566,7 +600,7 @@ var AiOS_Prefs = {
                 if (AiOS_Prefs._couldApply.length > 0)
                     AiOS_Prefs._couldApply += ","; // Connect with comma
                 AiOS_Prefs._couldApply += pID;
-                //alert("Modification: " + AiOS_Prefs._couldApply);
+                // alert("Modification: " + AiOS_Prefs._couldApply);
             }
 
             // Activate/deactivate Apply button
@@ -644,3 +678,94 @@ var AiOS_Prefs = {
         }
     },
 };
+
+Preferences.addAll([
+    // G E N E R A L
+    { id: "extensions.aios.gen.orient", type: "int" },
+
+    { id: "extensions.aios.gen.width.minVal", type: "int" },
+    { id: "extensions.aios.gen.width.minUnit", type: "string" },
+
+    { id: "extensions.aios.gen.width.defVal", type: "int" },
+    { id: "extensions.aios.gen.width.defUnit", type: "string" },
+
+    { id: "extensions.aios.gen.width.maxVal", type: "int" },
+    { id: "extensions.aios.gen.width.maxUnit", type: "string" },
+
+    { id: "extensions.aios.gen.init", type: "string" },
+    { id: "extensions.aios.gen.toolbar.init", type: "int" },
+    { id: "extensions.aios.gen.switch.init", type: "int" },
+
+    { id: "extensions.aios.gen.open.init", type: "string" },
+
+    { id: "extensions.aios.fs.sidebar", type: "bool" },
+    { id: "extensions.aios.fs.toolbar", type: "bool" },
+    { id: "extensions.aios.fs.switch", type: "bool" },
+    { id: "extensions.aios.fs.restore", type: "bool" },
+
+    { id: "extensions.aios.cmode.key", type: "int" },
+    { id: "extensions.aios.cmode.switch", type: "int" },
+    { id: "extensions.aios.cmode.tbb", type: "int" },
+    { id: "extensions.aios.cmode.close", type: "int" },
+
+    { id: "extensions.aios.collapse", type: "bool" },
+    { id: "extensions.aios.intercept", type: "bool" },
+
+
+    // S I D E B A R  S W I T C H
+    { id: "extensions.aios.gen.switch.autoshow", type: "bool" },
+    { id: "extensions.aios.gen.switch.onlymax", type: "bool" },
+    { id: "extensions.aios.gen.switch.delayshow", type: "int" },
+    { id: "extensions.aios.gen.switch.delayhide", type: "int" },
+    { id: "extensions.aios.gen.switch.hidemethod", type: "int" },
+    { id: "extensions.aios.gen.switch.width", type: "int" },
+    { id: "extensions.aios.gen.switch.twidth", type: "int" },
+    { id: "extensions.aios.gen.switch.thin", type: "bool" },
+    { id: "extensions.aios.gen.switch.thinmax", type: "bool" },
+    { id: "extensions.aios.gen.switch.inv", type: "bool" },
+    { id: "extensions.aios.gen.switch.invmax", type: "bool" },
+    { id: "extensions.aios.gen.switch.invhover", type: "bool" },
+    { id: "extensions.aios.gen.switch.invmouse", type: "bool" },
+    { id: "extensions.aios.gen.switch.invnoclick", type: "bool" },
+    { id: "extensions.aios.gen.switch.visibility", type: "int" },
+
+    { id: "extensions.aios.gen.switch.drag", type: "bool" },
+    { id: "extensions.aios.gen.switch.dragdelay", type: "int" },
+
+    // P A N E L S
+    { id: "extensions.aios.dm.sidebar", type: "bool" },
+    { id: "extensions.aios.dm.popup", type: "bool" },
+    { id: "extensions.aios.dm.layout", type: "bool" },
+    { id: "extensions.aios.dm.autoopen", type: "bool" },
+    { id: "extensions.aios.dm.autoclose", type: "bool" },
+    { id: "extensions.aios.dm.count", type: "bool" },
+    { id: "extensions.aios.dm.shading", type: "bool" },
+
+    { id: "extensions.aios.em.sidebar", type: "bool" },
+    { id: "extensions.aios.em.count", type: "bool" },
+    { id: "extensions.aios.em.oninstall", type: "bool" },
+
+    { id: "extensions.aios.bm.sidebar", type: "bool" },
+    { id: "extensions.aios.hi.sidebar", type: "bool" },
+    { id: "extensions.aios.pi.sidebar", type: "bool" },
+    { id: "extensions.aios.pi.layout", type: "bool" },
+
+    { id: "extensions.aios.mp.sidebar", type: "bool" },
+
+    { id: "extensions.aios.ks.sidebar", type: "bool" },
+    { id: "extensions.aios.ks.layout", type: "bool" },
+
+    { id: "extensions.aios.paneltab.reverse", type: "bool" },
+    { id: "extensions.aios.paneltab.bm", type: "bool" },
+
+
+    // M E N U S
+    { id: "extensions.aios.menus.sidebar.entrydeac", type: "bool" },
+    { id: "extensions.aios.menus.sidebar.entries", type: "bool" },
+    { id: "extensions.aios.menus.sidebar.icons", type: "bool" },
+    { id: "extensions.aios.menus.sidebar.paneltab1", type: "bool" },
+    { id: "extensions.aios.menus.sidebar.paneltab2", type: "bool" },
+    { id: "extensions.aios.menus.sidebar.showhide", type: "bool" },
+    { id: "extensions.aios.menus.sidebar.prefs", type: "bool" },
+
+]);

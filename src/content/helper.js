@@ -15,7 +15,7 @@ var AiOS_HELPER = {
         this.appInfo = Components.classes["@mozilla.org/xre/app-info;1"].getService(Components.interfaces.nsIXULAppInfo);
         this.os = Components.classes["@mozilla.org/xre/app-info;1"].getService(Components.interfaces.nsIXULRuntime).OS;
         this.osVersion = window.navigator.oscpu;
-        this.defTheme = (this.prefBranch.getCharPref("general.skins.selectedSkin") == "classic/1.0") ? true : false;
+        this.defTheme = (this.prefBranch.getCharPref("extensions.activeThemeID") == "australis-dark@waterfox.net") ? true : false;
 
         this.usingCUI = false;
         // If CustomizableUI object is present or using Firefox UUID
@@ -70,7 +70,7 @@ var AiOS_ProgressListener = {
  */
 var aiosLastSelTab; // Required for Page Info/MultiPanel in the tab
 function aios_addTab(aUrl) {
-    var browser = AiOS_HELPER.mostRecentWindow.getBrowser();
+    var browser = AiOS_HELPER.mostRecentWindow.gBrowser;
     aiosLastSelTab = AiOS_HELPER.mostRecentWindow.content;
 
     var browserDoc;
@@ -108,7 +108,12 @@ function aios_addTab(aUrl) {
     }
 
     // If there was no empty tab, a new one will be opened
-    browser.selectedTab = browser.addTab(aUrl);
+    if (aUrl.includes("chrome://")) {
+        browser.selectedTab = browser.addTrustedTab(aUrl);
+    }
+    else {
+        browser.selectedTab = browser.addWebTab(aUrl);
+    }
     browser.selectedTab.setAttribute("openBy", "aios");
     return browser.selectedTab;
 }
@@ -190,12 +195,12 @@ function aios_gElem(aID) {
  * Replaces the keyboard shortcuts in the tooltips for MacOS X
  */
 function aios_replaceKey(aElem, aAttr, aKey) {
-    var strings = document.getElementById("aiosProperties");
+    var strings = Services.strings.createBundle("chrome://aios/content/aios.properties");
 
     var rep_elem = document.getElementById(aElem);
     var rep = rep_elem.getAttribute(aAttr);
     rep = rep.substr(rep.indexOf("+"), rep.length);
-    rep_elem.setAttribute(aAttr, strings.getString("key.mac." + aKey) + rep);
+    rep_elem.setAttribute(aAttr, strings.GetStringFromName("key.mac." + aKey) + rep);
 }
 
 /*
@@ -247,19 +252,19 @@ function aios_openDialog(which, args) {
         break;
 
     case "bookmarks":
-        theUrl = "chrome://browser/content/bookmarks/bookmarksPanel.xul";
+        theUrl = "chrome://browser/content/places/bookmarksSidebar.xul";
         theId = "aiosGlobal:Bookmarks";
         theFeatures = "width=640,height=480,chrome,resizable,centerscreen";
         break;
 
     case "history":
-        theUrl = "chrome://browser/content/history/history-panel.xul";
+        theUrl = "chrome://browser/content/places/historySidebar.xul";
         theId = "aiosGlobal:History";
         theFeatures = "width=640,height=480,chrome,resizable,centerscreen";
         break;
 
     case "cookies":
-        theUrl = "chrome://browser/content/preferences/cookies.xul";
+        theUrl = "chrome://browser/content/preferences/siteDataSettings.xul";
         theId = "Browser:Cookies";
         theFeatures = "";
         break;

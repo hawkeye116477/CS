@@ -3,17 +3,13 @@
 <!-- locale -->
 <!DOCTYPE overlay [
     <!ENTITY % browserDTD SYSTEM "chrome://browser/locale/browser.dtd"> %browserDTD;
-    <!ENTITY % placesDTD SYSTEM "chrome://browser/locale/places/places.dtd"> %placesDTD;
+    <!ENTITY % editMenuDTD SYSTEM "chrome://global/locale/editMenuOverlay.dtd"> %editMenuDTD;
     <!ENTITY % libDTD SYSTEM "chrome://aios/locale/lib.dtd"> %libDTD;
+    <!ENTITY % placesDTD SYSTEM "chrome://browser/locale/places/places.dtd"> %placesDTD;
 ]>
 
 <overlay id="bmHiOverlay"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-    <script type="application/javascript"
-            src="chrome://aios/content/_helper.js" />
-    <script type="application/javascript"
-            src="chrome://aios/content/places.js" />
-
     <page id="bookmarksPanel"
           class="placesPanel"
           persist="width height screenX screenY"
@@ -24,12 +20,13 @@
               class="sidebar-placesTree"
               type="places"
               flex="1"
+              is="places-tree"
               hidecolumnpicker="true"
               context="placesContext"
-              onkeypress="SidebarUtils.handleTreeKeyPress(event);"
-              onclick="SidebarUtils.handleTreeClick(this, event, true);"
-              onmousemove="SidebarUtils.handleTreeMouseMove(event);"
-              onmouseout="SidebarUtils.setMouseoverURL('');">
+              onkeypress="PlacesUIUtils.onSidebarTreeKeyPress(event);"
+              onclick="PlacesUIUtils.onSidebarTreeClick(event);"
+              onmousemove="PlacesUIUtils.onSidebarTreeMouseMove(event);"
+              onmouseout="PlacesUIUtils.setMouseoverURL('', window);">
             <treecols>
                 <treecol id="title"
                          flex="1"
@@ -52,13 +49,14 @@
         <tree id="duplicateTree"
               class="sidebar-placesTree"
               flex="1"
+              is="places-tree"
               type="places"
               context="placesContext"
               hidecolumnpicker="true"
-              onkeypress="SidebarUtils.handleTreeKeyPress(event);"
-              onclick="SidebarUtils.handleTreeClick(this, event, true);"
-              onmousemove="SidebarUtils.handleTreeMouseMove(event);"
-              onmouseout="SidebarUtils.setMouseoverURL('');">
+              onkeypress="PlacesUIUtils.onSidebarTreeKeyPress(event);"
+              onclick="PlacesUIUtils.onSidebarTreeClick(event);"
+              onmousemove="PlacesUIUtils.onSidebarTreeMouseMove(event);"
+              onmouseout="PlacesUIUtils.setMouseoverURL('', window);">
             <treecols>
                 <treecol id="title"
                          flex="1"
@@ -74,12 +72,7 @@
     <textbox id="search-box"
              tooltiptext="&search.label;" />
 
-    <hbox id="places-toolbar">
-        <stringbundleset id="propSet">
-            <stringbundle id="propSetStrings"
-                          src="chrome://aios/locale/lib.properties" />
-        </stringbundleset>
-
+    <hbox id="sidebar-search-container">
         <button id="closeFolder"
                 insertbefore="viewButton"
                 oncommand="AiOS_Places.closeAllFolders();"
@@ -132,4 +125,9 @@
             </menupopup>
         </button>
     </hbox>
+
+    <script type="application/javascript"
+            src="chrome://aios/content/helper.js" />
+    <script type="application/javascript"
+            src="chrome://aios/content/places.js" />
 </overlay>

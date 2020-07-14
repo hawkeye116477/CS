@@ -42,3 +42,7 @@ window[aios-inSidebar] #security-privacy-groupbox row :first-child {
   margin-top: 0;
   padding-top: 0;
 }
+window[aios-inSidebar] #mediaPanel #imagecontainerbox {
+  background: transparent;
+  border-color: graytext;
+}

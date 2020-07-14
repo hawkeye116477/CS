@@ -10,11 +10,17 @@ toolbarbutton.toolbarbutton-1.aios-tbutton#history-button {
 }
 
 toolbarbutton.toolbarbutton-1.aios-tbutton#addons-button {
-  list-style-image: url(chrome://browser/skin/addons.svg);
+  list-style-image: url(chrome://mozapps/skin/extensions/extensionGeneric-16.svg);
 }
 
 toolbarbutton.toolbarbutton-1.aios-tbutton#remotetabs-button {
-  list-style-image: url(chrome://browser/skin/synced-tabs.svg);
+  list-style-image: url(chrome://browser/skin/tab.svg);
+}
+
+toolbarbutton.toolbarbutton-1.aios-tbutton {
+  -moz-context-properties: fill;
+  fill: currentColor;
+  opacity: 0.8;
 }
 
 /*
@@ -27,10 +33,6 @@ toolbarbutton.toolbarbutton-1.aios-tbutton#remotetabs-button {
 #aios-toolbar toolbarbutton.bookmark-item:not(.subviewbutton),
 #aios-toolbar #personal-bookmarks[cui-areatype="toolbar"]:not([overflowedItem=true]) > #bookmarks-toolbar-placeholder {
   padding: 0;
-}
-
-toolbarbutton#sidebar-close {
-  -moz-box-ordinal-group: 1000;
 }
 
 #sidebar-switcher-target {

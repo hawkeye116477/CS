@@ -26,12 +26,23 @@ page[aios-inSidebar] > hbox {
 page[aios-inSidebar] #categories {
   margin: 0;
   padding: 1px 1px 0 1px;
+  display: table-footer-group;
 }
 page[aios-inSidebar] .category,
 page[aios-inSidebar] .category:not([disabled]) {
   height: auto;
   margin: 0 1px 1px 0;
   padding: 2px;
+}
+page[aios-inSidebar] #categories > .category {
+  padding-inline-start: 0;
+  margin-inline-start: 6px;
+  padding-inline-end: 0;
+  margin-inline-end: 15px;
+}
+page[aios-inSidebar] #categories > .category:hover {
+  background-color: unset;
+  border: 1px solid -moz-menuHover;
 }
 page[aios-inSidebar] .category-icon {
   margin: 0;
@@ -42,7 +53,12 @@ page[aios-inSidebar] #category-recentUpdates[disabled="true"],
 page[aios-inSidebar] .category-name, page[aios-inSidebar] .category-badge {
   display: none;
 }
-
+page[aios-inSidebar] .sidebar-footer-button {
+  display: none !important;
+}
+page[aios-inSidebar] richlistbox {
+  color: -moz-FieldText;
+}
 
 /*
  * Header
@@ -55,7 +71,28 @@ page[aios-inSidebar] #header-utils-btn {
   margin: 0 5px;
   min-width: 0;
 }
+page[aios-inSidebar] #header-search, #header-utils-btn {
+  border: 1px solid grayText;
+}
+page[aios-inSidebar] #header-search {
+  width: auto !important;
+}
+page[aios-inSidebar] #header-inner {
+  margin: 0 0 5px 5px;
+  -moz-box-flex: 1;
+}
+page[aios-inSidebar] #header-inner spacer {
+  display: none !important;
+}
+page[aios-inSidebar] #header-utils-btn:-moz-focusring {
+  outline: none;
+  box-shadow: none;
+  background-color: -moz-MenuHover;
+}
 
+page[aios-inSidebar] #header-utils-btn:hover {
+  border: 1px solid -moz-MenuHover;
+}
 
 /*
  * Content
@@ -89,18 +126,37 @@ page[aios-inSidebar] #search-filter {
   padding: 0;
   font-size: 11px;
 }
+page[aios-inSidebar] #main-page-content {
+  -moz-box-orient: vertical;
+  background-color: -moz-Dialog;
+  color: -moz-dialogText;
+}
+page[aios-inSidebar] #heading, page[aios-inSidebar] #search-label {
+  display: none !important;
+}
+page[aios-inSidebar] textbox {
+  background-color: inherit !important;
+}
+page[aios-inSidebar] textbox[focused] {
+  border-color: -moz-MenuHover !important;
+  box-shadow: 0 0 1px -moz-MenuHover !important;
+}
 /* Text buttons in header and richlist items */
 page[aios-inSidebar] button.button-link {
   margin: 0;
   padding: 0;
 }
 
-
 /*
  * Add-ons
  */
 page[aios-inSidebar] .addon {
   padding: 5px;
+  border-bottom: 1px solid graytext;
+  margin: 0;
+}
+page[aios-inSidebar] .addon:hover {
+  box-shadow: none;
 }
 page[aios-inSidebar] .addon * {
   margin: 0;
@@ -141,6 +197,18 @@ page[aios-inSidebar] .addon .name-container spacer,
 page[aios-inSidebar] .addon .creator,
 page[aios-inSidebar] .addon .date-updated {
   display: none;
+}
+page[aios-inSidebar] #addon-list {
+  padding-left: 0 !important;
+}
+page[aios-inSidebar] .control-container {
+  display: grid;
+}
+page[aios-inSidebar] .control-container .addon-control:not(:last-child) {
+  margin-bottom: 2px;
+}
+page[aios-inSidebar] .name-container {
+  display: inline-block;
 }
 
 /* Unselected Add-ons */
@@ -186,8 +254,6 @@ page[aios-inSidebar] .addon[selected="true"] .relnotes-toggle {
   margin-top: 5px;
 }
 page[aios-inSidebar] .addon[selected="true"] .description-container {
-  -moz-box-orient: vertical;
-  float: left;
   margin-top: 5px;
 }
 page[aios-inSidebar] .addon[selected="true"] .description-container .description {
@@ -211,22 +277,29 @@ page[aios-inSidebar] .addon[selected="true"] .control-container > *:first-child 
 page[aios-inSidebar] .addon[selected="true"] .control-container .button-box {
   padding: 0 3px !important;
 }
-
+page[aios-inSidebar] .addon[selected="true"] {
+  background-color: -moz-MenuHover;
+}
+page[aios-inSidebar] .addon[selected="true"] .control-container .addon-control {
+  background-color: ThreeDFace;
+  color: -moz-FieldText !important;
+}
+page[aios-inSidebar] .addon[selected="true"]  .description-outer-container {
+  -moz-box-align: baseline;
+}
 
 /*
  * Detail View
  */
 page[aios-inSidebar] #detail-view {
   margin: 0;
+  padding: 0;
 }
 page[aios-inSidebar] #detail-view vbox {
   font-size: 1em;
 }
 page[aios-inSidebar] #detail-view > .box-inherit {
     margin: 0;
-}
-page[aios-inSidebar] #detail-view .detail-view-container {
-  padding: 10px;
 }
 page[aios-inSidebar] #detail-view #detail-notifications {
   margin: 0;
@@ -310,13 +383,33 @@ page[aios-inSidebar] #detail-view #detail-updates-row radio {
 page[aios-inSidebar] #detail-view #detail-updates-row radio .radio-icon {
   margin-right: 3px;
 }
+page[aios-inSidebar] #detail-view radio .radio-check[selected] {
+  fill: -moz-MenuHover;
+}
+page[aios-inSidebar] #detail-view radio .radio-check {
+  border-color: grayText;
+  background-color: transparent;
+}
 page[aios-inSidebar] #detail-view #detail-rating-row > hbox {
   -moz-box-orient: vertical;
 }
 page[aios-inSidebar] #detail-view #detail-controls button {
   margin-left: 0;
+  border: 1px solid grayText;
+}
+page[aios-inSidebar] #detail-fulldesc {
+  display: none;
+}
+page[aios-inSidebar] #detail-privateBrowsing {
+  display: grid;
 }
 
+page[aios-inSidebar] .detail-row-footer > .preferences-description {
+  color: grayText;
+}
+page[aios-inSidebar] .card.addon-detail {
+  background: inherit;
+}
 
 /*
  * Default theme styling
@@ -327,6 +420,7 @@ page[aios-inSidebar][aios-appDefTheme="true"] {
 }
 page[aios-inSidebar][aios-appDefTheme="true"] .addon:not([selected="true"]) {
   background-color: ButtonFace;
+  color: -moz-dialogText;
 }
 page[aios-inSidebar][aios-appDefTheme="true"] #categories {
   border-top: none;
@@ -350,8 +444,4 @@ page[aios-inSidebar][aios-appDefTheme="true"] .category:not([disabled]):hover {
 page[aios-inSidebar][aios-appDefTheme="true"] #header {
   border-top: 1px solid ThreedHighlight;
   border-bottom: 1px solid ThreedShadow;
-}
-
-page[aios-inSidebar] #getthemes-container {
-  display: none;
 }

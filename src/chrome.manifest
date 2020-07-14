@@ -10,14 +10,14 @@ style       chrome://browser/content/browser.xul                       chrome://
 style       chrome://browser/content/browser.xul                       chrome://aios/skin/aios_theme.css
 style       chrome://browser/content/browser.xul                       chrome://aios/skin/aios_buttons.css
 
-overlay     chrome://browser/content/bookmarks/bookmarksPanel.xul      chrome://aios/content/places.xul
-style       chrome://browser/content/bookmarks/bookmarksPanel.xul      chrome://aios/skin/places.css
+overlay     chrome://browser/content/places/bookmarksSidebar.xul       chrome://aios/content/places.xul
+style       chrome://browser/content/places/bookmarksSidebar.xul       chrome://aios/skin/places.css
 
 overlay     chrome://global/content/customizeToolbar.xul               chrome://aios/content/aios_customize.xul
 style       chrome://global/content/customizeToolbar.xul               chrome://aios/skin/aios_buttons.css
 
-overlay     chrome://browser/content/history/history-panel.xul         chrome://aios/content/places.xul
-style       chrome://browser/content/history/history-panel.xul         chrome://aios/skin/places.css
+overlay     chrome://browser/content/places/historySidebar.xul         chrome://aios/content/places.xul
+style       chrome://browser/content/places/historySidebar.xul         chrome://aios/skin/places.css
 
 overlay     about:addons                                               chrome://aios/content/addons.xul
 style       about:addons                                               chrome://browser/skin/browser.css
@@ -36,11 +36,8 @@ overlay     chrome://browser/content/preferences/cookies.xul           chrome://
 overlay     chrome://browser/content/pageinfo/pageInfo.xul             chrome://aios/content/pageinfo.xul
 style       chrome://browser/content/pageinfo/pageInfo.xul             chrome://aios/skin/pageinfo.css
 
-style       chrome://aios/content/about.xul                            chrome://aios/skin/prefs.css
-
 overlay     chrome://browser/content/browser.xul                       chrome://aios/content/australis/aios.xul
 overlay     chrome://browser/content/web-panels.xul                    chrome://aios/content/australis/multipanel_fixes.xul
-override    chrome://browser/content/downloads/indicatorOverlay.xul    chrome://aios/content/australis/indicatorOverlay.xul
 override    chrome://aios/skin/toolbar.svg                             chrome://aios/skin/toolbar_australis.svg
 override    chrome://aios/skin/panels_menus.svg                        chrome://aios/skin/panels_menus_australis.svg
 style       chrome://browser/content/browser.xul                       chrome://aios/skin/aios_buttons_australis.css

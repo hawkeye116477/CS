@@ -68,7 +68,7 @@ var AiOS = {
         if (!aios_getBoolean(AiOS_Objects.sidebarBox, "aiosInit")) {
             // Customize the icon size of the nav toolbar
             AiOS_Objects.sidebarBox.setAttribute("aiosInit", true);
-            document.persist(AiOS_Objects.sidebarBox.id, "aiosInit");
+            Services.xulStore.persist(AiOS_Objects.sidebarBox, "aiosInit");
 
             if (AiOS_Objects.mainToolbar)
                 AiOS_Objects.mainToolbar.setAttribute("iconsize", document.getElementById("nav-bar").getAttribute("iconsize"));
@@ -126,7 +126,7 @@ var AiOS = {
         lp = AiOS_Objects.sidebarBox.getAttribute("aiosLastPanel");
         if (!lp || (lp && !document.getElementById(lp))) {
             AiOS_Objects.sidebarBox.setAttribute("aiosLastPanel", "viewBookmarksSidebar");
-            document.persist(AiOS_Objects.sidebarBox.id, "aiosLastPanel");
+            Services.xulStore.persist(AiOS_Objects.sidebarBox, "aiosLastPanel");
         }
 
         // Initialize Sidebar, Toolbar and Sidebar Switch at start using user settings
@@ -176,17 +176,18 @@ var AiOS = {
         // Determine if it's necessary to open the changelog link
         var oldVersion = AiOS_HELPER.prefBranchAiOS.getCharPref("changelog");
         if (parseFloat(oldVersion) != 0) {
-            Components.utils.import("resource://gre/modules/AddonManager.jsm");
-            AddonManager.getAddonByID("classicsidebar@hawkeye116477", function (addon) {
+            var { AddonManager } = ChromeUtils.import("resource://gre/modules/AddonManager.jsm");
+            AddonManager.getAddonByID("classicsidebar@hawkeye116477").then(function (addon) {
                 var version = addon.version;
                 if (version != oldVersion) {
                     AiOS_HELPER.prefBranchAiOS.setCharPref("changelog", version);
 
                     if (gBrowser) {
-                        var changelogLink = "https://github.com/hawkeye116477/CS/releases/" + version;
+                        var changelogLink = "https://github.com/hawkeye116477/CS/releases/current-" + version;
 
                         window.setTimeout(function () {
-                            gBrowser.loadTabs([changelogLink], false);
+                            gBrowser.loadTabs([changelogLink], false,  {
+                                triggeringPrincipal: Services.scriptSecurityManager.createNullPrincipal()});
                         }, 500);
                     }
                 }
@@ -199,7 +200,7 @@ var AiOS = {
         AiOS_Objects.mainWindow.setAttribute("aiosVButtons", "true");
         if (!vButtons)
             AiOS_Objects.mainWindow.setAttribute("aiosVButtons", "false");
-        document.persist(AiOS_Objects.mainWindow.id, "aiosVButtons");
+            Services.xulStore.persist(document.getElementById(AiOS_Objects.mainWindow.id), "aiosVButtons");
 
         // Vertical bookmarks bar?
         // Remove the attribute of the bookmarks bar. When placed on the AiOS toolbar, you can use CSS to set the orientation.
@@ -290,7 +291,7 @@ var AiOS = {
 
         // Grippy status (CSS pays attention to attribute 'aiosOpen')
         AiOS_Objects.mainWindow.setAttribute("aiosOpen", !AiOS_Objects.sidebarBox.hidden && !AiOS_Objects.sidebarBox.collapsed);
-        document.persist(AiOS_Objects.mainWindow.id, "aiosOpen");
+        Services.xulStore.persist(document.getElementById(AiOS_Objects.mainWindow.id), "aiosOpen");
 
         // toggle button status (button looks for attribute 'checked')
         AiOS_Objects.sidebarBox.setAttribute("checked", !AiOS_Objects.sidebarBox.hidden && !AiOS_Objects.sidebarBox.collapsed);
@@ -322,7 +323,7 @@ var AiOS = {
                 if (allSidebars[i].getAttribute("id") && aios_getBoolean(allSidebars[i], "checked")) {
                     // Store command in the "persist"-var "aiosLastPanel" and return
                     AiOS_Objects.sidebarBox.setAttribute("aiosLastPanel", allSidebars[i].id);
-                    document.persist(AiOS_Objects.sidebarBox.id, "aiosLastPanel");
+                    Services.xulStore.persist(AiOS_Objects.sidebarBox, "aiosLastPanel");
                     actSidebar = allSidebars[i].id;
                 }
             }
@@ -354,11 +355,11 @@ var AiOS = {
                 // If the sidebar is visible
                 if (!aios_isSidebarHidden() && !aForceOpen) {
                     AiOS_Objects.sidebarBox.setAttribute("aiosShouldOpen", true); // Remember the state of the sidebar (visible)
-                    document.persist(AiOS_Objects.sidebarBox.id, "aiosShouldOpen"); // Persist attribute 'aiosShouldOpen'
+                    Services.xulStore.persist(AiOS_Objects.sidebarBox, "aiosShouldOpen"); // Persist attribute 'aiosShouldOpen'
                     toggleSidebar(); // Hide sidebar
                 } else {
                     AiOS_Objects.sidebarBox.setAttribute("aiosShouldOpen", false); // Remember the state of the sidebar (invisible)
-                    document.persist(AiOS_Objects.sidebarBox.id, "aiosShouldOpen"); // Persist attribute 'aiosShouldOpen'
+                    Services.xulStore.persist(AiOS_Objects.sidebarBox, "aiosShouldOpen"); // Persist attribute 'aiosShouldOpen'
                 }
 
                 if (!aForceOpen)
@@ -380,7 +381,7 @@ var AiOS = {
             // If the sidebar is visible
             if (!aios_isSidebarHidden()) {
                 AiOS_Objects.sidebarBox.setAttribute("aiosShouldOpen", true); // Remember the state of the sidebar (visible)
-                document.persist(AiOS_Objects.sidebarBox.id, "aiosShouldOpen"); // Persist attribute 'aiosShouldOpen'
+                Services.xulStore.persist(AiOS_Objects.sidebarBox, "aiosShouldOpen"); // Persist attribute 'aiosShouldOpen'
                 toggleSidebar(); // Hide Sidebar
             } else {
                 if (lastPanel == "")

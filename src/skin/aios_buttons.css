@@ -1,10 +1,14 @@
 /*
  * Icons
  */
+toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button):not(#remotetabs-button) .toolbarbutton-icon {
+  width: 30px;
+  height: 30px;
+}
 toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button):not(#remotetabs-button) {
   list-style-image: url("toolbar.svg");
 }
-toolbar:-moz-lwtheme-brighttext toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button),
+toolbar:-moz-lwtheme-brighttext toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button):not(#remotetabs-button),
 toolbar[brighttext] toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-button):not(#bookmarks-button):not(#history-button):not(#addons-button):not(#remotetabs-button) {
   list-style-image: url("toolbar-inverted.svg");
 }
@@ -39,7 +43,25 @@ toolbar[brighttext] toolbarbutton.toolbarbutton-1.aios-tbutton:not(#downloads-bu
 #cookies-button {
   -moz-image-region: rect(0px, 234px, 18px, 216px);
 }
-
+#aios-toolbar .toolbarbutton-1:not([disabled="true"]):-moz-any([open], [checked], :hover:active), #aios-sbhtoolbar .toolbarbutton-1:not([disabled="true"]):-moz-any([open], [checked], :hover:active) > .toolbarbutton-icon{
+  background-color: -moz-MenuHover;
+}
+#aios-toolbar .toolbarbutton-1:not([disabled="true"]):-moz-any([open], [checked], :hover:active) > .toolbarbutton-icon {
+  background-color: unset !important;
+}
+#aios-toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover, #aios-sbhtoolbar .toolbarbutton-1[checked]:not(:active):hover > .toolbarbutton-icon, #aios-sbhtoolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-icon {
+  background-color: unset !important;
+  border: 1px solid -moz-menuHover !important;
+}
+#aios-toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-icon {
+  background-color: unset !important;
+}
+#aios-toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-badge-stack {
+  background-color: unset;
+}
+#aios-toolbar[mode="text"] #downloads-indicator-anchor, #aios-toolbar[mode="text"] .toolbarbutton-badge-stack {
+  display: none;
+}
 
 /*
  * Menu Icons
@@ -78,9 +100,6 @@ menuitem[key="aiosKey_prefs"] {
 }
 #aios-toolbar[orient="vertical"] toolbarbutton toolbarbutton {
   margin: 0;
-}
-#aios-toolbar[orient="vertical"][iconsize="small"] .toolbarbutton-icon {
-  padding: 0;
 }
 #aios-toolbar[orient="vertical"] toolbarseparator,
 #aios-toolbar[orient="vertical"] toolbarpaletteitem[id^="wrapper-separator"] {

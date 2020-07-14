@@ -1,55 +1,36 @@
 <?xml version="1.0" ?>
 
 <!-- locale -->
-<!DOCTYPE overlay [
-    <!ENTITY % browserDTD SYSTEM "chrome://browser/locale/browser.dtd"> %browserDTD;
-    <!ENTITY % customizeToolbarDTD SYSTEM "chrome://global/locale/customizeToolbar.dtd"> %customizeToolbarDTD;
-    <!ENTITY % sanitizeDTD SYSTEM "chrome://browser/locale/sanitize.dtd"> %sanitizeDTD;
-
-    <!ENTITY % aiosExtrasDTD SYSTEM "chrome://aios/content/aios.dtd"> %aiosExtrasDTD;
+<!DOCTYPE dialog [
     <!ENTITY % aiosDTD SYSTEM "chrome://aios/locale/aios.dtd"> %aiosDTD;
+    <!ENTITY % browserDTD SYSTEM "chrome://browser/locale/browser.dtd"> %browserDTD;
+    <!ENTITY % customizeToolbarDTD SYSTEM "chrome://aios/locale/customizeToolbar.dtd"> %customizeToolbarDTD;
+    <!ENTITY % aiosExtrasDTD SYSTEM "chrome://aios/content/aios.dtd"> %aiosExtrasDTD;
     <!ENTITY % aiosLibDTD SYSTEM "chrome://aios/locale/lib.dtd"> %aiosLibDTD;
 ]>
 
 <overlay id="aiosOverlay"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-    <!-- scripts -->
-    <script type="application/javascript"
-            src="chrome://aios/content/_helper.js" />
-
-    <script type="application/javascript"
-            src="chrome://aios/content/prefs/_overlay.js" />
-    <script type="application/javascript"
-            src="chrome://aios/content/prefs/general.js" />
-
-    <script type="application/javascript"
-            src="chrome://aios/content/_lib.js" />
-
-    <script type="application/javascript"
-            src="chrome://aios/content/aios.js" />
-    <script type="application/javascript"
-            src="chrome://aios/content/aios_fx.js" />
-    <script type="application/javascript"
-            src="chrome://aios/content/aios_tbx.js" />
-    <script type="application/javascript"
-            src="chrome://aios/content/aios_compatibility.js" />
-
-    <stringbundleset id="stringbundleset">
-        <stringbundle id="aiosPlatformStrings"
-                      src="chrome://global-platform/locale/platformKeys.properties" />
-        <stringbundle id="aiosProperties"
-                      src="chrome://aios/content/aios.properties" />
-    </stringbundleset>
-
     <!-- AiOS Broadcaster -->
-    <broadcasterset id="mainBroadcasterSet">
+    <broadcasterset>
         <broadcaster id="viewBookmarksSidebar"
+                     autoCheck="false"
+                     type="checkbox"
+                     group="sidebar"
+                     label="&bookmarksButton.label;"
                      onclick="aios_contextEvent(event, this);"
-                     oncommand="toggleSidebar('viewBookmarksSidebar');" />
+                     oncommand="toggleSidebar('viewBookmarksSidebar');"
+                     sidebarurl="chrome://browser/content/places/bookmarksSidebar.xul"
+                     sidebartitle="&bookmarksButton.label;"/>
         <broadcaster id="viewHistorySidebar"
+                     autoCheck="false"
+                     type="checkbox"
+                     group="sidebar"
                      label="&historyButton.label;"
                      onclick="aios_contextEvent(event, this);"
-                     oncommand="toggleSidebar('viewHistorySidebar');" />
+                     oncommand="toggleSidebar('viewHistorySidebar');"
+                     sidebarurl="chrome://browser/content/places/historySidebar.xul"
+                     sidebartitle="&historyButton.label;"/>
         <broadcaster id="viewDownloadsSidebar"
                      autoCheck="false"
                      type="checkbox"
@@ -98,11 +79,11 @@
                      autoCheck="false"
                      type="checkbox"
                      group="sidebar"
-                     sidebartitle="&itemCookies.label;"
-                     sidebarurl="chrome://browser/content/preferences/cookies.xul"
+                     sidebartitle="&contentBlocking.cookies.label;"
+                     sidebarurl="chrome://browser/content/preferences/siteDataSettings.xul"
                      onclick="aios_contextEvent(event, this);"
                      oncommand="toggleSidebar('viewCookiesSidebar');"
-                     label="&itemCookies.label;"
+                     label="&contentBlocking.cookies.label;"
                      tooltiptext="&button.cookies.tooltip;" />
         <broadcaster id="viewTabsSidebar"
                      autoCheck="false"
@@ -139,7 +120,6 @@
                      persist="checked"
                      oncommand="aios_toggleElement(this); aios_toggleAutohide(this); event.stopPropagation();" />
     </broadcasterset>
-
 
     <!-- Commands -->
     <commandset id="mainCommandSet">
@@ -255,6 +235,7 @@
 
     <!-- TGS Toolbar Buttons -->
     <toolbarpalette id="BrowserToolbarPalette">
+        <toolbarbutton id="sidebarclose-button" class="close-icon tabbable" tooltiptext="&sidebarCloseButton.tooltip;" oncommand="AiOS.toggleSidebar(this);"/>
         <toolbarbutton id="bookmarks-button"
                        class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
                        label="&bookmarksButton.label;"
@@ -278,11 +259,22 @@
                       attribute="onclick" />
         </toolbarbutton>
         <toolbarbutton id="downloads-button"
-                       class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
+                       class="toolbarbutton-1 chromeclass-toolbar-additional badged-button aios-tbutton"
                        label="&downloads.label;"
                        tooltip="downloads-tooltip"
                        tooltiptext="&downloads.label;"
-                       command="Tools:Downloads-tb">
+                       command="Tools:Downloads-tb"
+                       indicator="true">
+            <!-- The panel's anchor area is smaller than the outer button, but must
+                 always be visible and must not move or resize when the indicator
+                 state changes, otherwise the panel could change its position or lose
+                 its arrow unexpectedly. -->
+            <stack id="downloads-indicator-anchor" consumeanchor="downloads-button">
+                <box id="downloads-indicator-icon"/>
+                <stack id="downloads-indicator-progress-outer">
+                    <box id="downloads-indicator-progress-inner"/>
+                </stack>
+            </stack>
             <observes element="viewDownloadsSidebar"
                       attribute="checked" />
             <observes element="viewSdDownloadsSidebar"
@@ -307,11 +299,9 @@
                        command="Tools:MultiPanel-tb"
                        label="&button.multipanel.label;"
                        tooltip="multipanel-tooltip"
-                       tooltiptext="&button.multipanel.tooltip;">
-            <observes element="viewWebPanelsSidebar"
-                      attribute="checked" />
-            <observes element="viewWebPanelsSidebar"
-                      attribute="onclick" />
+                       tooltiptext="&button.multipanel.tooltip;"
+                       onclick="aios_contextEvent(event, this);"
+                       oncommand="SidebarUI.toggle('viewWebPanelsSidebar');">
         </toolbarbutton>
         <toolbarbutton id="pageinfo-button"
                        class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
@@ -327,7 +317,7 @@
         <toolbarbutton id="cookies-button"
                        class="toolbarbutton-1 chromeclass-toolbar-additional aios-tbutton"
                        command="View:Cookies-tb"
-                       label="&itemCookies.label;"
+                       label="&contentBlocking.cookies.label;"
                        tooltip="cookies-tooltip"
                        tooltiptext="&button.cookies.tooltip;">
             <observes element="viewCookiesSidebar"
@@ -603,6 +593,14 @@
     <!-- Browser menu: View > Sidebar - popupshowing monitoring in aios_initSidebar() (compatible with MenuManipulator) -->
     <menupopup id="viewSidebarMenu"
                onpopupshowing="aios_modSidebarMenu();">
+        <menuitem id="menu_bookmarksSidebar"
+                  observes="viewBookmarksSidebar"
+                  position="1"/>
+
+        <menuitem id="menu_historySidebar"
+                  observes="viewHistorySidebar"
+                  position="2"/>
+
         <menuitem id="downloads-mitem"
                   observes="viewDownloadsSidebar"
                   position="3"
@@ -671,7 +669,6 @@
                   command="aiosCmd_prefs" />
     </menupopup>
 
-
     <hbox id="browser">
         <!-- Needed for CSS -->
         <observes element="aios-toolbar"
@@ -680,7 +677,7 @@
         <!-- Sidebar Switch -->
         <toolbox id="aios-toggle-toolbox"
                  insertafter="browser-border-start"
-                 class="chromeclass-toolbar"
+                 class="browser-toolbar"
                  persist="hidden fsToolbar fsToolbarMode fsToolbarIconsize fsSidebar fsSwitch">
 
             <!-- Monitor window mode for narrow switch (maximized, normal, minimized) -->
@@ -689,7 +686,7 @@
                       onbroadcast="AiOS.checkSidebarSwitch();" />
 
             <toolbar id="aios-toggle-toolbar"
-                     class="chromeclass-toolbar"
+                     class="browser-toolbar"
                      flex="1"
                      style="min-width: 6px; max-width: 6px;"
                      persist="style"
@@ -710,7 +707,7 @@
 
         <!-- TOOLBOX LEFT SIDE OF THE SIDEBAR -->
         <toolbox id="aios-toolbox-left"
-                 class="chromeclass-toolbar"
+                 class="browser-toolbar"
                  insertbefore="sidebar-box"
                  defaultmode="icons"
                  vertical="true">
@@ -728,7 +725,7 @@
                 => The toolbox must not be 'collapsed', otherwise the sidebar will not be scalable
             -->
             <toolbar id="aios-toolbar"
-                     class="chromeclass-toolbar"
+                     class="browser-toolbar"
                      toolbarname="&toolbar.name;"
                      context="aios-toolbar-contextmenu"
                      fullscreentoolbar="true"
@@ -737,7 +734,7 @@
                      mode="icons"
                      iconsize="large"
                      persist="posMode mode iconsize flexbuttons hidden"
-                     defaultset="bookmarks-button,history-button,downloads-button,separator,addons-button,multipanel-button,pageinfo-button,separator"
+                     defaultset="bookmarks-button,history-button,downloads-button,separator,addons-button,multipanel-button,pageinfo-button,separator,cookies-button,remotetabs-button"
                      orient="vertical"
                      flex="1"
                      toolbarlabel="&toolbar.label;:"
@@ -756,7 +753,7 @@
         <toolbox id="aios-toolbox-right"
                  insertbefore="sidebar-splitter"
                  defaultmode="icons"
-                 class="chromeclass-toolbar"
+                 class="browser-toolbar"
                  vertical="true"
                  palette="BrowserToolbarPalette">
 
@@ -833,7 +830,7 @@
                               attribute="iconsize" />
 
                     <toolbar id="aios-sbhtoolbar"
-                             class="chromeclass-toolbar"
+                             class="browser-toolbar"
                              toolbarname="&sbhtoolbar.name;"
                              context="aios-sbhtoolbar-contextmenu"
                              toolboxid="navigator-toolbox"
@@ -841,7 +838,7 @@
                              mode="icons"
                              iconsize="small"
                              persist="mode iconsize"
-                             defaultset="autohide-button,paneltab-button"
+                             defaultset="autohide-button,paneltab-button,sidebarclose-button"
                              toolbarlabel="&sbhtoolbar.label;:"
                              fullscreentoolbar="true"
                              flexbuttons="false">
@@ -891,4 +888,24 @@
             </toolbox>
         </vbox>
     </hbox>
+    <!-- scripts -->
+    <script type="application/javascript"
+            src="chrome://aios/content/helper.js" />
+
+    <script type="application/javascript"
+            src="chrome://aios/content/prefs/overlay.js" />
+    <script type="application/javascript"
+            src="chrome://aios/content/prefs/general.js" />
+
+    <script type="application/javascript"
+            src="chrome://aios/content/lib.js" />
+
+    <script type="application/javascript"
+            src="chrome://aios/content/aios.js" />
+    <script type="application/javascript"
+            src="chrome://aios/content/aios_fx.js" />
+    <script type="application/javascript"
+            src="chrome://aios/content/aios_tbx.js" />
+    <script type="application/javascript"
+            src="chrome://aios/content/aios_compatibility.js" />
 </overlay>

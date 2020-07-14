@@ -1,4 +1,4 @@
-var aios_managerWindow, downloadsBox, strings, downloadsList, sideSrc = null;
+var aios_managerWindow, downloadsBox, downloadsList, sideSrc = null;
 var aios_inSidebar = (top.document.getElementById("sidebar-box")) ? true : false;
 
 var AiOS_Downloads = {
@@ -14,7 +14,6 @@ var AiOS_Downloads = {
 
         aios_managerWindow = document.getElementById("contentAreaDownloadsView");
         downloadsBox = document.getElementById("downloadsRichListBox");
-        strings = document.getElementById("propSetStrings");
         searchBox = document.getElementById("searchbox");
 
         // For CSS purposes

@@ -15,7 +15,7 @@ var AiOS_Places = {
         return document.getElementById("historyTree");
     },
     get treeBoxObject() {
-        return this.managerTree.treeBoxObject;
+        return this.managerTree;
     },
     get searchObj() {
         return document.getElementById("search-box");
@@ -63,11 +63,10 @@ var AiOS_Places = {
             let options = PlacesUtils.history.getNewQueryOptions();
             options.resultType = Ci.nsINavHistoryQueryOptions.RESULTS_AS_DATE_QUERY;
             options.includeHidden = false;
-
-            document.getElementById("duplicateTree").load([PlacesUtils.history.getNewQuery()], options);
+            document.getElementById("duplicateTree").load(PlacesUtils.history.getNewQuery(), options);
         }
         if (self.mode == "bookmarks") {
-            document.getElementById("duplicateTree").place = "place:queryType=1&folder=" + window.top.PlacesUIUtils.allBookmarksFolderId;
+            document.getElementById("duplicateTree").place = "place:type=" + Ci.nsINavHistoryQueryOptions.RESULTS_AS_ROOTS_QUERY;
             // Modifications to be compatible with 2 Pane Bookmarks
             if (typeof Bookmarks2PaneService == "object") {
                 isHidden = true;
@@ -178,14 +177,13 @@ var AiOS_Places = {
 
         var dotoggle = (e.button === 0); // If it was not a left click, just do the standard action
         var tree = AiOS_Places.managerTree;
-        var tbo = tree.treeBoxObject;
 
         // If you click the + sign in front of the folder, then it should just open and the others are not closed
         var row = {},
             col = {},
             obj = {};
-        tbo.getCellAt(e.clientX, e.clientY, row, col, obj);
-        if (row.value === -1 || obj.value === "twisty") {
+        var cell = tree.getCellAt(e.clientX, e.clientY, row, col, obj);
+        if (cell.row === -1 || cell.childElt === "twisty") {
             return;
         }
 
@@ -193,7 +191,7 @@ var AiOS_Places = {
             y = {},
             w = {},
             h = {};
-        tbo.getCoordsForCellItem(row.value, col.value, "image", x, y, w, h);
+        tree.getCoordsForCellItem(row, tree.columns.getNamedColumn("title"), "image", x, y, w, h);
         var isLTR = (window.getComputedStyle(tree).direction === "ltr");
         var mouseInGutter = isLTR ? (e.clientX < x.value) : (e.clientX > x.value);
 
@@ -226,11 +224,11 @@ var AiOS_Places = {
             }
 
             // If you want to scroll, but only if that is really necessary
-            if (aios_getBoolean("aios-scrollToFolder", "checked") && (tboView.rowCount > tbo.getPageLength())) {
-                tbo.scrollToRow(tree.currentIndex);
+            if (aios_getBoolean("aios-scrollToFolder", "checked") && (tboView.rowCount > tree.getPageLength())) {
+                tree.scrollToRow(tree.currentIndex);
             }
 
-            tbo.ensureRowIsVisible(tree.currentIndex); // Scrolls to the index only when needed.
+            tree.ensureRowIsVisible(tree.currentIndex); // Scrolls to the index only when needed.
 
             if (aios_getBoolean("aios-rememberFolder", "checked")) {
                 switch (sidebarType) {
@@ -247,7 +245,7 @@ var AiOS_Places = {
     },
 
     closeAllFolders: function () {
-        var aView = AiOS_Places.managerTree.treeBoxObject.view;
+        var aView = AiOS_Places.managerTree.view;
 
         // Last opened folder "forgotten"
         if (document.getElementById("bookmarksPanel"))

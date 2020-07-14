@@ -1,4 +1,4 @@
-Components.utils.import("resource://gre/modules/Downloads.jsm");
+ChromeUtils.import("resource://gre/modules/Downloads.jsm");
 
 /*
  * Modifies the Sidebar menu
@@ -468,12 +468,12 @@ function aios_setTargets() {
 
     if (prefInfotip) {
         if (AiOS_Objects.sbSwitch)
-            AiOS_Objects.sbSwitch.removeAttribute("tooltiptext");
+            AiOS_Objects.sbSwitch.setAttribute("tooltiptext", "");
 
         // in loop because there may be several buttons with the same ID
         objects = document.getElementsByAttribute("id", "paneltab-button");
         for (i = 0; i < objects.length; i++) {
-            objects[i].removeAttribute("tooltiptext");
+            objects[i].setAttribute("tooltiptext", "");
         }
     }
 
@@ -557,7 +557,7 @@ function aios_ModifyCommandSet(targets, prefInfotip, objects, i, isMain) {
             if (prefSidebar) {
                 // Tooltip
                 newObj = sbObj;
-                newTp = document.getElementById("template-sidebar-tooltip").childNodes[0].cloneNode(true);
+                newTp = document.getElementById("template-sidebar-tooltip").childNodes[1].cloneNode(true);
 
                 // Command
                 newCmd = newObj.getAttribute("oncommand");
@@ -570,7 +570,7 @@ function aios_ModifyCommandSet(targets, prefInfotip, objects, i, isMain) {
             } else {
                 // Tooltip
                 newObj = ffObj;
-                newTp = document.getElementById("template-window-tooltip").childNodes[0].cloneNode(true);
+                newTp = document.getElementById("template-window-tooltip").childNodes[1].cloneNode(true);
 
                 // Command
                 ffObj.setAttribute("oncommand", "if(aios_preventDblCmd(event)) " + targets[obj][3]);
@@ -593,13 +593,13 @@ function aios_ModifyCommandSet(targets, prefInfotip, objects, i, isMain) {
             if (prefInfotip && btObj) {
                 objects = document.getElementsByAttribute("id", btObj.id);
                 for (i = 0; i < objects.length; i++) {
-                    objects[i].removeAttribute("tooltiptext");
+                    objects[i].setAttribute("tooltiptext", "");
                 }
             }
 
             // remove "old" tooltip lines (otherwise they will be inserted with each function call)
-            if (tpObj.childNodes.length > 1)
-                tpObj.removeChild(tpObj.childNodes[1]);
+            if (tpObj.childNodes.length > 2)
+                tpObj.removeChild(tpObj.childNodes[2]);
 
             // Activate right click in the tooltip
             if (enable_rightclick)

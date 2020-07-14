@@ -50,7 +50,6 @@ window[aiosOrient="right"] toolbox #aios-toggle-toolbox > toolbar #aios-toggle-t
   background-color: transparent;
 }
 
-
 /*
  * TGS Toolbar
  */
@@ -203,6 +202,9 @@ window[aiosOrient="right"] #sidebar-splitter[orient="horizontal"] grippy {
 .aios-noIcons > .menu-iconic-left image {
   display: none;
 }
+toolbarbutton[checked="false"]:not(:hover) .toolbarbutton-icon {
+  background-color: transparent !important;
+}
 
 
 /*
@@ -253,11 +255,9 @@ sidebarheader {
 #sidebars-titlebutton > label:-moz-lwtheme {
   color: highlighttext;
 }
-sidebarheader > .tabs-closebutton,
-sidebarheader > .close-icon.tabbable {
-  display: none;
+sidebarheader #sidebar-close {
+  display: none !important;
 }
-
 
 /*
  * Sidebar Header Toolbar

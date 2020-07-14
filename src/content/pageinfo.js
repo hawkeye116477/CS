@@ -67,13 +67,13 @@ var AiOS_PageInfo = {
 
         // Security Panel: Breaking Texts and Buttons
         // Identity
-        var groupbox = document.getElementById("security-identity-groupbox");
-        groupbox.removeChild(groupbox.getElementsByTagName("spacer")[0]);
-        groupbox.getElementsByTagName("hbox")[0].setAttribute("orient", "vertical");
-        groupbox.getElementsByTagName("hbox")[0].setAttribute("align", "start");
+        vbox = document.createElement("vbox");
+        document.querySelector("#securityPanel rows").appendChild(vbox);
+        vbox.align = "start";
+        document.querySelector("#securityPanel rows vbox").insertAdjacentElement('beforeend', document.getElementById("security-view-cert"));
 
         // History
-        var historyrow = document.getElementById("security-privacy-history-label").parentNode;
+        var historyrow = document.querySelector('label[control="security-privacy-history-value"]').parentNode;
         vbox = document.createElement("vbox");
         while (historyrow.childNodes.length != 0) {
             vbox.appendChild(historyrow.firstChild);
@@ -82,7 +82,7 @@ var AiOS_PageInfo = {
         historyrow.appendChild(vbox);
 
         // Cookies
-        var cookierow = document.getElementById("security-privacy-cookies-label").parentNode;
+        var cookierow = document.querySelector('label[control="security-privacy-sitedata-value"]').parentNode;
         vbox = document.createElement("vbox");
         while (cookierow.childNodes.length != 0) {
             vbox.appendChild(cookierow.firstChild);
@@ -91,7 +91,7 @@ var AiOS_PageInfo = {
         cookierow.appendChild(vbox);
 
         // Passwords
-        var pwdrow = document.getElementById("security-privacy-passwords-label").parentNode;
+        var pwdrow = document.querySelector('label[control="security-privacy-passwords-value"]').parentNode;
         vbox = document.createElement("vbox");
         while (pwdrow.childNodes.length != 0) {
             vbox.appendChild(pwdrow.firstChild);
@@ -105,7 +105,7 @@ var AiOS_PageInfo = {
         document.getElementById("main-window").setAttribute("seltab", document.getElementById("viewGroup").selectedIndex);
     },
 
-    // Automatic update => call by AiOS_ProgressListener (_helper.js)
+    // Automatic update => call by AiOS_ProgressListener (helper.js)
     onLocationChange: function () {
         if (aios_inSidebar()) {
             AiOS_PageInfo.persistSelTab();
@@ -162,12 +162,6 @@ var AiOS_Overrides = {
         browser = browser || AiOS_HELPER.mostRecentWindow.gBrowser.selectedBrowser || window.opener.gBrowser.selectedBrowser;
         let mm = browser.messageManager;
 
-        gStrings["application/rss+xml"] = gBundle.getString("feedRss");
-        gStrings["application/atom+xml"] = gBundle.getString("feedAtom");
-        gStrings["text/xml"] = gBundle.getString("feedXML");
-        gStrings["application/xml"] = gBundle.getString("feedXML");
-        gStrings["application/rdf+xml"] = gBundle.getString("feedXML");
-
         // Look for pageInfoListener in content.js. Sends message to listener with arguments.
         mm.sendAsyncMessage("PageInfo:getData", {
             strings: gStrings,
@@ -179,28 +173,39 @@ var AiOS_Overrides = {
         let pageInfoData;
 
         // Get initial pageInfoData needed to display the general, feeds, permission and security tabs.
-        mm.addMessageListener("PageInfo:data", function onmessage(message) {
+        mm.addMessageListener("PageInfo:data", async function onmessage(message) {
             mm.removeMessageListener("PageInfo:data", onmessage);
             pageInfoData = message.data;
 
             let docInfo = pageInfoData.docInfo;
             let windowInfo = pageInfoData.windowInfo;
 
-            let uri = makeURI(docInfo.documentURIObject.spec,
-                docInfo.documentURIObject.originCharset);
+            let uri = Services.io.newURI(docInfo.documentURIObject.spec);
             let principal = docInfo.principal;
             gDocInfo = docInfo;
 
             gImageElement = pageInfoData.imageInfo;
 
-            var titleFormat = windowInfo.isTopWindow ? "pageInfo.page.title"
-                : "pageInfo.frame.title";
-            document.title = gBundle.getFormattedString(titleFormat, [docInfo.location]);
+            var titleFormat = windowInfo.isTopWindow
+                ? "page-info-page"
+                : "page-info-frame";
+            document.l10n.setAttributes(document.documentElement, titleFormat, {
+                website: docInfo.location,
+            });
 
             document.getElementById("main-window").setAttribute("relatedUrl", docInfo.location);
 
-            makeGeneralTab(pageInfoData.metaViewRows, docInfo);
-            initFeedTab(pageInfoData.feeds);
+            await makeGeneralTab(pageInfoData.metaViewRows, docInfo);
+            if (
+              uri.spec.startsWith("about:neterror") ||
+              uri.spec.startsWith("about:certerror")
+            ) {
+              uri = browser.currentURI;
+              principal = Services.scriptSecurityManager.createCodebasePrincipal(
+                uri,
+                browser.contentPrincipal.originAttributes
+              );
+            }
             onLoadPermission(uri, principal);
             securityOnLoad(uri, windowInfo);
         });

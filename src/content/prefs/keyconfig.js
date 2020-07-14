@@ -7,7 +7,8 @@ if (target) {
     var gRemovedKeys = target.aiosKeyconfig.removedKeys;
 }
 
-var gAtomService      = Components.classes["@mozilla.org/atom-service;1"].getService(Components.interfaces.nsIAtomService);
+var { Services } = ChromeUtils.import('resource://gre/modules/Services.jsm');
+
 var gUnicodeConverter = Components.classes["@mozilla.org/intl/scriptableunicodeconverter"].createInstance(Components.interfaces.nsIScriptableUnicodeConverter);
 var gClipboardHelper  = Components.classes["@mozilla.org/widget/clipboardhelper;1"].getService(Components.interfaces.nsIClipboardHelper);
 var gLocation, gKeys, gUsedKeys;
@@ -34,24 +35,25 @@ function aios_initKeys() {
     if (!target)
         return;
 
+    let charset = 'utf-8';
     gUnicodeConverter.charset = "UTF-8";
 
     keyTree = document.getElementById("key-tree");
     gEditbox = document.getElementById("editbox");
     gEdit = document.getElementById("edit");
-    gLocaleKeys = document.getElementById("localeKeys");
+    gLocaleKeys = Services.strings.createBundle("chrome://global/locale/keys.properties")
 
-    var keyMsgs = document.getElementById("keyMsgs");
-    gStrings.used = keyMsgs.getString("keyconfig.used");
-    gStrings.onreset = keyMsgs.getString("keyconfig.onreset");
-    gStrings.unrecognized = keyMsgs.getString("keyconfig.unrecognized");
+    let keyMsgs = Services.strings.createBundle("chrome://aios/locale/keyconf.properties");
+    gStrings.used = keyMsgs.GetStringFromName("keyconfig.used");
+    gStrings.onreset = keyMsgs.GetStringFromName("keyconfig.onreset");
+    gStrings.unrecognized = keyMsgs.GetStringFromName("keyconfig.unrecognized");
 
-    var platformKeys = document.getElementById("platformKeys");
-    gPlatformKeys.shift = platformKeys.getString("VK_SHIFT");
-    gPlatformKeys.meta = platformKeys.getString("VK_META");
-    gPlatformKeys.alt = platformKeys.getString("VK_ALT");
-    gPlatformKeys.ctrl = platformKeys.getString("VK_CONTROL");
-    gPlatformKeys.sep = platformKeys.getString("MODIFIER_SEPARATOR");
+    let platformKeys = Services.strings.createBundle("chrome://global-platform/locale/platformKeys.properties");
+    gPlatformKeys.shift = platformKeys.GetStringFromName("VK_SHIFT");
+    gPlatformKeys.meta = platformKeys.GetStringFromName("VK_META");
+    gPlatformKeys.alt = platformKeys.GetStringFromName("VK_ALT");
+    gPlatformKeys.ctrl = platformKeys.GetStringFromName("VK_CONTROL");
+    gPlatformKeys.sep = platformKeys.GetStringFromName("MODIFIER_SEPARATOR");
 
     switch (gPrefService.getIntPref("ui.key.accelKey")) {
     case 17:
@@ -139,7 +141,7 @@ function getFormattedKey(modifiers, key, keycode) {
         val += key;
     if (keycode)
         try {
-            val += gLocaleKeys.getString(keycode);
+            val += gLocaleKeys.GetStringFromName(keycode);
         } catch (e) {
             val += gStrings.unrecognized.replace("$1", keycode);
         }
@@ -256,9 +258,7 @@ function Apply() {
     gModified = true;
     detectUsedKeys();
 
-    var str = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);
-    str.data = key.pref.join("][");
-    gPrefService.setComplexValue(gProfile + node.id, Components.interfaces.nsISupportsString, str);
+    gPrefService.setStringPref(gProfile + node.id, key.pref.join("]["));
 
     node.removeAttribute("modifiers");
     node.removeAttribute("key");
@@ -276,7 +276,7 @@ function Apply() {
     if (key.pref[2])
         node.setAttribute("keycode", key.pref[2]);
 
-    keyTree.treeBoxObject.invalidate();
+    keyTree.invalidate();
 }
 
 function Disable() {
@@ -300,7 +300,7 @@ function Reset() {
     gModified = true;
     detectUsedKeys();
 
-    keyTree.treeBoxObject.invalidate();
+    keyTree.invalidate();
 }
 
 function Key(aKey) {
@@ -374,9 +374,9 @@ function closeEditor(fields) {
         };
         gKeys.push(key);
         gRemovedKeys.appendChild(key.node);
-        keyTree.treeBoxObject.rowCountChanged(keyTree.view.rowCount - 1, 1);
+        keyTree.rowCountChanged(keyTree.view.rowCount - 1, 1);
         keyTree.view.selection.select(keyTree.view.rowCount - 1);
-        keyTree.treeBoxObject.ensureRowIsVisible(keyTree.view.rowCount - 1);
+        keyTree.ensureRowIsVisible(keyTree.view.rowCount - 1);
     }
 
     key.name = fields.name.value || "key" + Date.now();
@@ -393,11 +393,9 @@ function closeEditor(fields) {
 
     key.pref[4] = fields.global.checked ? "" : gLocation;
 
-    var str = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);
-    str.data = key.pref.join("][");
-    gPrefService.setComplexValue(gProfile + key.node.id, Components.interfaces.nsISupportsString, str);
+    gPrefService.setStringPref(gProfile + key.node.id, key.pref.join("]["));
 
-    keyTree.treeBoxObject.invalidateRow(keyTree.currentIndex);
+    keyTree.invalidateRow(keyTree.currentIndex);
 }
 
 var keyView = {

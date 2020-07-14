@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "applications": {
+      "gecko": {
+        "id": "classicsidebar@hawkeye116477",
+        "strict_min_version": "68.0"
+      }
+    },
+    "name": "Classic Sidebar",
+    "description": "Sidebar control with award-winning user experience!",
+    "version": "1.0.0",
+    "icons": {
+      "64": "skin/icon64.png"
+    },
+    "legacy": {
+      "options": {
+        "page": "chrome://aios/content/prefs/prefs.xul",
+        "open_in_tab": false
+      }
+    }
+}

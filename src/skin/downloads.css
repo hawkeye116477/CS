@@ -12,7 +12,15 @@
 window[aios-inSidebar] #downloadsRichListBox > richlistitem.download {
   height: auto;
 }
+#contentAreaDownloadsView #searchbox {
+  color: -moz-dialogText !important;
+  -moz-appearance: textfield;
+}
 
+window[aios-inSidebar="true"] textbox[focused] {
+  border-color: -moz-MenuHover !important;
+  box-shadow: 0 0 1px -moz-MenuHover !important;
+}
 /* Icons */
 window #clearListButton {
   list-style-image: url("panels_menus.svg");
@@ -36,10 +44,4 @@ window[aios-downloadShade="true"] richlistitem:not([selected=true])[state="5"] {
   background-color: -moz-Dialog;
   color: -moz-dialogText;
   border: none;
-}
-
-#contentAreaDownloadsView #searchbox {
-  background-color: -moz-Dialog;
-  color: -moz-dialogText;
-  -moz-appearance: textfield;
 }

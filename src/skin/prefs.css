@@ -1,31 +1,31 @@
 /*
  * GUI
  */
-.paneSelector radio[pane] {
-  list-style-image: url("prefs.png");
+.paneSelector tab {
+  list-style-image: url("chrome://aios/skin/prefs.png");
 }
-radio[pane=aiosGeneral] {
+tab#aiosGeneral {
   -moz-image-region: rect(0, 32px, 32px, 0);
 }
-radio[pane=aiosPanels] {
+tab#aiosPanels {
   -moz-image-region: rect(0, 64px, 32px, 32px);
 }
-radio[pane=aiosMenus] {
+tab#aiosMenus {
   -moz-image-region: rect(0, 96px, 32px, 64px);
 }
-radio[pane=aiosKeys] {
+tab#aiosKeys {
   -moz-image-region: rect(0, 128px, 32px, 96px);
 }
-radio[pane=aiosAbout] {
+tab#aiosAbout {
   -moz-image-region: rect(0, 160px, 32px, 128px);
 }
-radio[pane=aiosSbSwitch] {
+tab#aiosSbSwitch {
   -moz-image-region: rect(0, 192px, 32px, 160px);
 }
 #obj-minWidthVal,
 #obj-defWidthVal,
 #obj-maxWidthVal {
-  width: 48px;
+  width: 60px;
 }
 #obj-minWidthUnit,
 #obj-defWidthUnit,
@@ -33,7 +33,7 @@ radio[pane=aiosSbSwitch] {
   min-width: 80px;
 }
 .arrow-lft {
-  list-style-image: url(chrome://browser/skin/arrow-dropdown.svg);
+  list-style-image: url(chrome://global/skin/icons/arrow-dropdown-12.svg);
 }
 .arrow-lft image {
   transform: rotate(90deg);
@@ -47,7 +47,7 @@ radio[pane=aiosSbSwitch] {
   padding-bottom: 2px;
 }
 #aios-settings-button image {
-  list-style-image: url(chrome://browser/skin/arrow-dropdown.svg);
+  list-style-image: url(chrome://global/skin/icons/arrow-dropdown-12.svg);
   transform: rotate(180deg);
   margin-left: 5px;
   -moz-context-properties: fill;
@@ -186,4 +186,16 @@ toolbarbutton.info label {
   list-style-image: url("columnpicker.svg");
   -moz-context-properties: fill;
   fill: currentColor;
+}
+
+.groupbox-body {
+  padding-inline-start: 10px;
+}
+
+groupbox {
+  margin-top: 5px;
+}
+
+tabpanels {
+  padding-left: 0;
 }
