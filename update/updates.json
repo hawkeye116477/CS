@@ -3,13 +3,13 @@
         "classicsidebar@hawkeye116477": {
             "updates": [
                 {
-                    "version": "1.0.0",
+                    "version": "1.0.0.1",
                     "applications": {
                         "gecko": {
                             "strict_min_version": "68.0"
                         }
                     },
-                    "update_link": "https://github.com/hawkeye116477/CS/releases/download/current-1.0.0/CS.xpi"
+                    "update_link": "https://github.com/hawkeye116477/CS/releases/download/current-1.0.0.1/CS.xpi"
                 }
             ]
         }
