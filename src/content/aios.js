@@ -250,9 +250,15 @@ var AiOS = {
         // Sidebar alignment
         var sidebarOrient = AiOS_HELPER.prefBranchAiOS.getIntPref("gen.orient");
 
-        AiOS_Objects.mainWindow.setAttribute("aiosOrient", "left");
-        if (sidebarOrient == 2)
+        if(AiOS_Objects.sidebarBox.hasAttribute("ordinal") == true) {
+            AiOS_Objects.sidebarBox.removeAttribute("ordinal");
+        }
+
+        if (sidebarOrient == 2) {
             AiOS_Objects.mainWindow.setAttribute("aiosOrient", "right");
+        } else {
+            AiOS_Objects.mainWindow.setAttribute("aiosOrient", "left");
+        }
 
         // Fix for MileWideBack
         if (document.getElementById("back-strip") && sidebarOrient == 2) {
