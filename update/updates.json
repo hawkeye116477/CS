@@ -1,0 +1,17 @@
+{
+    "addons": {
+        "classicsidebar@hawkeye116477": {
+            "updates": [
+                {
+                    "version": "1.0.0",
+                    "applications": {
+                        "gecko": {
+                            "strict_min_version": "68.0"
+                        }
+                    },
+                    "update_link": "https://github.com/hawkeye116477/CS/releases/download/current-1.0.0/CS.xpi"
+                }
+            ]
+        }
+    }
+}
