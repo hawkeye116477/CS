@@ -2,7 +2,7 @@
 [![Crowdin](https://badges.crowdin.net/classic-sidebar/localized.svg)](https://github.com/hawkeye116477/CS/wiki/Help-with-translation)
 [![License](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://raw.githubusercontent.com/hawkeye116477/CS/master/license.txt)
 ===================================================================
-Classic Sidebar (CS) - a sidebar extension for Waterfox Classic
+Classic Sidebar (CS) - a sidebar extension for Waterfox Classic and Current
 ===================================================================
 
 Build the extension
