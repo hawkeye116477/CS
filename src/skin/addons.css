@@ -44,7 +44,9 @@ page[aios-inSidebar] #category-recentUpdates[disabled="true"],
 page[aios-inSidebar] .category-name, page[aios-inSidebar] .category-badge {
   display: none;
 }
-
+page[aios-inSidebar] #header #back-btn, page[aios-inSidebar] #header #forward-btn {
+  -moz-box-ordinal-group: 0;
+}
 
 /*
  * Header
