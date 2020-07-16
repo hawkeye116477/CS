@@ -41,19 +41,6 @@ var AiOS_Addons = {
         before = document.getElementById("view-port-container") || document.getElementById("view-port");
         insertedElement = before.parentNode.insertBefore(document.getElementById("header"), before);
 
-        // Move the navigation bar (WebExAM)
-        if (AiOS_HELPER.usingCUI) {
-            let vc = Components.classes["@mozilla.org/xpcom/version-comparator;1"]
-                               .getService(Components.interfaces.nsIVersionComparator);
-            // Check if workaround is still necessary
-            let compareResult = vc.compare(AiOS_HELPER.appInfo.version, '52.9.2019.02.11');
-            if (compareResult == -1) {
-                document.getElementById("nav-header").setAttribute("modified", "true");
-                before = document.getElementById("show-all-extensions");
-                insertedElement = before.parentNode.insertBefore(document.getElementById("nav-header"), before);
-            }
-        }
-
         // Cut labels when searching without search results...
         document.getElementById("search-list-empty").childNodes[1].childNodes[0].setAttribute("crop", "end");
 

@@ -23,13 +23,13 @@
 	</richlistbox>
 
 	<hbox id="header">
-		<toolbarbutton id="back-btn">
+		<toolbarbutton id="back-btn" class="nav-button header-button">
 			<observes element="back-btn"
 			          attribute="hidden"
 			          onbroadcast="document.getElementById('back-btn').setAttribute('hidden', false)" />
 		</toolbarbutton>
 
-		<toolbarbutton id="forward-btn">
+		<toolbarbutton id="forward-btn" class="nav-button header-button">
 			<observes element="forward-btn"
 			          attribute="hidden"
 			          onbroadcast="document.getElementById('forward-btn').setAttribute('hidden', false)" />

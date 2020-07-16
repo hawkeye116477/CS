@@ -6,7 +6,9 @@ page[aios-inSidebar] .main-content,
 page[aios-inSidebar] .view-pane > .list > scrollbox {
   padding: 0;
 }
-
+page[aios-inSidebar] #addon-list scrollbox {
+  overflow: hidden !important;
+}
 
 /*
  * Navigation
@@ -55,7 +57,9 @@ page[aios-inSidebar] #header-utils-btn {
   margin: 0 5px;
   min-width: 0;
 }
-
+page[aios-inSidebar] #header spacer {
+  display: none;
+}
 
 /*
  * Content
@@ -142,6 +146,10 @@ page[aios-inSidebar] .addon .creator,
 page[aios-inSidebar] .addon .date-updated {
   display: none;
 }
+page[aios-inSidebar] #getthemes-container {
+  display: none;
+}
+
 
 /* Unselected Add-ons */
 page[aios-inSidebar] .addon:not([selected="true"]) .icon-container,
@@ -350,8 +358,4 @@ page[aios-inSidebar][aios-appDefTheme="true"] .category:not([disabled]):hover {
 page[aios-inSidebar][aios-appDefTheme="true"] #header {
   border-top: 1px solid ThreedHighlight;
   border-bottom: 1px solid ThreedShadow;
-}
-
-page[aios-inSidebar] #getthemes-container {
-  display: none;
 }
