@@ -3,7 +3,7 @@ var AiOS_About = {
     initialize: function () {
         Components.utils.import("resource://gre/modules/AddonManager.jsm");
 
-        AddonManager.getAddonByID("tgsidebar@franklindm", function (addon) {
+        AddonManager.getAddonByID("classicsidebar@hawkeye116477", function (addon) {
             document.getElementById("aboutHeader").setAttribute("title", addon.name);
             document.getElementById("aboutHeader").setAttribute("description", addon.version);
 
