@@ -20,17 +20,11 @@
 
 	<hbox id="header">
 		<hbox id="header-inner" align="center">
-			<toolbarbutton id="back-btn">
-				<observes element="back-btn"
+			<button id="go-back" command="cmd_back" data-l10n-id="go-back-button">
+				<observes element="go-back"
 				          attribute="hidden"
-				          onbroadcast="document.getElementById('back-btn').setAttribute('hidden', false)" />
-			</toolbarbutton>
-
-			<toolbarbutton id="forward-btn">
-				<observes element="forward-btn"
-				          attribute="hidden"
-				          onbroadcast="document.getElementById('forward-btn').setAttribute('hidden', false)" />
-			</toolbarbutton>
+				          onbroadcast="document.getElementById('go-back').setAttribute('hidden', false)" />
+			</button>
 		</hbox>
 	</hbox>
 
