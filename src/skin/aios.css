@@ -253,9 +253,8 @@ sidebarheader {
 #sidebars-titlebutton > label:-moz-lwtheme {
   color: highlighttext;
 }
-sidebarheader > .tabs-closebutton,
-sidebarheader > .close-icon.tabbable {
-  display: none;
+sidebarheader #sidebar-close {
+  display: none !important;
 }
 
 
