@@ -253,7 +253,7 @@ sidebarheader {
   padding-right: 10px;
 }
 #sidebars-titlebutton > label:-moz-lwtheme {
-  color: highlighttext;
+  color: var(--sidebar-text-color);
 }
 sidebarheader #sidebar-close {
   display: none !important;
