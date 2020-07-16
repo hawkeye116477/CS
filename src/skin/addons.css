@@ -59,6 +59,9 @@ page[aios-inSidebar] .sidebar-footer-button {
 page[aios-inSidebar] richlistbox {
   color: -moz-FieldText;
 }
+page[aios-inSidebar] #header-inner #go-back {
+  -moz-box-ordinal-group: 0;
+}
 
 /*
  * Header

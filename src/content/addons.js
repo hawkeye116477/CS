@@ -57,8 +57,7 @@ var AiOS_Addons = {
         document.getElementById("updates-container").insertBefore(updatesBox, document.getElementById("updates-container").childNodes[1]);
 
         // Always make navigation buttons visible
-        document.getElementById("back-btn").setAttribute("hidden", false);
-        document.getElementById("forward-btn").setAttribute("hidden", false);
+        document.getElementById("go-back").setAttribute("hidden", false);
     },
 
     setDetailLayout: function () {
