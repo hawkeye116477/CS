@@ -253,7 +253,7 @@ var AiOS = {
             AiOS_Objects.sidebarBox.removeAttribute("ordinal");
         }
 
-        SidebarUI.setPosition = function(){return null;};
+        SidebarUI.setPosition = function () { };
 
         if (sidebarOrient == 2) {
             AiOS_Objects.mainWindow.setAttribute("aiosOrient", "right");
