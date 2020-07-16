@@ -15,7 +15,7 @@ var AiOS_HELPER = {
         this.appInfo = Components.classes["@mozilla.org/xre/app-info;1"].getService(Components.interfaces.nsIXULAppInfo);
         this.os = Components.classes["@mozilla.org/xre/app-info;1"].getService(Components.interfaces.nsIXULRuntime).OS;
         this.osVersion = window.navigator.oscpu;
-        this.defTheme = (this.prefBranch.getCharPref("extensions.activeThemeID") == "australis-dark@waterfox.net") ? true : false;
+        this.defTheme = true;
 
         this.usingCUI = false;
         // If CustomizableUI object is present or using Firefox UUID
