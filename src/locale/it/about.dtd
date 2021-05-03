@@ -1,22 +1,22 @@
 <!ENTITY title "Informazioni su Classic Sidebar">
 <!ENTITY settings "Impostazioni…">
 <!ENTITY close "Chiudi">
-<!ENTITY tab.about "Informazioni">
-<!ENTITY tab.help "Contenuti guida">
+<!ENTITY tab.about "Info">
+<!ENTITY tab.help "Aiuto">
 <!ENTITY tab.contrib "Collaboratori">
 <!ENTITY tab.trans "Traduttori">
-<!ENTITY about.desc "Permette di aprire diverse finestre quale la finestra di gestione dei download nella barra laterale analogamente alla barra dei segnalibri e della cronologia, passando rapidamente da una all'altra">
-<!ENTITY create.desc "Created by hawkeye116477, forked from The Good 'ol Sidebar, which was forked from the now discontinued All-in-One Sidebar created by Ingo Wennemaring.">
-<!ENTITY help.desc "I contenuti guida di Classic Sidebar sono disponibili (in inglese) nelle pagine web qui sotto">
-<!ENTITY about1.name "Sito web - molteplici informazioni tutte insieme">
-<!ENTITY about2.name "Caratteristiche - tutte le caratteristiche di Classic Sidebar">
-<!ENTITY about3.name "FAQ - domande poste frequentemente e risposte">
-<!ENTITY about4.name "Problemi noti - descrizione ed analisi">
-<!ENTITY about5.name "Forum - discussioni, rapporti sui bug e soluzioni per i conflitti dei temi">
+<!ENTITY about.desc "Classic Sidebar ti consente di aprire varie finestre come pannelli della barra laterale e di passare tra loro rapidamente. Quindi mette fine al caos di finestre! Oltre ai segnalibri e la cronologia, apre le finestre come i download, gli addon e altro nella barra laterale.">
+<!ENTITY create.desc "Creata da hawkeye116477, ideata da The Good 'ol Sidebar, a sua volta ideata dalla All-in-One Sidebar creata da Ingo Wennemaring.">
+<!ENTITY help.desc "Troverai molte informazioni su questo addon sul sito web:">
+<!ENTITY about1.name "Pagina Principale - molte informazioni in un solo posto">
+<!ENTITY about2.name "Funzionalità - tutte le funzionalità di Classic Sidebar">
+<!ENTITY about3.name "FAQ - domande frequenti e risposte">
+<!ENTITY about4.name "Problemi noti - descrizioni e risoluzione dei problemi">
+<!ENTITY about5.name "Forum - discussioni, segnalazioni di bug e soluzioni per i temi tra le altre cose">
 <!ENTITY about6.name "Storico - cronologia e modifiche">
-<!ENTITY about7.name "Da fare - aggiunte pianificate e miglioramenti">
-<!ENTITY about8.name "Help with translation">
-<!ENTITY contrib.desc "Si ringraziano i seguenti sviluppatori per l'ispirazione e le parti di codice (in ordine alfabetico):">
-<!ENTITY contrib.thanks "Si ringraziano infine tutti gli utilizzatori che hanno aiutato testando le versioni in via di sviluppo, riportando i bug nel forum, condividendo le loro idee ed i loro suggerimenti o scrivendo giusto un commento carino :-). Molte grazie!">
-<!ENTITY trans.desc "I traduttori di AiOS e CS (in ordine alfabetico per sigla della lingua):">
-<!ENTITY trans.thanks "Si ringraziano anche le persone del team di BabelZilla.org per il loro lavoro!">
+<!ENTITY about7.name "Da fare - funzionalità e miglioramenti pianificati">
+<!ENTITY about8.name "Aiuta con la traduzione">
+<!ENTITY contrib.desc "Ringrazio i seguenti sviluppatori per l'ispirazione e i frammenti di codice (in ordine alfabetico):">
+<!ENTITY contrib.thanks "Ultimi ma non per importanza ringrazio tutti gli utenti che hanno aiutato provando le build di sviluppo, segnalando i bug nel forum, condividendo le proprie idee e i propri suggerimenti e anche solo scrivendo bei commenti. :-) Grazie mille!">
+<!ENTITY trans.desc "I traduttori dell'AiOS, TFS e CS (alfabeticamente per codice linguistico):">
+<!ENTITY trans.thanks "Ovviamente ringrazio anche il team di BabelZilla.org per il loro grande lavoro!">

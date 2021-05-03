@@ -1,41 +1,41 @@
-<!ENTITY loading.label "Caricamento del pannello in corso…">
-<!ENTITY menu.prefs.label "Impostazioni di Classic Sidebar…">
-<!ENTITY menu.togglebar.label "Bordo cliccabile (Mostra/Nasconde CS)">
-<!ENTITY menu.grippy.label "Barra laterale Grippy">
-<!ENTITY toolbar.name "Barra degli strumenti di Classic Sidebar">
+<!ENTITY loading.label "caricamento pannello…">
+<!ENTITY menu.prefs.label "Opzioni di Classic Sidebar…">
+<!ENTITY menu.togglebar.label "Cambio Barra Laterale">
+<!ENTITY menu.grippy.label "Barra laterale Aderente">
+<!ENTITY toolbar.name "Barra degli Strumenti di Classic Sidebar">
 <!ENTITY toolbar.label "Classic Sidebar">
-<!ENTITY sbhtoolbar.name "Barra laterale">
-<!ENTITY sbhtoolbar.label "Intestazione della barra laterale">
+<!ENTITY sbhtoolbar.name "Strumenti della Barra Laterale">
+<!ENTITY sbhtoolbar.label "Intestazione della Barra Laterale">
 <!ENTITY button.toggle.label "CS">
-<!ENTITY button.toggle.tooltip "Attiva/Disattiva gli elementi controllati da Classic Sidebar">
-<!ENTITY button.switch.tooltip1 "Attiva/Disattiva barra laterale e degli strumenti">
-<!ENTITY button.switch.tooltip2 "Attiva/Disattiva la barra degli strumenti">
-<!ENTITY button.switch.tooltip3 "Attiva/Disattiva la barra laterale">
-<!ENTITY sidebar.open.label "Mostra la barra laterale">
-<!ENTITY sidebar.close.label "Nascondi la barra laterale">
+<!ENTITY button.toggle.tooltip "Attiva/Disattiva elementi controllati da Classic Sidebar">
+<!ENTITY button.switch.tooltip1 "Attiva/Disattiva Barra Laterale e degli Strumenti">
+<!ENTITY button.switch.tooltip2 "Attiva/Disattiva Barra degli Strumenti">
+<!ENTITY button.switch.tooltip3 "Attiva/Disattiva la Barra Laterale">
+<!ENTITY sidebar.open.label "Apri Barra Laterale">
+<!ENTITY sidebar.close.label "Chiudi la Barra Laterale">
 <!ENTITY sidebar.width.min "Larghezza minima">
-<!ENTITY sidebar.width.def "Larghezza predefinita">
+<!ENTITY sidebar.width.def "Larghezza standard">
 <!ENTITY sidebar.width.max "Larghezza massima">
-<!ENTITY button.menu.label "Pannelli della barra laterale">
-<!ENTITY button.menu.tooltip "Tutti i pannelli disponibili della barra laterale">
-<!ENTITY button.toolbar.label "Barra di CS">
-<!ENTITY button.toolbar.tooltip "Attiva/Disattiva la barra di CS">
-<!ENTITY button.paneltab.label "Contenuto">
-<!ENTITY button.paneltab.tooltip1 "Apre il contenuto della scheda nella barra laterale">
-<!ENTITY button.paneltab.tooltip2 "Apre il contenuto della barra laterale in una nuova scheda">
-<!ENTITY button.paneltab.tooltip3 "Apre il contenuto della barra laterale in una finestra">
-<!ENTITY button.paneltab.menu1.label "Apre la scheda nella barra laterale">
-<!ENTITY button.paneltab.menu2.label "Apre la barra laterale in una scheda">
-<!ENTITY button.autohide.label "Barra laterale automatica">
-<!ENTITY button.autohide.tooltip "Mostra/Nasconde la barra laterale automaticamente">
-<!ENTITY button.tooltip.sidebar "Apre nella barra laterale">
-<!ENTITY button.tooltip.window "Apre in una finestra">
-<!ENTITY button.tooltip.tab "Apre in una scheda">
-<!ENTITY button.addons.tooltip "Mostra estensioni e temi installati">
-<!ENTITY button.multipanel.label "Multipannello">
-<!ENTITY button.multipanel.tooltip "Mostra ad es. un sito web, il codice sorgente e le informazioni sul browser">
-<!ENTITY button.pageinfo.tooltip "Mostra informazioni dettagliate sulla pagina web attuale">
-<!ENTITY button.cookies.tooltip "Gestione i singoli cookie">
+<!ENTITY button.menu.label "Pannelli della Barra Laterale">
+<!ENTITY button.menu.tooltip "Tutti i Pannelli disponibili della Barra Laterale">
+<!ENTITY button.toolbar.label "Barra Strumenti CS">
+<!ENTITY button.toolbar.tooltip "Attiva/Disattiva Strumenti di CS">
+<!ENTITY button.paneltab.label "SchedaPannello">
+<!ENTITY button.paneltab.tooltip1 "Apri il Contenuto della Scheda nella Barra Laterale">
+<!ENTITY button.paneltab.tooltip2 "Apri il Contenuto della Barra Laterale in una Nuova Scheda">
+<!ENTITY button.paneltab.tooltip3 "Apri Contenuto della Barra Laterale in una Finestra">
+<!ENTITY button.paneltab.menu1.label "Apri Scheda nella Barra Laterale">
+<!ENTITY button.paneltab.menu2.label "Apri la Barra Laterale nella Scheda">
+<!ENTITY button.autohide.label "Nascondi automaticamente la Barra Laterale">
+<!ENTITY button.autohide.tooltip "Attiva/Disattiva automaticamente Barra Laterale">
+<!ENTITY button.tooltip.sidebar "Apri nella Barra Laterale">
+<!ENTITY button.tooltip.window "Apri in una Finestra">
+<!ENTITY button.tooltip.tab "Apri in una Nuova Scheda">
+<!ENTITY button.addons.tooltip "Mostra addon installati">
+<!ENTITY button.multipanel.label "MultiPannello">
+<!ENTITY button.multipanel.tooltip "Mostra siti web e informazioni del browser">
+<!ENTITY button.pageinfo.tooltip "Mostra informazioni dettagliate su una pagina web">
+<!ENTITY button.cookies.tooltip "Gestisci cookie individuali">
 <!ENTITY keys.modifiers "accel shift">
 <!ENTITY keys.sidebar "VK_F4">
 <!ENTITY keys.options "VK_F4">
@@ -45,9 +45,9 @@
 <!ENTITY keys.multipanel "M">
 <!ENTITY keys.pageinfo "F">
 <!ENTITY keys.cookies "L">
-<!ENTITY toolbar.pos.sidebarleft.label "A sinistra accanto alla barra laterale">
-<!ENTITY toolbar.pos.sidebarright.label "A destra accanto alla barra laterale">
-<!ENTITY toolbar.pos.sidebartop.label "Sopra la barra laterale">
-<!ENTITY toolbar.pos.headerbottom.label "Sotto l&apos;intestazione della barra laterale">
-<!ENTITY toolbar.pos.sidebarbottom.label "Sotto la barra laterale">
-<!ENTITY toolbar.mode.flexbuttons.label "Pulsanti flessibili">
+<!ENTITY toolbar.pos.sidebarleft.label "A Sinistra Accanto la Barra Laterale">
+<!ENTITY toolbar.pos.sidebarright.label "A Destra Accanto la Barra Laterale">
+<!ENTITY toolbar.pos.sidebartop.label "Sulla Barra Laterale">
+<!ENTITY toolbar.pos.headerbottom.label "Sotto Intestazione della Barra Laterale">
+<!ENTITY toolbar.pos.sidebarbottom.label "Sotto la Barra Laterale">
+<!ENTITY toolbar.mode.flexbuttons.label "Pulsanti Flessibili">

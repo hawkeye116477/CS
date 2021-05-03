@@ -1,22 +1,22 @@
 <!ENTITY page.label "Pagina">
-<!ENTITY page.tooltip "Apre la pagina web in questo pannello">
-<!ENTITY page.ssr.label "Adattamento">
-<!ENTITY page.ssr100.label "Adatta alla larghezza della barra laterale">
-<!ENTITY page.viewsource.label "View Page Source of Current Tab">
-<!ENTITY about.label "Informazioni">
-<!ENTITY about.tooltip "Mostra differenti informazioni a proposito del browser">
-<!ENTITY about.config.tooltip "Mostra un&apos;interfaccia per visualizzare ed impostare le differenti variabili di configurazione">
-<!ENTITY about.plugins.tooltip "Mostra le informazioni inerenti a tutti i plug-in installati">
-<!ENTITY about.support.tooltip "Mostra le applicazioni di base, le estensioni e le impostazioni modificate">
-<!ENTITY about.cache.tooltip "Mostra le informazioni inerenti alla cache sia della memoria che del disco">
-<!ENTITY about.cache.disk.tooltip "Mostra gli elementi individuali sul disco">
-<!ENTITY about.cache.memory.tooltip "Mostra gli elementi individuali nella memoria">
-<!ENTITY about.cache.offline.tooltip "Mostra gli elementi della cache non in linea">
-<!ENTITY about.buildconfig.tooltip "Mostra gli argomenti e le opzioni utilizzati per compilare la versione in uso">
+<!ENTITY page.tooltip "Apri la pagina web in questo pannello">
+<!ENTITY page.ssr.label "Adattamento Piccolo Schermo">
+<!ENTITY page.ssr100.label "Adatta alla Larghezza della Barra Laterale">
+<!ENTITY page.viewsource.label "Visualizza Sorgente Pagina della Scheda Corrente">
+<!ENTITY about.label "info:">
+<!ENTITY about.tooltip "Mostra informazioni differenti sul browser">
+<!ENTITY about.config.tooltip "Mostra un'interfaccia per vedere e impostare un'ampia varietà di variabili di configurazione">
+<!ENTITY about.plugins.tooltip "Mostra le informazioni su tutti i plugin installati">
+<!ENTITY about.support.tooltip "Mostra basi, estensioni e preferenze modificate dell'applicazione">
+<!ENTITY about.cache.tooltip "Mostra informazioni sul Servizio di Cache per la cache della memoria e del disco">
+<!ENTITY about.cache.disk.tooltip "Elenca le voci della cache sul disco">
+<!ENTITY about.cache.memory.tooltip "Elenca le voci della cache nella memoria">
+<!ENTITY about.cache.offline.tooltip "Elenca le voci della cache offline">
+<!ENTITY about.buildconfig.tooltip "Mostra gli argomenti e le opzioni usate per compilare la build in uso">
 <!ENTITY about.about.tooltip "Mostra le informazioni sulla versione e sul copyright">
-<!ENTITY about.credits.tooltip "Mostra una lista di tutti i collaboratori di Pale Moon">
-<!ENTITY about.license.tooltip "Mostra la Mozilla Public License">
-<!ENTITY about.mozilla.tooltip "Mostra la pagina di Mozilla: In Memoriam">
-<!ENTITY tools.remlast.label "Ricorda l&apos;ultimo contenuto visualizzato">
-<!ENTITY tools.linked.label "Apri i collegamenti nella scheda corrente">
-<!ENTITY tools.syncscroll.label "Synchronize Scrolling">
+<!ENTITY about.credits.tooltip "Mostra un elenco di tutti coloro che hanno contribuito a Mozilla">
+<!ENTITY about.license.tooltip "Mostra la Licenza Pubblica di Mozilla">
+<!ENTITY about.mozilla.tooltip "Mostra la pagina Mozilla: In Memoriam">
+<!ENTITY tools.remlast.label "Ricorda l'Ultimo Contenuto Mostrato">
+<!ENTITY tools.linked.label "Apri link nella scheda corrente">
+<!ENTITY tools.syncscroll.label "Sincronizza Scorrimento">

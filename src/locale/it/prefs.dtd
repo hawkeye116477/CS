@@ -43,13 +43,13 @@
 <!ENTITY gen.init.sidebar "Apertura della barra laterale (bordo cliccabile, pulsante di scambio barra, scorciatoia)">
 <!ENTITY gen.init.sidebar.restore "Ripristina l&apos;ultimo pannello memorizzato">
 <!ENTITY gen.switch.autoshow "Mostra/nascondi automaticamente la barra laterale (contatto del mouse invece del clic del mouse)">
-<!ENTITY gen.switch.drag "Show the Sidebar automatically when dragging something over the sidebar switch">
+<!ENTITY gen.switch.drag "Mostra la Barra Laterale automaticamente trascinando qualcosa sull'interruttore della barra laterale">
 <!ENTITY gen.switch.onlymax "solo se il browser è ingrandito o in modalità a pieno schermo">
-<!ENTITY gen.switch.invtrigger "Enable Invisible Sidebar Switch">
-<!ENTITY gen.switch.onhover "When the mouse is above the invisible sidebar switch:">
-<!ENTITY gen.switch.invhover "Show visual feedback or highlight">
-<!ENTITY gen.switch.invmouse "Show a hand cursor">
-<!ENTITY gen.switch.invnoclick "Reject click interactions with the sidebar switch">
+<!ENTITY gen.switch.invtrigger "Abilita Passaggio della Barra Laterale Invisibile">
+<!ENTITY gen.switch.onhover "Quando il mouse è sopra l'interruttore della barra laterale invisibile:">
+<!ENTITY gen.switch.invhover "Mostra feedback visivo o evidenzia">
+<!ENTITY gen.switch.invmouse "Mostra il cursore della mano">
+<!ENTITY gen.switch.invnoclick "Rifiuta le interazioni del click con l'interruttore della barra laterale">
 <!ENTITY gen.switch.delayshow "Mostra Ritardo">
 <!ENTITY gen.switch.delayhide "Nascondi Ritardo">
 <!ENTITY gen.switch.delay "Ritardo">
@@ -58,10 +58,10 @@
 <!ENTITY gen.switch.hideBar "viene rispostato nella pagina web">
 <!ENTITY gen.switch.hidePage "viene mantenuto sul bordo cliccabile della barra laterale">
 <!ENTITY gen.switch.hideNone "non nasconderti automaticamente">
-<!ENTITY gen.switch.ssvisibility "Hide the sidebar switch when:">
-<!ENTITY gen.switch.ssvisibility.auto "Automatic (Hidden when useless)">
-<!ENTITY gen.switch.ssvisibility.open "Sidebar is visible">
-<!ENTITY gen.switch.ssvisibility.closed "Sidebar is closed">
+<!ENTITY gen.switch.ssvisibility "Nascondi l'interruttore della barra laterale quando:">
+<!ENTITY gen.switch.ssvisibility.auto "Automatico (Nascosta quando inutile)">
+<!ENTITY gen.switch.ssvisibility.open "Barra laterale visibile">
+<!ENTITY gen.switch.ssvisibility.closed "Barra laterale chiusa">
 <!ENTITY gen.switch.thin "Attiva il bordo cliccabile sottile della barra laterale">
 <!ENTITY gen.switch.width "Larghezza del bordo cliccabile della barra laterale">
 <!ENTITY gen.switch.twidth "Larghezza del bordo cliccabile sottile della barra laterale">
@@ -91,8 +91,8 @@
 <!ENTITY misc.layout.label "Ottimizzazioni per la barra laterale">
 <!ENTITY misc.dm.autoopen.label "Mostra la barra laterale quando si scarica un file">
 <!ENTITY misc.dm.autoclose.label "Chiudila quando tutti i download sono completati">
-<!ENTITY misc.dm.shading.label "Shade the items in the downloads list depending on their state">
-<!ENTITY misc.em.oninstall.label "Show the Add-ons sidebar when installing an add-on">
+<!ENTITY misc.dm.shading.label "Ombreggia gli elementi nell'elenco dei download in base al loro stato">
+<!ENTITY misc.em.oninstall.label "Mostra la barra laterale degli Addon quando li stai installando">
 <!ENTITY misc.count.label "Mostra il numero degli elementi">
 <!ENTITY misc.enablelink.tooltip "Fare clic qui per ulteriori informazioni (link alle FAQ)">
 <!ENTITY misc.paneltab.reverse "Scambia le azioni del clic con tasto sinistro con clic centrale">

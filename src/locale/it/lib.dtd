@@ -1,14 +1,14 @@
-<!ENTITY leftclick "Clic con tasto sinistro">
-<!ENTITY rightclick "Clic con tasto destro">
-<!ENTITY doubleclick "Doppio clic">
-<!ENTITY middleclick "Clic con tasto centrale">
+<!ENTITY leftclick "Click sinistro">
+<!ENTITY rightclick "Click destro">
+<!ENTITY doubleclick "Doppio click">
+<!ENTITY middleclick "Click medio">
 <!ENTITY key.ctrl "Ctrl">
 <!ENTITY key.alt "Alt">
 <!ENTITY key.shift "Maiusc">
 <!ENTITY menu.tools.label "Strumenti">
-<!ENTITY closeFolder.label "Chiudi tutte le cartelle">
-<!ENTITY show.closeFolder.label "Pulsante &apos;Chiudi tutte le cartelle&apos;">
-<!ENTITY enable.autoClose.label "Chiudi automaticamente le altre cartelle">
-<!ENTITY enable.scrollToFolder.label "Scorri automaticamente fino alla cartella selezionata">
-<!ENTITY enable.rememberFolder.label "Ricorda e porta in primo piano l&apos;ultima cartella selezionata">
-<!ENTITY enable.duplicateTree.label "Show second tree pane">
+<!ENTITY closeFolder.label "Chiudi Tutte le Cartelle">
+<!ENTITY show.closeFolder.label "Pulsante 'Chiudi Tutte le Cartelle'">
+<!ENTITY enable.autoClose.label "Chiudi Automaticamente le Altre Cartelle">
+<!ENTITY enable.scrollToFolder.label "Scorri Automaticamente alle Cartelle Selezionate">
+<!ENTITY enable.rememberFolder.label "Ricorda e Concentra Ultima Cartella Selezionata">
+<!ENTITY enable.duplicateTree.label "Mostra secondo riquadro dell'albero">
