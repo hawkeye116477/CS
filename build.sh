@@ -2,14 +2,15 @@
 
 XPI_FILE=CS
 
-path=$(dirname "$0")
+SCRIPT_PATH=$(dirname "$(realpath -s "$0")")
+MAIN_PATH=$(git -C "$SCRIPT_PATH" rev-parse --show-toplevel)
 
-cd $path/src
+cd "$MAIN_PATH"/src || exit
 
 echo "- Removing old xpi file"
-if [ -f ../"$XPI_FILE.xpi" ]; then
-    rm ../$XPI_FILE.xpi
+if [ -f ../"CS.xpi" ]; then
+    rm ../CS.xpi
 fi
 
 echo "- Creating xpi file"
-zip -r ../$XPI_FILE.xpi *
+zip -r9 ../CS.xpi ./*
