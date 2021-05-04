@@ -26,7 +26,7 @@
 <!ENTITY gen.orient.right "Δεξιά πλευρά">
 <!ENTITY gen.width.caption "Μέγεθος">
 <!ENTITY gen.width.px "Πίξελ">
-<!ENTITY gen.width.perc "ποσοστό&#37;">
+<!ENTITY gen.width.perc "ποσοστό%">
 <!ENTITY gen.width.current "σε σχέση με το τρέχον πλάτος">
 <!ENTITY gen.width.current.tip "Εφαρμόζει το τρέχον πλάτος της πλευρικής στήλης">
 <!ENTITY gen.width.min.hint "Shift + διπλό κλικ στον τίτλο της πλευρικής στήλης">
