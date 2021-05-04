@@ -19,4 +19,4 @@
 <!ENTITY contrib.desc "Ma tänan järgnevaid arendajaid inspiratsiooni ja koodikatkete eest [tähestikulises järjekorras]:">
 <!ENTITY contrib.thanks "Tänan ka kõiki kasutajaid, kes testisid arendusversiooni, teavitasid vigadest, jagasid oma ideid ja soovitusi või kes lihtsalt kirjutasid kenasid kommentaare. :-) Suur tänu kõigile!">
 <!ENTITY trans.desc "Classic Sidebar\'i tõlked valmistasid [keelekoodi tähestikulises järjekorras]:">
-<!ENTITY trans.thanks "Samuti tänan BabelZilla.org meeskonda nende suurepärase töö eest!">
+<!ENTITY trans.thanks "Samuti tänan Crowdin.com meeskonda nende suurepärase töö eest!">

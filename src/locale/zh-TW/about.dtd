@@ -19,4 +19,4 @@
 <!ENTITY contrib.desc "感謝下列人士的啟發與貢獻程式碼（依姓名字順序排列）：">
 <!ENTITY contrib.thanks "最後（但並非最不重要），我感謝所有協助測試開發版本的使用者，除了在論壇回報 bugs 之外，也分享他們的意見與建議（或是只寫了一些不錯的評語），總之非常感謝你們！">
 <!ENTITY trans.desc "感謝以下人士的翻譯（依語系英文字順序排列）：">
-<!ENTITY trans.thanks "我也感謝這個翻譯團隊在 BabelZilla.org 所作的努力。">
+<!ENTITY trans.thanks "我也感謝這個翻譯團隊在 Crowdin.com 所作的努力。">

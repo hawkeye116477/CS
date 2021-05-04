@@ -19,4 +19,4 @@
 <!ENTITY contrib.desc "Mulțumesc următorilor programatori pentru că mi-au inspirat părți din cod (în ordine alfabetică):">
 <!ENTITY contrib.thanks "În final dar nu în ultimul rând, mulțumesc tuturor utilizatorilor care m-au ajutat testând versiunile în dezvoltare, care au raportat în forum erori, care mi-au împărtășit ideile și sugestiile lor sau doar pentru că au făcut comentarii drăguțe. ☺ Vă mulțumesc foarte mult!">
 <!ENTITY trans.desc "Traducători ai CS (în ordinea alabetică a codurilor de limbă):">
-<!ENTITY trans.thanks "Evident, mulțumesc echipei BabelZilla.org pentru importanta lor muncă!">
+<!ENTITY trans.thanks "Evident, mulțumesc echipei Crowdin.com pentru importanta lor muncă!">

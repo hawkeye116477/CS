@@ -19,4 +19,4 @@
 <!ENTITY contrib.desc "영감을 준 그리고 코드를 인용하게 해준 아래의 개발자분들께 감사의 마음을 전합니다 [알파벳순 정렬]:">
 <!ENTITY contrib.thanks "마지막으로 개발 빌드 버전을 테스트해 주시거나, 포럼에 버그를 보고해 주시거나, 아이디어와 발상을 빌려주시거나 단지 좋은 댓글을 달아 주는 등의 도움을 주신 모든 사용자 분들께 감사의 마음을 전합니다. :-) 정말 감사합니다!">
 <!ENTITY trans.desc "Classic Sidebar의 번역가분들 [언어 코드의 알파벳순으로 정렬]:">
-<!ENTITY trans.thanks "또한 그들의 이런 훌륭한 일을 가능케 한 BabelZilla.org 팀에게도 감사의 마음을 전합니다.">
+<!ENTITY trans.thanks "또한 그들의 이런 훌륭한 일을 가능케 한 Crowdin.com 팀에게도 감사의 마음을 전합니다.">

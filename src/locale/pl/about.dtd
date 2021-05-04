@@ -19,4 +19,4 @@
 <!ENTITY contrib.desc "Dziękuję następującym twórcom za inspirację i części kodu (w porządku alfabetycznym):">
 <!ENTITY contrib.thanks "Chciałbym podziękować wszystkim użytkownikom, którzy pomagali w testowaniu i rozwoju tego wydania informując o błędach, dzieląc się swoimi uwagami i sugestiami lub pisząc piękne komentarze na forum. :-) Dziękuję bardzo!">
 <!ENTITY trans.desc "Tłumacze AiOS, CS i TGS (w porządku alfabetycznym kodów języków):">
-<!ENTITY trans.thanks "Szczególne podziękowania dla zespołu BabelZilla.org za ich ogromną pracę!">
+<!ENTITY trans.thanks "Szczególne podziękowania dla zespołu Crowdin.com za ich ogromną pracę!">

@@ -19,4 +19,4 @@
 <!ENTITY contrib.desc "インスピレーションとコード部分について以下の開発者に感謝します (アルファベット順)">
 <!ENTITY contrib.thanks "フォーラムに開発版のテスト結果やバグ報告をして助けてくれたり、アイデアや提案を共有したり、楽しいコメントを寄せてくれる多くのユーザに感謝します。ありがとうございます！">
 <!ENTITY trans.desc "Classic Sidebar の言語翻訳者の皆さん (アルファベット順/英語表記名)">
-<!ENTITY trans.thanks "BabelZilla.org チームの偉大な功績に感謝します！">
+<!ENTITY trans.thanks "Crowdin.com チームの偉大な功績に感謝します！">

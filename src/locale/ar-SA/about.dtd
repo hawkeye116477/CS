@@ -19,4 +19,4 @@
 <!ENTITY contrib.desc "أشكر المطورين التالين على مساعدتهم وإلهامهم [بالترتيب الأبجدي]:">
 <!ENTITY contrib.thanks "Last but not least I thank all users who helped by testing the development builds, reporting bugs in the forum, sharing their ideas and suggestions or who writes just a nice comment. :-) Thank you very much!">
 <!ENTITY trans.desc "المترجمين لـ Classic Sidebar [ترتيب أبجدي]:">
-<!ENTITY trans.thanks "أشكر أيضا فريق BabelZilla.org لعملهم العظيم!">
+<!ENTITY trans.thanks "أشكر أيضا فريق Crowdin.com لعملهم العظيم!">

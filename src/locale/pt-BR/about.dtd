@@ -19,4 +19,4 @@
 <!ENTITY contrib.desc "Agradeço aos seguintes programadores pela inspiração e partes de código (em ordem alfabética):">
 <!ENTITY contrib.thanks "Por último, mas não menos importante, agradeço a todos os usuários que ajudaram testando as versões de desenvolvimento, apontando erros no fórum, compartilhando suas ideias e sugestões ou que simplesmente escreveram um comentário legal. :-) Muito obrigado!">
 <!ENTITY trans.desc "Os tradutores do Classic Sidebar (por ordem alfabética de código do idioma):">
-<!ENTITY trans.thanks "Eu agradeço obviamente também à equipe do BabelZilla.org por seu ótimo trabalho!">
+<!ENTITY trans.thanks "Eu agradeço obviamente também à equipe do Crowdin.com por seu ótimo trabalho!">

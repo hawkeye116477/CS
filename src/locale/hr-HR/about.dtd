@@ -19,4 +19,4 @@
 <!ENTITY contrib.desc "Zahvaljujem se slijedećim programerima za inspiraciju i odlomke [abecednim redom]:">
 <!ENTITY contrib.thanks "Zadnje, ali ne manje važno, zahvaljujem svim korisnicima koji su pomogli testiranjem razvojnih izdanja, prijavljivanjem greški na forumu, dijeljenjem njihovih ideja i prijedloga ili jednostavo pisanjem lijepog komentara :-) Puno vam hvala!">
 <!ENTITY trans.desc "Classic Sidebar prevoditelji [abecedno prema jezičnom kodu]:">
-<!ENTITY trans.thanks "Također, očito, zahvaljujem timu na BabelZilla.org na njihovom odličnom radu!">
+<!ENTITY trans.thanks "Također, očito, zahvaljujem timu na Crowdin.com na njihovom odličnom radu!">

@@ -19,4 +19,4 @@
 <!ENTITY contrib.desc "I thank the following developers for inspiration and snippets (in alphabetical order):">
 <!ENTITY contrib.thanks "Last but not least I thank all users who helped by testing the development builds, reporting bugs in the forum, sharing their ideas and suggestions or who writes just a nice comment. :-) Thank you very much!">
 <!ENTITY trans.desc "The translators of the AiOS, TGS and CS (alphabetically by language code):">
-<!ENTITY trans.thanks "I also obviously thank the team at BabelZilla.org for their great work!">
+<!ENTITY trans.thanks "I also obviously thank the team at Crowdin.com for their great work!">

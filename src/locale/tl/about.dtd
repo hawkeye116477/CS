@@ -19,4 +19,4 @@
 <!ENTITY contrib.desc "Pinasasalamatan ko ang mga sumusunod na developer para sa inspirasyon at mga snippet (nasa ordeng alpabetiko):">
 <!ENTITY contrib.thanks "Bilang kahulihulihan, pinasasalamatan ko rin ang lahat ng mga user na tumulong sa pamamagitan ng pag-test ng mga development builds, pag-ulat ng mga bug sa forum, at pagbabahagi ng kanilang mga idea at suhestiyon o sa pagsulat ng positibong komentaryo. :-) Maraming salamat!">
 <!ENTITY trans.desc "Ang mga nagsalin ng AiOS at CS (nasa ordeng alpabetiko ayon sa language code):">
-<!ENTITY trans.thanks "Pinasasalamatan ko ang komunidad ng BabelZilla.org para sa kanilang kahusayan!">
+<!ENTITY trans.thanks "Pinasasalamatan ko ang komunidad ng Crowdin.com para sa kanilang kahusayan!">

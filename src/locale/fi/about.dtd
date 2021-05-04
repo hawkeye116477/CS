@@ -19,4 +19,4 @@
 <!ENTITY contrib.desc "Kiitän seuraavia ohjemoijia innoituksesta ja tilkuista [aakkos järjestys]:">
 <!ENTITY contrib.thanks "Viimeisenä muttei vähäisimpinä kiitän kaikkia käyttäjiä jotka auttoivat testaamalla kehitysversioita, vikojen raportoinnista foorumilla, ideoittensa jakamisesta tai mukavien kommenttien kirjoittamisesta :-) Kiitos paljon teille!">
 <!ENTITY trans.desc "Classic Sidebarin kääntäjät [aakkosjärjestyksessä kieli koodin mukaan]">
-<!ENTITY trans.thanks "Kiitän ehdottomasti myös BabelZilla.org tiimiä mahtavasta työstä!">
+<!ENTITY trans.thanks "Kiitän ehdottomasti myös Crowdin.com tiimiä mahtavasta työstä!">

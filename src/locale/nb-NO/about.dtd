@@ -19,4 +19,4 @@
 <!ENTITY contrib.desc "Jeg takker følgende utviklere for inspirasjon og kodebiter [alfabetisk rekkefølge]:">
 <!ENTITY contrib.thanks "Sist, men ikke minst vil jeg takke alle brukerne som har hjulpet med testing av prøveversjoner, feilrapportering i forumet, deling av ideer og forslag eller de som kun skrev en hyggelig kommentar. :-) Tusen takk skal du ha!">
 <!ENTITY trans.desc "Classic Sidebars oversettere [alfabetisk rekkefølge etter landskode]:">
-<!ENTITY trans.thanks "Jeg takker selvfølgelig gjengen på BabelZilla.org for deres flotte arbeid!">
+<!ENTITY trans.thanks "Jeg takker selvfølgelig gjengen på Crowdin.com for deres flotte arbeid!">

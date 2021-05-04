@@ -19,4 +19,4 @@
 <!ENTITY contrib.desc "Jag tackar följande utvecklare för inspiration och kodsnuttar (i alfabetisk ordning):">
 <!ENTITY contrib.thanks "Till sist tackar jag alla användare som testat utvecklingsversioner, rapporterat problem i forumet samt meddelat idéer och förslag eller som bara skrivit uppmuntrande kommentarer. :) Tack så mycket!">
 <!ENTITY trans.desc "Översättare av Classic Sidebar (i alfabetisk ordning):">
-<!ENTITY trans.thanks "Jag vill förstås även tacka alla på BabelZilla.org för deras fantastiska arbete!">
+<!ENTITY trans.thanks "Jag vill förstås även tacka alla på Crowdin.com för deras fantastiska arbete!">

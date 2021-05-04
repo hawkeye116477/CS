@@ -19,4 +19,4 @@
 <!ENTITY contrib.desc "Je remercie les développeurs qui suivent de m'avoir inspiré et prêté leur code :">
 <!ENTITY contrib.thanks "Et enfin, je remercie tous les utilisateurs qui ont aidé à tester les versions en développement, rapporté des bogues, partagé idées et suggestions, ou qui ont un écrit un commentaire sympa :-). Merci beaucoup !">
 <!ENTITY trans.desc "Les traducteurs d'Classic Sidebar (par ordre alphabétique d'abréviation de langue) :">
-<!ENTITY trans.thanks "Et merci bien sûr à l&apos;équipe de BabelZilla.org pour son magnifique travail !">
+<!ENTITY trans.thanks "Et merci bien sûr à l&apos;équipe de Crowdin.com pour son magnifique travail !">
