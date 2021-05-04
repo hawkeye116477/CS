@@ -11,7 +11,8 @@ mkdir "$TEMP_PATH"
 cp -r "$MAIN_PATH"/src/* "$TEMP_PATH"/
 
 cd "$TEMP_PATH" || exit
-UNUSED_LOCALES=("ar-SA" "be-BY" "cs-CZ" "da" "el" "et-EE" "fi" "he" "hr-HR" "hu-HU" "hy-AM" "ja-JP" "ko-KR" "lt-LT" "nb-NO" "nl" "pt-BR" "pt-PT" "ro" "sk-SK" "sq-AL" "sr" "sv-SE" "tr" "uk" "vi" "zh-TW")
+
+mapfile -t UNUSED_LOCALES < <(sed '/#locale/!d' "$MAIN_PATH"/src/locales.manifest | awk '{print $3}')
 
 for UL in "${UNUSED_LOCALES[@]}"; do
     rm -rf ./locale/"$UL"
