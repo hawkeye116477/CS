@@ -18,5 +18,5 @@
 <!ENTITY about8.name "Aiuta con la traduzione">
 <!ENTITY contrib.desc "Ringrazio i seguenti sviluppatori per l'ispirazione e i frammenti di codice (in ordine alfabetico):">
 <!ENTITY contrib.thanks "Ultimi ma non per importanza ringrazio tutti gli utenti che hanno aiutato provando le build di sviluppo, segnalando i bug nel forum, condividendo le proprie idee e i propri suggerimenti e anche solo scrivendo bei commenti. :-) Grazie mille!">
-<!ENTITY trans.desc "I traduttori dell'AiOS, TFS e CS (alfabeticamente per codice linguistico):">
+<!ENTITY trans.desc "I traduttori dell'AiOS, TGS e CS (alfabeticamente per codice linguistico):">
 <!ENTITY trans.thanks "Ovviamente ringrazio anche il team di Crowdin.com per il loro grande lavoro!">
