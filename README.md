@@ -24,19 +24,19 @@ To build an installable `.xpi` extension for Waterfox Classic:
 
 ### Windows
 
-You could build the extension via the Windows command prompt when you installed [Cygwin](http://cygwin.com). Otherwise just zip the contents of this repository as explained for all operation systems.
+You could build the extension via the Windows command prompt when you installed [Cygwin](http://cygwin.com). Otherwise just zip the contents of this repository as explained for all operating systems.
 
 
 Links
 -----
 
-[Setting up an extension development environment](https://developer.mozilla.org/docs/Setting_up_extension_development_environment)
+[Setting up an extension development environment](https://udn.realityripple.com/docs/Archive/Add-ons/Setting_up_extension_development_environment)
 
 
 Issues
 -------
 
-Please use the [issue tracker of GitHub](/issues?state=open) when contributing and reporting bugs, enhancements or to-do's.
+Please use the [issue tracker of GitHub](/issues?state=open) or [Reddit](https://www.reddit.com/r/ClassicSidebar) when reporting bugs or enhancements.
 
 
 License:
