@@ -2,7 +2,7 @@ var Ci = Components.interfaces;
 
 var NS_ERROR_MODULE_NETWORK = 2152398848;
 var NS_NET_STATUS_READ_FROM = NS_ERROR_MODULE_NETWORK + 8;
-var NS_NET_STATUS_WROTE_TO  = NS_ERROR_MODULE_NETWORK + 9;
+var NS_NET_STATUS_WROTE_TO = NS_ERROR_MODULE_NETWORK + 9;
 
 var AiOS_MP = {
     /*
@@ -52,71 +52,51 @@ var AiOS_MP = {
     },
 
     toggleSyncScroll: function () {
+        let mm = AiOS_HELPER.mostRecentWindow.gBrowser.selectedBrowser.messageManager;
         if (aios_getBoolean(document.getElementById("aios-syncscroll"), "checked")) {
+            Services.mm.loadFrameScript("chrome://aios/content/multipanel_scroll.js", true);
             getPanelBrowser().addEventListener("scroll", AiOS_MP.synchronizeScrollPanel);
-            AiOS_HELPER.mostRecentWindow.document.getElementById("content").addEventListener("scroll", AiOS_MP.synchronizeScrollBrowser);
+            mm.addMessageListener("classicsidebar@hawkeye116477:synchronizeScrollBrowser", AiOS_MP.synchronizeScrollBrowser);
         } else {
             getPanelBrowser().removeEventListener("scroll", AiOS_MP.synchronizeScrollPanel);
-            AiOS_HELPER.mostRecentWindow.document.getElementById("content").removeEventListener("scroll", AiOS_MP.synchronizeScrollBrowser);
+            mm.sendAsyncMessage('classicsidebar@hawkeye116477:unsynchronizeScrollBrowser', {});
+            mm.removeMessageListener("classicsidebar@hawkeye116477:synchronizeScrollBrowser", AiOS_MP.synchronizeScrollBrowser);
         }
     },
 
-    lastScrollTop: 0,
-    lastScrollLeft: 0,
     synchronizeScrollPanel: function () {
+        let scrollElem = getPanelBrowser().contentDocument.scrollingElement;
+        let mm = AiOS_HELPER.mostRecentWindow.gBrowser.selectedBrowser.messageManager;
         if (getPanelBrowser().contentDocument.hasFocus()) {
-            let scrollElem = getPanelBrowser().contentDocument.scrollingElement,
-                selectedTabContent = AiOS_HELPER.mostRecentWindow.getBrowser().selectedTab.linkedBrowser._contentWindow;
-
-            let currLastScrollTop = this.lastScrollTop,
-                currLastScrollLeft = this.lastScrollLeft;
-            this.lastScrollTop = scrollElem.scrollTop;
-            this.lastScrollLeft = scrollElem.scrollLeft;
-
-            let deltaTop = 0,
-                deltaLeft = 0,
-                selTabLeft = selectedTabContent.scrollX,
-                selTabTop = selectedTabContent.scrollY;
-
-            if (currLastScrollTop != 0 || currLastScrollLeft != 0) {
-                deltaTop = scrollElem.scrollTop - currLastScrollTop;
-                deltaLeft = scrollElem.scrollLeft - currLastScrollLeft;
-            }
-
-            let combinedLeft = selTabLeft += deltaLeft;
-            let combinedTop = selTabTop += deltaTop;
-
-            selectedTabContent.scroll(combinedLeft, combinedTop);
+            mm.sendAsyncMessage('classicsidebar@hawkeye116477:synchronizeScrollPanel', { scrollTop: scrollElem.scrollTop, scrollLeft: scrollElem.scrollLeft });
         }
     },
 
     lastScrollTopBrowser: 0,
     lastScrollLeftBrowser: 0,
-    synchronizeScrollBrowser: function () {
-        var scrollElem = getPanelBrowser().contentDocument.scrollingElement,
-            selectedTabContent = AiOS_HELPER.mostRecentWindow.getBrowser().selectedTab.linkedBrowser._contentWindow;
+    synchronizeScrollBrowser: function (message) {
+        let scrollElem = getPanelBrowser().contentDocument.scrollingElement,
+            selectedTabContent = message.data;
 
-        if (selectedTabContent.document.hasFocus()) {
-            let currLastScrollTop = this.lastScrollTopBrowser,
-                currLastScrollLeft = this.lastScrollLeftBrowser;
-            this.lastScrollTopBrowser = selectedTabContent.scrollY;
-            this.lastScrollLeftBrowser = selectedTabContent.scrollX;
+        let currLastScrollTop = this.lastScrollTopBrowser,
+            currLastScrollLeft = this.lastScrollLeftBrowser;
+        this.lastScrollTopBrowser = selectedTabContent.scrollY;
+        this.lastScrollLeftBrowser = selectedTabContent.scrollX;
 
-            let deltaTop = 0,
-                deltaLeft = 0,
-                selTabLeft = scrollElem.scrollLeft,
-                selTabTop = scrollElem.scrollTop;
+        let deltaTop = 0,
+            deltaLeft = 0,
+            selTabLeft = scrollElem.scrollLeft,
+            selTabTop = scrollElem.scrollTop;
 
-            if (currLastScrollTop != 0 || currLastScrollLeft != 0) {
-                deltaTop = selectedTabContent.scrollY - currLastScrollTop;
-                deltaLeft = selectedTabContent.scrollX - currLastScrollLeft;
-            }
-
-            let combinedLeft = selTabLeft += deltaLeft;
-            let combinedTop = selTabTop += deltaTop;
-
-            scrollElem.scroll(combinedLeft, combinedTop);
+        if (currLastScrollTop != 0 || currLastScrollLeft != 0) {
+            deltaTop = selectedTabContent.scrollY - currLastScrollTop;
+            deltaLeft = selectedTabContent.scrollX - currLastScrollLeft;
         }
+
+        let combinedLeft = selTabLeft += deltaLeft;
+        let combinedTop = selTabTop += deltaTop;
+
+        scrollElem.scrollTo(combinedLeft, combinedTop);
     },
 
     /*
@@ -460,25 +440,25 @@ var panelProgressListener = {
         var level;
         // Identify current security level
         switch (aState & wpl_security_bits) {
-        case wpl.STATE_IS_SECURE | wpl.STATE_SECURE_HIGH | wpl.STATE_IDENTITY_EV_TOPLEVEL:
-            level = "ev";
-            break;
-        case wpl.STATE_IS_SECURE | wpl.STATE_SECURE_HIGH:
-            level = "high";
-            break;
-        case wpl.STATE_IS_SECURE | wpl.STATE_SECURE_MED:
-        case wpl.STATE_IS_SECURE | wpl.STATE_SECURE_LOW:
-            level = "low";
-            break;
-        case wpl.STATE_IS_BROKEN | wpl.STATE_SECURE_LOW:
-            level = "mixed";
-            break;
-        case wpl.STATE_IS_BROKEN:
-            level = "broken";
-            break;
-        default: // should not be reached
-            level = null;
-            break;
+            case wpl.STATE_IS_SECURE | wpl.STATE_SECURE_HIGH | wpl.STATE_IDENTITY_EV_TOPLEVEL:
+                level = "ev";
+                break;
+            case wpl.STATE_IS_SECURE | wpl.STATE_SECURE_HIGH:
+                level = "high";
+                break;
+            case wpl.STATE_IS_SECURE | wpl.STATE_SECURE_MED:
+            case wpl.STATE_IS_SECURE | wpl.STATE_SECURE_LOW:
+                level = "low";
+                break;
+            case wpl.STATE_IS_BROKEN | wpl.STATE_SECURE_LOW:
+                level = "mixed";
+                break;
+            case wpl.STATE_IS_BROKEN:
+                level = "broken";
+                break;
+            default: // should not be reached
+                level = null;
+                break;
         }
         // Set padlock tooltip & icon
         this.setPadlockLevel(level);
@@ -498,23 +478,23 @@ var panelProgressListener = {
         }
         // Should be localized browser-side
         switch (level) {
-        case "ev":
-            sectooltip = "Extended Validated";
-            break;
-        case "high":
-            sectooltip = "Secure";
-            break;
-        case "low":
-            sectooltip = "Weak security";
-            break;
-        case "mixed":
-            sectooltip = "Mixed mode (partially encrypted)";
-            break;
-        case "broken":
-            sectooltip = "Not secure";
-            break;
-        default:
-            sectooltip = "";
+            case "ev":
+                sectooltip = "Extended Validated";
+                break;
+            case "high":
+                sectooltip = "Secure";
+                break;
+            case "low":
+                sectooltip = "Weak security";
+                break;
+            case "mixed":
+                sectooltip = "Mixed mode (partially encrypted)";
+                break;
+            case "broken":
+                sectooltip = "Not secure";
+                break;
+            default:
+                sectooltip = "";
         }
         secbut.setAttribute("tooltiptext", sectooltip);
     }
