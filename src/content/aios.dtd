@@ -27,15 +27,3 @@
 <!ENTITY contrib5.name          "Ronny Perinke">
 <!ENTITY contrib5.ext           "Autoclose Bookmark &amp; History Folders">
 <!ENTITY contrib5.link          "http://www.sephiroth-j.de/1/mozilla/">
-
-<!ENTITY contrib6.name          "FranklinDM">
-<!ENTITY contrib6.ext           "The Good 'ol Sidebar">
-<!ENTITY contrib6.link          "https://github.com/FranklinDM/TGS">
-
-<!ENTITY contrib7.name          "Ingo Wennemaring">
-<!ENTITY contrib7.ext           "All-in-One Sidebar">
-<!ENTITY contrib7.link          "https://github.com/AddonLab/AiOS">
-
-<!ENTITY contrib8.name          "Quicksaver">
-<!ENTITY contrib8.ext           "OmniSidebar">
-<!ENTITY contrib8.link          "https://github.com/Quicksaver/OmniSidebar">

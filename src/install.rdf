@@ -13,7 +13,6 @@
         <em:multiprocessCompatible>true</em:multiprocessCompatible>
 
         <em:contributor>Ingo Wennemaring (creator of AiOS)</em:contributor>
-        <em:contributor>Quicksaver (creator of OmniSidebar)</em:contributor>
         <em:contributor>FranklinDM (creator of TGS)</em:contributor>
 
         <em:icon64URL>chrome://aios/skin/icon64.png</em:icon64URL>
