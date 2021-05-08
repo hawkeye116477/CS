@@ -6,14 +6,14 @@
       <RDF:Seq>
         <RDF:li>
           <RDF:Description>
-            <em:version>1.0.0</em:version>
+            <em:version>1.0.1</em:version>
             <!-- Waterfox Classic -->
             <em:targetApplication>
               <RDF:Description>
                 <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
                 <em:minVersion>56.0</em:minVersion>
                 <em:maxVersion>56.*</em:maxVersion>
-                <em:updateLink>https://github.com/hawkeye116477/CS/releases/download/1.0.0/CS.xpi</em:updateLink>
+                <em:updateLink>https://github.com/hawkeye116477/CS/releases/download/1.0.1/CS.xpi</em:updateLink>
               </RDF:Description>
             </em:targetApplication>
           </RDF:Description>
