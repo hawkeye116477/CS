@@ -250,6 +250,9 @@ sidebarheader {
   padding-bottom: 2px;
   padding-right: 10px;
 }
+#sidebars-titlebutton > label:-moz-lwtheme {
+  color: var(--lwt-text-color);
+}
 sidebarheader #sidebar-close {
   display: none !important;
 }
