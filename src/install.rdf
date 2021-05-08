@@ -3,7 +3,7 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
     <Description about="urn:mozilla:install-manifest">
         <em:name>Classic Sidebar</em:name>
-        <em:version>1.0.0</em:version>
+        <em:version>1.0.1</em:version>
         <em:description>Sidebar control with award-winning user experience!</em:description>
         <em:creator>hawkeye116477</em:creator>
         <em:updateURL>https://raw.githubusercontent.com/hawkeye116477/CS/master/update/update.xml</em:updateURL>
