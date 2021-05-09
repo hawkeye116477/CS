@@ -66,9 +66,8 @@ var AiOS_MP = {
 
     synchronizeScrollPanel: function () {
         let scrollElem = getPanelBrowser().contentDocument.scrollingElement;
-        let mm = AiOS_HELPER.mostRecentWindow.gBrowser.selectedBrowser.messageManager;
         if (getPanelBrowser().contentDocument.hasFocus()) {
-            mm.sendAsyncMessage('classicsidebar@hawkeye116477:synchronizeScrollPanel', { scrollTop: scrollElem.scrollTop, scrollLeft: scrollElem.scrollLeft });
+            AiOS_HELPER.mostRecentWindow.gBrowser.selectedBrowser.messageManager.sendAsyncMessage('classicsidebar@hawkeye116477:synchronizeScrollPanel', { scrollTop: scrollElem.scrollTop, scrollLeft: scrollElem.scrollLeft });
         }
     },
 
@@ -282,7 +281,9 @@ var AiOS_MP = {
         getPanelBrowser().setAttribute("syncscroll", document.getElementById("aios-syncscroll").getAttribute("checked"));
         // Remove listeners set by synchronized scrolling feature
         getPanelBrowser().removeEventListener("scroll", AiOS_MP.synchronizeScrollPanel);
-        AiOS_HELPER.mostRecentWindow.document.getElementById("content").removeEventListener("scroll", AiOS_MP.synchronizeScrollBrowser);
+        let mm = AiOS_HELPER.mostRecentWindow.gBrowser.selectedBrowser.messageManager;
+        mm.sendAsyncMessage('classicsidebar@hawkeye116477:unsynchronizeScrollBrowser', {});
+        mm.removeMessageListener("classicsidebar@hawkeye116477:synchronizeScrollBrowser", AiOS_MP.synchronizeScrollBrowser);
     },
 
     getPageOptions: function () {
