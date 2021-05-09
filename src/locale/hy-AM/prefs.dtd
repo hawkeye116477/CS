@@ -26,7 +26,7 @@
 <!ENTITY gen.orient.right "աջից">
 <!ENTITY gen.width.caption "Չափը">
 <!ENTITY gen.width.px "պիքսել (px)">
-<!ENTITY gen.width.perc "տոկոս  (%)">
+<!ENTITY gen.width.perc "տոկոս (&#37;)">
 <!ENTITY gen.width.current "ընդունել ներկա չափը">
 <!ENTITY gen.width.current.tip "Վերցնում է վահանակի ներկա չափը">
 <!ENTITY gen.width.min.hint "[Shift+կրկնակի կլիկ] վահանակի անվան վրա">
