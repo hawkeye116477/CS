@@ -69,8 +69,8 @@
 <!ENTITY cmode.caption "Toggle Sidebar">
 <!ENTITY cmode.desc "Налада элементаў, з дапамогай якіх можа быць адчыненая/зачыненая бакавая панэль.">
 <!ENTITY cmode.key.label "Shortcut (F4)">
-<!ENTITY cmode.tbb.label "Кнопка “Бакавая панэль”">
-<!ENTITY cmode.close.label "Кнопка “Зачыніць”">
+<!ENTITY cmode.tbb.label "Кнопка &#8220;Бакавая панэль&#8221;">
+<!ENTITY cmode.close.label "Кнопка &#8220;Зачыніць&#8221;">
 <!ENTITY cmode.mode1.label "Адчыняць/Зачыняць толькі бакавую панэль">
 <!ENTITY cmode.mode2.label "Адчыняць/Зачыняць бакавую панэль і бакавую панэль прылад">
 <!ENTITY cmode.mode3.label "Адчыняць/Зачыняць бакавую панэль, панэль прылад і перамыкач панэлі">
@@ -82,7 +82,7 @@
 <!ENTITY keyconfig.disable "Адключыць">
 <!ENTITY keyconfig.reset "Скінуць">
 <!ENTITY keyconfig.warn "Змены закранаюць толькі новыя вокны">
-<!ENTITY menus.sidebar.desc "Налада складу меню “Выгляд &gt; Бакавая панэль” і выпадальнага меню кнопак бакавой панэлі.">
+<!ENTITY menus.sidebar.desc "Налада складу меню &#8220;Выгляд &gt; Бакавая панэль&#8221; і выпадальнага меню кнопак бакавой панэлі.">
 <!ENTITY menus.icons.label "Паказваць значкі">
 <!ENTITY menus.entries.label "Паказваць радкі">
 <!ENTITY menus.sidebar.entrydeac "Адключыць вылучэнне актыўнай бакавой панэлі">
@@ -96,7 +96,7 @@
 <!ENTITY misc.count.label "Паказваць лік элементаў">
 <!ENTITY misc.enablelink.tooltip "Націсніце тут, каб атрымаць больш інфармацыі (спасылка на FAQ)">
 <!ENTITY misc.paneltab.reverse "Змяняць месцамі дзеянне левай і сярэдняй кнопак мышы">
-<!ENTITY misc.bm.paneltab.desc "Кнопка “Адкрыць ва ўкладцы” можа адчыняць у новай укладцы Мэнэджэр закладак замест спісу закладак.">
+<!ENTITY misc.bm.paneltab.desc "Кнопка &#8220;Адкрыць ва ўкладцы&#8221; можа адчыняць у новай укладцы Мэнэджэр закладак замест спісу закладак.">
 <!ENTITY misc.bm.paneltab "Адчыняць у новай укладцы Мэнэджэр закладак">
 <!ENTITY special.collapsing.caption "Згортванне бакавой панэлі">
 <!ENTITY special.collapsing.label "Выкарыстаць згортванне бакавой панэлі">

@@ -26,7 +26,7 @@
 <!ENTITY gen.orient.right "bên phải">
 <!ENTITY gen.width.caption "Kích cỡ">
 <!ENTITY gen.width.px "điểm ảnh">
-<!ENTITY gen.width.perc "%">
+<!ENTITY gen.width.perc "&amp;#37;">
 <!ENTITY gen.width.current "thiết lập theo độ rộng hiện tại">
 <!ENTITY gen.width.current.tip "Áp dụng độ rộng hiện tại của thanh lề">
 <!ENTITY gen.width.min.hint "[Shift+Nhấp đôi] lên tiêu đề của thanh lề">
