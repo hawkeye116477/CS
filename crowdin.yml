@@ -6,8 +6,8 @@ files: [
   {
     "source": "/src/locale/en-US/*",
     "translation": "/src/locale/%locale%/%original_file_name%",
-    "escape_quotes": 0,
-    "escape_special_characters": 0,
+    "escape_quotes": 3,
+    "escape_special_characters": 1,
     "update_option": "update_as_unapproved"
   }
 ]
