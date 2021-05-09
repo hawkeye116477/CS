@@ -1,4 +1,4 @@
-<!ENTITY title "Alt-I-En Sidebjælke &#8211; Indstillinger">
+<!ENTITY title "Alt-I-En Sidebjælke – Indstillinger">
 <!ENTITY restart "Ændringer kræver en genstart af browseren">
 <!ENTITY settings "Indstillinger">
 <!ENTITY settings.default "Genetabler standarder…">
@@ -82,7 +82,7 @@
 <!ENTITY keyconfig.disable "Slå fra">
 <!ENTITY keyconfig.reset "Nulstil">
 <!ENTITY keyconfig.warn "Ændringer påvirker kun nye vinduer">
-<!ENTITY menus.sidebar.desc "Tilpas elementerne i menuen &#8220;Vis &gt; Sidebjælke&#8221; og i rullegardin-menuer for sidebjælke-knapperne.">
+<!ENTITY menus.sidebar.desc "Tilpas elementerne i menuen “Vis &gt; Sidebjælke” og i rullegardin-menuer for sidebjælke-knapperne.">
 <!ENTITY menus.icons.label "Vis ikoner">
 <!ENTITY menus.entries.label "Vis elementer">
 <!ENTITY menus.sidebar.entrydeac "Slå elementet fra i den aktive sidebjælke">
@@ -96,7 +96,7 @@
 <!ENTITY misc.count.label "Vis antal emner">
 <!ENTITY misc.enablelink.tooltip "Klik her for mere information (link til FAQ&apos;s)">
 <!ENTITY misc.paneltab.reverse "Ombyt venstreklik- og midterklik-handlinger">
-<!ENTITY misc.bm.paneltab.desc "Knappen &#8220;PanelFane&#8221; kan åbne i Bogmærke-Manageren i et nyt faneblad i stedet for i Bogmærke-panelet">
+<!ENTITY misc.bm.paneltab.desc "Knappen “PanelFane” kan åbne i Bogmærke-Manageren i et nyt faneblad i stedet for i Bogmærke-panelet">
 <!ENTITY misc.bm.paneltab "Slå Bogmærke-Manager til i nyt faneblad">
 <!ENTITY special.collapsing.caption "Sidebjælke sammenfoldning">
 <!ENTITY special.collapsing.label "Slå sidebjælke sammenfoldning til">

@@ -26,7 +26,7 @@
 <!ENTITY gen.orient.right "partea dreaptă">
 <!ENTITY gen.width.caption "Dimensiune">
 <!ENTITY gen.width.px "pixeli">
-<!ENTITY gen.width.perc "&amp;#37;">
+<!ENTITY gen.width.perc "&#37;">
 <!ENTITY gen.width.current "lățimea curentă">
 <!ENTITY gen.width.current.tip "Înregistrează lățimea curentă a panoului">
 <!ENTITY gen.width.min.hint "[Shift+dublu-clic] pe denumirea panoului">
