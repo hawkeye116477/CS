@@ -18,6 +18,8 @@ for UL in "${UNUSED_LOCALES[@]}"; do
     rm -rf ./locale/"$UL"
 done
 
+cp "$MAIN_PATH"/license.txt "$TEMP_PATH"/
+
 if [ ! -d "$ARTIFACTS_PATH" ]; then
     mkdir "$ARTIFACTS_PATH"
 fi
